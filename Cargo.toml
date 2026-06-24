@@ -13,6 +13,9 @@ edition = "2024"
 publish = false
 
 [workspace.dependencies]
+pkmn-core = { path = "pkmn-core" }
 pkmn-schema = { path = "pkmn-schema" }
 
+# Serialization
 proto-packet = { path = "../proto-packet/dep/dep-rust" } # todo -- path dependency
+serde_yaml = { package = "serde_yaml_ng", version = "0.10.0" }
