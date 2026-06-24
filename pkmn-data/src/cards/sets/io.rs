@@ -19,11 +19,11 @@ pub fn write_sets(sets: &[CardSet]) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-/// Reads the sets from [SETS_YML].
+/// Reads the sets, embedded from [SETS_YML] at compile time.
 pub fn read_sets() -> Result<Vec<CardSet>, Box<dyn Error>> {
-    let sets: String = std::fs::read_to_string(SETS_YML)?;
-    let sets: Vec<RawContext> = serde_yaml::from_str(&sets)?;
-    context_to_sets(&sets)
+    let contexts: Vec<RawContext> =
+        serde_yaml::from_str(include_str!("../../../../data/cards/sets.yml"))?;
+    context_to_sets(&contexts)
 }
 
 /// Flattens the nested `contexts` into [CardSet]s.
