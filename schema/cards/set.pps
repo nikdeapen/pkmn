@@ -1,0 +1,23 @@
+import core.web.Name;
+
+// A card set.
+struct CardSet {
+
+    // The set name. (ex: Base Set)
+    name: Name;
+
+    // The series name. (ex: Classic)
+    series: Name;
+
+    // The card context. (ex: English)
+    context: CardContext;
+
+    // The pokemon TCG live code. (ex: BS)
+    live_code: optional Name;
+}
+
+// A card context.
+enum CardContext {
+    // English Cards
+    English = 1;
+}
