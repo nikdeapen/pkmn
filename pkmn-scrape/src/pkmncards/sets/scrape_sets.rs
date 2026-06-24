@@ -90,4 +90,12 @@ mod tests {
         let sets: Vec<CardSet> = client.scrape_sets().unwrap();
         println!("sets: {:#?}", sets);
     }
+
+    #[test]
+    #[ignore]
+    fn write_sets() {
+        let client: Client = Client::with_local_cache();
+        let sets: Vec<CardSet> = client.scrape_sets().unwrap();
+        pkmn_data::cards::write_sets(&sets).unwrap();
+    }
 }

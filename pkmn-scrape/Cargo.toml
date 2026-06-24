@@ -19,3 +19,6 @@ web-url = { workspace = true, optional = true }
 
 [features]
 pkmncards = ["dep:pkmn-core", "dep:proto-packet", "dep:scraper", "dep:web-url"]
+
+[dev-dependencies]
+pkmn-data = { workspace = true }
