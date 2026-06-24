@@ -8,17 +8,18 @@ edition.workspace = true
 publish.workspace = true
 
 [dependencies]
+pkmn-data = { workspace = true }
 pkmn-schema = { workspace = true }
 
 file-storage = { workspace = true }
-pkmn-core = { workspace = true, optional = true }
-proto-packet = { workspace = true, optional = true }
-scraper = { workspace = true, optional = true }
+pkmn-core = { workspace = true }
+proto-packet = { workspace = true }
+scraper = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
 web-scrape = { workspace = true }
-web-url = { workspace = true, optional = true }
+web-url = { workspace = true }
 
 [features]
-pkmncards = ["dep:pkmn-core", "dep:proto-packet", "dep:scraper", "dep:web-url"]
-
-[dev-dependencies]
-pkmn-data = { workspace = true }
+pkmncards = []
+pokemontcgio = []
