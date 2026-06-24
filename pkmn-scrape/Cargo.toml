@@ -6,3 +6,16 @@ version.workspace = true
 authors.workspace = true
 edition.workspace = true
 publish.workspace = true
+
+[dependencies]
+pkmn-schema = { workspace = true }
+
+file-storage = { workspace = true }
+pkmn-core = { workspace = true, optional = true }
+proto-packet = { workspace = true, optional = true }
+scraper = { workspace = true, optional = true }
+web-scrape = { workspace = true }
+web-url = { workspace = true, optional = true }
+
+[features]
+pkmncards = ["dep:pkmn-core", "dep:proto-packet", "dep:scraper", "dep:web-url"]
