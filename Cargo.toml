@@ -26,6 +26,9 @@ pkmn-scrape = { path = "pkmn-scrape" }
 clap = { version = "4", features = ["derive"] }
 dotenvy = "0.15"
 
+# Service
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net"] }
+
 # Scraping
 file-storage = "0.8.0"
 image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp"] }

@@ -6,3 +6,10 @@ version.workspace = true
 authors.workspace = true
 edition.workspace = true
 publish.workspace = true
+
+[dependencies]
+pkmn-data = { workspace = true }
+pkmn-schema = { workspace = true }
+
+proto-packet = { workspace = true }
+tokio = { workspace = true }
