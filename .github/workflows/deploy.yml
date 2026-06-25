@@ -1,0 +1,67 @@
+name: Deploy pkmn-service
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-pkmn-service
+  cancel-in-progress: false
+
+env:
+  DROPLET_HOST: 165.22.148.57
+  DROPLET_USER: root
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout pkmn
+        uses: actions/checkout@v4
+        with:
+          path: pkmn
+
+      - name: Checkout proto-packet (sibling path dep)
+        uses: actions/checkout@v4
+        with:
+          repository: proto-packet/proto-packet
+          path: proto-packet
+
+      - name: Install Rust toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: Test (gate the deploy)
+        working-directory: pkmn
+        run: cargo test --workspace --all-features
+
+      - name: Build pkmn-service (release)
+        working-directory: pkmn
+        run: cargo build --release -p pkmn-service
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "${{ secrets.DROPLET_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$DROPLET_HOST" >> ~/.ssh/known_hosts
+
+      - name: Upload binary
+        run: |
+          scp pkmn/target/release/pkmn-service \
+            "$DROPLET_USER@$DROPLET_HOST:/usr/local/bin/pkmn-service.new"
+
+      - name: Activate + restart
+        run: |
+          ssh "$DROPLET_USER@$DROPLET_HOST" 'bash -s' <<'EOF'
+          set -e
+          mv /usr/local/bin/pkmn-service.new /usr/local/bin/pkmn-service
+          chmod 755 /usr/local/bin/pkmn-service
+          systemctl restart pkmn-service
+          sleep 1
+          systemctl --no-pager --lines=15 status pkmn-service
+          EOF
