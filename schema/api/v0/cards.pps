@@ -1,0 +1,23 @@
+import cards.set.CardContext;
+import cards.set.CardSet;
+
+// The card service.
+service CardService {
+
+    // Gets the sets.
+    get_sets: GetSetsRequest returns GetSetsResponse;
+}
+
+// A `get_sets` request.
+message GetSetsRequest {
+
+    // The card context. (optional)
+    context: CardContext = 1;
+}
+
+// A `get_sets` response.
+message GetSetsResponse {
+
+    // The sets.
+    sets: []CardSet = 1;
+}
