@@ -1,5 +1,6 @@
 use crate::cards::remove_set;
 use crate::cards::rename_set;
+use crate::cards::scrape_unknown_sets;
 use crate::cards::validate;
 use crate::cards::validate_images;
 use clap::{Parser, Subcommand};
@@ -29,6 +30,9 @@ enum Command {
         set_id: String,
     },
 
+    /// Scrapes the sets unknown to our local data from both sources.
+    ScrapeUnknownSets,
+
     /// Validates the set data (unique ids across contexts).
     Validate,
 
@@ -44,6 +48,7 @@ impl Cli {
         match self.command {
             Command::RenameSet { old_id, new_id } => rename_set(&old_id, &new_id),
             Command::RemoveSet { set_id } => remove_set(&set_id),
+            Command::ScrapeUnknownSets => scrape_unknown_sets(),
             Command::Validate => validate(),
             Command::ValidateImages => validate_images(),
         }

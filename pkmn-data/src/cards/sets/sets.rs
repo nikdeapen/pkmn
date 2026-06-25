@@ -53,6 +53,6 @@ mod tests {
     #[test]
     fn sets() {
         let all: &[CardSet] = super::sets();
-        assert_eq!(all.len(), 193);
+        assert_eq!(all.len(), 197);
     }
 }
