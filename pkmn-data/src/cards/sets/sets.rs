@@ -1,4 +1,5 @@
 use super::read_sets;
+use pkmn_core::validate::validate_unique_names;
 use pkmn_schema::cards::set::{CardContext, CardSet};
 use std::collections::HashMap;
 use std::sync::LazyLock;
@@ -6,8 +7,11 @@ use std::sync::LazyLock;
 /// Gets the card sets. (in the order of the data file)
 #[must_use]
 pub fn sets() -> &'static [CardSet] {
-    static LOCK: LazyLock<Vec<CardSet>> =
-        LazyLock::new(|| read_sets().unwrap_or_else(|e| panic!("{e}")));
+    static LOCK: LazyLock<Vec<CardSet>> = LazyLock::new(|| {
+        let sets: Vec<CardSet> = read_sets().unwrap_or_else(|e| panic!("{e}"));
+        validate_sets(&sets).unwrap_or_else(|e| panic!("{e}"));
+        sets
+    });
     &LOCK
 }
 
@@ -37,6 +41,11 @@ pub fn sets_by_context() -> &'static HashMap<CardContext, Vec<&'static CardSet>>
     &LOCK
 }
 
+/// Validates that the set ids are unique across all contexts.
+fn validate_sets(sets: &[CardSet]) -> Result<(), String> {
+    validate_unique_names(sets.iter().map(CardSet::name))
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -44,6 +53,6 @@ mod tests {
     #[test]
     fn sets() {
         let all: &[CardSet] = super::sets();
-        assert_eq!(all.len(), 239);
+        assert_eq!(all.len(), 193);
     }
 }

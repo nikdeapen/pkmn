@@ -6,3 +6,15 @@ version.workspace = true
 authors.workspace = true
 edition.workspace = true
 publish.workspace = true
+
+[[bin]]
+name = "pkmn"
+path = "src/main.rs"
+
+[dependencies]
+pkmn-data = { workspace = true }
+pkmn-scrape = { workspace = true, features = ["pkmncards"] }
+
+clap = { workspace = true }
+dotenvy = { workspace = true }
+file-storage = { workspace = true, features = ["r2"] }

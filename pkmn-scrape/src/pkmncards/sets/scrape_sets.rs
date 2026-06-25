@@ -1,5 +1,5 @@
 use crate::pkmncards::Client;
-use pkmn_core::clean::display_to_name;
+use pkmn_core::clean::{clean_display, display_to_name};
 use pkmn_schema::cards::set::{CardContext, CardSet};
 use pkmn_schema::core::web::Name;
 use scraper::ElementRef;
@@ -45,16 +45,20 @@ impl Client {
         let path: &str = href.strip_prefix(Self::URL_BASE).unwrap_or(&href);
         if path.starts_with(Self::COLLECTION_PREFIX) {
             return Ok(None);
-        } else if !path.starts_with(Self::SET_PREFIX) {
-            return Err(format!("unrecognized set link: {}", href).into());
         }
+        let id: &str = path
+            .strip_prefix(Self::SET_PREFIX)
+            .map(|id| id.trim_end_matches('/'))
+            .ok_or_else(|| format!("unrecognized set link: {}", href))?;
         let display: String = li.only_text("a")?;
-        Ok(Some(self.name_to_set(series, &display)?))
+        Ok(Some(self.name_to_set(series, id, &display)?))
     }
 
-    /// Creates a [CardSet] in the `series` from the set `display`. (ex: `Chaos Rising (CRI)`)
-    fn name_to_set(&self, series: &Name, display: &str) -> Result<CardSet, ScrapeError> {
-        let (name, live_code): (Name, Option<Name>) = self.parse_set_name(display)?;
+    /// Creates a [CardSet] in the `series` with the url `id` and parsed `display`.
+    /// (ex: id `chaos-rising`, display `Chaos Rising (CRI)`)
+    fn name_to_set(&self, series: &Name, id: &str, display: &str) -> Result<CardSet, ScrapeError> {
+        let (display, live_code): (String, Option<Name>) = self.parse_set_name(display)?;
+        let name: Name = Name::from(id, display);
         Ok(CardSet::from(
             name,
             series.clone(),
@@ -63,17 +67,17 @@ impl Client {
         ))
     }
 
-    /// Parses the set `display` into its name and optional live code.
+    /// Parses the set `display` into its display name and optional live code.
     /// (ex: `Chaos Rising (CRI)` -> `Chaos Rising` + `CRI`)
-    fn parse_set_name(&self, display: &str) -> Result<(Name, Option<Name>), ScrapeError> {
+    fn parse_set_name(&self, display: &str) -> Result<(String, Option<Name>), ScrapeError> {
         let display: &str = display.trim();
         if let Some(open) = display.strip_suffix(')').and_then(|d| d.rfind('(')) {
-            let name: Name = display_to_name(display[..open].trim()).map_err(ScrapeError::from)?;
+            let name: String = clean_display(display[..open].trim()).map_err(ScrapeError::from)?;
             let code: Name = display_to_name(display[open + 1..display.len() - 1].trim())
                 .map_err(ScrapeError::from)?;
             Ok((name, Some(code)))
         } else {
-            let name: Name = display_to_name(display).map_err(ScrapeError::from)?;
+            let name: String = clean_display(display).map_err(ScrapeError::from)?;
             Ok((name, None))
         }
     }

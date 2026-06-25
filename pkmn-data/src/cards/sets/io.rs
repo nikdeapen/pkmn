@@ -1,4 +1,5 @@
 use pkmn_core::clean::display_to_name;
+use pkmn_core::validate::validate_unique_names;
 use pkmn_schema::cards::set::{CardContext, CardSet};
 use pkmn_schema::core::web::Name;
 use serde::{Deserialize, Serialize};
@@ -24,6 +25,53 @@ pub fn read_sets() -> Result<Vec<CardSet>, Box<dyn Error>> {
     let contexts: Vec<RawContext> =
         serde_yaml::from_str(include_str!("../../../../data/cards/sets.yml"))?;
     context_to_sets(&contexts)
+}
+
+/// Renames the set with `old_id` to `new_id` in the live [SETS_YML] file on disk.
+pub fn rename_set(old_id: &str, new_id: &str) -> Result<(), Box<dyn Error>> {
+    let mut contexts: Vec<RawContext> = serde_yaml::from_str(&std::fs::read_to_string(SETS_YML)?)?;
+    let mut found: bool = false;
+    for context in &mut contexts {
+        for series in &mut context.series {
+            for set in &mut series.sets {
+                if set.id == old_id {
+                    set.id = new_id.to_string();
+                    found = true;
+                }
+            }
+        }
+    }
+    if !found {
+        return Err(format!("set not found: {old_id}").into());
+    }
+    std::fs::write(SETS_YML, serde_yaml::to_string(&contexts)?)?;
+    Ok(())
+}
+
+/// Removes the set with `set_id` from the live [SETS_YML] file on disk.
+pub fn remove_set(set_id: &str) -> Result<(), Box<dyn Error>> {
+    let mut contexts: Vec<RawContext> = serde_yaml::from_str(&std::fs::read_to_string(SETS_YML)?)?;
+    let mut found: bool = false;
+    for context in &mut contexts {
+        for series in &mut context.series {
+            let before: usize = series.sets.len();
+            series.sets.retain(|set| set.id != set_id);
+            found |= series.sets.len() != before;
+        }
+    }
+    if !found {
+        return Err(format!("set not found: {set_id}").into());
+    }
+    std::fs::write(SETS_YML, serde_yaml::to_string(&contexts)?)?;
+    Ok(())
+}
+
+/// Validates the live [SETS_YML] file: set ids must be unique across all contexts.
+pub fn validate() -> Result<(), Box<dyn Error>> {
+    let contexts: Vec<RawContext> = serde_yaml::from_str(&std::fs::read_to_string(SETS_YML)?)?;
+    let sets: Vec<CardSet> = context_to_sets(&contexts)?;
+    validate_unique_names(sets.iter().map(CardSet::name))?;
+    Ok(())
 }
 
 /// Flattens the nested `contexts` into [CardSet]s.

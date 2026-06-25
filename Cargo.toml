@@ -1,6 +1,7 @@
 [workspace]
 resolver = "3"
 members = [
+    "pkmn-cli",
     "pkmn-core",
     "pkmn-data",
     "pkmn-schema",
@@ -18,6 +19,11 @@ pkmn-cli = { path = "pkmn-cli" }
 pkmn-core = { path = "pkmn-core" }
 pkmn-data = { path = "pkmn-data" }
 pkmn-schema = { path = "pkmn-schema" }
+pkmn-scrape = { path = "pkmn-scrape" }
+
+# CLI
+clap = { version = "4", features = ["derive"] }
+dotenvy = "0.15"
 
 # Scraping
 file-storage = "0.8.0"
