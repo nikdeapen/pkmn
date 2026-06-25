@@ -10,7 +10,7 @@ pub fn rename_set(old_id: &str, new_id: &str) -> Result<(), Box<dyn Error>> {
     pkmncards_set_id_map::update(old_id, new_id)?;
     pokemontcgio_set_id_map::update(old_id, new_id)?;
     for kind in KINDS {
-        copy_image(kind, old_id, new_id)?;
+        copy_image(kind, old_id, new_id, false)?;
     }
     Ok(())
 }

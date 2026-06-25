@@ -22,11 +22,21 @@ pub fn image_set_ids(kind: &str) -> Result<HashSet<String>, Box<dyn Error>> {
     Ok(ids)
 }
 
-/// Copies the set `kind` image from `old_id` to `new_id`, leaving the original in place.
-/// A no-op when there is no source image or the target already exists.
-pub fn copy_image(kind: &str, old_id: &str, new_id: &str) -> Result<(), Box<dyn Error>> {
+/// Copies the set `kind` image from `old_id` to `new_id` in R2.
+/// A no-op when there is no source image. An existing target image is replaced only when
+/// `overwrite` is set (delete then write); otherwise the copy is skipped.
+pub fn copy_image(
+    kind: &str,
+    old_id: &str,
+    new_id: &str,
+    overwrite: bool,
+) -> Result<(), Box<dyn Error>> {
     if let Some(data) = image_path(kind, old_id)?.read_as_vec_if_exists()? {
-        image_path(kind, new_id)?.write_data_if_not_exists(data)?;
+        let target: FilePath = image_path(kind, new_id)?;
+        if overwrite {
+            target.delete()?;
+        }
+        target.write_data_if_not_exists(data)?;
     }
     Ok(())
 }

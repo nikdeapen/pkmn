@@ -1,3 +1,4 @@
+use crate::cards::copy_images;
 use crate::cards::remove_set;
 use crate::cards::rename_set;
 use crate::cards::scrape_unknown_sets;
@@ -30,6 +31,17 @@ enum Command {
         set_id: String,
     },
 
+    /// Copies a source set's logo and symbol images to a target set in R2.
+    CopyImages {
+        /// The set id to copy images from.
+        source_id: String,
+        /// The set id to copy images to.
+        target_id: String,
+        /// Overwrite the target images if they already exist.
+        #[arg(long)]
+        overwrite: bool,
+    },
+
     /// Scrapes the sets unknown to our local data from both sources.
     ScrapeUnknownSets,
 
@@ -48,6 +60,11 @@ impl Cli {
         match self.command {
             Command::RenameSet { old_id, new_id } => rename_set(&old_id, &new_id),
             Command::RemoveSet { set_id } => remove_set(&set_id),
+            Command::CopyImages {
+                source_id,
+                target_id,
+                overwrite,
+            } => copy_images(&source_id, &target_id, overwrite),
             Command::ScrapeUnknownSets => scrape_unknown_sets(),
             Command::Validate => validate(),
             Command::ValidateImages => validate_images(),
