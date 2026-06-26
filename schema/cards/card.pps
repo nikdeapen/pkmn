@@ -1,6 +1,7 @@
 import core.web.Name;
 import cards.energy.EnergyCard;
 import cards.meta.CardMeta;
+import cards.set.CardSet;
 import cards.pokemon.PokemonCard;
 import cards.trainer.TrainerCard;
 
@@ -10,8 +11,8 @@ struct Card {
     // The card title. (its name, ex: `Eevee`)
     title: Name;
 
-    // The card style/variant. (DERIVED — left blank by the scrape)
-    style: optional Name;
+    // The set.
+    set: CardSet;
 
     // The card number.
     number: CardNumber;

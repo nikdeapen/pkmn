@@ -12,27 +12,86 @@ pub trait CardService: Send + Sync {
         >,
     > + Send
     + '_;
+
+    /// Gets a single card.
+    fn get_card(
+        &self,
+        request: crate::api::v0::cards::GetCardRequest,
+    ) -> impl ::std::future::Future<
+        Output = ::std::result::Result<
+            crate::api::v0::cards::GetCardResponse,
+            ::proto_packet::service::ServiceError,
+        >,
+    > + Send
+    + '_;
+
+    /// Gets the cards.
+    fn get_cards(
+        &self,
+        request: crate::api::v0::cards::GetCardsRequest,
+    ) -> impl ::std::future::Future<
+        Output = ::std::result::Result<
+            crate::api::v0::cards::GetCardsResponse,
+            ::proto_packet::service::ServiceError,
+        >,
+    > + Send
+    + '_;
 }
 
 pub fn router<S>(service: ::std::sync::Arc<S>) -> ::proto_packet::axum::Router
 where
     S: CardService + 'static,
 {
-    ::proto_packet::axum::Router::new().route(
-        "/api.v0.cards.CardService/get_sets",
-        ::proto_packet::axum::routing::post({
-            let service = service.clone();
-            move |::proto_packet::axum::Json(request): ::proto_packet::axum::Json<
-                crate::api::v0::cards::GetSetsRequest,
-            >| {
+    ::proto_packet::axum::Router::new()
+        .route(
+            "/api.v0.cards.CardService/get_sets",
+            ::proto_packet::axum::routing::post({
                 let service = service.clone();
-                async move {
-                    service
-                        .get_sets(request)
-                        .await
-                        .map(::proto_packet::axum::Json)
+                move |::proto_packet::axum::Json(request): ::proto_packet::axum::Json<
+                    crate::api::v0::cards::GetSetsRequest,
+                >| {
+                    let service = service.clone();
+                    async move {
+                        service
+                            .get_sets(request)
+                            .await
+                            .map(::proto_packet::axum::Json)
+                    }
                 }
-            }
-        }),
-    )
+            }),
+        )
+        .route(
+            "/api.v0.cards.CardService/get_card",
+            ::proto_packet::axum::routing::post({
+                let service = service.clone();
+                move |::proto_packet::axum::Json(request): ::proto_packet::axum::Json<
+                    crate::api::v0::cards::GetCardRequest,
+                >| {
+                    let service = service.clone();
+                    async move {
+                        service
+                            .get_card(request)
+                            .await
+                            .map(::proto_packet::axum::Json)
+                    }
+                }
+            }),
+        )
+        .route(
+            "/api.v0.cards.CardService/get_cards",
+            ::proto_packet::axum::routing::post({
+                let service = service.clone();
+                move |::proto_packet::axum::Json(request): ::proto_packet::axum::Json<
+                    crate::api::v0::cards::GetCardsRequest,
+                >| {
+                    let service = service.clone();
+                    async move {
+                        service
+                            .get_cards(request)
+                            .await
+                            .map(::proto_packet::axum::Json)
+                    }
+                }
+            }),
+        )
 }

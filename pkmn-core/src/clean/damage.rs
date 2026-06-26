@@ -32,7 +32,8 @@ pub fn clean_damage(damage: &str) -> Result<Damage, String> {
 /// (ex: `×2` -> `(2, Times)`, `−30` -> `(30, Minus)`)
 pub fn clean_modifier_value(value: &str) -> Result<(u32, DamageModifier), String> {
     let value: &str = value.trim();
-    let (modifier, scalar): (DamageModifier, &str) = if let Some(scalar) = value.strip_prefix('×') {
+    let (modifier, scalar): (DamageModifier, &str) = if let Some(scalar) = value.strip_prefix('×')
+    {
         (DamageModifier::Times, scalar)
     } else if let Some(scalar) = value.strip_prefix(['-', '−']) {
         (DamageModifier::Minus, scalar)

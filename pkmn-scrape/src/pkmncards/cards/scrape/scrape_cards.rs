@@ -18,7 +18,7 @@ impl Client {
         let extension: String = format!("set/{set_id}/?sort=date&ord=auto&display=full");
         self.scrape(extension.as_str(), |page| {
             let cards: Vec<Card> = page.all("article.type-pkmn_card", |article| {
-                self.scrape_card(article, pokemon)
+                self.scrape_card(article, set, pokemon)
             })?;
             if cards.is_empty() {
                 Err(ScrapeError::Other(format!(

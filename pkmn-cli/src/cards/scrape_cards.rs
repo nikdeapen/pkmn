@@ -9,7 +9,12 @@ pub fn scrape_set(source: &str, set_id: &str) -> Result<(), Box<dyn Error>> {
     let set: &CardSet = find_set(set_id)?;
     let cards: Vec<Card> = client.scrape_cards(set)?;
     pkmn_data::cards::write_set_cards(set, &cards)?;
-    println!("{} ({}): {} cards", set.name().id(), set.series().id(), cards.len());
+    println!(
+        "{} ({}): {} cards",
+        set.name().id(),
+        set.series().id(),
+        cards.len()
+    );
     Ok(())
 }
 
@@ -26,7 +31,12 @@ pub fn scrape_series(source: &str, series_id: &str) -> Result<(), Box<dyn Error>
     for set in sets {
         let cards: Vec<Card> = client.scrape_cards(set)?;
         pkmn_data::cards::write_set_cards(set, &cards)?;
-        println!("{} ({}): {} cards", set.name().id(), set.series().id(), cards.len());
+        println!(
+            "{} ({}): {} cards",
+            set.name().id(),
+            set.series().id(),
+            cards.len()
+        );
     }
     Ok(())
 }

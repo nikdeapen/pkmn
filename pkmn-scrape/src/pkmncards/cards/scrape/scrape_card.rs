@@ -2,6 +2,7 @@ use crate::pkmncards::Client;
 use pkmn_core::clean::{PokemonNames, display_to_name};
 use pkmn_schema::cards::card::{Card, CardNumber, CardType};
 use pkmn_schema::cards::meta::CardMeta;
+use pkmn_schema::cards::set::CardSet;
 use pkmn_schema::core::web::Name;
 use web_scrape::scrape::{ScrapeError, Scraper};
 
@@ -12,13 +13,14 @@ impl Client {
     pub(crate) fn scrape_card(
         &self,
         article: Scraper,
+        set: &CardSet,
         pokemon: &PokemonNames,
     ) -> Result<Card, ScrapeError> {
         let title: Name = self.scrape_title(article, pokemon)?;
         let number: CardNumber = self.scrape_number(article)?;
         let meta: CardMeta = self.scrape_meta(article)?;
         let sub: CardType = self.scrape_sub(article, pokemon)?;
-        Ok(Card::new(title, None, number, meta, sub))
+        Ok(Card::new(title, set.clone(), number, meta, sub))
     }
 
     /// Scrapes & cleans the card title. (its name, ex: `Eevee`)

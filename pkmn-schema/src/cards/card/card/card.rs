@@ -6,8 +6,8 @@
 ///     // The card title. (its name, ex: `Eevee`)
 ///     title: core.web.Name;
 ///    
-///     // The card style/variant. (DERIVED — left blank by the scrape)
-///     style: optional core.web.Name;
+///     // The set.
+///     set: cards.set.CardSet;
 ///    
 ///     // The card number.
 ///     number: cards.card.CardNumber;
@@ -33,8 +33,7 @@
 #[serde(crate = "proto_packet::serde")]
 pub struct Card {
     title: crate::core::web::Name,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    style: Option<crate::core::web::Name>,
+    set: crate::cards::set::CardSet,
     number: crate::cards::card::CardNumber,
     meta: crate::cards::meta::CardMeta,
     sub: crate::cards::card::CardType,
@@ -46,14 +45,14 @@ impl Card {
     /// Creates a new [Card].
     pub const fn new(
         title: crate::core::web::Name,
-        style: Option<crate::core::web::Name>,
+        set: crate::cards::set::CardSet,
         number: crate::cards::card::CardNumber,
         meta: crate::cards::meta::CardMeta,
         sub: crate::cards::card::CardType,
     ) -> Self {
         Self {
             title,
-            style,
+            set,
             number,
             meta,
             sub,
@@ -61,17 +60,17 @@ impl Card {
     }
 
     /// Creates a new [Card].
-    pub fn from<F1, F2, F3, F4, F5>(title: F1, style: F2, number: F3, meta: F4, sub: F5) -> Self
+    pub fn from<F1, F2, F3, F4, F5>(title: F1, set: F2, number: F3, meta: F4, sub: F5) -> Self
     where
         F1: Into<crate::core::web::Name>,
-        F2: Into<Option<crate::core::web::Name>>,
+        F2: Into<crate::cards::set::CardSet>,
         F3: Into<crate::cards::card::CardNumber>,
         F4: Into<crate::cards::meta::CardMeta>,
         F5: Into<crate::cards::card::CardType>,
     {
         Self::new(
             title.into(),
-            style.into(),
+            set.into(),
             number.into(),
             meta.into(),
             sub.into(),
@@ -102,30 +101,23 @@ impl Card {
 }
 
 impl Card {
-    //! Field: `style`
+    //! Field: `set`
 
-    /// Gets the field: `style`.
+    /// Gets the field: `set`.
     #[must_use]
-    pub fn style(&self) -> Option<&crate::core::web::Name> {
-        self.style.as_ref()
+    pub fn set(&self) -> &crate::cards::set::CardSet {
+        &self.set
     }
 
-    /// Sets the field: `style`. Returns the previous value.
-    pub fn set_style<F>(&mut self, style: F) -> Option<crate::core::web::Name>
-    where
-        F: Into<Option<crate::core::web::Name>>,
-    {
-        let style: Option<crate::core::web::Name> = style.into();
-        std::mem::replace(&mut self.style, style)
+    /// Sets the field: `set`. Returns the previous value.
+    pub fn set_set(&mut self, set: crate::cards::set::CardSet) -> crate::cards::set::CardSet {
+        std::mem::replace(&mut self.set, set)
     }
 
-    /// Sets the field: `style`. Returns the struct itself.
+    /// Sets the field: `set`. Returns the struct itself.
     #[must_use]
-    pub fn with_style<F>(mut self, style: F) -> Self
-    where
-        F: Into<Option<crate::core::web::Name>>,
-    {
-        self.set_style(style);
+    pub fn with_set(mut self, set: crate::cards::set::CardSet) -> Self {
+        self.set_set(set);
         self
     }
 }

@@ -1,0 +1,22 @@
+// A paging request.
+struct PageRequest {
+
+    // The request page.
+    page: u32;
+
+    // The requested page size.
+    page_size: u32;
+}
+
+// A paging response.
+struct PageResponse {
+
+    // The page number.
+    page: u32;
+
+    // The page size.
+    page_size: u32;
+
+    // The total number of items.
+    total: u32;
+}

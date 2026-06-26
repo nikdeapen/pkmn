@@ -1,11 +1,20 @@
 import cards.set.CardContext;
 import cards.set.CardSet;
+import cards.card.Card;
+import core.api.PageRequest;
+import core.api.PageResponse;
 
 // The card service.
 service CardService {
 
     // Gets the sets.
     get_sets: GetSetsRequest returns GetSetsResponse;
+
+    // Gets a single card.
+    get_card: GetCardRequest returns GetCardResponse;
+
+    // Gets the cards.
+    get_cards: GetCardsRequest returns GetCardsResponse;
 }
 
 // A `get_sets` request.
@@ -20,4 +29,48 @@ message GetSetsResponse {
 
     // The sets.
     sets: []CardSet = 1;
+}
+
+// A `get_card` request.
+message GetCardRequest {
+
+    // The card id. (ex: alakazam-base-set-1)
+    id: string = 1;
+}
+
+// A `get_card` response.
+message GetCardResponse {
+
+    // The card.
+    card: Card = 1;
+}
+
+// A `get_cards` request.
+message GetCardsRequest {
+
+    // The query.
+    query: CardQuery = 1;
+
+    // The paging request.
+    paging: PageRequest = 2;
+}
+
+// A `get_cards` query.
+variant CardQuery {
+
+    // The set id. (ex: base-set)
+    SetId: string = 1;
+
+    // A search query. (query language, ex: `pokemon:charizard Flame`)
+    Search: string = 2;
+}
+
+// A `get_cards` response.
+message GetCardsResponse {
+
+    // The cards.
+    cards: []Card = 1;
+
+    // The paging response.
+    paging: PageResponse = 2;
 }
