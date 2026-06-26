@@ -1,3 +1,4 @@
+use pkmn_core::clean::PokemonNames;
 use pkmn_core::validate::validate_unique_names;
 use pkmn_schema::pokemon::Pokemon;
 use std::collections::HashMap;
@@ -26,6 +27,13 @@ pub fn pokemon_by_dex(dex: u32) -> Option<&'static Pokemon> {
 pub fn pokemon_by_id() -> &'static HashMap<&'static str, &'static Pokemon> {
     static LOCK: LazyLock<HashMap<&'static str, &'static Pokemon>> =
         LazyLock::new(|| pokemon().iter().map(|p| (p.name().id(), p)).collect());
+    &LOCK
+}
+
+/// Gets the [PokemonNames] index for cleaning card & evolution names.
+#[must_use]
+pub fn pokemon_names() -> &'static PokemonNames {
+    static LOCK: LazyLock<PokemonNames> = LazyLock::new(|| PokemonNames::new(pokemon()));
     &LOCK
 }
 

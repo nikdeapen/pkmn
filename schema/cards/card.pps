@@ -1,0 +1,47 @@
+import core.web.Name;
+import cards.energy.EnergyCard;
+import cards.meta.CardMeta;
+import cards.pokemon.PokemonCard;
+import cards.trainer.TrainerCard;
+
+// A single card.
+struct Card {
+
+    // The card title. (its name, ex: `Eevee`)
+    title: Name;
+
+    // The card style/variant. (DERIVED — left blank by the scrape)
+    style: optional Name;
+
+    // The card number.
+    number: CardNumber;
+
+    // The card metadata.
+    meta: CardMeta;
+
+    // The card sub-type. (Pokémon, Trainer or Energy)
+    sub: CardType;
+}
+
+// A card number. (ex: `RC14` of `RC32`)
+message CardNumber {
+
+    // The number. (ex: `RC14`)
+    number: Name = 1;
+
+    // The printed total. (ex: `RC32`)
+    printed_total: string = 2;
+}
+
+// A card sub-type.
+variant CardType {
+
+    // A Pokémon card.
+    Pokemon: PokemonCard = 1;
+
+    // A Trainer card.
+    Trainer: TrainerCard = 2;
+
+    // An Energy card.
+    Energy: EnergyCard = 3;
+}

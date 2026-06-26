@@ -3,4 +3,5 @@ pub use sets::set_id_map;
 
 mod client;
 
+mod cards;
 mod sets;

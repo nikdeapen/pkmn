@@ -1,0 +1,18 @@
+import cards.meta.EnergyType;
+
+// An Energy card.
+variant EnergyCard {
+
+    // A basic energy. (ex: `Psychic Energy`)
+    Basic: EnergyType = 1;
+
+    // A special energy. (ex: `Double Colorless Energy`)
+    Special: SpecialEnergy = 2;
+}
+
+// A special energy card.
+message SpecialEnergy {
+
+    // The card text.
+    text: string = 1;
+}

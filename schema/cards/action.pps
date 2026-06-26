@@ -1,0 +1,65 @@
+import core.web.Name;
+import cards.meta.DamageModifier;
+import cards.meta.EnergyType;
+
+// A card action. (an ability, an attack or rule text)
+variant Action {
+
+    // A Pokémon ability.
+    Ability: Ability = 1;
+
+    // A Pokémon attack.
+    Attack: Attack = 2;
+
+    // Plain rule text.
+    Text: Text = 3;
+}
+
+// A Pokémon ability.
+message Ability {
+
+    // The ability kind. (ex: `Ability`, `Poké-Power`, `Poké-Body`)
+    kind: Name = 1;
+
+    // The ability name.
+    name: Name = 2;
+
+    // The ability text.
+    text: string = 3;
+}
+
+// A Pokémon attack.
+message Attack {
+
+    // The attack name.
+    name: Name = 1;
+
+    // The energy cost.
+    cost: []EnergyType = 2;
+
+    // The damage.
+    damage: Damage = 3;
+
+    // The attack text.
+    text: string = 4;
+}
+
+// Plain rule text. (ex: card rules & reminders)
+message Text {
+
+    // The text.
+    text: string = 1;
+}
+
+// Attack damage. (ex: `30`, `30+`, `30×`, `?`)
+message Damage {
+
+    // The base damage. (absent for variable `?` damage)
+    scalar: u32 = 1;
+
+    // The modifier. (ex: `+` in `30+`)
+    modifier: DamageModifier = 2;
+
+    // Whether the damage is variable. (ex: `?`)
+    variable: bool = 3;
+}

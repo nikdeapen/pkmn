@@ -1,0 +1,29 @@
+import core.web.Name;
+import cards.action.Action;
+
+// A Trainer card.
+message TrainerCard {
+
+    // The hit points. (ex: fossil trainer cards)
+    hit_points: u32 = 1;
+
+    // The card text.
+    text: string = 2;
+
+    // The actions. (ex: fossil abilities & technical machine attacks)
+    actions: []Action = 3;
+
+    // The trainer type.
+    sub: TrainerType = 4;
+
+    // Secondary sub-types. (ex: `Ace Spec`, `Technical Machine`)
+    secondary_subs: []Name = 5;
+}
+
+// A Trainer card type.
+enum TrainerType {
+    Item = 1;
+    Stadium = 2;
+    Supporter = 3;
+    PokemonTool = 4;
+}

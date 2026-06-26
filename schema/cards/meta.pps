@@ -1,0 +1,42 @@
+import core.web.Name;
+
+// Card metadata. (artists, level, rarity, release date & flavor)
+message CardMeta {
+
+    // The illustrators.
+    artists: []Name = 1;
+
+    // The level. (ex: `42`)
+    level: Name = 2;
+
+    // The rarity. (ex: `Rare Holo`)
+    rarity: Name = 3;
+
+    // The release date.
+    release_date: date = 4;
+
+    // The flavor text.
+    flavor: string = 5;
+}
+
+// A Pokémon energy type.
+enum EnergyType {
+    Grass = 1;
+    Fire = 2;
+    Water = 3;
+    Lightning = 4;
+    Psychic = 5;
+    Fighting = 6;
+    Darkness = 7;
+    Metal = 8;
+    Fairy = 9;
+    Dragon = 10;
+    Colorless = 11;
+}
+
+// A damage modifier symbol. (ex: `+` in `30+`, `×` in `30×` / `×2`)
+enum DamageModifier {
+    Plus = 1;
+    Times = 2;
+    Minus = 3;
+}
