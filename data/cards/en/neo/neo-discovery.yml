@@ -1,0 +1,5389 @@
+- title:
+    id: espeon
+    display: Espeon
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 196
+        name:
+          id: espeon
+          display: Espeon
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: psychic
+            display: Psychic
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: forretress
+    display: Forretress
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 205
+        name:
+          id: forretress
+          display: Forretress
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pineco
+          display: Pineco
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: spikes
+            display: Spikes
+          text: During your opponent’s turn, whenever 1 of your opponent’s Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. (Don’t apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: rapid-spin
+            display: Rapid Spin
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hitmontop
+    display: Hitmontop
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 237
+        name:
+          id: hitmontop
+          display: Hitmontop
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: detect
+            display: Detect
+          cost:
+          - Fighting
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Hitmontop.
+      - var: Attack
+        val:
+          name:
+            id: triple-kick
+            display: Triple Kick
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: houndoom
+    display: Houndoom
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: houndour
+          display: Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crunch
+            display: Crunch
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+          text: Discard 1 {R} Energy card attached to Houndoom or this attack does nothing.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: To corner prey, they check each other’s location using barks that only they can understand.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smog
+            display: Smog
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: collect-fire
+            display: Collect Fire
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 20
+          text: If there are any {R} Energy cards in your discard pile, choose 1 of them and attach it to Houndour.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kabutops
+    display: Kabutops
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kimiya-masago
+      display: Kimiya Masago
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 141
+        name:
+          id: kabutops
+          display: Kabutops
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kabuto
+          display: Kabuto
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: hydrocutter
+            display: Hydrocutter
+          cost:
+          - Fighting
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can’t flip more than 3 coins in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: magnemite
+    display: Magnemite
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: These Pokémon are attracted to electrical emissions and will often follow people using PokéGear.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 40
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lock-on
+            display: Lock-on
+          cost:
+          - Colorless
+          text: During your next turn, treat any tails flipped when using Magnemite’s Electric Bolt attack as if they were heads. (Benching or evolving either Pokémon ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: electric-bolt
+            display: Electric Bolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: politoed
+    display: Politoed
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '53'
+      display: '53'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 186
+        name:
+          id: politoed
+          display: Politoed
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: frog-song
+            display: Frog Song
+          text: Whenever Politoed’s attack damages the Defending Pokémon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent’s), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: doubleslap
+            display: Doubleslap
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwrath
+    display: Poliwrath
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 62
+        name:
+          id: poliwrath
+          display: Poliwrath
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-punch
+            display: Corkscrew Punch
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: submission
+            display: Submission
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Poliwrath does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: scizor
+    display: Scizor
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kimiya-masago
+      display: Kimiya Masago
+    level:
+      id: '43'
+      display: '43'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 212
+        name:
+          id: scizor
+          display: Scizor
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: scyther
+          display: Scyther
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: false-swipe
+            display: False Swipe
+          cost:
+          - Metal
+          damage:
+            variable: true
+          text: Does damage equal to half the Defending Pokémon’s remaining HP (rounded down to the nearest 10).
+      - var: Attack
+        val:
+          name:
+            id: double-claw
+            display: Double Claw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: smeargle
+    display: Smeargle
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 235
+        name:
+          id: smeargle
+          display: Smeargle
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sketch
+            display: Sketch
+          cost:
+          - Colorless
+          - Colorless
+          text: If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: tyranitar
+    display: Tyranitar
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '54'
+      display: '54'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 248
+        name:
+          id: tyranitar
+          display: Tyranitar
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pupitar
+          display: Pupitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: trample
+            display: Trample
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: For each Benched Pokémon in play (yours and your opponent’s), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: umbreon
+    display: Umbreon
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kimiya-masago
+      display: Kimiya Masago
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 197
+        name:
+          id: umbreon
+          display: Umbreon
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: feint-attack
+            display: Feint Attack
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: unown-a
+    display: Unown A
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: anger
+            display: '[Anger]'
+          text: Whenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 [Anger] for each attack.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: ursaring
+    display: Ursaring
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 217
+        name:
+          id: ursaring
+          display: Ursaring
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: teddiursa
+          display: Teddiursa
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headpress
+            display: Headpress
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).
+      - var: Attack
+        val:
+          name:
+            id: double-lariat
+            display: Double Lariat
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: wobbuffet
+    display: Wobbuffet
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 202
+        name:
+          id: wobbuffet
+          display: Wobbuffet
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: counter
+            display: Counter
+          cost:
+          - Psychic
+          text: If an attack damages Wobbuffet during your opponent’s next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: yanma
+    display: Yanma
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2001-06-01
+    flavor: If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 193
+        name:
+          id: yanma
+          display: Yanma
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shockwave
+            display: Shockwave
+          cost:
+          - Grass
+          text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Pokémon. Don’t apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: beedrill
+    display: Beedrill
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kakuna
+          display: Kakuna
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: triple-poison
+            display: Triple Poison
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player’s turn (even if it was already Poisoned).
+      - var: Attack
+        val:
+          name:
+            id: pin-missile
+            display: Pin Missile
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 4 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: butterfree
+    display: Butterfree
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 12
+        name:
+          id: butterfree
+          display: Butterfree
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: metapod
+          display: Metapod
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magic-dust
+            display: Magic Dust
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice).
+      - var: Attack
+        val:
+          name:
+            id: hyper-reverse
+            display: Hyper Reverse
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          text: Does 10 damage times the number of Energy attached to the Defending Pokémon. After doing damage, remove a number of damage counters from Butterfree equal to the amount of damage done to the Defending Pokémon (after applying Weakness and Resistance).
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: espeon
+    display: Espeon
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: By reading air currents, it can predict things such as the weather or its foe’s next move.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 196
+        name:
+          id: espeon
+          display: Espeon
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      - var: Attack
+        val:
+          name:
+            id: psybeam
+            display: Psybeam
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: forretress
+    display: Forretress
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 205
+        name:
+          id: forretress
+          display: Forretress
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pineco
+          display: Pineco
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: spikes
+            display: Spikes
+          text: During your opponent’s turn, whenever 1 of your opponent’s Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. (Don’t apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: rapid-spin
+            display: Rapid Spin
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hitmontop
+    display: Hitmontop
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 237
+        name:
+          id: hitmontop
+          display: Hitmontop
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: detect
+            display: Detect
+          cost:
+          - Fighting
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Hitmontop.
+      - var: Attack
+        val:
+          name:
+            id: triple-kick
+            display: Triple Kick
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: houndoom
+    display: Houndoom
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: houndour
+          display: Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crunch
+            display: Crunch
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+          text: Discard 1 {R} Energy card attached to Houndoom or this attack does nothing.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: To corner prey, they check each other’s location using barks that only they can understand.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smog
+            display: Smog
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: collect-fire
+            display: Collect Fire
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 20
+          text: If there are any {R} Energy cards in your discard pile, choose 1 of them and attach it to Houndour.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kabutops
+    display: Kabutops
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kimiya-masago
+      display: Kimiya Masago
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 141
+        name:
+          id: kabutops
+          display: Kabutops
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kabuto
+          display: Kabuto
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: hydrocutter
+            display: Hydrocutter
+          cost:
+          - Fighting
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can’t flip more than 3 coins in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: magnemite
+    display: Magnemite
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: These Pokémon are attracted to electrical emissions and will often follow people using PokéGear.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 40
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lock-on
+            display: Lock-on
+          cost:
+          - Colorless
+          text: During your next turn, treat any tails flipped when using Magnemite’s Electric Bolt attack as if they were heads. (Benching or evolving either Pokémon ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: electric-bolt
+            display: Electric Bolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: politoed
+    display: Politoed
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '53'
+      display: '53'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 186
+        name:
+          id: politoed
+          display: Politoed
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: frog-song
+            display: Frog Song
+          text: Whenever Politoed’s attack damages the Defending Pokémon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent’s), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: doubleslap
+            display: Doubleslap
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwrath
+    display: Poliwrath
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 62
+        name:
+          id: poliwrath
+          display: Poliwrath
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-punch
+            display: Corkscrew Punch
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: submission
+            display: Submission
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Poliwrath does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: scizor
+    display: Scizor
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kimiya-masago
+      display: Kimiya Masago
+    level:
+      id: '43'
+      display: '43'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 212
+        name:
+          id: scizor
+          display: Scizor
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: scyther
+          display: Scyther
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: false-swipe
+            display: False Swipe
+          cost:
+          - Metal
+          damage:
+            variable: true
+          text: Does damage equal to half the Defending Pokémon’s remaining HP (rounded down to the nearest 10).
+      - var: Attack
+        val:
+          name:
+            id: double-claw
+            display: Double Claw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: smeargle
+    display: Smeargle
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 235
+        name:
+          id: smeargle
+          display: Smeargle
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sketch
+            display: Sketch
+          cost:
+          - Colorless
+          - Colorless
+          text: If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: tyranitar
+    display: Tyranitar
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '54'
+      display: '54'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 248
+        name:
+          id: tyranitar
+          display: Tyranitar
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pupitar
+          display: Pupitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: trample
+            display: Trample
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: For each Benched Pokémon in play (yours and your opponent’s), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: umbreon
+    display: Umbreon
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 197
+        name:
+          id: umbreon
+          display: Umbreon
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      - var: Attack
+        val:
+          name:
+            id: pursuit
+            display: Pursuit
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don’t apply Weakness and Resistance.)
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: unown-a
+    display: Unown A
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: anger
+            display: '[Anger]'
+          text: Whenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 [Anger] for each attack.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: ursaring
+    display: Ursaring
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 217
+        name:
+          id: ursaring
+          display: Ursaring
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: teddiursa
+          display: Teddiursa
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headpress
+            display: Headpress
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).
+      - var: Attack
+        val:
+          name:
+            id: double-lariat
+            display: Double Lariat
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: wobbuffet
+    display: Wobbuffet
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 202
+        name:
+          id: wobbuffet
+          display: Wobbuffet
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: counter
+            display: Counter
+          cost:
+          - Psychic
+          text: If an attack damages Wobbuffet during your opponent’s next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: yanma
+    display: Yanma
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2001-06-01
+    flavor: If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 193
+        name:
+          id: yanma
+          display: Yanma
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shockwave
+            display: Shockwave
+          cost:
+          - Grass
+          text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Pokémon. Don’t apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: corsola
+    display: Corsola
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 222
+        name:
+          id: corsola
+          display: Corsola
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: recover
+            display: Recover
+          cost:
+          - Water
+          text: Discard 1 {W} Energy card attached to Corsola or this attack does nothing. Remove all damage counters from Corsola.
+      - var: Attack
+        val:
+          name:
+            id: spike-cannon
+            display: Spike Cannon
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: energy-evolution
+            display: Energy Evolution
+          text: Whenever you attach an Energy card to Eevee, flip a coin. If heads, search your deck for a card that evolves from Eevee that is the same type as the Energy card you attached to Eevee. Attach that card to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can’t be used if Eevee is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: smash-kick
+            display: Smash Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 40
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: plunder
+            display: Plunder
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: igglybuff
+    display: Igglybuff
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 174
+        name:
+          id: igglybuff
+          display: Igglybuff
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: baby
+          display: Baby
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: gaze
+            display: Gaze
+          text: Once during your turn (before your attack), choose 1 of your opponent’s Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench.
+      retreat_cost: 0
+- title:
+    id: kakuna
+    display: Kakuna
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 14
+        name:
+          id: kakuna
+          display: Kakuna
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: weedle
+          display: Weedle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: secrete-poison
+            display: Secrete Poison
+          cost:
+          - Grass
+          - Grass
+          text: During your opponent’s next turn, whenever your opponent’s attack damages Kakuna (even if Kakuna is Knocked Out), your opponent’s Active Pokémon is now Poisoned and Kakuna does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: metapod
+    display: Metapod
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 11
+        name:
+          id: metapod
+          display: Metapod
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: caterpie
+          display: Caterpie
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: harden
+            display: Harden
+          cost:
+          - Colorless
+          - Colorless
+          text: During your opponent’s next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen).
+      - var: Attack
+        val:
+          name:
+            id: hatch
+            display: Hatch
+          cost:
+          - Grass
+          - Grass
+          text: Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: omastar
+    display: Omastar
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Apparently, it cracked Shellder’s shell with its sharp fangs and sucked out the insides.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 139
+        name:
+          id: omastar
+          display: Omastar
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: omanyte
+          display: Omanyte
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: squeeze
+            display: Squeeze
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 10 damage.
+      - var: Attack
+        val:
+          name:
+            id: spike-barrage
+            display: Spike Barrage
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a number of coins equal to the number of {W} Energy attached to Omastar. This attack does 20 damage plus 20 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwhirl
+    display: Poliwhirl
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: The swirl on its belly undulates. Staring at it may gradually cause drowsiness.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 61
+        name:
+          id: poliwhirl
+          display: Poliwhirl
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: poliwag
+          display: Poliwag
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: belly-drum
+            display: Belly Drum
+          cost:
+          - Colorless
+          text: Put 3 damage counters on Poliwhirl. If this doesn’t Knock Out Poliwhirl, search your deck for 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each {W} Energy attached to Poliwhirl but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: pupitar
+    display: Pupitar
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 247
+        name:
+          id: pupitar
+          display: Pupitar
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: larvitar
+          display: Larvitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: skull-bash
+            display: Skull Bash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: dust-devil
+            display: Dust Devil
+          cost:
+          - Fighting
+          - Fighting
+          text: Does 10 damage to each non-{F} Pokémon in play. Don’t apply Weakness and Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: scyther
+    display: Scyther
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kimiya-masago
+      display: Kimiya Masago
+    level:
+      id: '24'
+      display: '24'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: It slashes through grass with its sharp scythes, moving too fast for the human eye to track.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 123
+        name:
+          id: scyther
+          display: Scyther
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-cutter
+            display: Fury Cutter
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip 4 coins. This attack does 10 damage plus 10 more damage if exactly 1 is heads, or 20 more damage if exactly 2 are heads, or 40 more damage if exactly 3 are heads, or 80 more damage if all 4 are heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: unown-d
+    display: Unown D
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: darkness
+            display: '[Darkness]'
+          text: Whenever a {D} Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown D in play. (This power works even if Unown D is Asleep, Confused, or Paralyzed.)
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-f
+    display: Unown F
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: find
+            display: '[Find]'
+          text: Once during your turn (before your attack), if you have Unown F, Unown I, Unown N, and Unown D on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-m
+    display: Unown M
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: metal
+            display: '[Metal]'
+          text: Whenever a {M} Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown M in play. (This power works even if Unown M is Asleep, Confused, or Paralyzed.)
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-n
+    display: Unown N
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: normal
+            display: '[Normal]'
+          text: Whenever a {C} Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown N in play. (This power works even if Unown N is Asleep, Confused, or Paralyzed.)
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-u
+    display: Unown U
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: undo
+            display: '[Undo]'
+          text: Once during your turn (before your attack), if you have Unown U, Unown N, Unown D, and Unown O on your Bench, you may return your Active Pokémon and all cards attached to it to your hand.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: xatu
+    display: Xatu
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+    flavor: In South America, it is said that its right eye sees the future and its left eye views the past.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 178
+        name:
+          id: xatu
+          display: Xatu
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: natu
+          display: Natu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-cycle
+            display: Energy Cycle
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent’s Benched Pokémon. Attach that Energy card to that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: super-psy
+            display: Super Psy
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: caterpie
+    display: Caterpie
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: For protection, it releases a horrible stench from the antennae on its head to drive away enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 10
+        name:
+          id: caterpie
+          display: Caterpie
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spin-tackle
+            display: Spin Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Caterpie does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: dunsparce
+    display: Dunsparce
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 206
+        name:
+          id: dunsparce
+          display: Dunsparce
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: glare
+            display: Glare
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hoppip
+    display: Hoppip
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 187
+        name:
+          id: hoppip
+          display: Hoppip
+      hit_points: 30
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rolling-tackle
+            display: Rolling Tackle
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kabuto
+    display: Kabuto
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 140
+        name:
+          id: kabuto
+          display: Kabuto
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mysterious-fossil-or-buried-fossil
+          display: Mysterious Fossil or Buried Fossil
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: revive-friends
+            display: Revive Friends
+          text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can’t be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full).
+      - var: Attack
+        val:
+          name:
+            id: work-together
+            display: Work Together
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: larvitar
+    display: Larvitar
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 246
+        name:
+          id: larvitar
+          display: Larvitar
+      hit_points: 40
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mareep
+    display: Mareep
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 179
+        name:
+          id: mareep
+          display: Mareep
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-jolt
+            display: Thunder Jolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, Mareep does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: natu
+    display: Natu
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 177
+        name:
+          id: natu
+          display: Natu
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: omanyte
+    display: Omanyte
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 138
+        name:
+          id: omanyte
+          display: Omanyte
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mysterious-fossil-or-buried-fossil
+          display: Mysterious Fossil or Buried Fossil
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: revive-fossil
+            display: Revive Fossil
+          text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can’t be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full).
+      - var: Attack
+        val:
+          name:
+            id: bind
+            display: Bind
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: pineco
+    display: Pineco
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 204
+        name:
+          id: pineco
+          display: Pineco
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: burst
+            display: Burst
+          cost:
+          - Grass
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, Pineco does 40 damage to itself and 10 damage to each Pokémon on each player’s Bench. (Don’t apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If tails, this attack does nothing (not even damage).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwag
+    display: Poliwag
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Because it is inept at walking on its newly grown legs, it always swims around in water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 60
+        name:
+          id: poliwag
+          display: Poliwag
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: hypnosis
+            display: Hypnosis
+          cost:
+          - Water
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: sentret
+    display: Sentret
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 161
+        name:
+          id: sentret
+          display: Sentret
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scout
+            display: Scout
+          cost:
+          - Colorless
+          text: Look at your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: spinarak
+    display: Spinarak
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    level:
+      id: '19'
+      display: '19'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: It spins a web using fine—but durable—thread. It then waits patiently for prey to be trapped.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 167
+        name:
+          id: spinarak
+          display: Spinarak
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: teddiursa
+    display: Teddiursa
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 216
+        name:
+          id: teddiursa
+          display: Teddiursa
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: nap-time
+            display: Nap Time
+          cost:
+          - Colorless
+          - Colorless
+          text: Remove all damage counters from Teddiursa. Teddiursa is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: tyrogue
+    display: Tyrogue
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 236
+        name:
+          id: tyrogue
+          display: Tyrogue
+      hit_points: 30
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: baby
+          display: Baby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smash-punch
+            display: Smash Punch
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 0
+- title:
+    id: unown-e
+    display: Unown E
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: engage
+            display: '[Engage]'
+          text: When you play Unown E from your hand, your opponent may shuffle his or her hand into his or her deck and then draw 4 cards. Either way, you may shuffle your hand into your deck and draw 4 cards.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-i
+    display: Unown I
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: increase
+            display: '[Increase]'
+          text: When you play Unown I from your hand, you may search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. You can’t use this power if your Bench is full.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-o
+    display: Unown O
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: observe
+            display: '[Observe]'
+          text: Once during your turn (before your attack), you may look at 5 cards from the top of your opponent’s deck and put them back in the same order.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: weedle
+    display: Weedle
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 13
+        name:
+          id: weedle
+          display: Weedle
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spike-stab
+            display: Spike Stab
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: wooper
+    display: Wooper
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+    flavor: When it walks around on the ground, it coats its body with a slimy, poisonous film.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 194
+        name:
+          id: wooper
+          display: Wooper
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slime
+            display: Slime
+          cost:
+          - Water
+          text: If an attack would do damage to Wooper during your opponent’s next turn, your opponent flips a coin. If tails, prevent all damage to Wooper from that attack. (Any other effects of that attack happen.)
+      - var: Attack
+        val:
+          name:
+            id: tail-slap
+            display: Tail Slap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: fossil-egg
+    display: Fossil Egg
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pokémon. If you searched your deck, shuffle it. (You can’t play this card if your Bench is full.)
+      sub: Item
+- title:
+    id: hyper-devolution-spray
+    display: Hyper Devolution Spray
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your evolved Pokémon. Take the highest Stage Evolution card from that Pokémon and put it into your hand. (You can’t evolve a Pokémon the turn you devolve it.)
+      sub: Item
+- title:
+    id: ruin-wall
+    display: Ruin Wall
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: big-mama-tagawa
+      display: '"Big Mama" Tagawa'
+    - id: cr-cg-gangs
+      display: CR CG gangs
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2001-06-01
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can’t play this card if your Bench is full.)
+      sub: Item
+- title:
+    id: energy-ark
+    display: Energy Ark
+  set:
+    name:
+      id: neo-discovery
+      display: Neo Discovery
+    series:
+      id: neo
+      display: Neo
+    context: English
+    live_code:
+      id: n2
+      display: N2
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '75'
+  meta:
+    artists:
+    - id: big-mama-tagawa
+      display: '"Big Mama" Tagawa'
+    - id: benimaru-itoh
+      display: Benimaru Itoh
+    rarity:
+      id: common
+      display: Common
+    release_date: 2001-06-01
+  sub:
+    var: Trainer
+    val:
+      text: Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+      sub: Item

@@ -1,0 +1,7399 @@
+- title:
+    id: snivy
+    display: Snivy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 495
+        name:
+          id: snivy
+          display: Snivy
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: snivy
+    display: Snivy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 495
+        name:
+          id: snivy
+          display: Snivy
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-blade
+            display: Leaf Blade
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: servine
+    display: Servine
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 496
+        name:
+          id: servine
+          display: Servine
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snivy
+          display: Snivy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wrap
+            display: Wrap
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: servine
+    display: Servine
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 496
+        name:
+          id: servine
+          display: Servine
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snivy
+          display: Snivy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wring-out
+            display: Wring Out
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: serperior
+    display: Serperior
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 497
+        name:
+          id: serperior
+          display: Serperior
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: servine
+          display: Servine
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      - var: Attack
+        val:
+          name:
+            id: leaf-storm
+            display: Leaf Storm
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 60
+          text: Heal 20 damage from each of your {G} Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: serperior
+    display: Serperior
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 497
+        name:
+          id: serperior
+          display: Serperior
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: servine
+          display: Servine
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: royal-heal
+            display: Royal Heal
+          text: At any time between turns, heal 10 damage from each of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: leaf-tornado
+            display: Leaf Tornado
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 60
+          text: Move as many {G} Energy attached to your Pokémon to your other Pokémon in any way you like.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pansage
+    display: Pansage
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 511
+        name:
+          id: pansage
+          display: Pansage
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: simisage
+    display: Simisage
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 512
+        name:
+          id: simisage
+          display: Simisage
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pansage
+          display: Pansage
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: seed-bomb
+            display: Seed Bomb
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 3 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: petilil
+    display: Petilil
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 548
+        name:
+          id: petilil
+          display: Petilil
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magical-leaf
+            display: Magical Leaf
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage and heal 10 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: lilligant
+    display: Lilligant
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 549
+        name:
+          id: lilligant
+          display: Lilligant
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: petilil
+          display: Petilil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: petal-dance
+            display: Petal Dance
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now confused.
+      - var: Attack
+        val:
+          name:
+            id: leaf-storm
+            display: Leaf Storm
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Heal 20 damage from each of your {G} Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: maractus
+    display: Maractus
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 556
+        name:
+          id: maractus
+          display: Maractus
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mega-drain
+            display: Mega Drain
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+          text: Heal 20 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: pin-missile
+            display: Pin Missile
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 4 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: maractus
+    display: Maractus
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 556
+        name:
+          id: maractus
+          display: Maractus
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: constant-rattle
+            display: Constant Rattle
+          cost:
+          - Grass
+          text: Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage.
+      - var: Attack
+        val:
+          name:
+            id: giga-drain
+            display: Giga Drain
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 50
+          text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: deerling
+    display: Deerling
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 585
+        name:
+          id: deerling
+          display: Deerling
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: leech-seed
+            display: Leech Seed
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: Heal 10 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sawsbuck
+    display: Sawsbuck
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: They migrate according to the seasons. People can tell the season by looking at Sawbuck’s horns.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 586
+        name:
+          id: sawsbuck
+          display: Sawsbuck
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: deerling
+          display: Deerling
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nature-power
+            display: Nature Power
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more damage for each {G} Energy attached to both your and your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: horn-leech
+            display: Horn Leech
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Heal 20 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tepig
+    display: Tepig
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 498
+        name:
+          id: tepig
+          display: Tepig
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: tepig
+    display: Tepig
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 498
+        name:
+          id: tepig
+          display: Tepig
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: take-down
+            display: Take Down
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pignite
+    display: Pignite
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 499
+        name:
+          id: pignite
+          display: Pignite
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tepig
+          display: Tepig
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Colorless
+          text: Search your deck for a {R} Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: heat-crash
+            display: Heat Crash
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pignite
+    display: Pignite
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 499
+        name:
+          id: pignite
+          display: Pignite
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tepig
+          display: Tepig
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: emboar
+    display: Emboar
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 500
+        name:
+          id: emboar
+          display: Emboar
+      hit_points: 150
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pignite
+          display: Pignite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: heat-crash
+            display: Heat Crash
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: flare-blitz
+            display: Flare Blitz
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 150
+          text: Discard all {R} Energy attached to this Pokémon.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: emboar
+    display: Emboar
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 500
+        name:
+          id: emboar
+          display: Emboar
+      hit_points: 150
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pignite
+          display: Pignite
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: inferno-fandango
+            display: Inferno Fandango
+          text: As often as you like during your turn (before your attack), you may attach a {R} Energy card from your hand to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: heat-crash
+            display: Heat Crash
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pansear
+    display: Pansear
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 513
+        name:
+          id: pansear
+          display: Pansear
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: live-coal
+            display: Live Coal
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: simisear
+    display: Simisear
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It loves sweets because they become energy for the fire burning inside its body.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 514
+        name:
+          id: simisear
+          display: Simisear
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pansear
+          display: Pansear
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-burst
+            display: Flame Burst
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 3 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: darumaka
+    display: Darumaka
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 554
+        name:
+          id: darumaka
+          display: Darumaka
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: firebreathing
+            display: Firebreathing
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: darumaka
+    display: Darumaka
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 554
+        name:
+          id: darumaka
+          display: Darumaka
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: darmanitan
+    display: Darmanitan
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: When weakened in battle, it transforms into a stone statue, then it sharpens its mind and fights on mentally.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 555
+        name:
+          id: darmanitan
+          display: Darmanitan
+      hit_points: 120
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: darumaka
+          display: Darumaka
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-fang
+            display: Fire Fang
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: thrash
+            display: Thrash
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: reshiram
+    display: Reshiram
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more damage for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: blue-flare
+            display: Blue Flare
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard 2 {R} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: oshawott
+    display: Oshawott
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 501
+        name:
+          id: oshawott
+          display: Oshawott
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: oshawott
+    display: Oshawott
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 501
+        name:
+          id: oshawott
+          display: Oshawott
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: razor-shell
+            display: Razor Shell
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dewott
+    display: Dewott
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 502
+        name:
+          id: dewott
+          display: Dewott
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: oshawott
+          display: Oshawott
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: razor-shell
+            display: Razor Shell
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dewott
+    display: Dewott
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 502
+        name:
+          id: dewott
+          display: Dewott
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: oshawott
+          display: Oshawott
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-tail
+            display: Aqua Tail
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin for each {W} Energy attached to this Pokémon. This attack does 10 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: samurott
+    display: Samurott
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 503
+        name:
+          id: samurott
+          display: Samurott
+      hit_points: 140
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dewott
+          display: Dewott
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pike
+            display: Pike
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: samurott
+    display: Samurott
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 503
+        name:
+          id: samurott
+          display: Samurott
+      hit_points: 140
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dewott
+          display: Dewott
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: shell-armor
+            display: Shell Armor
+          text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Plus
+          text: Does 10 more damage for each {W} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: panpour
+    display: Panpour
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 515
+        name:
+          id: panpour
+          display: Panpour
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: simipour
+    display: Simipour
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 516
+        name:
+          id: simipour
+          display: Simipour
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: panpour
+          display: Panpour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scald
+            display: Scald
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 3 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: basculin
+    display: Basculin
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Red and blue Basculin get along so poorly, they’ll start fighting instantly. These Pokémon are very hostile.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 550
+        name:
+          id: basculin
+          display: Basculin
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crunch
+            display: Crunch
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: ducklett
+    display: Ducklett
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 580
+        name:
+          id: ducklett
+          display: Ducklett
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swanna
+    display: Swanna
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 581
+        name:
+          id: swanna
+          display: Swanna
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ducklett
+          display: Ducklett
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: feather-dance
+            display: Feather Dance
+          cost:
+          - Colorless
+          text: During your next turn, each of this Pokémon’s attacks does 40 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: aqua-ring
+            display: Aqua Ring
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: alomomola
+    display: Alomomola
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 594
+        name:
+          id: alomomola
+          display: Alomomola
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: alomomola
+    display: Alomomola
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 594
+        name:
+          id: alomomola
+          display: Alomomola
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-pulse
+            display: Water Pulse
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Does 10 more damage for each {W} Energy attached to this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: blitzle
+    display: Blitzle
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 522
+        name:
+          id: blitzle
+          display: Blitzle
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: blitzle
+    display: Blitzle
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 522
+        name:
+          id: blitzle
+          display: Blitzle
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zebstrika
+    display: Zebstrika
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: This ill-tempered Pokémon is dangerous because when it’s angry, it shoots lightning from its mane in all directions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 523
+        name:
+          id: zebstrika
+          display: Zebstrika
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blitzle
+          display: Blitzle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: wild-charge
+            display: Wild Charge
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zebstrika
+    display: Zebstrika
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 523
+        name:
+          id: zebstrika
+          display: Zebstrika
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blitzle
+          display: Blitzle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: electrispark
+            display: Electrispark
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 70
+          text: Does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: joltik
+    display: Joltik
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 595
+        name:
+          id: joltik
+          display: Joltik
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stun-needle
+            display: Stun Needle
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: joltik
+    display: Joltik
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 595
+        name:
+          id: joltik
+          display: Joltik
+      hit_points: 30
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leech-life
+            display: Leech Life
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: galvantula
+    display: Galvantula
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 596
+        name:
+          id: galvantula
+          display: Galvantula
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: joltik
+          display: Joltik
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: electroweb
+            display: Electroweb
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: leech-life
+            display: Leech Life
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more damage for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bolt-strike
+            display: Bolt Strike
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 120
+          text: This Pokémon does 40 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: munna
+    display: Munna
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 517
+        name:
+          id: munna
+          display: Munna
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnosis
+            display: Hypnosis
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: dream-eater
+            display: Dream Eater
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 60
+          text: If the Defending Pokémon is not Asleep, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: musharna
+    display: Musharna
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: The mist emanating from their foreheads is packed with the dreams of people and Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 518
+        name:
+          id: musharna
+          display: Musharna
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: munna
+          display: Munna
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnotic-ray
+            display: Hypnotic Ray
+          cost:
+          - Psychic
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: dream-eater
+            display: Dream Eater
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 90
+          text: If the Defending Pokémon is not Asleep, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: woobat
+    display: Woobat
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 527
+        name:
+          id: woobat
+          display: Woobat
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swoobat
+    display: Swoobat
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 528
+        name:
+          id: swoobat
+          display: Swoobat
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: woobat
+          display: Woobat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: attract
+            display: Attract
+          cost:
+          - Colorless
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: heart-stamp
+            display: Heart Stamp
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: venipede
+    display: Venipede
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 543
+        name:
+          id: venipede
+          display: Venipede
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: whirlipede
+    display: Whirlipede
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 544
+        name:
+          id: whirlipede
+          display: Whirlipede
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: venipede
+          display: Venipede
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: scolipede
+    display: Scolipede
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Highly aggressive, it uses the claws near its neck to dig into its opponent and poison them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 545
+        name:
+          id: scolipede
+          display: Scolipede
+      hit_points: 150
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: whirlipede
+          display: Whirlipede
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: steamroller
+            display: Steamroller
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: This attack’s damage isn’t affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: poison-claws
+            display: Poison Claws
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: solosis
+    display: Solosis
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Because their bodies are enveloped in a special liquid, they can survive in any environment.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 577
+        name:
+          id: solosis
+          display: Solosis
+      hit_points: 30
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cell-culture
+            display: Cell Culture
+          cost:
+          - Psychic
+          text: Search your deck for Solosis and put it into your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: duosion
+    display: Duosion
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: When their brains, now divided in two, are thinking the same thought, these Pokémon exhibit their maximum power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 578
+        name:
+          id: duosion
+          display: Duosion
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: solosis
+          display: Solosis
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: recover
+            display: Recover
+          cost:
+          - Colorless
+          text: Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: reuniclus
+    display: Reuniclus
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 579
+        name:
+          id: reuniclus
+          display: Reuniclus
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: duosion
+          display: Duosion
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: damage-swap
+            display: Damage Swap
+          text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: psywave
+            display: Psywave
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 10 more damage for each Energy attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: timburr
+    display: Timburr
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It fights by swinging a piece of timber around. It is close to evolving when it can handle the lumber without difficulty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 532
+        name:
+          id: timburr
+          display: Timburr
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: timburr
+    display: Timburr
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: These Pokémon appear at building sites and help out with construction. They always carry squared logs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 532
+        name:
+          id: timburr
+          display: Timburr
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: low-kick
+            display: Low Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gurdurr
+    display: Gurdurr
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 533
+        name:
+          id: gurdurr
+          display: Gurdurr
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: timburr
+          display: Timburr
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bulk-up
+            display: Bulk Up
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your next turn, each of this Pokémon’s attacks does 20 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: throh
+    display: Throh
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 538
+        name:
+          id: throh
+          display: Throh
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: circle-throw
+            display: Circle Throw
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: storm-throw
+            display: Storm Throw
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 80
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sawk
+    display: Sawk
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 539
+        name:
+          id: sawk
+          display: Sawk
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: low-sweep
+            display: Low Sweep
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: beatdown
+            display: Beatdown
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sandile
+    display: Sandile
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 551
+        name:
+          id: sandile
+          display: Sandile
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sand-tomb
+            display: Sand Tomb
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: krokorok
+    display: Krokorok
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 552
+        name:
+          id: krokorok
+          display: Krokorok
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sandile
+          display: Sandile
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: torment
+            display: Torment
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: krookodile
+    display: Krookodile
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 553
+        name:
+          id: krookodile
+          display: Krookodile
+      hit_points: 140
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: krokorok
+          display: Krokorok
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: torment
+            display: Torment
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: krookoroll
+            display: Krookoroll
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 40 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: purrloin
+    display: Purrloin
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 509
+        name:
+          id: purrloin
+          display: Purrloin
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: liepard
+    display: Liepard
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 510
+        name:
+          id: liepard
+          display: Liepard
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: purrloin
+          display: Purrloin
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: taunt
+            display: Taunt
+          cost:
+          - Colorless
+          text: Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sucker-punch
+            display: Sucker Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon has any {D} Energy attached to it, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: scraggy
+    display: Scraggy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 559
+        name:
+          id: scraggy
+          display: Scraggy
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: scrafty
+    display: Scrafty
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 560
+        name:
+          id: scrafty
+          display: Scrafty
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: scraggy
+          display: Scraggy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spit-acid
+            display: Spit Acid
+          cost:
+          - Darkness
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: high-jump-kick
+            display: High Jump Kick
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: zorua
+    display: Zorua
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 570
+        name:
+          id: zorua
+          display: Zorua
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: zoroark
+    display: Zoroark
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 571
+        name:
+          id: zoroark
+          display: Zoroark
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: zorua
+          display: Zorua
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nasty-plot
+            display: Nasty Plot
+          cost:
+          - Darkness
+          text: Search your deck for a card and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: foul-play
+            display: Foul Play
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 1 of the Defending Pokémon’s attacks and use it as this attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: vullaby
+    display: Vullaby
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 629
+        name:
+          id: vullaby
+          display: Vullaby
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Darkness
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mandibuzz
+    display: Mandibuzz
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 630
+        name:
+          id: mandibuzz
+          display: Mandibuzz
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: vullaby
+          display: Vullaby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: blindside
+            display: Blindside
+          cost:
+          - Darkness
+          text: Does 50 damage to 1 of your opponent’s Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: punishment
+            display: Punishment
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If the Defending Pokémon is a Stage 2 Pokémon, this attack does 60 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klink
+    display: Klink
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 599
+        name:
+          id: klink
+          display: Klink
+      hit_points: 60
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bind
+            display: Bind
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klang
+    display: Klang
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 600
+        name:
+          id: klang
+          display: Klang
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: klink
+          display: Klink
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bind
+            display: Bind
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: gear-grind
+            display: Gear Grind
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip 2 coins. This attack does 60 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klinklang
+    display: Klinklang
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-04-25
+    flavor: Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 601
+        name:
+          id: klinklang
+          display: Klinklang
+      hit_points: 140
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: klang
+          display: Klang
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: shift-gear
+            display: Shift Gear
+          text: As often as you like during your turn (before your attack), you may move a {M} Energy attached to 1 of your Pokémon to another of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: gear-grind
+            display: Gear Grind
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Times
+          text: Flip 2 coins. This attack does 80 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: patrat
+    display: Patrat
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Using food stored in cheek pouches, they can keep watches for days. They use their tails to communicate with others.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 504
+        name:
+          id: patrat
+          display: Patrat
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: patrat
+    display: Patrat
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 504
+        name:
+          id: patrat
+          display: Patrat
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-fang
+            display: Hyper Fang
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: watchog
+    display: Watchog
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 505
+        name:
+          id: watchog
+          display: Watchog
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: patrat
+          display: Patrat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Colorless
+          - Colorless
+          text: The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: hyper-fang
+            display: Hyper Fang
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lillipup
+    display: Lillipup
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 506
+        name:
+          id: lillipup
+          display: Lillipup
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pickup
+            display: Pickup
+          cost:
+          - Colorless
+          text: Put an Item card from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lillipup
+    display: Lillipup
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 506
+        name:
+          id: lillipup
+          display: Lillipup
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: herdier
+    display: Herdier
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It loyally follows its Trainer’s orders. For ages, they have helped Trainers raise Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 507
+        name:
+          id: herdier
+          display: Herdier
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lillipup
+          display: Lillipup
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          - Colorless
+          text: Draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: stoutland
+    display: Stoutland
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 508
+        name:
+          id: stoutland
+          display: Stoutland
+      hit_points: 140
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: herdier
+          display: Herdier
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: odor-sleuth
+            display: Odor Sleuth
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip 3 coins. For each heads, put a card from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: giga-impact
+            display: Giga Impact
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: This Pokémon can’t attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidove
+    display: Pidove
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: Each follows its Trainer’s orders as best it can, but they sometimes fail to understand complicated commands.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 519
+        name:
+          id: pidove
+          display: Pidove
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tranquill
+    display: Tranquill
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It can return to its Trainer’s location regardless of the distance separating them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 520
+        name:
+          id: tranquill
+          display: Tranquill
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pidove
+          display: Pidove
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: unfezant
+    display: Unfezant
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Males swing their head plumage to threaten opponents. The females’ flying abilities surpass those of the males.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 521
+        name:
+          id: unfezant
+          display: Unfezant
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: tranquill
+          display: Tranquill
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fly
+            display: Fly
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: cutting-wind
+            display: Cutting Wind
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: audino
+    display: Audino
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 531
+        name:
+          id: audino
+          display: Audino
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: doubleslap
+            display: Doubleslap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: minccino
+    display: Minccino
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+    flavor: They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 572
+        name:
+          id: minccino
+          display: Minccino
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-slap
+            display: Tail Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cinccino
+    display: Cinccino
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Their white fur is coated in a special oil that makes it easy for them to deflect attacks.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 573
+        name:
+          id: cinccino
+          display: Cinccino
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: minccino
+          display: Minccino
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-slap
+            display: Tail Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: do-the-wave
+            display: Do the Wave
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the number of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bouffalant
+    display: Bouffalant
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+    flavor: They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 626
+        name:
+          id: bouffalant
+          display: Bouffalant
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: horn-attack
+            display: Horn Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: double-stomp
+            display: Double Stomp
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip 2 coins. This attack does 20 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bouffalant
+    display: Bouffalant
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-04-25
+    flavor: Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 626
+        name:
+          id: bouffalant
+          display: Bouffalant
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: revenge
+            display: Revenge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 70 more damage.
+      - var: Attack
+        val:
+          name:
+            id: head-charge
+            display: Head Charge
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: energy-retrieval
+    display: Energy Retrieval
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Put 2 basic Energy cards from your discard pile into your hand.
+      sub: Item
+- title:
+    id: energy-search
+    display: Energy Search
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a basic Energy card, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: energy-switch
+    display: Energy Switch
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Move a basic Energy from 1 of your Pokémon to another of your Pokémon.
+      sub: Item
+- title:
+    id: full-heal
+    display: Full Heal
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Remove all Special Conditions from your Active Pokémon.
+      sub: Item
+- title:
+    id: pluspower
+    display: PlusPower
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: During this turn, your Pokémon’s attacks do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).
+      sub: Item
+- title:
+    id: poke-ball
+    display: Poké Ball
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yuri-umemura
+      display: Yuri Umemura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: pokedex
+    display: Pokédex
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 5 cards of your deck and put them back on top of your deck in any order.
+      sub: Item
+- title:
+    id: pokemon-communication
+    display: Pokémon Communication
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Reveal a Pokémon in your hand and put it on top of your deck. If you do, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: potion
+    display: Potion
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Heal 30 damage from 1 of your Pokémon.
+      sub: Item
+- title:
+    id: professor-juniper
+    display: Professor Juniper
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: revive
+    display: Revive
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Put a Basic Pokémon from your discard pile onto your Bench.
+      sub: Item
+- title:
+    id: super-scoop-up
+    display: Super Scoop Up
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: daisuke-iwamoto
+      display: Daisuke Iwamoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, put 1 of your Pokémon and all cards attached to it into your hand.
+      sub: Item
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-04-25
+  sub:
+    var: Trainer
+    val:
+      text: Switch your Active Pokémon with 1 of your Benched Pokémon.
+      sub: Item
+- title:
+    id: grass-energy
+    display: Grass Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Grass
+- title:
+    id: fire-energy
+    display: Fire Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fire
+- title:
+    id: water-energy
+    display: Water Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Water
+- title:
+    id: lightning-energy
+    display: Lightning Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Lightning
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: fighting-energy
+    display: Fighting Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fighting
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Darkness
+- title:
+    id: metal-energy
+    display: Metal Energy
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '114'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-04-25
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Metal
+- title:
+    id: reshiram
+    display: Reshiram
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2011-04-25
+    flavor: This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: blue-flare
+            display: Blue Flare
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard 2 {R} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2011-04-25
+    flavor: This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more damage for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bolt-strike
+            display: Bolt Strike
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 120
+          text: This Pokémon does 40 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: black-white
+      display: Black & White
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: blw
+      display: BLW
+  number:
+    number:
+      id: '115'
+      display: '115'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2011-04-25
+    flavor: This is an extremely rare Pikachu card. You’re very lucky to have found it!
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energize
+            display: Energize
+          cost:
+          - Lightning
+          text: Attach a {L} Energy card from your discard pile to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: thunderbolt
+            display: Thunderbolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard all Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times

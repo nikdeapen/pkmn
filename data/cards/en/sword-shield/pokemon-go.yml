@@ -1,0 +1,5708 @@
+- title:
+    id: bulbasaur
+    display: Bulbasaur
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '001'
+      display: '001'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sowsow
+      display: sowsow
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: ivysaur
+    display: Ivysaur
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '002'
+      display: '002'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: zig
+      display: zig
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bulbasaur
+          display: Bulbasaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: summoning-aroma
+            display: Summoning Aroma
+          cost:
+          - Grass
+          text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: venusaur
+    display: Venusaur
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '003'
+      display: '003'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: keiichiro-ito
+      display: KEIICHIRO ITO
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 180
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: ivysaur
+          display: Ivysaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: loopy-lasso
+            display: Loopy Lasso
+          text: Once during your turn, you may flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with their Active Pokémon, and the new Active Pokémon is now Asleep and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: solar-beam
+            display: Solar Beam
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 130
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: radiant-venusaur
+    display: Radiant Venusaur
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '004'
+      display: '004'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: misa-tsutsui
+      display: Misa Tsutsui
+    rarity:
+      id: radiant-rare
+      display: Radiant Rare
+    release_date: 2022-07-01
+    flavor: Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 150
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sunny-bloom
+            display: Sunny Bloom
+          text: Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 4 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: pollen-hazard
+            display: Pollen Hazard
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 90
+          text: Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: alolan-exeggutor-v
+    display: Alolan Exeggutor V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '005'
+      display: '005'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: mugenup
+      display: MUGENUP
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 103
+        name:
+          id: exeggutor
+          display: Exeggutor
+      hit_points: 240
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growing-tall
+            display: Growing Tall
+          cost:
+          - Grass
+          text: Flip a coin. If heads, search your deck for up to 5 {G} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: head-swing
+            display: Head Swing
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: This attack does 30 damage to 1 of your opponent’s Pokémon for each {G} Energy attached to this Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: spinarak
+    display: Spinarak
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '006'
+      display: '006'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: Although the poison from its fangs isn’t that strong, it’s potent enough to weaken prey that gets caught in its web.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 167
+        name:
+          id: spinarak
+          display: Spinarak
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: ariados
+    display: Ariados
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '007'
+      display: '007'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: misa-tsutsui
+      display: Misa Tsutsui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 168
+        name:
+          id: ariados
+          display: Ariados
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: spinarak
+          display: Spinarak
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-string-up
+            display: Poison String-Up
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: absorb
+            display: Absorb
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 50
+          text: Heal 50 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '008'
+      display: '008'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: saino-misaki
+      display: saino misaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-on-fire
+            display: Tail on Fire
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Search your deck for a {R} Energy card and attach it to this Pokémon. Then, shuffle your deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '009'
+      display: '009'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: shiburingaru
+      display: Shiburingaru
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard a {R} Energy from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charizard
+    display: Charizard
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '010'
+      display: '010'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 170
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: burn-brightly
+            display: Burn Brightly
+          text: Each basic {R} Energy attached to your Pokémon provides {R}{R} Energy. You can’t apply more than 1 Burn Brightly Ability at a time.
+      - var: Attack
+        val:
+          name:
+            id: flare-blitz
+            display: Flare Blitz
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 170
+          text: Discard all {R} Energy from this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: radiant-charizard
+    display: Radiant Charizard
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '011'
+      display: '011'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: radiant-rare
+      display: Radiant Rare
+    release_date: 2022-07-01
+    flavor: It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 160
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: excited-heart
+            display: Excited Heart
+          text: This Pokémon’s attacks cost {C} less for each Prize card your opponent has taken.
+      - var: Attack
+        val:
+          name:
+            id: combustion-blast
+            display: Combustion Blast
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 250
+          text: During your next turn, this Pokémon can’t use Combustion Blast.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: moltres
+    display: Moltres
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '012'
+      display: '012'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: pani-kobayashi
+      display: Pani Kobayashi
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It’s one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 146
+        name:
+          id: moltres
+          display: Moltres
+      hit_points: 120
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: flare-symbol
+            display: Flare Symbol
+          text: Your Basic {R} Pokémon’s attacks, except any Moltres, do 10 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: fire-wing
+            display: Fire Wing
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 110
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: numel
+    display: Numel
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '013'
+      display: '013'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: shibuzoh
+      display: Shibuzoh.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 322
+        name:
+          id: numel
+          display: Numel
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: camerupt
+    display: Camerupt
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '014'
+      display: '014'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: yuu
+      display: yuu
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 323
+        name:
+          id: camerupt
+          display: Camerupt
+      hit_points: 140
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: numel
+          display: Numel
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: split-bomb
+            display: Split Bomb
+          cost:
+          - Fire
+          - Colorless
+          text: This attack does 50 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: heat-blast
+            display: Heat Blast
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 120
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: squirtle
+    display: Squirtle
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '015'
+      display: '015'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sowsow
+      display: sowsow
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: When it retracts its long neck into its shell, it squirts out water with vigorous force.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 7
+        name:
+          id: squirtle
+          display: Squirtle
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: wartortle
+    display: Wartortle
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '016'
+      display: '016'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: kurumitsu
+      display: kurumitsu
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 8
+        name:
+          id: wartortle
+          display: Wartortle
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: squirtle
+          display: Squirtle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: This attack does 10 more damage for each {W} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: blastoise
+    display: Blastoise
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '017'
+      display: '017'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: nc-empire
+      display: NC Empire
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 9
+        name:
+          id: blastoise
+          display: Blastoise
+      hit_points: 170
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: wartortle
+          display: Wartortle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: vitality-spring
+            display: Vitality Spring
+          text: Once during your turn, you may search your deck for up to 6 Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. If you use this Ability, your turn ends.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Plus
+          text: This attack does 30 more damage for each {W} Energy attached to this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: radiant-blastoise
+    display: Radiant Blastoise
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '018'
+      display: '018'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: radiant-rare
+      display: Radiant Rare
+    release_date: 2022-07-01
+    flavor: It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 9
+        name:
+          id: blastoise
+          display: Blastoise
+      hit_points: 150
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: pump-shot
+            display: Pump Shot
+          text: You must discard a {W} Energy card from your hand in order to use this Ability. Once during your turn, you may put 2 damage counters on 1 of your opponent’s Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: torrential-cannon
+            display: Torrential Cannon
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 170
+          text: During your next turn, this Pokémon can’t use Torrential Cannon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '019'
+      display: '019'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: Slow-witted and oblivious, this Pokémon won’t feel any pain if its tail gets eaten. It won’t notice when its tail grows back, either.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hold-still
+            display: Hold Still
+          cost:
+          - Colorless
+          text: Heal 30 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: ideal-fishing-day
+            display: Ideal Fishing Day
+          cost:
+          - Water
+          text: Put an Item card from your discard pile into your hand.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowbro
+    display: Slowbro
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '020'
+      display: '020'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: mina-nakai
+      display: Mina Nakai
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 80
+        name:
+          id: slowbro
+          display: Slowbro
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tumbling-tackle
+            display: Tumbling Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Both Active Pokémon are now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: twilight-inspiration
+            display: Twilight Inspiration
+          cost:
+          - Colorless
+          - Colorless
+          text: You can use this attack only if your opponent has exactly 1 Prize card remaining. Take 2 Prize cards.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magikarp
+    display: Magikarp
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '021'
+      display: '021'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lively-grouping
+            display: Lively Grouping
+          cost:
+          - Colorless
+          text: Search your deck for any number of Magikarp, reveal them, and put them into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: raging-fin
+            display: Raging Fin
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 30 more damage for each Magikarp and Gyarados in your discard pile.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: gyarados
+    display: Gyarados
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '022'
+      display: '022'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 170
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wreak-havoc
+            display: Wreak Havoc
+          cost:
+          - Colorless
+          text: Flip a coin until you get tails. For each heads, discard the top 2 cards of your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: wild-splash
+            display: Wild Splash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 230
+          text: Discard the top 5 cards of your deck.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: lapras
+    display: Lapras
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '023'
+      display: '023'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 131
+        name:
+          id: lapras
+          display: Lapras
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ice-beam
+            display: Ice Beam
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 110
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: articuno
+    display: Articuno
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '024'
+      display: '024'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: jiro-sasumo
+      display: Jiro Sasumo
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It’s said that this Pokémon’s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: ice-symbol
+            display: Ice Symbol
+          text: Your Basic {W} Pokémon’s attacks, except any Articuno, do 10 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: freezing-wind
+            display: Freezing Wind
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 110
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: wimpod
+    display: Wimpod
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '025'
+      display: '025'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It’s nature’s cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 767
+        name:
+          id: wimpod
+          display: Wimpod
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: punk-out
+            display: Punk Out
+          text: If your opponent has any Pokémon V in play, this Pokémon has no Retreat Cost.
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: golisopod
+    display: Golisopod
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '026'
+      display: '026'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: otumami
+      display: otumami
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 768
+        name:
+          id: golisopod
+          display: Golisopod
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wimpod
+          display: Wimpod
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: first-impression
+            display: First Impression
+          cost:
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '027'
+      display: '027'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: buddy-bolt
+            display: Buddy Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If you played a Supporter card from your hand during this turn, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '028'
+      display: '028'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: narumi-sato
+      display: Narumi Sato
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wild-charge
+            display: Wild Charge
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 90
+          text: This Pokémon also does 30 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zapdos
+    display: Zapdos
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '029'
+      display: '029'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: yuya-oka
+      display: Yuya Oka
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 120
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: lightning-symbol
+            display: Lightning Symbol
+          text: Your Basic {L} Pokémon’s attacks, except any Zapdos, do 10 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: electric-ball
+            display: Electric Ball
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 110
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mewtwo-v
+    display: Mewtwo V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '030'
+      display: '030'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: nurikabe
+      display: Nurikabe
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 220
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-psy-bolt
+            display: Super Psy Bolt
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: transfer-break
+            display: Transfer Break
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 160
+          text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mewtwo-vstar
+    display: Mewtwo VSTAR
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '031'
+      display: '031'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-mochizuki
+      display: PLANETA Mochizuki
+    rarity:
+      id: holo-rare-vstar
+      display: Holo Rare VSTAR
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 280
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: vstar
+          display: VSTAR
+        evolves_from:
+        - id: mewtwo-v
+          display: Mewtwo V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psy-purge
+            display: Psy Purge
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Times
+          text: Discard up to 3 {P} Energy from your Pokémon. This attack does 90 damage for each card you discarded in this way.
+      - var: Text
+        val:
+          text: |-
+            VSTAR Power
+            {P}{C} → Star Raid
+
+            This attack does 120 damage to each of your opponent’s Pokémon V. This damage isn’t affected by Weakness or Resistance. (You can’t use more than 1 VSTAR Power in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: natu
+    display: Natu
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '032'
+      display: '032'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: hyogonosuke
+      display: HYOGONOSUKE
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 177
+        name:
+          id: natu
+          display: Natu
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nap
+            display: Nap
+          cost:
+          - Colorless
+          text: Heal 20 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: xatu
+    display: Xatu
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '033'
+      display: '033'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: hataya
+      display: Hataya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: They say that it stays still and quiet because it is seeing both the past and future at the same time.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 178
+        name:
+          id: xatu
+          display: Xatu
+      hit_points: 110
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: natu
+          display: Natu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pinpoint-wave
+            display: Pinpoint Wave
+          cost:
+          - Psychic
+          text: This attack does 90 damage to 1 of your opponent’s Pokémon V. This damage isn’t affected by Weakness or Resistance.
+      - var: Attack
+        val:
+          name:
+            id: mind-bend
+            display: Mind Bend
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+          text: Your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lunatone
+    display: Lunatone
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '034'
+      display: '034'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: miki-kudo
+      display: miki kudo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: The phase of the moon apparently has some effect on its power. It’s active on the night of a full moon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 337
+        name:
+          id: lunatone
+          display: Lunatone
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cycle-draw
+            display: Cycle Draw
+          cost:
+          - Psychic
+          text: Discard a card from your hand. If you do, draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: moon-kinesis
+            display: Moon Kinesis
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: This attack does 30 more damage for each {P} Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sylveon
+    display: Sylveon
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '035'
+      display: '035'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: atsushi-furusawa
+      display: Atsushi Furusawa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 700
+        name:
+          id: sylveon
+          display: Sylveon
+      hit_points: 120
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: souvenir
+            display: Souvenir
+          cost:
+          - Psychic
+          text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: wonder-flash
+            display: Wonder Flash
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Plus
+          text: If your opponent’s Active Pokémon is a {N} Pokémon, this attack does 90 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: onix
+    display: Onix
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '036'
+      display: '036'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 95
+        name:
+          id: onix
+          display: Onix
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-tomb
+            display: Rock Tomb
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+      - var: Attack
+        val:
+          name:
+            id: raging-swing
+            display: Raging Swing
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: This attack does 50 damage for each damage counter on this Pokémon.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: larvitar
+    display: Larvitar
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '037'
+      display: '037'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 246
+        name:
+          id: larvitar
+          display: Larvitar
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-smash
+            display: Rock Smash
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: pupitar
+    display: Pupitar
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '038'
+      display: '038'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 247
+        name:
+          id: pupitar
+          display: Pupitar
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: larvitar
+          display: Larvitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crashing-bullet
+            display: Crashing Bullet
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack also does 20 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: solrock
+    display: Solrock
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '039'
+      display: '039'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sekio
+      display: Sekio
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: When it rotates itself, it gives off light similar to the sun, thus blinding its foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 338
+        name:
+          id: solrock
+          display: Solrock
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sun-energy
+            display: Sun Energy
+          text: Once during your turn, you may attach a {P} Energy card from your discard pile to 1 of your Lunatone.
+      - var: Attack
+        val:
+          name:
+            id: spinning-attack
+            display: Spinning Attack
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: conkeldurr-v
+    display: Conkeldurr V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '040'
+      display: '040'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 534
+        name:
+          id: conkeldurr
+          display: Conkeldurr
+      hit_points: 230
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: counter
+            display: Counter
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does that much more damage.
+      - var: Attack
+        val:
+          name:
+            id: dynamic-punch
+            display: Dynamic Punch
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 90 more damage, and your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: alolan-rattata
+    display: Alolan Rattata
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '041'
+      display: '041'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: kiyotaka-oshiyama
+      display: KIYOTAKA OSHIYAMA
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: Night after night, they sneak into people’s homes seeking food. A massive outbreak of them has become an issue of public concern.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 40
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-fang
+            display: Hyper Fang
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: alolan-raticate
+    display: Alolan Raticate
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '042'
+      display: '042'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It commands a nest of Rattata. Different nests don’t get along, whipping up severe fights over feeding grounds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 120
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: alolan-rattata
+          display: Alolan Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: chase-up
+            display: Chase Up
+          cost:
+          - Darkness
+          text: Search your deck for a card and put it into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: super-fang
+            display: Super Fang
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Put damage counters on your opponent’s Active Pokémon until its remaining HP is 10.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyranitar
+    display: Tyranitar
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '043'
+      display: '043'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: nisota-niso
+      display: Nisota Niso
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 248
+        name:
+          id: tyranitar
+          display: Tyranitar
+      hit_points: 180
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pupitar
+          display: Pupitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raging-crash
+            display: Raging Crash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: This attack does 10 damage for each damage counter on all of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: earthquake
+            display: Earthquake
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 180
+          text: This attack also does 20 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: steelix
+    display: Steelix
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '044'
+      display: '044'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: gossan
+      display: GOSSAN
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 180
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: onix
+          display: Onix
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: iron-buster
+            display: Iron Buster
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 170
+          text: During your next turn, this Pokémon can’t attack.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: meltan
+    display: Meltan
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '045'
+      display: '045'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 808
+        name:
+          id: meltan
+          display: Meltan
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-shock
+            display: Thunder Shock
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: melmetal
+    display: Melmetal
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '046'
+      display: '046'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 809
+        name:
+          id: melmetal
+          display: Melmetal
+      hit_points: 160
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: meltan
+          display: Meltan
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      - var: Attack
+        val:
+          name:
+            id: swinging-smash
+            display: Swinging Smash
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip 2 coins. This attack does 90 more damage for each heads.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: melmetal-v
+    display: Melmetal V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '047'
+      display: '047'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sadaji
+      display: sadaji
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 809
+        name:
+          id: melmetal
+          display: Melmetal
+      hit_points: 220
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: arm-charge
+            display: Arm Charge
+          cost:
+          - Metal
+          - Metal
+          damage:
+            scalar: 50
+          text: You may attach a {M} Energy card from your hand to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: mega-punch
+            display: Mega Punch
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          damage:
+            scalar: 140
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: melmetal-vmax
+    display: Melmetal VMAX
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '048'
+      display: '048'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-tsuji
+      display: PLANETA Tsuji
+    rarity:
+      id: holo-rare-vmax
+      display: Holo Rare VMAX
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 809
+        name:
+          id: melmetal
+          display: Melmetal
+      hit_points: 330
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: vmax
+          display: VMAX
+        evolves_from:
+        - id: melmetal-v
+          display: Melmetal V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: g-max-juggernaut
+            display: G-Max Juggernaut
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          damage:
+            scalar: 160
+            modifier: Plus
+          text: This attack does 60 more damage for each extra {M} Energy attached to this Pokémon (in addition to this attack’s cost). You can’t add more than 120 damage in this way.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dragonite-v
+    display: Dragonite V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '049'
+      display: '049'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 230
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Water
+          - Lightning
+          damage:
+            scalar: 60
+          text: Discard an Energy from your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: buster-tail
+            display: Buster Tail
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 160
+      retreat_cost: 2
+- title:
+    id: dragonite-vstar
+    display: Dragonite VSTAR
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '050'
+      display: '050'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-tsuji
+      display: PLANETA Tsuji
+    rarity:
+      id: holo-rare-vstar
+      display: Holo Rare VSTAR
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 280
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: vstar
+          display: VSTAR
+        evolves_from:
+        - id: dragonite-v
+          display: Dragonite V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: giga-impact
+            display: Giga Impact
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 250
+          text: During your next turn, this Pokémon can’t attack.
+      - var: Text
+        val:
+          text: |-
+            VSTAR Power
+            {C} → Draconic Star
+
+            Look at the top 12 cards of your deck and attach any number of {W} or {L} Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck. (You can’t use more than 1 VSTAR Power in a game.)
+      retreat_cost: 2
+- title:
+    id: chansey
+    display: Chansey
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '051'
+      display: '051'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: ryoma-uratsuka
+      display: ryoma uratsuka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: The egg Chansey carries is not only delicious but also packed with nutrition. It’s used as a high-class cooking ingredient.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 113
+        name:
+          id: chansey
+          display: Chansey
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: delicious-egg
+            display: Delicious Egg
+          cost:
+          - Colorless
+          text: Heal 30 damage from 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: gentle-slap
+            display: Gentle Slap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: blissey
+    display: Blissey
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '052'
+      display: '052'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: teeziro
+      display: Teeziro
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 242
+        name:
+          id: blissey
+          display: Blissey
+      hit_points: 200
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: chansey
+          display: Chansey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: enriching-egg
+            display: Enriching Egg
+          cost:
+          - Colorless
+          text: Heal all damage from 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: zen-headbutt
+            display: Zen Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '053'
+      display: '053'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: misa-tsutsui
+      display: Misa Tsutsui
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sudden-transformation
+            display: Sudden Transformation
+          text: This Pokémon can use the attacks of any Basic Pokémon in your discard pile, except for Pokémon with a Rule Box (Pokémon V, Pokémon-GX, etc. have Rule Boxes). (You still need the necessary Energy to use each attack.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '054'
+      display: '054'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It has the ability to alter the composition of its body to suit its surrounding environment.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: whiny-voice
+            display: Whiny Voice
+          cost:
+          - Colorless
+          text: Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into their deck.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: snorlax
+    display: Snorlax
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '055'
+      display: '055'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2022-07-01
+    flavor: It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 143
+        name:
+          id: snorlax
+          display: Snorlax
+      hit_points: 150
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: block
+            display: Block
+          text: As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon can’t retreat.
+      - var: Attack
+        val:
+          name:
+            id: collapse
+            display: Collapse
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 150
+          text: This Pokémon is now Asleep.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: aipom
+    display: Aipom
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '056'
+      display: '056'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 190
+        name:
+          id: aipom
+          display: Aipom
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bustle
+            display: Bustle
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slap
+            display: Slap
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ambipom
+    display: Ambipom
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '057'
+      display: '057'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: scav
+      display: Scav
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that’s proof it really likes you.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 424
+        name:
+          id: ambipom
+          display: Ambipom
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: aipom
+          display: Aipom
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: primate-dexterity
+            display: Primate Dexterity
+          text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+      - var: Attack
+        val:
+          name:
+            id: full-tilt-fling
+            display: Full Tilt Fling
+          cost:
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: slaking-v
+    display: Slaking V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '058'
+      display: '058'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: saki-hayashiro
+      display: Saki Hayashiro
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 289
+        name:
+          id: slaking
+          display: Slaking
+      hit_points: 230
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: kinda-lazy
+            display: Kinda Lazy
+          text: If you have exactly 2, 4, or 6 Prize cards remaining, this Pokémon can’t attack.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 260
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bidoof
+    display: Bidoof
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '059'
+      display: '059'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 399
+        name:
+          id: bidoof
+          display: Bidoof
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: take-down
+            display: Take Down
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This Pokémon also does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bibarel
+    display: Bibarel
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '060'
+      display: '060'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: kiyotaka-oshiyama
+      display: KIYOTAKA OSHIYAMA
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 400
+        name:
+          id: bibarel
+          display: Bibarel
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bidoof
+          display: Bidoof
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: reassuring-dam
+            display: Reassuring Dam
+          text: As long as this Pokémon is on your Bench, cards in your deck can’t be discarded by effects of your opponent’s attacks, Abilities, Item cards, or Supporter cards.
+      - var: Attack
+        val:
+          name:
+            id: hammer-in
+            display: Hammer In
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidove
+    display: Pidove
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '061'
+      display: '061'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: Where people go, these Pokémon follow. If you’re scattering food for them, be careful— several hundred of them can gather at once.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 519
+        name:
+          id: pidove
+          display: Pidove
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growl
+            display: Growl
+          cost:
+          - Colorless
+          text: During your opponent’s next turn, the Defending Pokémon’s attacks do 20 less damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: flap
+            display: Flap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: tranquill
+    display: Tranquill
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '062'
+      display: '062'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: '0313'
+      display: '0313'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2022-07-01
+    flavor: It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 520
+        name:
+          id: tranquill
+          display: Tranquill
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pidove
+          display: Pidove
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aerial-ace
+            display: Aerial Ace
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: flap
+            display: Flap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: unfezant
+    display: Unfezant
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '063'
+      display: '063'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: gidora
+      display: GIDORA
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+    flavor: Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 521
+        name:
+          id: unfezant
+          display: Unfezant
+      hit_points: 140
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: tranquill
+          display: Tranquill
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: hurricane-wing
+            display: Hurricane Wing
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Times
+          text: Flip 4 coins. This attack does 70 damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: blanche
+    display: Blanche
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '064'
+      display: '064'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: anesaki-dynamic
+      display: Anesaki Dynamic
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a {W} Energy card from your discard pile to 1 of your Benched Pokémon.
+      sub: Supporter
+- title:
+    id: candela
+    display: Candela
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '065'
+      display: '065'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: ryuta-fuse
+      display: Ryuta Fuse
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a {R} Energy card from your discard pile to 1 of your Benched Pokémon.
+      sub: Supporter
+- title:
+    id: egg-incubator
+    display: Egg Incubator
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '066'
+      display: '066'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sadaji
+      display: sadaji
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Basic Pokémon, put it onto your Bench, and shuffle your deck. If tails, put this Egg Incubator on the bottom of your deck instead of in the discard pile.
+      sub: Item
+- title:
+    id: lure-module
+    display: Lure Module
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '067'
+      display: '067'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: orbitallink-inc
+      display: ORBITALLINK Inc.
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Each player reveals the top 3 cards of their deck and puts all Pokémon they find there into their hand. Then, each player shuffles the other cards back into their deck.
+      sub: Item
+- title:
+    id: pokestop
+    display: PokéStop
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '068'
+      display: '068'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: studio-bora-inc
+      display: Studio Bora Inc.
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Once during each player’s turn, that player may discard 3 cards from the top of their deck. If a player discarded any Item cards in this way, they put those Item cards into their hand.
+      sub: Stadium
+- title:
+    id: rare-candy
+    display: Rare Candy
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '069'
+      display: '069'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can’t use this card during your first turn or on a Basic Pokémon that was put into play this turn.
+      sub: Item
+- title:
+    id: spark
+    display: Spark
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '070'
+      display: '070'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a {L} Energy card from your discard pile to 1 of your Benched Pokémon.
+      sub: Supporter
+- title:
+    id: alolan-exeggutor-v
+    display: Alolan Exeggutor V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '071'
+      display: '071'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: mugenup
+      display: MUGENUP
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 103
+        name:
+          id: exeggutor
+          display: Exeggutor
+      hit_points: 240
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growing-tall
+            display: Growing Tall
+          cost:
+          - Grass
+          text: Flip a coin. If heads, search your deck for up to 5 {G} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: head-swing
+            display: Head Swing
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: This attack does 30 damage to 1 of your opponent’s Pokémon for each {G} Energy attached to this Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: mewtwo-v
+    display: Mewtwo V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '072'
+      display: '072'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 220
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-psy-bolt
+            display: Super Psy Bolt
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: transfer-break
+            display: Transfer Break
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 160
+          text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: conkeldurr-v
+    display: Conkeldurr V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '073'
+      display: '073'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 534
+        name:
+          id: conkeldurr
+          display: Conkeldurr
+      hit_points: 230
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: counter
+            display: Counter
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does that much more damage.
+      - var: Attack
+        val:
+          name:
+            id: dynamic-punch
+            display: Dynamic Punch
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 90 more damage, and your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: conkeldurr-v
+    display: Conkeldurr V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '074'
+      display: '074'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: n-design-inc
+      display: N-DESIGN Inc.
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 534
+        name:
+          id: conkeldurr
+          display: Conkeldurr
+      hit_points: 230
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: counter
+            display: Counter
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does that much more damage.
+      - var: Attack
+        val:
+          name:
+            id: dynamic-punch
+            display: Dynamic Punch
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 90 more damage, and your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: melmetal-v
+    display: Melmetal V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '075'
+      display: '075'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sadaji
+      display: sadaji
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 809
+        name:
+          id: melmetal
+          display: Melmetal
+      hit_points: 220
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: arm-charge
+            display: Arm Charge
+          cost:
+          - Metal
+          - Metal
+          damage:
+            scalar: 50
+          text: You may attach a {M} Energy card from your hand to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: mega-punch
+            display: Mega Punch
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          damage:
+            scalar: 140
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dragonite-v
+    display: Dragonite V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '076'
+      display: '076'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 230
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Water
+          - Lightning
+          damage:
+            scalar: 60
+          text: Discard an Energy from your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: buster-tail
+            display: Buster Tail
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 160
+      retreat_cost: 2
+- title:
+    id: slaking-v
+    display: Slaking V
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '077'
+      display: '077'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: saki-hayashiro
+      display: Saki Hayashiro
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 289
+        name:
+          id: slaking
+          display: Slaking
+      hit_points: 230
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: kinda-lazy
+            display: Kinda Lazy
+          text: If you have exactly 2, 4, or 6 Prize cards remaining, this Pokémon can’t attack.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 260
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: professors-research
+    display: Professor's Research
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '078'
+      display: '078'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: yusuke-kozaki
+      display: Yusuke Kozaki
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: mewtwo-vstar
+    display: Mewtwo VSTAR
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '079'
+      display: '079'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-mochizuki
+      display: PLANETA Mochizuki
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 280
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: vstar
+          display: VSTAR
+        evolves_from:
+        - id: mewtwo-v
+          display: Mewtwo V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psy-purge
+            display: Psy Purge
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Times
+          text: Discard up to 3 {P} Energy from your Pokémon. This attack does 90 damage for each card you discarded in this way.
+      - var: Text
+        val:
+          text: |-
+            VSTAR Power
+            {P}{C} → Star Raid
+
+            This attack does 120 damage to each of your opponent’s Pokémon V. This damage isn’t affected by Weakness or Resistance. (You can’t use more than 1 VSTAR Power in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: melmetal-vmax
+    display: Melmetal VMAX
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '080'
+      display: '080'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-tsuji
+      display: PLANETA Tsuji
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 809
+        name:
+          id: melmetal
+          display: Melmetal
+      hit_points: 330
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: vmax
+          display: VMAX
+        evolves_from:
+        - id: melmetal-v
+          display: Melmetal V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: g-max-juggernaut
+            display: G-Max Juggernaut
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          damage:
+            scalar: 160
+            modifier: Plus
+          text: This attack does 60 more damage for each extra {M} Energy attached to this Pokémon (in addition to this attack’s cost). You can’t add more than 120 damage in this way.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dragonite-vstar
+    display: Dragonite VSTAR
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '081'
+      display: '081'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-tsuji
+      display: PLANETA Tsuji
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 280
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: vstar
+          display: VSTAR
+        evolves_from:
+        - id: dragonite-v
+          display: Dragonite V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: giga-impact
+            display: Giga Impact
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 250
+          text: During your next turn, this Pokémon can’t attack.
+      - var: Text
+        val:
+          text: |-
+            VSTAR Power
+            {C} → Draconic Star
+
+            Look at the top 12 cards of your deck and attach any number of {W} or {L} Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck. (You can’t use more than 1 VSTAR Power in a game.)
+      retreat_cost: 2
+- title:
+    id: blanche
+    display: Blanche
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '082'
+      display: '082'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: anesaki-dynamic
+      display: Anesaki Dynamic
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a {W} Energy card from your discard pile to 1 of your Benched Pokémon.
+      sub: Supporter
+- title:
+    id: candela
+    display: Candela
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '083'
+      display: '083'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: ryuta-fuse
+      display: Ryuta Fuse
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a {R} Energy card from your discard pile to 1 of your Benched Pokémon.
+      sub: Supporter
+- title:
+    id: professors-research
+    display: Professor's Research
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '084'
+      display: '084'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: yusuke-kozaki
+      display: Yusuke Kozaki
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: spark
+    display: Spark
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '085'
+      display: '085'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a {L} Energy card from your discard pile to 1 of your Benched Pokémon.
+      sub: Supporter
+- title:
+    id: mewtwo-vstar
+    display: Mewtwo VSTAR
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '086'
+      display: '086'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: planeta-mochizuki
+      display: PLANETA Mochizuki
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2022-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 280
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: vstar
+          display: VSTAR
+        evolves_from:
+        - id: mewtwo-v
+          display: Mewtwo V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psy-purge
+            display: Psy Purge
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Times
+          text: Discard up to 3 {P} Energy from your Pokémon. This attack does 90 damage for each card you discarded in this way.
+      - var: Text
+        val:
+          text: |-
+            VSTAR Power
+            {P}{C} → Star Raid
+
+            This attack does 120 damage to each of your opponent’s Pokémon V. This damage isn’t affected by Weakness or Resistance. (You can’t use more than 1 VSTAR Power in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: egg-incubator
+    display: Egg Incubator
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '087'
+      display: '087'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: sadaji
+      display: sadaji
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Basic Pokémon, put it onto your Bench, and shuffle your deck. If tails, put this Egg Incubator on the bottom of your deck instead of in the discard pile.
+      sub: Item
+- title:
+    id: lure-module
+    display: Lure Module
+  set:
+    name:
+      id: pokemon-go
+      display: Pokémon GO
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: pgo
+      display: PGO
+  number:
+    number:
+      id: '088'
+      display: '088'
+    printed_total: '078'
+  meta:
+    artists:
+    - id: orbitallink-inc
+      display: ORBITALLINK Inc.
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2022-07-01
+  sub:
+    var: Trainer
+    val:
+      text: Each player reveals the top 3 cards of their deck and puts all Pokémon they find there into their hand. Then, each player shuffles the other cards back into their deck.
+      sub: Item

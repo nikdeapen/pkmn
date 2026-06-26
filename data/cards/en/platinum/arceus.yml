@@ -1,0 +1,8009 @@
+- title:
+    id: charizard
+    display: Charizard
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '60'
+      display: '60'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 140
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: fire-formation
+            display: Fire Formation
+          text: Each of Charizard’s attacks does 10 more damage for each {R} Pokémon on your Bench to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: fire-wing
+            display: Fire Wing
+          cost:
+          - Fire
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: burning-tail
+            display: Burning Tail
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard a {R} Energy attached to Charizard.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: froslass
+    display: Froslass
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 478
+        name:
+          id: froslass
+          display: Froslass
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snorunt
+          display: Snorunt
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: snow-gift
+            display: Snow Gift
+          text: Once during your turn, when you play Froslass from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: ground-frost
+            display: Ground Frost
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+          text: If there is any Stadium Card in play, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Plus
+- title:
+    id: heatran
+    display: Heatran
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: keiko-moritsugu
+      display: Keiko Moritsugu
+    level:
+      id: '58'
+      display: '58'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: Its body is made of rugged steel. However, it is partially melted in spots because of its own heat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 485
+        name:
+          id: heatran
+          display: Heatran
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-fang
+            display: Fire Fang
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: magma-mantle
+            display: Magma Mantle
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each {R} or {M} Energy card you discarded.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kabutops
+    display: Kabutops
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    level:
+      id: '59'
+      display: '59'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: It is thought that this Pokémon came onto land because its prey adapted to life on land.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 141
+        name:
+          id: kabutops
+          display: Kabutops
+      hit_points: 130
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kabuto
+          display: Kabuto
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: primal-scythe
+            display: Primal Scythe
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: You may discard Helix Fossil, Dome Fossil, or Old Amber from your hand. If you do, this attack does 20 damage plus 50 more damage.
+      - var: Attack
+        val:
+          name:
+            id: rock-slide
+            display: Rock Slide
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Plus
+- title:
+    id: luxray
+    display: Luxray
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    level:
+      id: '53'
+      display: '53'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: It can see clearly through walls to track down its prey and seek its lost young.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 405
+        name:
+          id: luxray
+          display: Luxray
+      hit_points: 120
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: luxio
+          display: Luxio
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flash
+            display: Flash
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: gadget-bolt
+            display: Gadget Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: If Luxray has a Pokémon Tool card attached to it, you may do 100 damage instead of 60 to the Defending Pokémon. If you do, discard that Pokémon Tool card.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mothim
+    display: Mothim
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '43'
+      display: '43'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from Combee.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 414
+        name:
+          id: mothim
+          display: Mothim
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: burmy
+          display: Burmy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cloak-party
+            display: Cloak Party
+          cost: []
+          text: Search your deck for up to 3 in any combination of Burmy and Wormadam, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: energy-assist
+            display: Energy Assist
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+          text: Seach your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: probopass
+    display: Probopass
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '55'
+      display: '55'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 476
+        name:
+          id: probopass
+          display: Probopass
+      hit_points: 100
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nosepass
+          display: Nosepass
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: competitiveness
+            display: Competitiveness
+          text: If you don’t have a Supporter card in play, each of Probopass’s attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: top-chop
+            display: Top Chop
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: tumbling-attack
+            display: Tumbling Attack
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 damage plus 30 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: salamence
+    display: Salamence
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    level:
+      id: '68'
+      display: '68'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 140
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: shelgon
+          display: Shelgon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: top-accelerator
+            display: Top Accelerator
+          text: Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If that card isn’t a basic Energy card, discard it. This power can’t be used if Salamence is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: shoot-through
+            display: Shoot Through
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+          text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swalot
+    display: Swalot
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 317
+        name:
+          id: swalot
+          display: Swalot
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gulpin
+          display: Gulpin
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: damage-roller
+            display: Damage Roller
+          cost:
+          - Psychic
+          text: Put damage counters on the Defending Pokémon until the Defending Pokémon has the same remaining HP as Swalot. (If the Defending Pokémon has the same or less remaining HP as Swalot, this attack does nothing.)
+      - var: Attack
+        val:
+          name:
+            id: entangle-tackle
+            display: Entangle Tackle
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: You may do 50 damage plus 30 more damage. If you do, this attack does 30 damage to 1 of your Pokémon, and don’t apply Weakness and Resistance to this damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: tangrowth
+    display: Tangrowth
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '48'
+      display: '48'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: Its arms are made of plants that bind themselves to things. They grow back right away if cut.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 465
+        name:
+          id: tangrowth
+          display: Tangrowth
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tangela
+          display: Tangela
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-guard
+            display: Leaf Guard
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, any damage done to Tangrowth by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: swallow-up
+            display: Swallow Up
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Before doing damage, count the remaining HP of the Defending Pokémon and Tangrowth. If the Defending Pokémon has fewer remaining HP than Tangrowth’s, this attack does 120 damage instead.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: toxicroak
+    display: Toxicroak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '44'
+      display: '44'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+    flavor: It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 454
+        name:
+          id: toxicroak
+          display: Toxicroak
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: croagunk
+          display: Croagunk
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corner
+            display: Corner
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: convert-blow
+            display: Convert Blow
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If Toxicroak has any {P} Energy attached to it, the Defending Pokémon is now Poisoned. If Toxicroak has any {F} Energy attached to it, this attack does 30 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: zapdos-g
+    display: Zapdos G
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryota-saito
+      display: Ryota Saito
+    level:
+      id: '60'
+      display: '60'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: charge-beam
+            display: Charge Beam
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, search your discard pile for an Energy card and attach it to Zapdos G.
+      - var: Attack
+        val:
+          name:
+            id: lightning-strike
+            display: Lightning Strike
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 40
+          text: You may discard all {L} attached to Zapdos G. If you do, this attack’s base damage is 80 instead of 40.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: aerodactyl
+    display: Aerodactyl
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '47'
+      display: '47'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 142
+        name:
+          id: aerodactyl
+          display: Aerodactyl
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: old-amber
+          display: Old Amber
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: unearth
+            display: Unearth
+          text: Once during your turn (before your attack), you may search your deck for Helix Fossil, Dome Fossil, or Old Amber, show it your opponent, and put it into your hand. Shuffle your deck afterward. This power can’t be used if Aerodactyl is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bronzong
+    display: Bronzong
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '49'
+      display: '49'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 437
+        name:
+          id: bronzong
+          display: Bronzong
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bronzor
+          display: Bronzor
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: oracle-arrow
+            display: Oracle Arrow
+          cost:
+          - Metal
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: antigravity
+            display: Antigravity
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Retreat Cost for Bronzong is 0 until the end of your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: cherrim
+    display: Cherrim
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: If it senses strong sunlight, it opens its folded petals to absorb the sun’s rays with its whole body.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 421
+        name:
+          id: cherrim
+          display: Cherrim
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cherubi
+          display: Cherubi
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: cloudy-sky
+            display: Cloudy Sky
+          text: If any of your {G} Pokémon or {R} Pokémon would be damaged by an attack, reduce that damage by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: worry-seed
+            display: Worry Seed
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gengar
+    display: Gengar
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '44'
+      display: '44'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 94
+        name:
+          id: gengar
+          display: Gengar
+      hit_points: 110
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: haunter
+          display: Haunter
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: curse
+            display: Curse
+          text: Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent’s Pokémon to another of your opponent’s Pokémon. This power can’t be used if Gengar is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: shadow-skip
+            display: Shadow Skip
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+          text: Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) You may switch Gengar with 1 of your Benched Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gengar
+    display: Gengar
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 94
+        name:
+          id: gengar
+          display: Gengar
+      hit_points: 120
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: haunter
+          display: Haunter
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sharpshooting
+            display: Sharpshooting
+          cost:
+          - Psychic
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: poison-jab
+            display: Poison Jab
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: glalie
+    display: Glalie
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: hiroki-fuchino
+      display: Hiroki Fuchino
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It prevents prey from escaping by instantaneously freezing moisture in the air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 362
+        name:
+          id: glalie
+          display: Glalie
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snorunt
+          display: Snorunt
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wreck
+            display: Wreck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If there is any Stadium card in play, this attack does 20 damage plus 50 more damage. Discard that Stadium card.
+      - var: Attack
+        val:
+          name:
+            id: avalanche
+            display: Avalanche
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Plus
+- title:
+    id: golem
+    display: Golem
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '56'
+      display: '56'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 76
+        name:
+          id: golem
+          display: Golem
+      hit_points: 140
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: graveler
+          display: Graveler
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge-out
+            display: Lunge Out
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: tumble-down
+            display: Tumble Down
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Discard as many {F} Energy cards as you like from your hand. The attack does 30 damage times the number of {F} Energy cards you discarded.
+      - var: Attack
+        val:
+          name:
+            id: rock-tumble
+            display: Rock Tumble
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hariyama
+    display: Hariyama
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 297
+        name:
+          id: hariyama
+          display: Hariyama
+      hit_points: 110
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: makuhita
+          display: Makuhita
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: push-out
+            display: Push Out
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: vortex-chop
+            display: Vortex Chop
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: If the Defending Pokémon has any Resistance, this attack’s base damage is 120 instead of 60.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Plus
+- title:
+    id: lopunny
+    display: Lopunny
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 428
+        name:
+          id: lopunny
+          display: Lopunny
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: buneary
+          display: Buneary
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: relaxing-shower
+            display: Relaxing Shower
+          text: Once during your turn (before your attack), you may discard an Energy card from your hand. If you do, remove 1 damage counter from each of your Pokémon. This power can’t be used if Lopunny is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: hover-heal
+            display: Hover Heal
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Remove all Special Conditions from Lopunny.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: manectric
+    display: Manectric
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: mana-ibe
+      display: Mana Ibe
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 310
+        name:
+          id: manectric
+          display: Manectric
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: electrike
+          display: Electrike
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: second-bite
+            display: Second Bite
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: omastar
+    display: Omastar
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    level:
+      id: '55'
+      display: '55'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is thought that this Pokémon became extinct because its spiral shell grew too large.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 139
+        name:
+          id: omastar
+          display: Omastar
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: omanyte
+          display: Omanyte
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: time-spiral
+            display: Time Spiral
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Evolved Pokémon. Remove the highest Stage Evolution card from that Pokémon and have your opponent shuffle that card into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: primal-tentacles
+            display: Primal Tentacles
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each Helix Fossil, Dome Fossil, and Old Amber in your discard pile.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Plus
+- title:
+    id: pelipper
+    display: Pelipper
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '50'
+      display: '50'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 279
+        name:
+          id: pelipper
+          display: Pelipper
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wingull
+          display: Wingull
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-pulse
+            display: Water Pulse
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: continuous-crush
+            display: Continuous Crush
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pichu
+    display: Pichu
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 172
+        name:
+          id: pichu
+          display: Pichu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: baby-evolution
+            display: Baby Evolution
+          text: Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.
+      - var: Attack
+        val:
+          name:
+            id: baby-steps
+            display: Baby Steps
+          cost: []
+          text: Look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Shuffle the other cards back into your deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: porygon-z-g
+    display: Porygon-Z G
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: nobuyuki-fujimoto
+      display: Nobuyuki Fujimoto
+    level:
+      id: '56'
+      display: '56'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 474
+        name:
+          id: porygon-z
+          display: Porygon-Z
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: dowsing-code
+            display: Dowsing Code
+          text: Once during your turn, when you put Porygon-Z G from your hand onto your Bench, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and shuffle them into your deck.
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: raichu
+    display: Raichu
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: Its tail discharges electricity into the ground, protecting it from getting shocked.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pikachu
+          display: Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: boosted-voltage
+            display: Boosted Voltage
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+          text: If Raichu has a Pokémon Tool card attached to it, this attack does 20 damage to each of your opponent’s Benched Pokémon that isn’t an Evolved Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: thunder-blast
+            display: Thunder Blast
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard a {L} Energy card attached to Raichu.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: rapidash
+    display: Rapidash
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: lee-hyunjung
+      display: Lee HyunJung
+    level:
+      id: '41'
+      display: '41'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ponyta
+          display: Ponyta
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: wild-guard
+            display: Wild Guard
+          text: Prevent all effects of attacks, including damage, done to Rapidash by your opponent’s Pokémon SP.
+      - var: Attack
+        val:
+          name:
+            id: fire-mane
+            display: Fire Mane
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: rising-lunge
+            display: Rising Lunge
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Plus
+- title:
+    id: raticate
+    display: Raticate
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rattata
+          display: Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: recruit
+            display: Recruit
+          cost:
+          - Colorless
+          text: Look at your opponent’s hand, choose a Supporter card you find there, and discard it. Then, use the effect of that card as the effect of this attack.
+      - var: Attack
+        val:
+          name:
+            id: extend-fang
+            display: Extend Fang
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If Raticate has a Pokémon Tool card attached to it, this attack does 20 damage plus 40 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: sceptile
+    display: Sceptile
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: reiko-tanoue
+      display: Reiko Tanoue
+    level:
+      id: '57'
+      display: '57'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 254
+        name:
+          id: sceptile
+          display: Sceptile
+      hit_points: 120
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: grovyle
+          display: Grovyle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: green-breath
+            display: Green Breath
+          text: When you attach a {G} Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.
+      - var: Attack
+        val:
+          name:
+            id: leaf-blast
+            display: Leaf Blast
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the amount of {G} Energy attached to Sceptile.
+      - var: Attack
+        val:
+          name:
+            id: poison-claws
+            display: Poison Claws
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sceptile
+    display: Sceptile
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '59'
+      display: '59'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 254
+        name:
+          id: sceptile
+          display: Sceptile
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: grovyle
+          display: Grovyle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-supply
+            display: Leaf Supply
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+          text: You may attach a basic Energy card from your hand to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: dual-cut
+            display: Dual Cut
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Times
+          text: Flip 2 coins. This attack does 70 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: spiritomb
+    display: Spiritomb
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 442
+        name:
+          id: spiritomb
+          display: Spiritomb
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: keystone-seal
+            display: Keystone Seal
+          text: As long as Spiritomb is your Active Pokémon, each player can’t play any Trainer cards from his or her hand.
+      - var: Attack
+        val:
+          name:
+            id: darkness-grace
+            display: Darkness Grace
+          cost: []
+          text: Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) If you do, put 1 damage counter on Spiritomb. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: will-o-the-wisp
+            display: Will-o'-the-wisp
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bronzong
+    display: Bronzong
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 437
+        name:
+          id: bronzong
+          display: Bronzong
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bronzor
+          display: Bronzor
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wide-laser
+            display: Wide Laser
+          cost:
+          - Metal
+          text: This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bronzor
+    display: Bronzor
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: There are researchers who believe this Pokémon reflected like a mirror in the distant past.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 436
+        name:
+          id: bronzor
+          display: Bronzor
+      hit_points: 50
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: speed-dive
+            display: Speed Dive
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: extrasensory
+            display: Extrasensory
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 30 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: fire-punch
+            display: Fire Punch
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Plus
+- title:
+    id: gastly
+    display: Gastly
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 92
+        name:
+          id: gastly
+          display: Gastly
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lick
+            display: Lick
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: night-shade
+            display: Night Shade
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: graveler
+    display: Graveler
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 75
+        name:
+          id: graveler
+          display: Graveler
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: geodude
+          display: Geodude
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-edge
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 70
+          text: Graveler does 10 damage to itself.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: grovyle
+    display: Grovyle
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: tomoaki-imakuni
+      display: Tomoaki Imakuni
+    level:
+      id: '28'
+      display: '28'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 253
+        name:
+          id: grovyle
+          display: Grovyle
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: treecko
+          display: Treecko
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: detect
+            display: Detect
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Grovyle during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: blade-arms
+            display: Blade Arms
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: grovyle
+    display: Grovyle
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '24'
+      display: '24'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 253
+        name:
+          id: grovyle
+          display: Grovyle
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: treecko
+          display: Treecko
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: cut
+            display: Cut
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gulpin
+    display: Gulpin
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 316
+        name:
+          id: gulpin
+          display: Gulpin
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: endure
+            display: Endure
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, if Gulpin would be Knocked Out by damage from an attack, Gulpin is not Knocked Out and its remaining HP becomes 10 instead.
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: haunter
+    display: Haunter
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 93
+        name:
+          id: haunter
+          display: Haunter
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gastly
+          display: Gastly
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: hidden-poison
+            display: Hidden Poison
+          text: If Haunter is your Active Pokémon and is damaged by an opponent’s attack (even if Haunter is Knocked Out), the Attacking Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: tongue-spring
+            display: Tongue Spring
+          cost:
+          - Psychic
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: haunter
+    display: Haunter
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 93
+        name:
+          id: haunter
+          display: Haunter
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gastly
+          display: Gastly
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: shadow-bind
+            display: Shadow Bind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: luxio
+    display: Luxio
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    level:
+      id: '25'
+      display: '25'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 404
+        name:
+          id: luxio
+          display: Luxio
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shinx
+          display: Shinx
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: kick
+            display: Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: discharge
+            display: Discharge
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Discard all {L} Energy attached to Luxio. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: manectric
+    display: Manectric
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    level:
+      id: '44'
+      display: '44'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 310
+        name:
+          id: manectric
+          display: Manectric
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: electrike
+          display: Electrike
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: head-bolt
+            display: Head Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pelipper
+    display: Pelipper
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '49'
+      display: '49'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 279
+        name:
+          id: pelipper
+          display: Pelipper
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wingull
+          display: Wingull
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-ball
+            display: Water Ball
+          cost:
+          - Colorless
+          text: Does 20 damage plus 10 more damage for each {W} Energy attached to Pelipper.
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: ponyta
+    display: Ponyta
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 40
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ascension
+            display: Ascension
+          cost:
+          - Colorless
+          text: Search your deck for a card that evolves from Ponyta and put it onto Ponyta. (This counts as evolving Ponyta.) Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: rapidash
+    display: Rapidash
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ponyta
+          display: Ponyta
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: searing-flame
+            display: Searing Flame
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Plus
+- title:
+    id: shelgon
+    display: Shelgon
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 372
+        name:
+          id: shelgon
+          display: Shelgon
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bagon
+          display: Bagon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scrunch
+            display: Scrunch
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all damage done to Shelgon during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: dragon-bump
+            display: Dragon Bump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If Shelgon has any basic {R} Energy and any basic {W} Energy attached to it, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+- title:
+    id: wormadam-plant-cloak
+    display: Wormadam Plant Cloak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: When evolving, its body takes in surrounding materials. As a result, there are many body variations.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 413
+        name:
+          id: wormadam
+          display: Wormadam
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: burmy-plant-cloak
+          display: Burmy Plant Cloak
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magical-needle
+            display: Magical Needle
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+          text: Remove 2 damage counters from 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: cloak-scale
+            display: Cloak Scale
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: If you have Wormadam Sandy Cloak in play, the Defending Pokémon is now Burned, Confused, and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+- title:
+    id: wormadam-sandy-cloak
+    display: Wormadam Sandy Cloak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: When evolving, its body takes in surrounding materials. As a result, there are many body variations.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 413
+        name:
+          id: wormadam
+          display: Wormadam
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: burmy-sandy-cloak
+          display: Burmy Sandy Cloak
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hang-down
+            display: Hang Down
+          cost:
+          - Fighting
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: cloak-headbutt
+            display: Cloak Headbutt
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If you have Wormadam Trash Cloak in play, this attack does 60 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: wormadam-trash-cloak
+    display: Wormadam Trash Cloak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '44'
+      display: '44'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+    flavor: When evolving, its body takes in surrounding materials. As a result, there are many body variations.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 413
+        name:
+          id: wormadam
+          display: Wormadam
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: burmy-trash-cloak
+          display: Burmy Trash Cloak
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cloak-shard
+            display: Cloak Shard
+          cost:
+          - Metal
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. If you have Wormadam Plant Cloak in play, this attack does 40 damage to that Pokémon instead. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: serve-trash
+            display: Serve Trash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: You may search your opponent’s discard pile for any 1 card, show it to your opponent, and put it on top of his or her deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Dreaming of one day flying, it practices by leaping off cliffs every day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smash-kick
+            display: Smash Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: super-singe
+            display: Super Singe
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 10
+        modifier: Plus
+- title:
+    id: beedrill-g
+    display: Beedrill G
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    level:
+      id: '56'
+      display: '56'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raid
+            display: Raid
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: If you played Beedrill G from your hand during this turn, this attack’s base damage is 40 instead of 10.
+      - var: Attack
+        val:
+          name:
+            id: fury-attack
+            display: Fury Attack
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: bronzor
+    display: Bronzor
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: There are researchers who believe this Pokémon reflected like a mirror in the distant past.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 436
+        name:
+          id: bronzor
+          display: Bronzor
+      hit_points: 60
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnosis
+            display: Hypnosis
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: spinning-attack
+            display: Spinning Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: buneary
+    display: Buneary
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 427
+        name:
+          id: buneary
+          display: Buneary
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bunny-hop
+            display: Bunny Hop
+          cost:
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon that doesn’t have any damage counters on it. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: burmy-plant-cloak
+    display: Burmy Plant Cloak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 412
+        name:
+          id: burmy
+          display: Burmy
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: cloak-evolution
+            display: Cloak Evolution
+          text: Burmy Plant Cloak can evolve during the turn you play it.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: burmy-sandy-cloak
+    display: Burmy Sandy Cloak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 412
+        name:
+          id: burmy
+          display: Burmy
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: cloak-evolution
+            display: Cloak Evolution
+          text: Burmy Sandy Cloak can evolve during the turn you play it.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: burmy-trash-cloak
+    display: Burmy Trash Cloak
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 412
+        name:
+          id: burmy
+          display: Burmy
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: cloak-evolution
+            display: Cloak Evolution
+          text: Burmy Trash Cloak can evolve during the turn you play it.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-friends
+            display: Call for Friends
+          cost:
+          - Colorless
+          text: Search your deck for a {R} Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: steady-firebreathing
+            display: Steady Firebreathing
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: cherubi
+    display: Cherubi
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 420
+        name:
+          id: cherubi
+          display: Cherubi
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: solarbeam
+            display: Solarbeam
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: croagunk
+    display: Croagunk
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 453
+        name:
+          id: croagunk
+          display: Croagunk
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: astonish
+            display: Astonish
+          cost:
+          - Colorless
+          text: Choose 1 card from your opponent’s hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: punch
+            display: Punch
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: electrike
+    display: Electrike
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: zap-kick
+            display: Zap Kick
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: thunder-jolt
+            display: Thunder Jolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, Electrike does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: electrike
+    display: Electrike
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gastly
+    display: Gastly
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 92
+        name:
+          id: gastly
+          display: Gastly
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: suffocating-gas
+            display: Suffocating Gas
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: geodude
+    display: Geodude
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: motofumi-fujiwara
+      display: Motofumi Fujiwara
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 74
+        name:
+          id: geodude
+          display: Geodude
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stone-barrage
+            display: Stone Barrage
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 10 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gulpin
+    display: Gulpin
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '19'
+      display: '19'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 316
+        name:
+          id: gulpin
+          display: Gulpin
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: drool
+            display: Drool
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: kabuto
+    display: Kabuto
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 140
+        name:
+          id: kabuto
+          display: Kabuto
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dome-fossil
+          display: Dome Fossil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fast-evolution
+            display: Fast Evolution
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: speed-attack
+            display: Speed Attack
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: makuhita
+    display: Makuhita
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 296
+        name:
+          id: makuhita
+          display: Makuhita
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sand-attack
+            display: Sand Attack
+          cost:
+          - Colorless
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: magnum-punch
+            display: Magnum Punch
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: nosepass
+    display: Nosepass
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 299
+        name:
+          id: nosepass
+          display: Nosepass
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: harden
+            display: Harden
+          cost:
+          - Colorless
+          text: During your opponent’s next turn, if Nosepass would be damaged by an attack, prevent that attack’s damage done to Nosepass if that damage is 30 or less.
+      - var: Attack
+        val:
+          name:
+            id: knock-away
+            display: Knock Away
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: omanyte
+    display: Omanyte
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 138
+        name:
+          id: omanyte
+          display: Omanyte
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: helix-fossil
+          display: Helix Fossil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Water
+          text: Draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: tickle
+            display: Tickle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pika-ball
+            display: Pika Ball
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: mega-shot
+            display: Mega Shot
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          text: Discard all {L} Energy attached to Pikachu and then choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: ponyta
+    display: Ponyta
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: rattata
+    display: Rattata
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: Cautious in the extreme, its hardy vitality lets it live in any kind of environment.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: shinx
+    display: Shinx
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The extension and contraction of its muscles generates electricity. It glows when in trouble.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 403
+        name:
+          id: shinx
+          display: Shinx
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: swagger
+            display: Swagger
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: snorunt
+    display: Snorunt
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It is said that several Snorunt gather under giant leaves and live together in harmony.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 361
+        name:
+          id: snorunt
+          display: Snorunt
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ice-breath
+            display: Ice Breath
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: double-headbutt
+            display: Double Headbutt
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 10
+        modifier: Plus
+- title:
+    id: tangela
+    display: Tangela
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: absorb
+            display: Absorb
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Remove 1 damage counter from Tangela.
+      - var: Attack
+        val:
+          name:
+            id: sleep-powder
+            display: Sleep Powder
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tangela
+    display: Tangela
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: stun-spore
+            display: Stun Spore
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-crush
+            display: Tail Crush
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: wingull
+    display: Wingull
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 278
+        name:
+          id: wingull
+          display: Wingull
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: glide
+            display: Glide
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slashing-strike
+            display: Slashing Strike
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your next turn, Wingull can’t use Slashing Strike.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: wingull
+    display: Wingull
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+    flavor: It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 278
+        name:
+          id: wingull
+          display: Wingull
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: beginning-door
+    display: Beginning Door
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: bench-shield
+    display: Bench Shield
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: As long as the Pokémon this card is attached to is on your Bench, prevent all damage done to that Pokémon by attacks (both yours and your opponent’s).
+      sub: PokemonTool
+- title:
+    id: buffer-piece
+    display: Buffer Piece
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: Any damage done to the Pokémon this card is attached to by an opponent’s attack is reduced by 20 (after applying Weakness and Resistance). At the end of your opponent’s turn after you played Buffer Piece, discard Buffer Piece.
+      sub: PokemonTool
+- title:
+    id: department-store-girl
+    display: Department Store Girl
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 3 Pokémon Tool cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: energy-restore
+    display: Energy Restore
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: Flip 3 coins. For each heads, put a basic Energy card from your discard pile into your hand. If you don’t have that many basic Energy cards in your discard pile, put all of them into your hand.
+      sub: Item
+- title:
+    id: expert-belt
+    display: Expert Belt
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: The Pokémon this card is attached to gets +20 HP and that Pokémon’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance). When the Pokémon this card is attached to is Knocked Out, your opponent takes 1 more Prize card.
+      sub: PokemonTool
+- title:
+    id: lucky-egg
+    display: Lucky Egg
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: nobuyuki-fujimoto
+      display: Nobuyuki Fujimoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: When the Pokémon this card is attached to is Knocked Out by damage from an opponent’s attack, draw cards until you have 7 cards in your hand.
+      sub: PokemonTool
+- title:
+    id: old-amber
+    display: Old Amber
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      hit_points: 50
+      text: Play Old Amber as if it were a {C} Basic Pokémon. (Old Amber counts as a Trainer card as well, but if Old Amber is Knocked Out, this counts as a Knocked Out Pokémon.) Old Amber can’t be affected by any Special Conditions and can’t retreat. At any time during your turn before your attack, you may discard Old Amber from play. (This doesn’t count as a Knocked Out Pokémon.)
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: hard-amber
+            display: Hard Amber
+          text: As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent’s).
+      sub: Item
+- title:
+    id: professor-oaks-visit
+    display: Professor Oak's Visit
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: Draw 3 cards. Then, choose a card from your hand and put it on the bottom of your deck.
+      sub: Supporter
+- title:
+    id: ultimate-zone
+    display: Ultimate Zone
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: yusuke-ishikawa
+      display: Yusuke Ishikawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      text: During each player’s turn, the player may move an Energy card attached to 1 of his or her Benched Pokémon to his or her Active Arceus as often as he or she likes.
+      sub: Stadium
+- title:
+    id: dome-fossil
+    display: Dome Fossil
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      hit_points: 50
+      text: Play Dome Fossil as if it were a {C} Basic Pokémon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Dome Fossil can’t be affected by any Special Conditions and can’t retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn’t count as a Knocked Out Pokémon.)
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: rock-reaction
+            display: Rock Reaction
+          text: When you attach a {F} Energy card from your hand to Dome Fossil (excluding effects of attacks or Poké-Powers), search your deck for a card that evolves from Dome Fossil and put it onto Dome Fossil (this counts as evolving Dome Fossil). Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: helix-fossil
+    display: Helix Fossil
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-11-04
+  sub:
+    var: Trainer
+    val:
+      hit_points: 50
+      text: Play Helix Fossil as if it were a {C} Basic Pokémon. (Helix Fossil counts as a Trainer card as well, but if Helix Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Helix Fossil can’t be affected by any Special Conditions and can’t retreat. At any time during your turn before your attack, you may discard Helix Fossil from play. (This doesn’t count as a Knocked Out Pokémon.)
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: aqua-reaction
+            display: Aqua Reaction
+          text: When you attach a {W} Energy card from your hand to Helix Fossil (excluding effects of attacks or Poké-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: arceus-lvx
+    display: Arceus LV.X
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: shizurow
+      display: Shizurow
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: arceus
+          display: Arceus
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: multitype
+            display: Multitype
+          text: Arceus LV.X‘s type is the same type as its previous Level.
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: omniscient
+            display: Omniscient
+          text: Arceus can use the attacks of all Arceus you have in play as its own. (You still need the necessary Energy to use each attack.)
+      retreat_cost: 1
+- title:
+    id: arceus-lvx
+    display: Arceus LV.X
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: arceus
+          display: Arceus
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: multitype
+            display: Multitype
+          text: Arceus LV.X‘s type is the same as its previous Level.
+      - var: Attack
+        val:
+          name:
+            id: meteor-blast
+            display: Meteor Blast
+          cost:
+          - Grass
+          - Fire
+          - Colorless
+          damage:
+            scalar: 100
+          text: Flip a coin. If tails, this attack’s base damage is 50 instead of 100.
+      retreat_cost: 1
+- title:
+    id: arceus-lvx
+    display: Arceus LV.X
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: arceus
+          display: Arceus
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: multitype
+            display: Multitype
+          text: Arceus LV.X‘s type is the same type as its previous Level.
+      - var: Attack
+        val:
+          name:
+            id: psychic-bolt
+            display: Psychic Bolt
+          cost:
+          - Lightning
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard a {L} Energy and a {P} Energy attached to Arceus.
+      retreat_cost: 1
+- title:
+    id: gengar-lvx
+    display: Gengar LV.X
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: shizurow
+      display: Shizurow
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 94
+        name:
+          id: gengar
+          display: Gengar
+      hit_points: 140
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: gengar
+          display: Gengar
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: level-down
+            display: Level-Down
+          text: Once during your turn (before your attack), you may choose 1 of your opponent’s Pokémon LV.X. Remove the Level-Up card from that Pokémon and have your opponent shuffle that card into his or her deck. This power can’t be used if Gengar is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: compound-pain
+            display: Compound Pain
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          text: This attack does 30 damage to each of your opponent’s Pokémon that already has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: salamence-lvx
+    display: Salamence LV.X
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 160
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: salamence
+          display: Salamence
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: double-fall
+            display: Double Fall
+          text: Once during your turn (before your attack), when you put Salamence LV.X from your hand onto your Active Salamence, you may use this power. For each of your opponent’s Pokémon that is Knocked Out by damage from Salamence’s attacks this turn, take 1 more Prize card.
+      - var: Attack
+        val:
+          name:
+            id: steam-blast
+            display: Steam Blast
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard an Energy card attached to Salamence.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tangrowth-lvx
+    display: Tangrowth LV.X
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2009-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 465
+        name:
+          id: tangrowth
+          display: Tangrowth
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: tangrowth
+          display: Tangrowth
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: healing-growth
+            display: Healing Growth
+          text: Once during your turn (before your attack), you may flip a coin. If heads, remove 4 damage counters from 1 of your Pokémon. This power can’t be used if Tangrowth is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: big-growth
+            display: Big Growth
+          cost:
+          - Grass
+          text: Search your discard pile for as many {G} Energy cards as you like and attach them to your Pokémon in any way you like.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: sh10
+      display: SH10
+    printed_total: '99'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: Dreaming of one day flying, it practices by leaping off cliffs every day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: star-barrier
+            display: Star Barrier
+          text: As long as Bagon has any Energy attached to it, Bagon has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: dragon-rage
+            display: Dragon Rage
+          cost:
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip 2 coins. If either of them is tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 10
+        modifier: Plus
+- title:
+    id: ponyta
+    display: Ponyta
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: sh11
+      display: SH11
+    printed_total: '99'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: star-barrier
+            display: Star Barrier
+          text: As long as Ponyta has any Energy attached to it, Ponyta has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: blue-fire
+            display: Blue Fire
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 50
+          text: Discard all {R} Energy attached to Ponyta.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: shinx
+    display: Shinx
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: sh12
+      display: SH12
+    printed_total: '99'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: The extension and contraction of its muscles generates electricity. It glows when in trouble.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 403
+        name:
+          id: shinx
+          display: Shinx
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: star-barrier
+            display: Star Barrier
+          text: As long as Shinx has any Energy attached to it, Shinx has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: payback
+            display: Payback
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If your opponent has only 1 Prize card left, this attack does 10 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar1
+      display: AR1
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is told in mythology that this Pokémon was born before the universe even existed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: prize-count
+            display: Prize Count
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If you have more Prize cards left than your opponent, this attack does 20 damage plus 60 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar2
+      display: AR2
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is said to have emerged from an egg in a place where there was nothing, then shaped the world.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-refresh
+            display: Leaf Refresh
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Remove 3 damage counters from each of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar3
+      display: AR3
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bright-flame
+            display: Bright Flame
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip a coin. If tails, discard 2 Energy attached to Arceus.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar4
+      display: AR4
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is told in mythology that this Pokémon was born before the universe even existed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fastwave
+            display: Fastwave
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar5
+      display: AR5
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is said to have emerged from an egg in a place where there was nothing, then shaped the world.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ripple-swell
+            display: Ripple Swell
+          cost: []
+          text: If you have 6 Arceus in play and each of them is a different type, search your deck for up to 6 basic Energy cards. Attach each of those Energy cards to a different Pokémon you have in play. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: sky-spear
+            display: Sky Spear
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 80 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Remove all Energy cards attached to Arceus and put them in the Lost Zone.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar6
+      display: AR6
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lightning-turn
+            display: Lightning Turn
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Switch Arceus with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar7
+      display: AR7
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is told in mythology that this Pokémon was born before the universe even existed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mind-bend
+            display: Mind Bend
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar8
+      display: AR8
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is said to have emerged from an egg in a place where there was nothing, then shaped the world.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: break-ground
+            display: Break Ground
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: arceus
+    display: Arceus
+  set:
+    name:
+      id: arceus
+      display: Arceus
+    series:
+      id: platinum
+      display: Platinum
+    context: English
+    live_code:
+      id: ar
+      display: AR
+  number:
+    number:
+      id: ar9
+      display: AR9
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    level:
+      id: '100'
+      display: '100'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-11-04
+    flavor: It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 493
+        name:
+          id: arceus
+          display: Arceus
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: metal-barrier
+            display: Metal Barrier
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Prevent all effects of attacks, including damage, done to Arceus by Pokémon LV.X during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus

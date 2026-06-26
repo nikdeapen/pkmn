@@ -1,0 +1,1870 @@
+- title:
+    id: bulbasaur
+    display: Bulbasaur
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '001'
+      display: '001'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leech-seed
+            display: Leech Seed
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: Heal 10 damage from this Pokémon.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: ivysaur
+    display: Ivysaur
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '002'
+      display: '002'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bulbasaur
+          display: Bulbasaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: poison-powder
+            display: Poison Powder
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Poisoned.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: venusaur
+    display: Venusaur
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '003'
+      display: '003'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '67'
+      display: '67'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: ivysaur
+          display: Ivysaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: energy-trans
+            display: Energy Trans
+          text: As often as you like during your turn, you may move a {G} Energy from 1 of your Pokémon to another of your Pokémon. This Pokémon Power can’t be used if this Pokémon is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: solar-beam
+            display: Solar Beam
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 60
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: paras
+    display: Paras
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '004'
+      display: '004'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 46
+        name:
+          id: paras
+          display: Paras
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: toxic-spore
+            display: Toxic Spore
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: parasect
+    display: Parasect
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '005'
+      display: '005'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: A mushroom grown larger than the host’s body controls PARASECT. It scatters poisonous spores.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 47
+        name:
+          id: parasect
+          display: Parasect
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: paras
+          display: Paras
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nutritional-support
+            display: Nutritional Support
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic {G} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: hibernation-spore
+            display: Hibernation Spore
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+          text: Your opponent’s Active Pokémon is now Asleep. During Pokémon Checkup, your opponent flips 2 coins instead of 1. If either of them is tails, that Pokémon is still Asleep.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+- title:
+    id: scyther
+    display: Scyther
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '006'
+      display: '006'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '25'
+      display: '25'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: With ninja-like agility and speed, it can create the illusion that there is more than one of it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 123
+        name:
+          id: scyther
+          display: Scyther
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swords-dance
+            display: Swords Dance
+          cost:
+          - Grass
+          text: During your next turn, this Pokémon’s Slash attack does 30 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: pinsir
+    display: Pinsir
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '007'
+      display: '007'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: demizuposuka
+      display: DemizuPosuka
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: One solid blow from its horns is enough to split apart a large tree. Its greatest rival in Alola is Vikavolt.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 127
+        name:
+          id: pinsir
+          display: Pinsir
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roof-fling
+            display: Roof Fling
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, put your opponent’s Active Pokémon and all attached cards into your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: guillotine
+            display: Guillotine
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 50
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: sandshrew
+    display: Sandshrew
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '008'
+      display: '008'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: sekio
+      display: Sekio
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 27
+        name:
+          id: sandshrew
+          display: Sandshrew
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: rolling-tackle
+            display: Rolling Tackle
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: sandslash
+    display: Sandslash
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '009'
+      display: '009'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: Its claws and horns often break off. The broken claws and horns can be used to carve plows for tilling farm fields.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 28
+        name:
+          id: sandslash
+          display: Sandslash
+      hit_points: 110
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sandshrew
+          display: Sandshrew
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: continuous-scratch
+            display: Continuous Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 4 coins. This attack does 30 damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: sand-tomb
+            display: Sand Tomb
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: onix
+    display: Onix
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '010'
+      display: '010'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 95
+        name:
+          id: onix
+          display: Onix
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: land-crush
+            display: Land Crush
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmonlee
+    display: Hitmonlee
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '011'
+      display: '011'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 106
+        name:
+          id: hitmonlee
+          display: Hitmonlee
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: low-sweep
+            display: Low Sweep
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      - var: Attack
+        val:
+          name:
+            id: coordinated-strike
+            display: Coordinated Strike
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If Hitmonchan is on your Bench, this attack does 80 more damage.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmonchan
+    display: Hitmonchan
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '012'
+      display: '012'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: Its punches slice the air. However, it seems to need a short break after fighting for three minutes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 107
+        name:
+          id: hitmonchan
+          display: Hitmonchan
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: coordinated-beatdown
+            display: Coordinated Beatdown
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If Hitmonlee is on your Bench, this attack does 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: mach-cross
+            display: Mach Cross
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 60
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: doduo
+    display: Doduo
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '013'
+      display: '013'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: The brains in its two heads appear to communicate emotions to each other with a telepathic power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 84
+        name:
+          id: doduo
+          display: Doduo
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-stab
+            display: Double Stab
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: doduo-delivery
+            display: Doduo Delivery
+          cost:
+          - Colorless
+          - Colorless
+          text: Draw 2 cards.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dodrio
+    display: Dodrio
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '014'
+      display: '014'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 85
+        name:
+          id: dodrio
+          display: Dodrio
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: doduo
+          display: Doduo
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: retreat-aid
+            display: Retreat Aid
+          text: As long as this Pokémon is on your Bench, your Active Pokémon’s Retreat Cost is {C}{C} less.
+      - var: Attack
+        val:
+          name:
+            id: incessant-peck
+            display: Incessant Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: chansey
+    display: Chansey
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '015'
+      display: '015'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '55'
+      display: '55'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 113
+        name:
+          id: chansey
+          display: Chansey
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scrunch
+            display: Scrunch
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-Edge
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: This Pokémon also does 80 damage to itself.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: snorlax
+    display: Snorlax
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '016'
+      display: '016'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: eri-yamaki
+      display: Eri Yamaki
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 143
+        name:
+          id: snorlax
+          display: Snorlax
+      hit_points: 150
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: collapse
+            display: Collapse
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: This Pokémon is now Asleep.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lugia-ex
+    display: Lugia ex
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '017'
+      display: '017'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: planeta-hiiragi
+      display: PLANETA Hiiragi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 249
+        name:
+          id: lugia
+          display: Lugia
+      hit_points: 230
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rising-wind
+            display: Rising Wind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Search your deck for a Basic Energy card and attach it to this Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: aero-break
+            display: Aero Break
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 200
+          text: This Pokémon also does 30 damage to itself.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: bill
+    display: Bill
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '018'
+      display: '018'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Draw 2 cards.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: bosss-orders
+    display: Boss's Orders
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '019'
+      display: '019'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: nagimiso
+      display: nagimiso
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: computer-search
+    display: Computer Search
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '020'
+      display: '020'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can use this card only if you discard 2 other cards from your hand.
+        Search your deck for a card and put it into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: poke-ball
+    display: Poké Ball
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '021'
+      display: '021'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: pokemon-fan-club
+    display: Pokémon Fan Club
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '022'
+      display: '022'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Search your deck for up to 2 Basic Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: pokemon-nurse
+    display: Pokémon Nurse
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '023'
+      display: '023'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Heal all damage from 1 of your Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: professor-oak
+    display: Professor Oak
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '024'
+      display: '024'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard your hand and draw 7 cards.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: rare-candy
+    display: Rare Candy
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '025'
+      display: '025'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can’t use this card during your first turn or on a Basic Pokémon that was put into play this turn.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: rockets-admin
+    display: Rocket's Admin.
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '026'
+      display: '026'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Each player shuffles their hand into their deck. Then, each player draws a card for each of their remaining Prize cards.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: sun-seed
+    display: Sun Seed
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '027'
+      display: '027'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        The attacks used by the Venusaur this card is attached to do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+        (This card cannot be used at official tournaments.)
+      sub: PokemonTool
+- title:
+    id: super-rod
+    display: Super Rod
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '028'
+      display: '028'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Shuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '029'
+      display: '029'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: studio-bora-inc
+      display: Studio Bora Inc.
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Switch your Active Pokémon with 1 of your Benched Pokémon.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: ultra-ball
+    display: Ultra Ball
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '030'
+      display: '030'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: sadaji
+      display: sadaji
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can use this card only if you discard 2 other cards from your hand.
+        Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: vs-seeker
+    display: VS Seeker
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '031'
+      display: '031'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Put a Supporter card from your discard pile into your hand.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: double-colorless-energy
+    display: Double Colorless Energy
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '032'
+      display: '032'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          As long as this card is attached to a Pokémon, it provides {C}{C} Energy.
+          (This card cannot be used at official tournaments.)
+- title:
+    id: basic-g-energy
+    display: Basic {G} Energy
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '033'
+      display: '033'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Grass
+- title:
+    id: basic-f-energy
+    display: Basic {F} Energy
+  set:
+    name:
+      id: pokemon-tcg-classic-venusaur
+      display: Pokémon Trading Card Game Classic-Venusaur
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clv
+      display: CLV
+  number:
+    number:
+      id: '034'
+      display: '034'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fighting

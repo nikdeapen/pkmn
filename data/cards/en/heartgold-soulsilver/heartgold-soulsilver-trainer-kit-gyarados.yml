@@ -1,0 +1,82 @@
+- title:
+    id: gyarados
+    display: Gyarados
+  set:
+    name:
+      id: heartgold-soulsilver-trainer-kit-gyarados
+      display: HS Trainer Kit - Gyarados
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: tk4g
+      display: TK4G
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2010-05-07
+    flavor: Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-splash
+            display: Hydro Splash
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus

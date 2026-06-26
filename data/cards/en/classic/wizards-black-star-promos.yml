@@ -1,0 +1,3411 @@
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '1'
+      display: '1'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 1999-07-01
+    flavor: When several of these Pokémon gather, their electricity could build and cause lightning storms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growl
+            display: Growl
+          cost:
+          - Colorless
+          text: If the Defending Pokémon attacks Pikachu during your opponent’s next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: jigglypuff
+    display: Jigglypuff
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '7'
+      display: '7'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 1999-11-09
+    flavor: When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 39
+        name:
+          id: jigglypuff
+          display: Jigglypuff
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: first-aid
+            display: First Aid
+          cost:
+          - Colorless
+          text: Remove 1 damage counter from Jigglypuff.
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-edge
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Jigglypuff does 20 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: electabuzz
+    display: Electabuzz
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '2'
+      display: '2'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 1999-11-12
+    flavor: A wild Pokémon with a short temper. It is able to distinguish colors, and likes the color red.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 125
+        name:
+          id: electabuzz
+          display: Electabuzz
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: light-screen
+            display: Light Screen
+          cost:
+          - Lightning
+          text: Whenever an attack does damage to Electabuzz (after applying Weakness and Resistance) during your opponent’s next turn, that attack only does half the damage to Electabuzz (rounded down to the nearest 10). (Any other effects of attacks still happen.)
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mewtwo
+    display: Mewtwo
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '3'
+      display: '3'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '60'
+      display: '60'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 1999-11-12
+    flavor: Years of genetic experiments resulted in the creation of this never-before-seen violent Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-absorption
+            display: Energy Absorption
+          cost:
+          - Psychic
+          text: Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.
+      - var: Attack
+        val:
+          name:
+            id: psyburn
+            display: Psyburn
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '4'
+      display: '4'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 1999-11-12
+    flavor: When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: recharge
+            display: Recharge
+          cost:
+          - Lightning
+          text: Search your deck for a {L} Energy card and attach it to Pikachu. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: thunderbolt
+            display: Thunderbolt
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 50
+          text: Discard all Energy cards attached to Pikachu in order to use this attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite
+    display: Dragonite
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '5'
+      display: '5'
+  meta:
+    artists:
+    - id: toshinao-aoki
+      display: Toshinao Aoki
+    level:
+      id: '43'
+      display: '43'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 1999-11-12
+    flavor: This Pokémon can fly is spite of its large bulk. It is said to be able to circumnavigate the earth in just 16 hours.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: special-delivery
+            display: Special Delivery
+          text: Once during your turn (before your attack), you may draw a card. If you do, choose a card from your hand and put it on top of your deck. This power can’t be used if Dragonite is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: supersonic-flight
+            display: Supersonic Flight
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 2
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '8'
+      display: '8'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-01-08
+    flavor: So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psywave
+            display: Psywave
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of Energy cards attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: devolution-beam
+            display: Devolution Beam
+          cost:
+          - Psychic
+          - Psychic
+          text: Choose an evolved Pokémon (your own or your opponent’s). Return the highest Stage Evolution card on that Pokémon to its player’s hand. That Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned, or anything else that might be the result of an attack (just as if you had evolved it).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: arcanine
+    display: Arcanine
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '6'
+      display: '6'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-03-01
+    flavor: A legendary Pokémon famous for its beauty. It looks almost as if it flies when it runs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 59
+        name:
+          id: arcanine
+          display: Arcanine
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: growlithe
+          display: Growlithe
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      - var: Attack
+        val:
+          name:
+            id: flames-of-rage
+            display: Flames of Rage
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Discard 2 {R} Energy cards attached to Arcanine in order to use this attack. This attack does 40 damage plus 10 more damage for each damage counter on Arcanine.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: cool-porygon
+    display: Cool Porygon
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '15'
+      display: '15'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-03-06
+    flavor: A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 137
+        name:
+          id: porygon
+          display: Porygon
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: texture-magic
+            display: Texture Magic
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: You may change Cool Porygon’s Resistance to a type of your choice other than Colorless. If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless. (Benching either Pokémon ends the effect on that Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: 3-d-attack
+            display: 3-D Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 3 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mewtwo
+    display: Mewtwo
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '14'
+      display: '14'
+  meta:
+    artists:
+    - id: benimaru-itoh
+      display: Benimaru Itoh
+    level:
+      id: '60'
+      display: '60'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-03-21
+    flavor: Years of genetic experiments resulted in the creation of this never-before-seen violent Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-absorption
+            display: Energy Absorption
+          cost:
+          - Psychic
+          text: Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.
+      - var: Attack
+        val:
+          name:
+            id: psyburn
+            display: Psyburn
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: venusaur
+    display: Venusaur
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '13'
+      display: '13'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '64'
+      display: '64'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-03-31
+    flavor: This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: ivysaur
+          display: Ivysaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: solar-power
+            display: Solar Power
+          text: Once during your turn (before your attack), you may use this power. Your Active Pokémon and the Defending Pokémon are no longer Asleep, Confused, Paralyzed, or Poisoned. This power can’t be used if Venusaur is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: mega-drain
+            display: Mega Drain
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 40
+          text: Remove a number of damage counters from Venusaur equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Venusaur has fewer damage counters than that, remove all of them.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '9'
+      display: '9'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-04-01
+    flavor: So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psywave
+            display: Psywave
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of Energy cards attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: devolution-beam
+            display: Devolution Beam
+          cost:
+          - Psychic
+          - Psychic
+          text: Choose an evolved Pokémon (your own or your opponent’s). Return the highest Stage Evolution card on that Pokémon to its player’s hand. That Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned, or anything else that might be the result of an attack (just as if you had evolved it).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mewtwo
+    display: Mewtwo
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '12'
+      display: '12'
+  meta:
+    artists:
+    - id: christopher-rush
+      display: Christopher Rush
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-04-01
+    flavor: A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-control
+            display: Energy Control
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent’s Pokémon and attach it to another of your opponent’s Pokémon of your choice.
+      - var: Attack
+        val:
+          name:
+            id: telekinesis
+            display: Telekinesis
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. Don’t apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '10'
+      display: '10'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-04-10
+    flavor: Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cat-punch
+            display: Cat Punch
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, this attack does 20 damage. If tails and if your opponent has any Benched Pokémon, he or she chooses 1 of them and this attack does 20 damage to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: computer-error
+    display: Computer Error
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '16'
+      display: '16'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-05-01
+  sub:
+    var: Trainer
+    val:
+      text: You may draw up to 5 cards, then your opponent may draw up to 5 cards. Your turn is over now (you don’t get to attack).
+      sub: Item
+      secondary_subs:
+      - id: rockets-secret-machine
+        display: Rocket's Secret Machine
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '11'
+      display: '11'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-06-01
+    flavor: Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: chain-reaction
+            display: Chain Reaction
+          text: This power can only be used when a Pokémon evolves. Search your deck for a card that evolves from Eevee and attach it to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can’t be used if Eevee is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: moltres
+    display: Moltres
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '21'
+      display: '21'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-07-21
+    flavor: The flames on this legendary Pokémon’s wings burn so brightly that they can make night seem like day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 146
+        name:
+          id: moltres
+          display: Moltres
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-flame
+            display: Hyper Flame
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 60
+          text: Flip a coin. If heads, discard 1 {R} Energy card attached to Moltres. If tails, discard all Energy cards attached to Moltres. If you can’t discard Energy cards, this attack does nothing.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: articuno
+    display: Articuno
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '22'
+      display: '22'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-07-21
+    flavor: This legendary Pokémon is said to freeze the water in the air during winter, causing snow.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: diamond-dust
+            display: Diamond Dust
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: zapdos
+    display: Zapdos
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '23'
+      display: '23'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-07-21
+    flavor: This legendary Pokémon is said to be present wherever there is a lightning storm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lightning-burn
+            display: Lightning Burn
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) If tails, Zapdos does 30 damage to itself.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-persian
+    display: Dark Persian
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '17'
+      display: '17'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '28'
+      display: '28'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-08-01
+    flavor: Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 53
+        name:
+          id: persian
+          display: Persian
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: meowth
+          display: Meowth
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tempt
+            display: Tempt
+          cost:
+          - Colorless
+          text: If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch it with the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: poison-claws
+            display: Poison Claws
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-rockets-meowth
+    display: Team Rocket's Meowth
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '18'
+      display: '18'
+  meta:
+    artists:
+    - id: kunihiko-yuyama
+      display: Kunihiko Yuyama
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-08-01
+    flavor: This Pokémon is more active at night. It likes bright, shiny things and cannot resist taking them and adding them to its collection.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: miraculous-comeback
+            display: Miraculous Comeback
+          cost:
+          - Colorless
+          text: Flip a number of coins equal to the number of Pokémon in play. This attack does 10 damage times the number of heads. Then Team Rocket’s Meowth does 10 damage times the number of tails to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: psyduck
+    display: Psyduck
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '20'
+      display: '20'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-09-01
+    flavor: While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 54
+        name:
+          id: psyduck
+          display: Psyduck
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headache
+            display: Headache
+          cost:
+          - Psychic
+          text: Your opponent can’t play Trainer cards during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: blanks-pikachu
+    display: _____'s Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '24'
+      display: '24'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-09-01
+    flavor: 'Your Birthdate: ______________________________'
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: birthday-surprise
+            display: Birthday Surprise
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If it’s not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-abra
+    display: Sabrina's Abra
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '19'
+      display: '19'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-10-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 63
+        name:
+          id: abra
+          display: Abra
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: synchronize
+            display: Synchronize
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+          text: This attack can’t be used unless Sabrina’s Abra and the Defending Pokémon have the same number of Energy cards attached to them.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '27'
+      display: '27'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-11-14
+    flavor: When several of these Pokémon gather, their electricity can cause lightning storms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 30
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Pikachu.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: marill
+    display: Marill
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '29'
+      display: '29'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-12-01
+    flavor: The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 183
+        name:
+          id: marill
+          display: Marill
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each Energy attached to Marill but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: togepi
+    display: Togepi
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '30'
+      display: '30'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-01-01
+    flavor: Still only a hatchling, it uses poison to chase off its enemies when threatened.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 175
+        name:
+          id: togepi
+          display: Togepi
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: snivel
+            display: Snivel
+          cost:
+          - Colorless
+          text: If the Defending Pokémon attacks Togepi during your opponent’s next turn, any damage done to Togepi is reduced by 20 (before applying Weakness and Resistance). (Benching either Pokémon ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: mini-metronome
+            display: Mini-Metronome
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, choose 1 of the Defending Pokémon’s attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type the Defending Pokémon is, Togepi’s type is still {C}.) Togepi performs that attack.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: cleffa
+    display: Cleffa
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '31'
+      display: '31'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-02-01
+    flavor: Because of its unusual, star-like silhouette, people believe that it came here on a meteor.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 173
+        name:
+          id: cleffa
+          display: Cleffa
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: baby
+          display: Baby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: eek
+            display: Eek
+          cost:
+          - Colorless
+          text: Draw 2 cards.
+      retreat_cost: 0
+- title:
+    id: smeargle
+    display: Smeargle
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '32'
+      display: '32'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-03-01
+    flavor: Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 235
+        name:
+          id: smeargle
+          display: Smeargle
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: paint
+            display: Paint
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, choose a type (other than Colorless) and put a Coloring counter on the Defending Pokémon. That Pokémon is now the type you chose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: pichu
+    display: Pichu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '35'
+      display: '35'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '4'
+      display: '4'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-04-01
+    flavor: It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 172
+        name:
+          id: pichu
+          display: Pichu
+      hit_points: 30
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: baby
+          display: Baby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lets-play
+            display: Let's Play!
+          cost:
+          - Colorless
+          text: Search your deck for a Baby Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can’t use this attack if your Bench is full.)
+      retreat_cost: 0
+- title:
+    id: entei
+    display: Entei
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '34'
+      display: '34'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-04-06
+    flavor: Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 244
+        name:
+          id: entei
+          display: Entei
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: bolt
+            display: Bolt
+          text: Whenever your opponent’s attack damages Entei, unless that attack Knocks Out Entei, flip a coin. If heads, shuffle Entei and all cards attached to it into your deck. This power can’t be used if Entei is already Asleep, Confused, or Paralyzed when it is damaged.
+      - var: Attack
+        val:
+          name:
+            id: protective-flame
+            display: Protective Flame
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, prevent all effects of attacks, including damage, done to your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: igglybuff
+    display: Igglybuff
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '36'
+      display: '36'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-05-01
+    flavor: Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 174
+        name:
+          id: igglybuff
+          display: Igglybuff
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: baby
+          display: Baby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: good-night-song
+            display: Good Night Song
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 0
+- title:
+    id: scizor
+    display: Scizor
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '33'
+      display: '33'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-06-01
+    flavor: Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 212
+        name:
+          id: scizor
+          display: Scizor
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: scyther
+          display: Scyther
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leer
+            display: Leer
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon can’t attack Scizor during your opponent’s next turn. (Benching either Pokémon ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: metal-pincer
+            display: Metal Pincer
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hitmontop
+    display: Hitmontop
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '37'
+      display: '37'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '29'
+      display: '29'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-07-01
+    flavor: It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 237
+        name:
+          id: hitmontop
+          display: Hitmontop
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: repeating-kick
+            display: Repeating Kick
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: rapid-spin
+            display: Rapid Spin
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+          text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: flying-pikachu
+    display: Flying Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '25'
+      display: '25'
+  meta:
+    artists:
+    - id: toshinao-aoki
+      display: Toshinao Aoki
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-08-01
+    flavor: By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: fly
+            display: Fly
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Flying Pikachu; if tails, this attack does nothing (not even damage).
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '26'
+      display: '26'
+  meta:
+    artists:
+    - id: gakuji-nomoto
+      display: Gakuji Nomoto
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-08-01
+    flavor: It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: thunderbolt
+            display: Thunderbolt
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 40
+          text: Discard all Energy cards attached to Pikachu.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: surfing-pikachu
+    display: Surfing Pikachu
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '28'
+      display: '28'
+  meta:
+    artists:
+    - id: toshinao-aoki
+      display: Toshinao Aoki
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-08-01
+    flavor: One summer, a group of Pikachus was found riding the waves at the local beach.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: unown-j
+    display: Unown J
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '38'
+      display: '38'
+  meta:
+    artists:
+    - id: hideki-kazama
+      display: Hideki Kazama
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-08-21
+    flavor: Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: join
+            display: '[Join]'
+          text: Once during your turn (before your attack), if you have Unown J, Unown O, Unown I, and Unown N on your Bench, you may search your deck for a Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: misdreavus
+    display: Misdreavus
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '39'
+      display: '39'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-09-01
+    flavor: It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 200
+        name:
+          id: misdreavus
+          display: Misdreavus
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pain-split
+            display: Pain Split
+          cost:
+          - Psychic
+          text: Put 1 damage counter on the Defending Pokémon for each damage counter on Misdreavus.
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: pokemon-center
+    display: Pokémon Center
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '40'
+      display: '40'
+  meta:
+    artists:
+    - id: big-mama-tagawa
+      display: '"Big Mama" Tagawa'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-11-16
+  sub:
+    var: Trainer
+    val:
+      text: Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.
+      sub: Item
+- title:
+    id: lucky-stadium
+    display: Lucky Stadium
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '41'
+      display: '41'
+  meta:
+    artists:
+    - id: big-mama-tagawa
+      display: '"Big Mama" Tagawa'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2001-11-16
+  sub:
+    var: Trainer
+    val:
+      text: Once during each player’s turn (before attacking), that player may flip a coin. If heads, that player draws a card.
+      sub: Stadium
+- title:
+    id: pokemon-tower
+    display: Pokémon Tower
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '42'
+      display: '42'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-01-01
+  sub:
+    var: Trainer
+    val:
+      text: If the effect of a Pokémon Power, attack, Energy card, or Trainer card would put a card in a discard pile into its owner’s hand, that card stays in that discard pile instead.
+      sub: Stadium
+- title:
+    id: machamp
+    display: Machamp
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '43'
+      display: '43'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    level:
+      id: '54'
+      display: '54'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-02-01
+    flavor: Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 68
+        name:
+          id: machamp
+          display: Machamp
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: machoke
+          display: Machoke
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: seething-anger
+            display: Seething Anger
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a number of coins equal to the number of damage counters on Machamp. This attack does 20 damage plus 10 more damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: fling
+            display: Fling
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: magmar
+    display: Magmar
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '44'
+      display: '44'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-03-01
+    flavor: Its body always burns with an orange glow that enables it to hide perfectly among flames.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 126
+        name:
+          id: magmar
+          display: Magmar
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: burning-fire
+            display: Burning Fire
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: When you use this attack, you may discard any number of {R} Energy cards attached to your Pokémon in play. This attack does 10 damage plus 10 more damage for each {R} Energy card you discarded in this way.
+      - var: Attack
+        val:
+          name:
+            id: magma-punch
+            display: Magma Punch
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: scyther
+    display: Scyther
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '45'
+      display: '45'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-04-01
+    flavor: With ninja-like agility and speed, it can create the illusion that there is more than one.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 123
+        name:
+          id: scyther
+          display: Scyther
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slashing-strike
+            display: Slashing Strike
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 40
+          text: Scyther can’t use this attack during your next turn. (Benching or evolving Scyther ends this effect.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: electabuzz
+    display: Electabuzz
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '46'
+      display: '46'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-05-01
+    flavor: Normally found near power plants, it can wander away and cause major blackouts in cities.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 125
+        name:
+          id: electabuzz
+          display: Electabuzz
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lightning-rod
+            display: Lightning Rod
+          cost:
+          - Lightning
+          text: Choose 1 of your opponent’s Pokémon and put a Lightning Rod marker on it. (A Pokémon can have only 1 Lightning Rod marker on it at a time.)
+      - var: Attack
+        val:
+          name:
+            id: lightning-bolt
+            display: Lightning Bolt
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 10
+          text: This attack does 20 damage to any Pokémon with a Lightning Rod marker on it. Apply Weakness and Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '47'
+      display: '47'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-06-01
+    flavor: So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: neutral-shield
+            display: Neutral Shield
+          text: Prevent all effects of attacks, including damage, done to Mew by Evolved Pokémon. You can’t use this power if Mew is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: psyshock
+            display: Psyshock
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: articuno
+    display: Articuno
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '48'
+      display: '48'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-07-01
+    flavor: A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: aurora-veil
+            display: Aurora Veil
+          text: As long as Articuno is your Active Pokémon, your Benched Pokémon do not take damage from and are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: ice-beam
+            display: Ice Beam
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: snorlax
+    display: Snorlax
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '49'
+      display: '49'
+  meta:
+    artists:
+    - id: craig-turvey
+      display: Craig Turvey
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-08-01
+    flavor: Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 143
+        name:
+          id: snorlax
+          display: Snorlax
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: guard
+            display: Guard
+          text: As long as Snorlax is your Active Pokémon, the Defending Pokémon can’t Retreat. This power stops working when Snorlax is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: roll-over
+            display: Roll Over
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Snorlax is now Asleep. Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: celebi
+    display: Celebi
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '50'
+      display: '50'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-10-25
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 251
+        name:
+          id: celebi
+          display: Celebi
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-slice
+            display: Leaf Slice
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: rapidash
+    display: Rapidash
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '51'
+      display: '51'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-11-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ponyta
+          display: Ponyta
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: jump-over
+            display: Jump Over
+          cost:
+          - Colorless
+          - Colorless
+          text: If your opponent has any Benched Pokémon, choose 1 of them. Flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: super-singe
+            display: Super Singe
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ho-oh
+    display: Ho-Oh
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '52'
+      display: '52'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-11-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 250
+        name:
+          id: ho-oh
+          display: Ho-Oh
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sacred-wing
+            display: Sacred Wing
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack’s base damage is 20 instead of 60.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: suicune
+    display: Suicune
+  set:
+    name:
+      id: wizards-black-star-promos
+      display: Wizards Black Star Promos
+    series:
+      id: classic
+      display: Classic
+    context: English
+  number:
+    number:
+      id: '53'
+      display: '53'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-03-18
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 245
+        name:
+          id: suicune
+          display: Suicune
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: pure-body
+            display: Pure Body
+          text: To attach a {W} Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the {W} Energy, and then discard an Energy card from Suicune.)
+      - var: Attack
+        val:
+          name:
+            id: hypno-wave
+            display: Hypno Wave
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times

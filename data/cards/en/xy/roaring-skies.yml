@@ -1,0 +1,7353 @@
+- title:
+    id: exeggcute
+    display: Exeggcute
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 102
+        name:
+          id: exeggcute
+          display: Exeggcute
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: loathe
+            display: Loathe
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: exeggutor
+    display: Exeggutor
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It is called “The Walking Jungle.” If a head grows too big, it falls off and becomes an Exeggcute.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 103
+        name:
+          id: exeggutor
+          display: Exeggutor
+      hit_points: 120
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: exeggcute
+          display: Exeggcute
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shake-it-off
+            display: Shake It Off
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage times the number of {C} Pokémon your opponent has in play.
+      - var: Attack
+        val:
+          name:
+            id: seed-bomb
+            display: Seed Bomb
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: wurmple
+    display: Wurmple
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 265
+        name:
+          id: wurmple
+          display: Wurmple
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flock
+            display: Flock
+          cost:
+          - Grass
+          text: Search your deck for Wurmple and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: silcoon
+    display: Silcoon
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 266
+        name:
+          id: silcoon
+          display: Silcoon
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wurmple
+          display: Wurmple
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: string-shot
+            display: String Shot
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: beautifly
+    display: Beautifly
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey’s fluids.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 267
+        name:
+          id: beautifly
+          display: Beautifly
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: silcoon
+          display: Silcoon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: miraculous-scales
+            display: Miraculous Scales
+          text: Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: whirlwind
+            display: Whirlwind
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: cascoon
+    display: Cascoon
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 268
+        name:
+          id: cascoon
+          display: Cascoon
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wurmple
+          display: Wurmple
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Grass
+          text: Your opponent’s Active Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: iron-defense
+            display: Iron Defense
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: dustox
+    display: Dustox
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 269
+        name:
+          id: dustox
+          display: Dustox
+      hit_points: 140
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: cascoon
+          display: Cascoon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psybeam
+            display: Psybeam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: twilight-poison
+            display: Twilight Poison
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Your opponent’s Active Pokémon is now Asleep and Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: dustox
+    display: Dustox
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 269
+        name:
+          id: dustox
+          display: Dustox
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: cascoon
+          display: Cascoon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-plus
+            display: Δ Plus
+          text: If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+      - var: Attack
+        val:
+          name:
+            id: flap
+            display: Flap
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: wind-shard
+            display: Wind Shard
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          text: This attack does 50 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: nincada
+    display: Nincada
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It can sometimes live underground for more than 10 years. It absorbs nutrients from the roots of trees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 290
+        name:
+          id: nincada
+          display: Nincada
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slight-intrusion
+            display: Slight Intrusion
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: ninjask
+    display: Ninjask
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 291
+        name:
+          id: ninjask
+          display: Ninjask
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nincada
+          display: Nincada
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wing-buzz
+            display: Wing Buzz
+          text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may discard a card from your hand. If you do, discard the top card of your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: afterimage-assault
+            display: Afterimage Assault
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Search your deck for up to 2 Ninjask and put them onto your Bench. Shuffle your deck afterward.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: shedinja
+    display: Shedinja
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 292
+        name:
+          id: shedinja
+          display: Shedinja
+      hit_points: 30
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nincada
+          display: Nincada
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cursed-rain
+            display: Cursed Rain
+          cost:
+          - Grass
+          text: Put 1 damage counter on each of your opponent’s Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hopeless-scream
+            display: Hopeless Scream
+          cost:
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: This attack does 50 damage times the number of damage counters on this Pokémon.
+      retreat_cost: 1
+- title:
+    id: tropius
+    display: Tropius
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: The bunch of fruit around its neck ripens twice a year and is delicious. It’s a highly favored tropical snack.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 357
+        name:
+          id: tropius
+          display: Tropius
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: solar-beam
+            display: Solar Beam
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: victini
+    display: Victini
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: When it shares the infinite energy it creates, that being’s entire body will be overflowing with power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 494
+        name:
+          id: victini
+          display: Victini
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: me-first
+            display: Me First
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: psy-bolt
+            display: Psy Bolt
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: fletchinder
+    display: Fletchinder
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 662
+        name:
+          id: fletchinder
+          display: Fletchinder
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: fletchling
+          display: Fletchling
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck-off
+            display: Peck Off
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Before doing damage, discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: talonflame
+    display: Talonflame
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 663
+        name:
+          id: talonflame
+          display: Talonflame
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: fletchinder
+          display: Fletchinder
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: grand-loop
+            display: Grand Loop
+          cost:
+          - Colorless
+          text: Draw 3 cards. You may switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: brave-bird
+            display: Brave Bird
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 90
+          text: This Pokémon does 20 damage to itself.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: articuno
+    display: Articuno
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: find-ice
+            display: Find Ice
+          cost:
+          - Water
+          text: Search your deck for up to 3 {W} Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: freezing-wind
+            display: Freezing Wind
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: articuno
+    display: Articuno
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-plus
+            display: Δ Plus
+          text: If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+      - var: Attack
+        val:
+          name:
+            id: chilling-sigh
+            display: Chilling Sigh
+          cost:
+          - Water
+          text: Your opponent’s Active Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: tri-edge
+            display: Tri Edge
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 3 coins. This attack does 40 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: wingull
+    display: Wingull
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 278
+        name:
+          id: wingull
+          display: Wingull
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pelipper
+    display: Pelipper
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 279
+        name:
+          id: pelipper
+          display: Pelipper
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wingull
+          display: Wingull
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swallow
+            display: Swallow
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+          text: Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: water-pulse
+            display: Water Pulse
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-whip
+            display: Tail Whip
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: electro-ball
+            display: Electro Ball
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: voltorb
+    display: Voltorb
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 100
+        name:
+          id: voltorb
+          display: Voltorb
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Lightning
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: big-explosion
+            display: Big Explosion
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+          text: This Pokémon does 60 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: electrode
+    display: Electrode
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 101
+        name:
+          id: electrode
+          display: Electrode
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: voltorb
+          display: Voltorb
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: continuous-tumble
+            display: Continuous Tumble
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: energy-bomb
+            display: Energy Bomb
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: You may move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: zapdos
+    display: Zapdos
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 120
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: drill-peck
+            display: Drill Peck
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: raging-thunder
+            display: Raging Thunder
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 120
+          text: This attack does 40 damage to 1 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: electrike
+    display: Electrike
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: manectric
+    display: Manectric
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 310
+        name:
+          id: manectric
+          display: Manectric
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: electrike
+          display: Electrike
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: random-spark
+            display: Random Spark
+          cost:
+          - Lightning
+          text: This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: thundurus-ex
+    display: Thundurus-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 642
+        name:
+          id: thundurus
+          display: Thundurus
+      hit_points: 170
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headlock
+            display: Headlock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack 30 more damage. If tails, your opponent’s Active is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: voltage-rush
+            display: Voltage Rush
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 150
+          text: This Pokémon does 50 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: natu
+    display: Natu
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 177
+        name:
+          id: natu
+          display: Natu
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: natu
+    display: Natu
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 177
+        name:
+          id: natu
+          display: Natu
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-plus
+            display: Δ Plus
+          text: If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+      - var: Attack
+        val:
+          name:
+            id: psywave
+            display: Psywave
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: This attack does 10 damage times the amount of Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: xatu
+    display: Xatu
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: They say that it stays still and quiet because it is seeing both the past and future at the same time.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 178
+        name:
+          id: xatu
+          display: Xatu
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: natu
+          display: Natu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: future-sight
+            display: Future Sight
+          cost:
+          - Colorless
+          text: Look at the top 5 cards of either player’s deck and put them back on top of that player’s deck in any order.
+      - var: Attack
+        val:
+          name:
+            id: stressful-eye
+            display: Stressful Eye
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent reveals his or her hand. Discard a Trainer card you find there.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: shuppet
+    display: Shuppet
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 353
+        name:
+          id: shuppet
+          display: Shuppet
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bleh
+            display: Bleh
+          cost:
+          - Psychic
+          text: Discard a Special Energy attached to 1 of your opponent’s Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: banette
+    display: Banette
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 354
+        name:
+          id: banette
+          display: Banette
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shuppet
+          display: Shuppet
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: tool-concealment
+            display: Tool Concealment
+          text: Each Pokémon Tool card in play has no effect.
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: banette
+    display: Banette
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 354
+        name:
+          id: banette
+          display: Banette
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shuppet
+          display: Shuppet
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: evolution-jammer
+            display: Evolution Jammer
+          cost:
+          - Psychic
+          damage:
+            scalar: 20
+          text: Your opponent can’t play any Pokémon from his or her hand to evolve his or her Pokémon during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: curse-deeply
+            display: Curse Deeply
+          cost:
+          - Psychic
+          - Colorless
+          text: Put 5 damage counters on your opponent’s Active Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: deoxys
+    display: Deoxys
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 386
+        name:
+          id: deoxys
+          display: Deoxys
+      hit_points: 110
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: close-encounter
+            display: Close Encounter
+          cost:
+          - Colorless
+          text: If you go first, you can use this attack on your first turn. Draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: overdrive-smash
+            display: Overdrive Smash
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your next turn, this Pokémon’s Overdrive Smash attack does 60 more damage (before applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gallade-ex
+    display: Gallade-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 475
+        name:
+          id: gallade
+          display: Gallade
+      hit_points: 170
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swift-lunge
+            display: Swift Lunge
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: piercing-prizes
+            display: Piercing Prizes
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: This attack does 20 more damage for each of your remaining Prize cards.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-gallade-ex
+    display: M Gallade-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 475
+        name:
+          id: gallade
+          display: Gallade
+      hit_points: 220
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: gallade-ex
+          display: Gallade-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: unwavering-blade
+            display: Unwavering Blade
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 110
+          text: This attack does 30 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gligar
+    display: Gligar
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It flies straight at its target’s face then clamps down on the startled victim to inject poison.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 207
+        name:
+          id: gligar
+          display: Gligar
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stun-poison
+            display: Stun Poison
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: gliscor
+    display: Gliscor
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 472
+        name:
+          id: gliscor
+          display: Gliscor
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gligar
+          display: Gligar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-slide
+            display: Rock Slide
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: binacle
+    display: Binacle
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Two Binacle live together on one rock. When they fight, one of them will move to a different rock.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 688
+        name:
+          id: binacle
+          display: Binacle
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sand-attack
+            display: Sand Attack
+          cost:
+          - Fighting
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: mud-slap
+            display: Mud-Slap
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: hawlucha
+    display: Hawlucha
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 701
+        name:
+          id: hawlucha
+          display: Hawlucha
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: midair-strike
+            display: Midair Strike
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: absol
+    display: Absol
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It appears when it senses an impending natural disaster. As a result, it was mistaken as a doom bringer.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 359
+        name:
+          id: absol
+          display: Absol
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: cursed-eyes
+            display: Cursed Eyes
+          text: When you play this Pokémon from your hand onto your Bench, you may move 3 damage counters from 1 of your opponent’s Pokémon to another of his or her Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: mach-claw
+            display: Mach Claw
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: inkay
+    display: Inkay
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It flashes the light-emitting spots on its body, which drains its opponent’s will to fight. It takes the opportunity to scuttle away and hide.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 686
+        name:
+          id: inkay
+          display: Inkay
+      hit_points: 50
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rip-off
+            display: Rip Off
+          cost:
+          - Darkness
+          text: Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: psybeam
+            display: Psybeam
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: jirachi
+    display: Jirachi
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It is said to have the ability to grant any wish for just one week every thousand years.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 385
+        name:
+          id: jirachi
+          display: Jirachi
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: diminutive-desire
+            display: Diminutive Desire
+          cost:
+          - Metal
+          text: Look at the top 7 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: doom-desire
+            display: Doom Desire
+          cost:
+          - Metal
+          - Colorless
+          text: Discard all Energy attached to this Pokémon. The Defending Pokémon is Knocked Out at the end of your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: togepi
+    display: Togepi
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: hiron
+      display: HiRON
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 175
+        name:
+          id: togepi
+          display: Togepi
+      hit_points: 40
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sweet-kiss
+            display: Sweet Kiss
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Your opponent draws a card.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: togetic
+    display: Togetic
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: They say that it will appear before kindhearted, caring people and shower them with happiness.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 176
+        name:
+          id: togetic
+          display: Togetic
+      hit_points: 80
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: togepi
+          display: Togepi
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: go-fetch
+            display: Go Fetch
+          cost:
+          - Fairy
+          text: Shuffle 3 basic Energy cards from your discard pile into your deck.
+      - var: Attack
+        val:
+          name:
+            id: fairy-wind
+            display: Fairy Wind
+          cost:
+          - Fairy
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: togekiss
+    display: Togekiss
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: It shares many blessings with people who respect one another’s rights and avoid needless strife.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 468
+        name:
+          id: togekiss
+          display: Togekiss
+      hit_points: 140
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: togetic
+          display: Togetic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: powerful-slap
+            display: Powerful Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: aura-sphere
+            display: Aura Sphere
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: togekiss
+    display: Togekiss
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It shares many blessings with people who respect one another’s rights and avoid needless strife.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 468
+        name:
+          id: togekiss
+          display: Togekiss
+      hit_points: 130
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: togetic
+          display: Togetic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: serene-grace
+            display: Serene Grace
+          text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 8 cards of your deck. Choose any basic Energy cards you find there and attach them to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: fairy-wind
+            display: Fairy Wind
+          cost:
+          - Fairy
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: carbink
+    display: Carbink
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: Born from temperatures and pressures deep underground, it fires beams from the stone in its head.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 703
+        name:
+          id: carbink
+          display: Carbink
+      hit_points: 70
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: jewel-armor
+            display: Jewel Armor
+          text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).
+      - var: Attack
+        val:
+          name:
+            id: spin-tackle
+            display: Spin Tackle
+          cost:
+          - Fairy
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klefki
+    display: Klefki
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: These key collectors threaten any attackers by fiercely jingling their keys at them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 707
+        name:
+          id: klefki
+          display: Klefki
+      hit_points: 60
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: look-for-keys
+            display: Look for Keys
+          cost:
+          - Fairy
+          text: Reveal cards from the top of your deck until you reveal an Item card. Put it into your hand. Shuffle the other cards back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: play-rough
+            display: Play Rough
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 50
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hook
+            display: Hook
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: A mystical Pokémon that exudes a gentle aura. It is said to have the ability to change the weather.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shed-skin
+            display: Shed Skin
+          cost:
+          - Grass
+          text: Heal 30 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip 2 coins. This attack does 60 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite
+    display: Dragonite
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 150
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: max-wind
+            display: Max Wind
+          text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal all damage from 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: mach-press
+            display: Mach Press
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip 2 coins. If both of them are heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite
+    display: Dragonite
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: hatachu
+      display: hatachu
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 160
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-plus
+            display: Δ Plus
+          text: If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+      - var: Attack
+        val:
+          name:
+            id: wrapped-in-wind
+            display: Wrapped in Wind
+          cost:
+          - Lightning
+          text: Attach up to 2 basic Energy cards from your hand to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 150
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria
+    display: Altaria
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: song-of-echoes
+            display: Song of Echoes
+          cost:
+          - Colorless
+          text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of Benched Pokémon (both yours and your opponent’s).
+      - var: Attack
+        val:
+          name:
+            id: midnight-eyes
+            display: Midnight Eyes
+          cost:
+          - Water
+          - Metal
+          damage:
+            scalar: 30
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Dreaming of one day flying, it practices by leaping off cliffs every day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 60
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: continuous-headbutt
+            display: Continuous Headbutt
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Dreaming of one day flying, it practices by leaping off cliffs every day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 60
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leer
+            display: Leer
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: almost-flight
+            display: Almost Flight
+          cost:
+          - Fire
+          - Water
+          damage:
+            scalar: 30
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: shelgon
+    display: Shelgon
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 372
+        name:
+          id: shelgon
+          display: Shelgon
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bagon
+          display: Bagon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: exoskeleton
+            display: Exoskeleton
+          text: Any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: rolling-tackle
+            display: Rolling Tackle
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: salamence
+    display: Salamence
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It’s uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 160
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: shelgon
+          display: Shelgon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shatter
+            display: Shatter
+          cost:
+          - Fire
+          damage:
+            scalar: 60
+          text: Discard any Stadium card in play.
+      - var: Attack
+        val:
+          name:
+            id: power-howl
+            display: Power Howl
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage times the number of cards in your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: steam-blast
+            display: Steam Blast
+          cost:
+          - Fire
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 170
+          text: Discard 3 Energy attached to this Pokémon.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: latios-ex
+    display: Latios-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 170
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fast-raid
+            display: Fast Raid
+          cost:
+          - Psychic
+          damage:
+            scalar: 40
+          text: If you go first, you can use this attack on your first turn.
+      - var: Attack
+        val:
+          name:
+            id: light-pulse
+            display: Light Pulse
+          cost:
+          - Water
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 110
+          text: Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-latios-ex
+    display: M Latios-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 220
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: latios-ex
+          display: Latios-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sonic-ace
+            display: Sonic Ace
+          cost:
+          - Water
+          - Psychic
+          - Colorless
+          text: Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: rayquaza-ex
+    display: Rayquaza-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 180
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: dragon-strike
+            display: Dragon Strike
+          cost:
+          - Fire
+          - Fire
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 130
+          text: Flip a coin. If tails, this Pokémon can’t use Dragon Strike during your next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-rayquaza-ex
+    display: M Rayquaza-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 230
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: rayquaza-ex
+          display: Rayquaza-EX
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-wild
+            display: Delta Wild
+          text: Any damage done to this Pokémon by attacks from your opponent’s {G}, {R}, {W}, or {L} Pokémon is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: dragon-ascent
+            display: Dragon Ascent
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 300
+          text: Discard 2 Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: hydreigon-ex
+    display: Hydreigon-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 635
+        name:
+          id: hydreigon
+          display: Hydreigon
+      hit_points: 180
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: dragon-road
+            display: Dragon Road
+          text: If there is any Stadium card in play, the Retreat Cost of each of your {N} Pokémon in play is {C}{C} less.
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 80
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: reshiram
+    display: Reshiram
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: When Reshiram’s tail flares, the heat energy moves the atmosphere and changes the world’s weather.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: turboblaze
+            display: Turboblaze
+          text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may attach a {R} Energy card from your hand to 1 of your {N} Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bright-wing
+            display: Bright Wing
+          cost:
+          - Fire
+          - Fire
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 110
+          text: Discard a {R} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-stream
+            display: Energy Stream
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: Attach a basic Energy card from your discard pile to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: electric-ball
+            display: Electric Ball
+          cost:
+          - Fire
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: spearow
+    display: Spearow
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 21
+        name:
+          id: spearow
+          display: Spearow
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: fearow
+    display: Fearow
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: satoshi-shirai
+      display: Satoshi Shirai
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 22
+        name:
+          id: fearow
+          display: Fearow
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: spearow
+          display: Spearow
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: drill-run
+            display: Drill Run
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: feelin-fine
+            display: Feelin' Fine
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 3 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dunsparce
+    display: Dunsparce
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 206
+        name:
+          id: dunsparce
+          display: Dunsparce
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: burrow
+            display: Burrow
+          cost:
+          - Colorless
+          text: Discard the top card of your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: skarmory
+    display: Skarmory
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: Despite being clad entirely in iron-hard armor, it flies at speed of over 180 mph.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 227
+        name:
+          id: skarmory
+          display: Skarmory
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: blow-through
+            display: Blow Through
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If there is any Stadium card in play, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: taillow
+    display: Taillow
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 276
+        name:
+          id: taillow
+          display: Taillow
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-peck
+            display: Double Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swellow
+    display: Swellow
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 277
+        name:
+          id: swellow
+          display: Swellow
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: taillow
+          display: Taillow
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: clutch
+            display: Clutch
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: aerial-ace
+            display: Aerial Ace
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swellow
+    display: Swellow
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2015-05-06
+    flavor: It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 277
+        name:
+          id: swellow
+          display: Swellow
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: taillow
+          display: Taillow
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-plus
+            display: Δ Plus
+          text: If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swablu
+    display: Swablu
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 333
+        name:
+          id: swablu
+          display: Swablu
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bind-wound
+            display: Bind Wound
+          cost:
+          - Colorless
+          text: Heal 20 damage from 1 of your Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: altaria
+    display: Altaria
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: clear-humming
+            display: Clear Humming
+          text: Each of your {C} Pokémon has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: rayquaza-ex
+    display: Rayquaza-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryota-murayama
+      display: Ryota Murayama
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 170
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: intensifying-burn
+            display: Intensifying Burn
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 50 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dragon-pulse
+            display: Dragon Pulse
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard the top 3 cards of your deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-rayquaza-ex
+    display: M Rayquaza-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 220
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: rayquaza-ex
+          display: Rayquaza-EX
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: emerald-break
+            display: Emerald Break
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: This attack does 30 damage times the number of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: shaymin-ex
+    display: Shaymin-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 492
+        name:
+          id: shaymin
+          display: Shaymin
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: set-up
+            display: Set Up
+          text: When you play this Pokémon from your hand onto your Bench, you may draw cards until you have 6 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: sky-return
+            display: Sky Return
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Return this Pokémon and all cards attached to it to your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pidove
+    display: Pidove
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 519
+        name:
+          id: pidove
+          display: Pidove
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: homing-pidove
+            display: Homing Pidove
+          cost:
+          - Colorless
+          text: Look at the top card of your deck. Then, you may shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tranquill
+    display: Tranquill
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: No matter where in the world it goes, it knows where its nest is, so it never gets separated from its Trainer.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 520
+        name:
+          id: tranquill
+          display: Tranquill
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pidove
+          display: Pidove
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fly
+            display: Fly
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: unfezant
+    display: Unfezant
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+    flavor: Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 521
+        name:
+          id: unfezant
+          display: Unfezant
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: tranquill
+          display: Tranquill
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      - var: Attack
+        val:
+          name:
+            id: strong-winds
+            display: Strong Winds
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Shuffle all cards attached to each player’s Pokémon into that player’s deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: unfezant
+    display: Unfezant
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2015-05-06
+    flavor: Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 521
+        name:
+          id: unfezant
+          display: Unfezant
+      hit_points: 140
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: tranquill
+          display: Tranquill
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: feather-dance
+            display: Feather Dance
+          cost:
+          - Colorless
+          - Colorless
+          text: During your next turn, each of this Pokémon’s attacks does 80 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: sky-attack
+            display: Sky Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: fletchling
+    display: Fletchling
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: common
+      display: Common
+    release_date: 2015-05-06
+    flavor: Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 661
+        name:
+          id: fletchling
+          display: Fletchling
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: acrobatics
+            display: Acrobatics
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip 2 coins. This attack does 10 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gallade-spirit-link
+    display: Gallade Spirit Link
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Your turn does not end if the Pokémon this card is attached to becomes M Gallade-EX.
+      sub: PokemonTool
+- title:
+    id: healing-scarf
+    display: Healing Scarf
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Whenever you attach an Energy card from your hand to the Pokémon this card is attached to, heal 20 damage from it.
+      sub: PokemonTool
+- title:
+    id: latios-spirit-link
+    display: Latios Spirit Link
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Your turn does not end if the Pokémon this card is attached to becomes M Latios-EX.
+      sub: PokemonTool
+- title:
+    id: mega-turbo
+    display: Mega Turbo
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Attach a basic Energy card from your discard pile to 1 of your Mega Evolution Pokémon.
+      sub: Item
+- title:
+    id: rayquaza-spirit-link
+    display: Rayquaza Spirit Link
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Your turn does not end if the Pokémon this card is attached to becomes M Rayquaza-EX.
+      sub: PokemonTool
+- title:
+    id: revive
+    display: Revive
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Put a Basic Pokémon from your discard pile onto your Bench.
+      sub: Item
+- title:
+    id: sky-field
+    display: Sky Field
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Each player can have 8 Pokémon on his or her Bench.
+        (When this card leaves play, each player discards Benched Pokémon until he or she has 5 Pokémon on the Bench. The owner of this card discards first.)
+      sub: Stadium
+- title:
+    id: steven
+    display: Steven
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Supporter card and a basic Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Switch your Active Pokémon with 1 of your Benched Pokémon.
+      sub: Item
+- title:
+    id: trainers-mail
+    display: Trainers' Mail
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 4 cards of your deck. You may reveal a Trainer card you find there (except for Trainers’ Mail) and put it into your hand. Shuffle the other cards back into your deck.
+      sub: Item
+- title:
+    id: ultra-ball
+    display: Ultra Ball
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Discard 2 cards from your hand. (If you can’t discard 2 cards, you can’t play this card.) Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: wally
+    display: Wally
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a card that evolves from 1 of your Pokémon (excluding Pokémon-EX) and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward. You can use this card during your first turn or on a Pokémon that was put into play this turn.
+      sub: Supporter
+- title:
+    id: wide-lens
+    display: Wide Lens
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Damage from the attacks of the Pokémon this card is attached to is affected by Weakness and Resistance for your opponent’s Benched Pokémon.
+      sub: PokemonTool
+- title:
+    id: winona
+    display: Winona
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 3 {C} Pokémon and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: double-dragon-energy
+    display: Double Dragon Energy
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2015-05-06
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          This card can only be attached to {N} Pokémon. This card provides every type of Energy, but provides only 2 Energy at a time, only while this card is attached to a {N} Pokémon.
+          (If this card is attached to anything other than a {N} Pokémon, discard this card.)
+- title:
+    id: thundurus-ex
+    display: Thundurus-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 642
+        name:
+          id: thundurus
+          display: Thundurus
+      hit_points: 170
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headlock
+            display: Headlock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack 30 more damage. If tails, your opponent’s Active is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: voltage-rush
+            display: Voltage Rush
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 150
+          text: This Pokémon does 50 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gallade-ex
+    display: Gallade-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 475
+        name:
+          id: gallade
+          display: Gallade
+      hit_points: 170
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swift-lunge
+            display: Swift Lunge
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: piercing-prizes
+            display: Piercing Prizes
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: This attack does 20 more damage for each of your remaining Prize cards.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-gallade-ex
+    display: M Gallade-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 475
+        name:
+          id: gallade
+          display: Gallade
+      hit_points: 220
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: gallade-ex
+          display: Gallade-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: unwavering-blade
+            display: Unwavering Blade
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 110
+          text: This attack does 30 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: latios-ex
+    display: Latios-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 170
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fast-raid
+            display: Fast Raid
+          cost:
+          - Psychic
+          damage:
+            scalar: 40
+          text: If you go first, you can use this attack on your first turn.
+      - var: Attack
+        val:
+          name:
+            id: light-pulse
+            display: Light Pulse
+          cost:
+          - Water
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 110
+          text: Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-latios-ex
+    display: M Latios-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 220
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: latios-ex
+          display: Latios-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sonic-ace
+            display: Sonic Ace
+          cost:
+          - Water
+          - Psychic
+          - Colorless
+          text: Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: hydreigon-ex
+    display: Hydreigon-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 635
+        name:
+          id: hydreigon
+          display: Hydreigon
+      hit_points: 180
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: dragon-road
+            display: Dragon Road
+          text: If there is any Stadium card in play, the Retreat Cost of each of your {N} Pokémon in play is {C}{C} less.
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 80
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: rayquaza-ex
+    display: Rayquaza-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 170
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: intensifying-burn
+            display: Intensifying Burn
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 50 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dragon-pulse
+            display: Dragon Pulse
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard the top 3 cards of your deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-rayquaza-ex
+    display: M Rayquaza-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 220
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: rayquaza-ex
+          display: Rayquaza-EX
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: emerald-break
+            display: Emerald Break
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: This attack does 30 damage times the number of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: shaymin-ex
+    display: Shaymin-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 492
+        name:
+          id: shaymin
+          display: Shaymin
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: set-up
+            display: Set Up
+          text: When you play this Pokémon from your hand onto your Bench, you may draw cards until you have 6 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: sky-return
+            display: Sky Return
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Return this Pokémon and all cards attached to it to your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: wally
+    display: Wally
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: emi-ando
+      display: Emi Ando
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a card that evolves from 1 of your Pokémon (excluding Pokémon-EX) and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward. You can use this card during your first turn or on a Pokémon that was put into play this turn.
+      sub: Supporter
+- title:
+    id: winona
+    display: Winona
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 3 {C} Pokémon and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: energy-switch
+    display: Energy Switch
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Move a basic Energy from 1 of your Pokémon to another of your Pokémon.
+      sub: Item
+- title:
+    id: vs-seeker
+    display: VS Seeker
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2015-05-06
+  sub:
+    var: Trainer
+    val:
+      text: Put a Supporter card from your discard pile into your hand.
+      sub: Item
+- title:
+    id: trainers-mail
+    display: Trainers' Mail
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: 92a
+      display: 92a
+    printed_total: '108'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2017-06-16
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 4 cards of your deck. You may reveal a Trainer card you find there (except for Trainers’ Mail) and put it into your hand. Shuffle the other cards back into your deck.
+      sub: Item
+- title:
+    id: shaymin-ex
+    display: Shaymin-EX
+  set:
+    name:
+      id: roaring-skies
+      display: Roaring Skies
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ros
+      display: ROS
+  number:
+    number:
+      id: 77a
+      display: 77a
+    printed_total: '108'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2017-10-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 492
+        name:
+          id: shaymin
+          display: Shaymin
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: set-up
+            display: Set Up
+          text: When you play this Pokémon from your hand onto your Bench, you may draw cards until you have 6 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: sky-return
+            display: Sky Return
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Return this Pokémon and all cards attached to it to your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus

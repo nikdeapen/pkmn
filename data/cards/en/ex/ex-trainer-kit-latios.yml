@@ -1,0 +1,483 @@
+- title:
+    id: electrike
+    display: Electrike
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: latios
+    display: Latios
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: kyoko-koizumi
+      display: Kyoko Koizumi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gather-energy
+            display: Gather Energy
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: linoone
+    display: Linoone
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 264
+        name:
+          id: linoone
+          display: Linoone
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: zigzagoon
+          display: Zigzagoon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: seek-out
+            display: Seek Out
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: continuous-headbutt
+            display: Continuous Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 40 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: magnemite
+    display: Magnemite
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: hook
+            display: Hook
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: magneton
+    display: Magneton
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 82
+        name:
+          id: magneton
+          display: Magneton
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magnemite
+          display: Magnemite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: triple-smash
+            display: Triple Smash
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: pika-bolt
+            display: Pika Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zigzagoon
+    display: Zigzagoon
+  set:
+    name:
+      id: ex-trainer-kit-latios
+      display: EX Trainer Kit - Latios
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1o
+      display: TK1O
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 263
+        name:
+          id: zigzagoon
+          display: Zigzagoon
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times

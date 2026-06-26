@@ -1,0 +1,7763 @@
+- title:
+    id: blaziken
+    display: Blaziken
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '56'
+      display: '56'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 257
+        name:
+          id: blaziken
+          display: Blaziken
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: combusken
+          display: Combusken
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-dance
+            display: Fire Dance
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+          text: Search your discard pile for a {R} Energy card and attach it to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flame-kick
+            display: Flame Kick
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          text: Discard 2 {R} Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Plus
+- title:
+    id: cresselia
+    display: Cresselia
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: '48'
+      display: '48'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 488
+        name:
+          id: cresselia
+          display: Cresselia
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: moon-twinkle
+            display: Moon Twinkle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: If there is any Stadium card in play, remove 2 damage counters from Cresselia.
+      - var: Attack
+        val:
+          name:
+            id: lunar-dance
+            display: Lunar Dance
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may discard 2 Energy attached to Cresselia. If you do, remove all damage counters from 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: darkrai
+    display: Darkrai
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: It can lull people to sleep and make them dream. It is active during nights of the new moon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 491
+        name:
+          id: darkrai
+          display: Darkrai
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: reach-over
+            display: Reach Over
+          cost: []
+          text: Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: darkness-pursuit
+            display: Darkness Pursuit
+          cost:
+          - Darkness
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 50
+          text: If the Defending Pokémon is Cresselia, this attack’s base damage is 100.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: darkrai
+    display: Darkrai
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: It can lull people to sleep and make them dream. It is active during nights of the new moon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 491
+        name:
+          id: darkrai
+          display: Darkrai
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: darkness-roar
+            display: Darkness Roar
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: You may have your opponent switch the Defending Pokémon with 1 or his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sleep-hole
+            display: Sleep Hole
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If the Defending Pokémon is Asleep, this attack does 40 damage plus 40 more damage. If the Defending Pokémon is not Asleep, that Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pachirisu
+    display: Pachirisu
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 417
+        name:
+          id: pachirisu
+          display: Pachirisu
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: smash-short
+            display: Smash Short
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 10 damage plus 30 more damage. Discard that Pokémon Tool card, look at your opponent’s hand, and discard any Pokémon Tool cards of the same name you find there.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: porygon-z
+    display: Porygon-Z
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '54'
+      display: '54'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: Additional software was installed to make it a better Pokémon. It began acting oddly, however.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 474
+        name:
+          id: porygon-z
+          display: Porygon-Z
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: porygon2
+          display: Porygon2
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: conversion
+            display: Conversion
+          text: Once during your turn (before your attack), you may discard a basic Energy card from your hand. Porygon-Z is the same type as that Energy Card until the end of your turn. This power can’t be used if Porygon-Z is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: tri-attack
+            display: Tri Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 3 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Plus
+- title:
+    id: rotom
+    display: Rotom
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 479
+        name:
+          id: rotom
+          display: Rotom
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: astonish
+            display: Astonish
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Choose 1 card from your opponent’s hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: telebeam
+            display: Telebeam
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sceptile
+    display: Sceptile
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '52'
+      display: '52'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 254
+        name:
+          id: sceptile
+          display: Sceptile
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: grovyle
+          display: Grovyle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: wild-growth
+            display: Wild Growth
+          text: Each basic {G} Energy card attached to your {G} Pokémon provides {G}{G} Energy instead. You can’t use more than 1 Wild Growth Poké-Body each turn.
+      - var: Attack
+        val:
+          name:
+            id: leaf-blade
+            display: Leaf Blade
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swampert
+    display: Swampert
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '53'
+      display: '53'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 260
+        name:
+          id: swampert
+          display: Swampert
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: marshtomp
+          display: Marshtomp
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: wash-out
+            display: Wash Out
+          text: As often as you like during your turn (before your attack), you may move a {W} or {F} Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can’t be used if Swampert is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: hammer-arm
+            display: Hammer Arm
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard the top card from your opponent’s deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Plus
+- title:
+    id: tangrowth
+    display: Tangrowth
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 465
+        name:
+          id: tangrowth
+          display: Tangrowth
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tangela
+          display: Tangela
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: power-whip
+            display: Power Whip
+          cost:
+          - Grass
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: stick-and-absorb
+            display: Stick and Absorb
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Remove 3 damage counters from Tangrowth. The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: togekiss
+    display: Togekiss
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '51'
+      display: '51'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2008-02-13
+    flavor: It will never appear where there is strife. Its sightings have become rare recently.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 468
+        name:
+          id: togekiss
+          display: Togekiss
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: togetic
+          display: Togetic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: serene-grace
+            display: Serene Grace
+          text: Once during your turn, when you play Togekiss from your hand to evolve 1 of your Pokémon, you may look at the top 10 cards of your deck, choose as many basic Energy cards as you like, and attach them to your Pokémon in any way you like. Put the other cards back on top of your deck. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: air-scroll
+            display: Air Scroll
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 damage plus 30 more damage. If tails, remove 3 damage counters from Togekiss.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: altaria
+    display: Altaria
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It looks like a fluffy cloud when it is in flight. It hums with its soprano voice.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragonbreath
+            display: Dragonbreath
+          cost:
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: cotton-cloud
+            display: Cotton Cloud
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: During your opponent’s next turn, any damage done to Altaria by attacks from your opponent’s Evolved Pokémon is reduced by 30 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: beedrill
+    display: Beedrill
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '41'
+      display: '41'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Its best attack involves flying around at high speed, striking with poison needles, then flying off.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kakuna
+          display: Kakuna
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: band-attack
+            display: Band Attack
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Does 30 damage times the number of Beedrill you have in play.
+      - var: Attack
+        val:
+          name:
+            id: twineedle
+            display: Twineedle
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Flip 2 coins. This attack does 50 damage times the number of heads.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+- title:
+    id: butterfree
+    display: Butterfree
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 12
+        name:
+          id: butterfree
+          display: Butterfree
+      hit_points: 120
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: metapod
+          display: Metapod
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: parallel-drain
+            display: Parallel Drain
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+          text: After your attack, remove from 1 of your Pokémon the number of damage counters equal to the damage you did to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: dozing-scales
+            display: Dozing Scales
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Poisoned.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 30
+        modifier: Plus
+- title:
+    id: claydol
+    display: Claydol
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 344
+        name:
+          id: claydol
+          display: Claydol
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: baltoy
+          display: Baltoy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: cosmic-power
+            display: Cosmic Power
+          text: Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can’t be used if Claydol is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: spinning-attack
+            display: Spinning Attack
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: dialga
+    display: Dialga
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '68'
+      display: '68'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 483
+        name:
+          id: dialga
+          display: Dialga
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: time-bellow
+            display: Time Bellow
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: flash-cannon
+            display: Flash Cannon
+          cost:
+          - Metal
+          - Metal
+          - Colorless
+          damage:
+            scalar: 40
+          text: You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent’s deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: exploud
+    display: Exploud
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '58'
+      display: '58'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Its howls can be heard over six miles away. It emits all sorts of noises from the ports on its body.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 295
+        name:
+          id: exploud
+          display: Exploud
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: loudred
+          display: Loudred
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ambient-noise
+            display: Ambient Noise
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip 2 coins. If the first coin is heads, this attack does 50 damage to the Defending Pokémon. If the first coin is tails, this attack does 20 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) If the second coin is heads, the Defending Pokémon is now Confused. If the second coin is tails, your opponent can’t play any Trainer, Supporter, or Stadium cards from his or her hand during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: hyper-voice
+            display: Hyper Voice
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Plus
+- title:
+    id: houndoom
+    display: Houndoom
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '41'
+      display: '41'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Long ago, people imagined its eerie howls to be the call of the grim reaper.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: houndour
+          display: Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-fang
+            display: Dark Fang
+          cost:
+          - Darkness
+          damage:
+            scalar: 20
+          text: Choose 1 card from your opponent’s hand without looking and discard it.
+      - var: Attack
+        val:
+          name:
+            id: black-fire
+            display: Black Fire
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: You may discard a {R} or {D} Energy attached to Houndoom. If you discard a {R} Energy, the Defending Pokémon is now Burned. If you discard a {D} Energy, this attack does 40 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hypno
+    display: Hypno
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '28'
+      display: '28'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drowzee
+          display: Drowzee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dream-catcher
+            display: Dream Catcher
+          cost:
+          - Colorless
+          - Colorless
+          text: If the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: kingler
+    display: Kingler
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 99
+        name:
+          id: kingler
+          display: Kingler
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: krabby
+          display: Krabby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crabhammer
+            display: Crabhammer
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: scissor-blow
+            display: Scissor Blow
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+          text: If the Defending Pokémon would be be Knocked Out by this attack, Kingler does 30 damage to itself.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: lapras
+    display: Lapras
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '47'
+      display: '47'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It loves crossing the sea with people and Pokémon on its back. It understands human speech.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 131
+        name:
+          id: lapras
+          display: Lapras
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: carry-in
+            display: Carry In
+          cost:
+          - Water
+          text: Search your deck for a Pokémon Tool Card, a Supporter card, and a basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: latias
+    display: Latias
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Its body is covered with a down that can refract light in such a way that it becomes invisible.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: miraculous-light
+            display: Miraculous Light
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Remove 2 damage counters and all Special Conditions from Latias.
+      - var: Attack
+        val:
+          name:
+            id: mist-ball
+            display: Mist Ball
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard a {R} Energy and a {W} Energy attached to Latias.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: latios
+    display: Latios
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '47'
+      display: '47'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-draw
+            display: Energy Draw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: luster-purge
+            display: Luster Purge
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard 3 Energy attached to Latios.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mawile
+    display: Mawile
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 303
+        name:
+          id: mawile
+          display: Mawile
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pick-out
+            display: Pick Out
+          cost: []
+          text: Choose 1 face-down Prize card (yours or your opponent’s) and put it face up. If that card is a Supporter card, use the effect of that card as the effect of this attack. (That card remains face up for the rest of the game.)
+      - var: Attack
+        val:
+          name:
+            id: jaw-bite
+            display: Jaw Bite
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: milotic
+    display: Milotic
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    level:
+      id: '47'
+      display: '47'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: When people bicker, it is said to arise from the depths of lakes to becalm violent hearts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 350
+        name:
+          id: milotic
+          display: Milotic
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: feebas
+          display: Feebas
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: marvel-scale
+            display: Marvel Scale
+          text: Prevent all effects of attacks, including damage, done to Milotic by your opponent’s Pokémon LV.X.
+      - var: Attack
+        val:
+          name:
+            id: twister
+            display: Twister
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: palkia
+    display: Palkia
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '67'
+      display: '67'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 484
+        name:
+          id: palkia
+          display: Palkia
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spacial-rend
+            display: Spacial Rend
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.
+      - var: Attack
+        val:
+          name:
+            id: transback
+            display: Transback
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: You may flip a coin. If heads, discard all Energy attached to Palkia and put the Defending Pokémon and all cards attached to it on top of your opponent’s deck. Your opponent shuffles his or her deck afterward.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: primeape
+    display: Primeape
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '41'
+      display: '41'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 57
+        name:
+          id: primeape
+          display: Primeape
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mankey
+          display: Mankey
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: anger-point
+            display: Anger Point
+          text: If Primeape has any damage counters on it, Primeape’s attacks do 40 more damage to the Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: whump
+            display: Whump
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Primeape is now Confused. Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: slowking
+    display: Slowking
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '41'
+      display: '41'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 199
+        name:
+          id: slowking
+          display: Slowking
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: trump-card
+            display: Trump Card
+          text: Once during your turn (before your attack), if any of your Pokémon were Knocked Out during your opponent’s last turn, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward. This power can’t be used if Slowking is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: psych-up
+            display: Psych Up
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your next turn, Slowking’s Psych Up attack’s base damage is 60.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: unown-h
+    display: Unown H
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: heal
+            display: HEAL
+          text: Once during your turn (before your attack), if you have Unown H, Unown E, Unown A, and Unown L on your Bench, you may remove all Special Conditions from 1 of your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 30
+          text: Discard a card from your hand. (If you can’t discard a card from your hand, this attack does nothing.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: wailord
+    display: Wailord
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '43'
+      display: '43'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 321
+        name:
+          id: wailord
+          display: Wailord
+      hit_points: 200
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wailmer
+          display: Wailmer
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sleeping-pulse
+            display: Sleeping Pulse
+          text: As long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.
+      - var: Attack
+        val:
+          name:
+            id: sink-deep
+            display: Sink Deep
+          cost:
+          - Water
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 60
+          text: If Wailord has any damage counters on it, Wailord is now Asleep.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: weezing
+    display: Weezing
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: It grows by feeding on gases released by garbage. Though very rare, triplets have been found.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 110
+        name:
+          id: weezing
+          display: Weezing
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: koffing
+          display: Koffing
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: toxic-virus
+            display: Toxic Virus
+          text: At any time between turns, each player puts 1 more damage counter on his or her Poisoned Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: offensive-gas
+            display: Offensive Gas
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: wigglytuff
+    display: Wigglytuff
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-02-13
+    flavor: Its fine fur feels sublime to the touch. It can expand its body by inhaling air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 40
+        name:
+          id: wigglytuff
+          display: Wigglytuff
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: jigglypuff
+          display: Jigglypuff
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: good-night-melody
+            display: Good Night Melody
+          text: Once during your turn (before your attack), you may use this power. Each Active Pokémon (both yours and your opponent’s) is now Asleep. This power can’t be used if Wigglytuff is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: ballon-attack
+            display: Ballon Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If Igglybuff is anywhere under Wigglytuff, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: arbok
+    display: Arbok
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 24
+        name:
+          id: arbok
+          display: Arbok
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ekans
+          display: Ekans
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: deadly-poison
+            display: Deadly Poison
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If the Defending Pokémon is Poisoned, this attack does 10 damage plus 40 more damage. If the Defending Pokémon is not Poisoned, that Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: wrap
+            display: Wrap
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: cacturne
+    display: Cacturne
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It becomes active at night, seeking prey that is exhausted from the day’s desert heat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 332
+        name:
+          id: cacturne
+          display: Cacturne
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cacnea
+          display: Cacnea
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pin-missile
+            display: Pin Missile
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 3 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: needle-arm
+            display: Needle Arm
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: combusken
+    display: Combusken
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '24'
+      display: '24'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 256
+        name:
+          id: combusken
+          display: Combusken
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: torchic
+          display: Torchic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bulk-up
+            display: Bulk Up
+          cost:
+          - Fire
+          damage:
+            scalar: 30
+          text: During your next turn, each of Combusken’s attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Flip 2 coins. This attack does 50 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Plus
+- title:
+    id: delibird
+    display: Delibird
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 225
+        name:
+          id: delibird
+          display: Delibird
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: present
+            display: Present
+          cost: []
+          text: Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: ice-ball
+            display: Ice Ball
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Plus
+- title:
+    id: floatzel
+    display: Floatzel
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It floats using its well-developed floatation sac. It assists in the rescues of drowning people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 419
+        name:
+          id: floatzel
+          display: Floatzel
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: buizel
+          display: Buizel
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Floatzel during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: aqua-jet
+            display: Aqua Jet
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If heads, this attack does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: gorebyss
+    display: Gorebyss
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 368
+        name:
+          id: gorebyss
+          display: Gorebyss
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clamperl
+          display: Clamperl
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sweet-temptation
+            display: Sweet Temptation
+          cost: []
+          text: Switch 1 of your opponent’s Benched Pokémon with 1 of the Defending Pokémon. This attack does 10 damage to the new Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: psychic-snap
+            display: Psychic Snap
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If Gorebyss has any {P} Energy attached to it, this attack does 30 damage plus 20 more damage and the Defending Pokémon is now Confused.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: granbull
+    display: Granbull
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 210
+        name:
+          id: granbull
+          display: Granbull
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snubbull
+          display: Snubbull
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: daunt
+            display: Daunt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Does 40 damage plus 10 more damage for each damage counter on Granbull.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: grovyle
+    display: Grovyle
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 253
+        name:
+          id: grovyle
+          display: Grovyle
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: treecko
+          display: Treecko
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: greenness
+            display: Greenness
+          cost: []
+          text: Search your deck for up to 2 {G} Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: poison-breath
+            display: Poison Breath
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hariyama
+    display: Hariyama
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 297
+        name:
+          id: hariyama
+          display: Hariyama
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: makuhita
+          display: Makuhita
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: palm-strike
+            display: Palm Strike
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 40 more damage.
+      - var: Attack
+        val:
+          name:
+            id: spirited-throw
+            display: Spirited Throw
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: If Hariyama has fewer remaining HP than the Defending Pokémon, this attack’s base damage is 80.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Plus
+- title:
+    id: huntail
+    display: Huntail
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 367
+        name:
+          id: huntail
+          display: Huntail
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clamperl
+          display: Clamperl
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scary-face
+            display: Scary Face
+          cost: []
+          text: Flip a coin. If heads, the Defending Pokémon can’t attack or retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: threaten-and-drop
+            display: Threaten and Drop
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If Huntail has any {D} Energy attached to it, this attack does 30 damage plus 20 more damage and discard a Special Energy card, if any, attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: linoone
+    display: Linoone
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '24'
+      display: '24'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 264
+        name:
+          id: linoone
+          display: Linoone
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: zigzagoon
+          display: Zigzagoon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: switcheroo
+            display: Switcheroo
+          cost: []
+          text: Move a Pokémon Tool card attached to 1 of your opponent’s Pokémon to another of your opponent’s Pokémon (excluding Pokémon that already has a Pokémon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing.)
+      - var: Attack
+        val:
+          name:
+            id: overrun
+            display: Overrun
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: loudred
+    display: Loudred
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: The shock waves from its cries can tip over trucks. It stamps its feet to power up.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 294
+        name:
+          id: loudred
+          display: Loudred
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: whismur
+          display: Whismur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bass-control
+            display: Bass Control
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: magcargo
+    display: Magcargo
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Its body temperature is roughly 18,000 degrees F. Flames spout from gaps in its hardened shell.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 219
+        name:
+          id: magcargo
+          display: Magcargo
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slugma
+          display: Slugma
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: magma-armor
+            display: Magma Armor
+          text: Magcargo can’t be Asleep or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: lava-plume
+            display: Lava Plume
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 60
+          text: You may discard the top card of your deck. If you do, the Defending Pokémon is now Burned.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Plus
+- title:
+    id: marshtomp
+    display: Marshtomp
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 259
+        name:
+          id: marshtomp
+          display: Marshtomp
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mudkip
+          display: Mudkip
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: muddy-bomb
+            display: Muddy Bomb
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon and 10 damage to each of your opponent’s other Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: metapod
+    display: Metapod
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 11
+        name:
+          id: metapod
+          display: Metapod
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: caterpie
+          display: Caterpie
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: emerge
+            display: Emerge
+          text: Once during your turn (before your attack), if Metapod is your Active Pokémon, you may flip a coin. If heads, search your deck for a card that evolves from Metapod and put it onto Metapod. (This counts as evolving Metapod.) Shuffle your deck afterward. This power can’t be used if Metapod is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+- title:
+    id: pelipper
+    display: Pelipper
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It dips its large bill in the sea, then scoops up numerous prey along with water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 279
+        name:
+          id: pelipper
+          display: Pelipper
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wingull
+          display: Wingull
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: guzzle
+            display: Guzzle
+          cost: []
+          text: Choose up to 2 basic {W} Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way.
+      - var: Attack
+        val:
+          name:
+            id: jet-return
+            display: Jet Return
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Does 30 times the number of Energy cards attached to Pelipper. Then, put all Energy cards attached to Pelipper on top of your deck. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: porygon2
+    display: Porygon2
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: With planetary development software installed, it became capable of working in space.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 233
+        name:
+          id: porygon2
+          display: Porygon2
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: porygon
+          display: Porygon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: download
+            display: Download
+          text: Once during your turn (before your attack), you may discard a Supporter card from your hand and use the effect of that card as the effect of this power. This power can’t be used if Porygon2 is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: speed-attack
+            display: Speed Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: purugly
+    display: Purugly
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '47'
+      display: '47'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It is a brazen brute that barges its way into another Pokémon’s nest and claims it as its own.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 432
+        name:
+          id: purugly
+          display: Purugly
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: glameow
+          display: Glameow
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swagger
+            display: Swagger
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 3 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: relicanth
+    display: Relicanth
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 369
+        name:
+          id: relicanth
+          display: Relicanth
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: primal-calling
+            display: Primal Calling
+          cost: []
+          text: Search your deck for up to 3 Trainer Cards that have Fossil in their names, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: sleep-swirl
+            display: Sleep Swirl
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Both Relicanth and the Defending Pokémon are now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: seviper
+    display: Seviper
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: For many generations, it has feuded with ZANGOOSE. It whets its bladed tail on rocks for battle.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 336
+        name:
+          id: seviper
+          display: Seviper
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-blade
+            display: Tail Blade
+          cost:
+          - Psychic
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent can’t play any Trainer cards from his or her hand during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: poison-tail
+            display: Poison Tail
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: skarmory
+    display: Skarmory
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 227
+        name:
+          id: skarmory
+          display: Skarmory
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: air-crash
+            display: Air Crash
+          cost:
+          - Metal
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: steel-wing
+            display: Steel Wing
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: During your opponent’s next turn, any damage done to Skarmory by attacks is reduced by 20 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: slowbro
+    display: Slowbro
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 80
+        name:
+          id: slowbro
+          display: Slowbro
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: amnesia
+            display: Amnesia
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: zen-headbutt
+            display: Zen Headbutt
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: togetic
+    display: Togetic
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It is said to appear in front of kindly people to scatter a glowing down called “joy dust.”
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 176
+        name:
+          id: togetic
+          display: Togetic
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: togepi
+          display: Togepi
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: speed-dive
+            display: Speed Dive
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: sweet-kiss
+            display: Sweet Kiss
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Your opponent may draw a card.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: unown-f
+    display: Unown F
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: fake
+            display: FAKE
+          text: Once during your turn (before your attack), if Unown F is on your Bench, you may use this power. Put a coin next to your Active Pokémon without showing your opponent and cover it with your hand. Your opponent guesses if the coin is heads or tails. If he or she is wrong, draw a card.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: You may flip a coin. If tails, this attack does nothing. If heads, this attack’s base damage is 30.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: unown-g
+    display: Unown G
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: guard
+            display: GUARD
+          text: Once during your turn (before your attack), if Unown G is on your Bench, you may discard all cards attached to Unown G and attach Unown G to 1 of your Pokémon as a Pokémon Tool card. As long as Unown G is attached to a Pokémon, prevent all effects of attacks, excluding damage, done to that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+          text: If Unown G has any damage counters on it, this attack’s base damage is 10.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: wailmer
+    display: Wailmer
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: satoshi-ohta
+      display: Satoshi Ohta
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 320
+        name:
+          id: wailmer
+          display: Wailmer
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tsunami
+            display: Tsunami
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: zangoose
+    display: Zangoose
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+    flavor: It has feuded with SEVIPER for many generations. Its sharp claws are its biggest weapons.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 335
+        name:
+          id: zangoose
+          display: Zangoose
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: cutting-claw
+            display: Cutting Claw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If your opponent has Seviper in play, this attack does 40 damage plus 50 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: baltoy
+    display: Baltoy
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 343
+        name:
+          id: baltoy
+          display: Baltoy
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psychic-balance
+            display: Psychic Balance
+          cost:
+          - Colorless
+          text: If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)
+      - var: Attack
+        val:
+          name:
+            id: spin-turn
+            display: Spin Turn
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+          text: Switch Baltoy with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 10
+        modifier: Plus
+- title:
+    id: buizel
+    display: Buizel
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It has a flotation sac that is like an inflatable collar. It floats on water with its head out.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 418
+        name:
+          id: buizel
+          display: Buizel
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost: []
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: cacnea
+    display: Cacnea
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: saya-tsuruta
+      display: Saya Tsuruta
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: By storing water in its body, this desert dweller can survive 30 days without water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 331
+        name:
+          id: cacnea
+          display: Cacnea
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sand-attack
+            display: Sand Attack
+          cost:
+          - Colorless
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: caterpie
+    display: Caterpie
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 10
+        name:
+          id: caterpie
+          display: Caterpie
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: pupate
+            display: Pupate
+          text: Once during your turn (before your attack), if Caterpie is your Active Pokémon, you may flip a coin. If heads, search your deck for a card that evolves from Caterpie and put it onto Caterpie. (This counts as evolving Caterpie.) Shuffle your deck afterward. This power can’t be used if Caterpie is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: clamperl
+    display: Clamperl
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 366
+        name:
+          id: clamperl
+          display: Clamperl
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: clamp
+            display: Clamp
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: sparkling-pearl
+            display: Sparkling Pearl
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: drowzee
+    display: Drowzee
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It can tell what people are dreaming by sniffing with its big nose. It loves fun dreams.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnosis
+            display: Hypnosis
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: ekans
+    display: Ekans
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It sneaks through grass without making a sound and strikes unsuspecting prey from behind.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 23
+        name:
+          id: ekans
+          display: Ekans
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shed-skin
+            display: Shed Skin
+          cost:
+          - Colorless
+          text: Remove 2 damage counters from Ekans.
+      - var: Attack
+        val:
+          name:
+            id: poison-fang
+            display: Poison Fang
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: feebas
+    display: Feebas
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '4'
+      display: '4'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It is famous for its shabby appearance. While populous, they tend to cluster in set locations.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 349
+        name:
+          id: feebas
+          display: Feebas
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splash
+            display: Splash
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: fast-evolution
+            display: Fast Evolution
+          cost:
+          - Water
+          text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: glameow
+    display: Glameow
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 431
+        name:
+          id: glameow
+          display: Glameow
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: captivate
+            display: Captivate
+          cost:
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with 1 of the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It conveys its feelings using different cries. It works in a pack to cleverly take down prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, discard a {R} Energy attached to Houndour.
+      - var: Attack
+        val:
+          name:
+            id: smash-kick
+            display: Smash Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: igglybuff
+    display: Igglybuff
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It has a soft and bouncy body. Once it starts bouncing, it becomes impossible to stop.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 174
+        name:
+          id: igglybuff
+          display: Igglybuff
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: baby-evolution
+            display: Baby Evolution
+          text: Once during your turn (before your attack), you may put Jigglypuff from your hand onto Igglybuff (this counts as evolving Igglybuff) and remove all damage counters from Igglybuff.
+      - var: Attack
+        val:
+          name:
+            id: inquire
+            display: Inquire
+          cost: []
+          text: Draw a card. If you didn’t play any Supporter card from your hand during this turn, draw 2 more cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: illumise
+    display: Illumise
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '29'
+      display: '29'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: With its sweet aroma, it guides VOLBEAT to draw signs with light in the night sky.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 314
+        name:
+          id: illumise
+          display: Illumise
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: scent-conduct
+            display: Scent Conduct
+          text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a {G} Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can’t be used if Illumise is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: firefly-scent
+            display: Firefly Scent
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: If the Defending Pokémon has any Poké-Bodies, that Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+- title:
+    id: jigglypuff
+    display: Jigglypuff
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kenkichi-toyama
+      display: Kenkichi Toyama
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 39
+        name:
+          id: jigglypuff
+          display: Jigglypuff
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnotic-gaze
+            display: Hypnotic Gaze
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: expand
+            display: Expand
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, any damage done to Jigglypuff by attacks is reduced by 20 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: kakuna
+    display: Kakuna
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: While awaiting evolution, it hides from predators under leaves and in nooks of branches.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 14
+        name:
+          id: kakuna
+          display: Kakuna
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: weedle
+          display: Weedle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stiffen
+            display: Stiffen
+          cost: []
+          text: During your opponent’s next turn, any damage done to Kakuna by attacks is reduced by 30 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: spit-poison
+            display: Spit Poison
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+- title:
+    id: koffing
+    display: Koffing
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: lee-hyunjung
+      display: Lee HyunJung
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 109
+        name:
+          id: koffing
+          display: Koffing
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: smogscreen
+            display: Smogscreen
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: krabby
+    display: Krabby
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 98
+        name:
+          id: krabby
+          display: Krabby
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: irongrip
+            display: Irongrip
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: guillotine
+            display: Guillotine
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: lunatone
+    display: Lunatone
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 337
+        name:
+          id: lunatone
+          display: Lunatone
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: gravity-change
+            display: Gravity Change
+          text: Once during your turn (before your attack), you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can’t be used if Lunatone is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: knock-over
+            display: Knock Over
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: You may discard any Stadium card in play.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: luvdisc
+    display: Luvdisc
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: motofumi-fujiwara
+      display: Motofumi Fujiwara
+    level:
+      id: '28'
+      display: '28'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 370
+        name:
+          id: luvdisc
+          display: Luvdisc
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rendezvous
+            display: Rendezvous
+          cost:
+          - Colorless
+          text: Reveal the top card of your deck and put it into your hand. If that card is a Pokémon, draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: synchro-dance
+            display: Synchro Dance
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If Luvdisc and the Defending Pokémon have the same amount of Energy attached to them, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: makuhita
+    display: Makuhita
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 296
+        name:
+          id: makuhita
+          display: Makuhita
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: punch
+            display: Punch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: arm-thrust
+            display: Arm Thrust
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: mankey
+    display: Mankey
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 56
+        name:
+          id: mankey
+          display: Mankey
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: light-punch
+            display: Light Punch
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each damage counter on Mankey.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: mudkip
+    display: Mudkip
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: emi-yoshida
+      display: Emi Yoshida
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 258
+        name:
+          id: mudkip
+          display: Mudkip
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mud-spatter
+            display: Mud Spatter
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: endeavor
+            display: Endeavor
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 10
+        modifier: Plus
+- title:
+    id: porygon
+    display: Porygon
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: The world’s first artificially created Pokémon. It can travel through electronic space.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 137
+        name:
+          id: porygon
+          display: Porygon
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: calculate
+            display: Calculate
+          cost:
+          - Colorless
+          text: Look at the top 3 cards of your deck and put them back on top of your deck in any order.
+      - var: Attack
+        val:
+          name:
+            id: sharpen
+            display: Sharpen
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: saya-tsuruta
+      display: Saya Tsuruta
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rest
+            display: Rest
+          cost:
+          - Colorless
+          text: Remove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: tumble-over
+            display: Tumble Over
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: Slowpoke can’t attack during your next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: slugma
+    display: Slugma
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 218
+        name:
+          id: slugma
+          display: Slugma
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: steady-firebreathing
+            display: Steady Firebreathing
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: snubbull
+    display: Snubbull
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Small Pokémon flee from its scary face. It is, however, considered by women to be cute.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 209
+        name:
+          id: snubbull
+          display: Snubbull
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roar
+            display: Roar
+          cost:
+          - Colorless
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: solrock
+    display: Solrock
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '29'
+      display: '29'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: A new Pokémon species, rumored to be from the sun. It gives off light while spinning.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 338
+        name:
+          id: solrock
+          display: Solrock
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sunlight
+            display: Sunlight
+          text: If you have Lunatone in play, damage done to your opponent’s Pokémon by your {P} or {F} Pokémon isn’t affected by resistance.
+      - var: Attack
+        val:
+          name:
+            id: sol-charge
+            display: Sol Charge
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: swablu
+    display: Swablu
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Its wings are like cotton tufts. If it perches on someone’s head, it looks like a cotton hat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 333
+        name:
+          id: swablu
+          display: Swablu
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-speed
+            display: Super Speed
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swablu during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: shoot-through
+            display: Shoot Through
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tangela
+    display: Tangela
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It is shrouded by blue vines. No one has seen the face hidden behind this growth of vines.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-invite
+            display: Vine Invite
+          cost:
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with 1 of the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: grass-knot
+            display: Grass Knot
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each {C} Energy in the Defending Pokémon’s Retreat Cost (after applying effects to the Retreat Cost).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: togepi
+    display: Togepi
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '4'
+      display: '4'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Its shell is said to be stuffed with happiness that it shares with kindhearted people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 175
+        name:
+          id: togepi
+          display: Togepi
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: yawn
+            display: Yawn
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: find-a-friend
+            display: Find a Friend
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: hiroki-fuchino
+      display: Hiroki Fuchino
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost: []
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: The Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-ball
+            display: Energy Ball
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each Energy attached to Treecko but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+      - var: Attack
+        val:
+          name:
+            id: absorb
+            display: Absorb
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: Remove 1 damage counter from Treecko.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: unown-l
+    display: Unown L
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 201
+        name:
+          id: unown
+          display: Unown
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: link
+            display: LINK
+          text: Unown L can use any attack from any Unown in play (both yours and your opponent’s). (You still have to pay for that attack’s Energy cost.)
+      - var: Attack
+        val:
+          name:
+            id: hidden-power
+            display: Hidden Power
+          cost:
+          - Psychic
+          - Colorless
+          text: Search either player’s discard pile for up to any 2 cards, show them to your opponent, and put them on top of that player’s deck in any order you like.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: volbeat
+    display: Volbeat
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It communicates with others by lighting up its rear at night. It loves ILLUMISE’s sweet aroma.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 313
+        name:
+          id: volbeat
+          display: Volbeat
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: light-conduct
+            display: Light Conduct
+          text: Once during your turn (before your attack), if you have Illumise in play, you may search your discard pile for a Supporter card, show it to your opponent, and put it on top of your deck. This power can’t be used if Volbeat is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: firefly-light
+            display: Firefly Light
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+- title:
+    id: weedle
+    display: Weedle
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It eats its weight in leaves every day. It fends off attackers with the needle on its head.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 13
+        name:
+          id: weedle
+          display: Weedle
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: string-shot
+            display: String Shot
+          cost:
+          - Grass
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: whismur
+    display: Whismur
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: takao-unno
+      display: Takao Unno
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 293
+        name:
+          id: whismur
+          display: Whismur
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mumble
+            display: Mumble
+          cost: []
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: uproar
+            display: Uproar
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: wingull
+    display: Wingull
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 278
+        name:
+          id: wingull
+          display: Wingull
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-drip
+            display: Water Drip
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: zigzagoon
+    display: Zigzagoon
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-02-13
+    flavor: It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 263
+        name:
+          id: zigzagoon
+          display: Zigzagoon
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pull-out
+            display: Pull Out
+          cost:
+          - Colorless
+          text: Search your discard pile for any 1 card, show it to your opponent, and put it on top of your deck.
+      - var: Attack
+        val:
+          name:
+            id: double-stab
+            display: Double Stab
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: amulet-coin
+    display: Amulet Coin
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+  sub:
+    var: Trainer
+    val:
+      text: If the Pokémon Amulet Coin is attached to is your Active Pokémon at the end of your turn, draw a card.
+      sub: PokemonTool
+- title:
+    id: felicitys-drawing
+    display: Felicity's Drawing
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+  sub:
+    var: Trainer
+    val:
+      text: Discard up to 2 cards from your hand. If you discard 1 card, draw 3 cards. If you discard 2 cards, draw 4 cards.
+      sub: Supporter
+- title:
+    id: leftovers
+    display: Leftovers
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+  sub:
+    var: Trainer
+    val:
+      text: If the Pokémon Leftovers is attached to is your Active Pokémon at the end of your turn, remove 1 damage counter from the Pokémon.
+      sub: PokemonTool
+- title:
+    id: moonlight-stadium
+    display: Moonlight Stadium
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+  sub:
+    var: Trainer
+    val:
+      text: The Retreat Cost for each {P} and {D} Pokémon (both yours and your opponent’s) is 0.
+      sub: Stadium
+- title:
+    id: premier-ball
+    display: Premier Ball
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck or your discard pile for a Pokémon LV.X, show it to your opponent, and put it into your hand. If you search your deck, shuffle your deck afterward.
+      sub: Item
+- title:
+    id: rare-candy
+    display: Rare Candy
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-02-13
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)
+      sub: Item
+- title:
+    id: cresselia-lvx
+    display: Cresselia LV.X
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: shizurow
+      display: Shizurow
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2008-02-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 488
+        name:
+          id: cresselia
+          display: Cresselia
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: cresselia
+          display: Cresselia
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: full-moon-dance
+            display: Full Moon Dance
+          text: Once during your turn (before your attack), you may move 1 damage counter from either player’s Pokémon to another Pokémon (yours or your opponent’s). This power can’t be used if Cresselia is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: moon-skip
+            display: Moon Skip
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+          text: If the Defending Pokémon is Knocked Out by this attack, take 1 more Prize card.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: darkrai-lvx
+    display: Darkrai LV.X
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: shizurow
+      display: Shizurow
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2008-02-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 491
+        name:
+          id: darkrai
+          display: Darkrai
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: darkrai
+          display: Darkrai
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-shadow
+            display: Dark Shadow
+          text: Each basic {D} Energy card attached to your {D} Pokémon now has the effect “If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance).” You can’t use more than 1 Dark Shadow Poké-Body each turn.
+      - var: Attack
+        val:
+          name:
+            id: endless-darkness
+            display: Endless Darkness
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Asleep. Flip 2 coins instead of 1 between turns. If either of them is tails, the Defending Pokémon is still Asleep. If both of them are tails, the Defending Pokémon is Knocked Out.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dialga-lvx
+    display: Dialga LV.X
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2008-02-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 483
+        name:
+          id: dialga
+          display: Dialga
+      hit_points: 110
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: dialga
+          display: Dialga
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: time-skip
+            display: Time Skip
+          text: Once during your turn (before your attack), you may have your opponent flip 2 coins. If both of them are heads, your turn ends. If both of them are tails, after your opponent draws a card at the beginning of his or her next turn, his or her turn ends. This power can’t be used if Dialga is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: metal-flash
+            display: Metal Flash
+          cost:
+          - Metal
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: During your next turn, Dialga can’t use Metal Flash.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: palkia-lvx
+    display: Palkia LV.X
+  set:
+    name:
+      id: great-encounters
+      display: Great Encounters
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: ge
+      display: GE
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    level:
+      id: x
+      display: X
+    rarity:
+      id: rare-holo-lvx
+      display: Rare Holo LV.X
+    release_date: 2008-02-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 484
+        name:
+          id: palkia
+          display: Palkia
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: palkia
+          display: Palkia
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: restructure
+            display: Restructure
+          text: Once during your turn (before your attack), you may have your opponent switch 1 of your Active Pokémon with 1 of your Benched Pokémon. Then, you switch 1 of the Defending Pokémon with 1 of your opponent’s Benched Pokémon. This power can’t be used if Palkia is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: hydro-reflect
+            display: Hydro Reflect
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 60
+          text: You may move all Energy cards attached to Palkia to your Benched Pokémon in any way you like. (Ignore this effect if you don’t have any Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times

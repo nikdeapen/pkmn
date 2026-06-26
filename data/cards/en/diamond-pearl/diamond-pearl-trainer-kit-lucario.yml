@@ -1,0 +1,77 @@
+- title:
+    id: lucario
+    display: Lucario
+  set:
+    name:
+      id: diamond-pearl-trainer-kit-lucario
+      display: D&P Trainer Kit - Lucario
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: tk3l
+      display: TK3L
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '11'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2007-09-07
+    flavor: It has the ability to sense the auras of all things. It understands human speech.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: riolu
+          display: Riolu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: feint
+            display: Feint
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: aura-sphere
+            display: Aura Sphere
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 40
+          text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus

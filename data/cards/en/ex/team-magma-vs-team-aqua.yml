@@ -1,0 +1,6236 @@
+- title:
+    id: team-aquas-cacturne
+    display: Team Aqua's Cacturne
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: k-utsunomiya
+      display: K. Utsunomiya
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 332
+        name:
+          id: cacturne
+          display: Cacturne
+      hit_points: 80
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-cacnea
+          display: Team Aqua's Cacnea
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-bind
+            display: Dark Bind
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+          text: You may discard a {D} Energy card attached to Team Aqua’s Cacturne. If you do, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: poison-barb
+            display: Poison Barb
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-crawdaunt
+    display: Team Aqua's Crawdaunt
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 342
+        name:
+          id: crawdaunt
+          display: Crawdaunt
+      hit_points: 80
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-corphish
+          display: Team Aqua's Corphish
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-reverse
+            display: Aqua Reverse
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Before doing damage, you may choose 1 of your opponent’s Benched Pokémon that has Team Magma in its name and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+      - var: Attack
+        val:
+          name:
+            id: deep-impact
+            display: Deep Impact
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-kyogre
+    display: Team Aqua's Kyogre
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 100
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: power-saver
+            display: Power Saver
+          text: As long as the number of Pokémon in play (both yours and your opponent’s) that has Team Aqua in its name is 3 or less, Team Aqua’s Kyogre can’t attack.
+      - var: Attack
+        val:
+          name:
+            id: aqua-trip
+            display: Aqua Trip
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: aqua-smash
+            display: Aqua Smash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon is affected by a Special Condition, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-manectric
+    display: Team Aqua's Manectric
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: k-utsunomiya
+      display: K. Utsunomiya
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 310
+        name:
+          id: manectric
+          display: Manectric
+      hit_points: 70
+      energy_types:
+      - Lightning
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-electrike
+          display: Team Aqua's Electrike
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: power-shift
+            display: Power Shift
+          text: Once during your turn (before your attack), you may move any number of basic Energy cards attached to 1 of your Pokémon with Team Aqua in its name to another of your Pokémon. This power can’t be used if Team Aqua’s Manectric is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: thunderspark
+            display: Thunderspark
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Does 10 damage to each Benched Pokémon (both yours and your opponent’s) that has Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-sharpedo
+    display: Team Aqua's Sharpedo
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 319
+        name:
+          id: sharpedo
+          display: Sharpedo
+      hit_points: 70
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-carvanha
+          display: Team Aqua's Carvanha
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each damage counter on Team Aqua’s Sharpedo.
+      - var: Attack
+        val:
+          name:
+            id: aqua-slash
+            display: Aqua Slash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 60
+          text: Team Aqua’s Sharpedo can’t attack during your next turn.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-walrein
+    display: Team Aqua's Walrein
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 365
+        name:
+          id: walrein
+          display: Walrein
+      hit_points: 120
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: team-aquas-sealeo
+          display: Team Aqua's Sealeo
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: power-blow
+            display: Power Blow
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each Energy attached to Team Aqua’s Walrein.
+      - var: Attack
+        val:
+          name:
+            id: hydro-reverse
+            display: Hydro Reverse
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: You may return any number of basic {W} Energy cards attached to all of your Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-aggron
+    display: Team Magma's Aggron
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 306
+        name:
+          id: aggron
+          display: Aggron
+      hit_points: 120
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: team-magmas-lairon
+          display: Team Magma's Lairon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crush
+            display: Crush
+          cost:
+          - Fighting
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip a coin for each Energy attached to Team Magma’s Aggron. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: land-stream
+            display: Land Stream
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: You may discard any number of basic Energy cards attached to Team Magma’s Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-claydol
+    display: Team Magma's Claydol
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: zu-ka
+      display: Zu-Ka
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 344
+        name:
+          id: claydol
+          display: Claydol
+      hit_points: 80
+      energy_types:
+      - Psychic
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-baltoy
+          display: Team Magma's Baltoy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: magma-switch
+            display: Magma Switch
+          text: Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can’t be used if Team Magma’s Claydol is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: dark-hand
+            display: Dark Hand
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-groudon
+    display: Team Magma's Groudon
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kazuo-yazawa
+      display: Kazuo Yazawa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 100
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: power-saver
+            display: Power Saver
+          text: As long as the number of Pokémon in play (both yours and your opponent’s) that has Team Magma in its name is 3 or less, Team Magma’s Groudon can’t attack.
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Fighting
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: pulverize
+            display: Pulverize
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-houndoom
+    display: Team Magma's Houndoom
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 70
+      energy_types:
+      - Fire
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-houndour
+          display: Team Magma's Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roasting-heat
+            display: Roasting Heat
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If the Defending Pokémon is Burned, this attack does 30 damage plus 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: magma-spurt
+            display: Magma Spurt
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Discard the top 5 cards from your deck. This attack does 30 damage times the number of {R} and {F} basic Energy cards discarded in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-rhydon
+    display: Team Magma's Rhydon
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: t-honda
+      display: T. Honda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 112
+        name:
+          id: rhydon
+          display: Rhydon
+      hit_points: 90
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-rhyhorn
+          display: Team Magma's Rhyhorn
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magma-jab
+            display: Magma Jab
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack’s damage is not affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: shoot-down
+            display: Shoot Down
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-torkoal
+    display: Team Magma's Torkoal
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 324
+        name:
+          id: torkoal
+          display: Torkoal
+      hit_points: 80
+      energy_types:
+      - Fire
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magma-burn
+            display: Magma Burn
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Discard the top card from your opponent’s deck, and flip a coin. If tails, discard a {R} Energy attached to Team Magma’s Torkoal.
+      - var: Attack
+        val:
+          name:
+            id: hot-air
+            display: Hot Air
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Discard a {R} Energy attached to Team Magma’s Torkoal and your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: raichu
+    display: Raichu
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pikachu
+          display: Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spark
+            display: Spark
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Does 10 damage to 2 of your opponent’s Benched Pokémon (1 if there is only 1). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: kerzap
+            display: Kerzap
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 damage plus 40 more damage to the Defending Pokémon and discard all {L} Energy cards attached to Raichu.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-crawdaunt
+    display: Team Aqua's Crawdaunt
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 342
+        name:
+          id: crawdaunt
+          display: Crawdaunt
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-corphish
+          display: Team Aqua's Corphish
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-reaction
+            display: Poison Reaction
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: double-claw
+            display: Double Claw
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-mightyena
+    display: Team Aqua's Mightyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 262
+        name:
+          id: mightyena
+          display: Mightyena
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-poochyena
+          display: Team Aqua's Poochyena
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: mystic-fang
+            display: Mystic Fang
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-sealeo
+    display: Team Aqua's Sealeo
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: t-honda
+      display: T. Honda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 364
+        name:
+          id: sealeo
+          display: Sealeo
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-spheal
+          display: Team Aqua's Spheal
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-trance
+            display: Aqua Trance
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: At the end of your opponent’s next turn, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: super-hypnoblast
+            display: Super Hypnoblast
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If the Defending Pokémon is Asleep, this attack does 30 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-seviper
+    display: Team Aqua's Seviper
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: jungo-suzuki
+      display: Jungo Suzuki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 336
+        name:
+          id: seviper
+          display: Seviper
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a {G} Basic Pokémon or Basic Pokémon with Team Aqua in its name and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: thick-poison
+            display: Thick Poison
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned. If tails, the Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-sharpedo
+    display: Team Aqua's Sharpedo
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 319
+        name:
+          id: sharpedo
+          display: Sharpedo
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-carvanha
+          display: Team Aqua's Carvanha
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slow-acting-poison
+            display: Slow-Acting Poison
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: At the end of your opponent’s next turn, the Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: aqua-smash
+            display: Aqua Smash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon is affected by a Special Condition, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-camerupt
+    display: Team Magma's Camerupt
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 323
+        name:
+          id: camerupt
+          display: Camerupt
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-numel
+          display: Team Magma's Numel
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: overheat
+            display: Overheat
+          text: Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma’s Camerupt. Put 2 damage counters on Team Mamga’s Camerupt. This power can’t be used if Team Magma’s Camerupt is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: flame-ball
+            display: Flame Ball
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may move a {R} Energy card attached to Team Magma’s Camerupt to 1 of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-lairon
+    display: Team Magma's Lairon
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 305
+        name:
+          id: lairon
+          display: Lairon
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-aron
+          display: Team Magma's Aron
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-mightyena
+    display: Team Magma's Mightyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 262
+        name:
+          id: mightyena
+          display: Mightyena
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-poochyena
+          display: Team Magma's Poochyena
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: overrun
+            display: Overrun
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+          text: Choose 1 of your opponent’s Benched Pokémon. This attack does 10 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: bite-off
+            display: Bite Off
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-magmas-rhydon
+    display: Team Magma's Rhydon
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: t-honda
+      display: T. Honda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 112
+        name:
+          id: rhydon
+          display: Rhydon
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-rhyhorn
+          display: Team Magma's Rhyhorn
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: second-strike
+            display: Second Strike
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: land-crush
+            display: Land Crush
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, discard an Energy card attached to Team Magma’s Rhydon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-zangoose
+    display: Team Magma's Zangoose
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: zu-ka
+      display: Zu-Ka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 335
+        name:
+          id: zangoose
+          display: Zangoose
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a {C} Basic Pokémon or Basic Pokémon with Team Magma in its name and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: team-play
+            display: Team Play
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of Pokémon in play with Team Magma in its name.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-cacnea
+    display: Team Aqua's Cacnea
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: k-utsunomiya
+      display: K. Utsunomiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 331
+        name:
+          id: cacnea
+          display: Cacnea
+      hit_points: 50
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: paralyzing-gaze
+            display: Paralyzing Gaze
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: pin-missile
+            display: Pin Missile
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-carvanha
+    display: Team Aqua's Carvanha
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mt-tbt
+      display: Mt. TBT
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 318
+        name:
+          id: carvanha
+          display: Carvanha
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-lift
+            display: Dark Lift
+          text: If Team Aqua’s Carvanha has any {D} Energy attached to it, the Retreat Cost for Team Aqua’s Carvanha is 0.
+      - var: Attack
+        val:
+          name:
+            id: slow-acting-poison
+            display: Slow-Acting Poison
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: At the end of your opponent’s next turn, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-corphish
+    display: Team Aqua's Corphish
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: jungo-suzuki
+      display: Jungo Suzuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 341
+        name:
+          id: corphish
+          display: Corphish
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-pinchers
+            display: Double Pinchers
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: dark-poison
+            display: Dark Poison
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Discard a basic Energy card attached to Team Aqua’s Corphish or this attack does nothing. The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-electrike
+    display: Team Aqua's Electrike
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: m-akiyama
+      display: M. Akiyama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: random-spark
+            display: Random Spark
+          cost:
+          - Lightning
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: plasma
+            display: Plasma
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: Fllip a coin. If heads, search your discard pile for a {L} Energy card and attach it to Team Aqua’s Electrike.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-lanturn
+    display: Team Aqua's Lanturn
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: jungo-suzuki
+      display: Jungo Suzuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 171
+        name:
+          id: lanturn
+          display: Lanturn
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-chinchou
+          display: Team Aqua's Chinchou
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: auxiliary-light
+            display: Auxiliary Light
+          text: Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua’s Lanturn. Put 2 damage counters on Team Aqua’s Lanturn. This power can’t be used if Team Aqua’s Lanturn is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: lightning-ball
+            display: Lightning Ball
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-manectric
+    display: Team Aqua's Manectric
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: k-utsunomiya
+      display: K. Utsunomiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 310
+        name:
+          id: manectric
+          display: Manectric
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-electrike
+          display: Team Aqua's Electrike
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-beam
+            display: Aqua Beam
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: chaos-crush
+            display: Chaos Crush
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-mightyena
+    display: Team Aqua's Mightyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 262
+        name:
+          id: mightyena
+          display: Mightyena
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-poochyena
+          display: Team Aqua's Poochyena
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-call
+            display: Aqua Call
+          cost:
+          - Colorless
+          text: Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-sealeo
+    display: Team Aqua's Sealeo
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: t-honda
+      display: T. Honda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 364
+        name:
+          id: sealeo
+          display: Sealeo
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-aquas-spheal
+          display: Team Aqua's Spheal
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aurora-beam
+            display: Aurora Beam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: knock-over
+            display: Knock Over
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: You may discard any Stadium card in play.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-baltoy
+    display: Team Magma's Baltoy
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: atsuko-ujiie
+      display: Atsuko Ujiie
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 343
+        name:
+          id: baltoy
+          display: Baltoy
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psymist
+            display: Psymist
+          cost:
+          - Colorless
+          text: Flip 2 coins. For each heads, choose 1 of you opponent’s Pokémon and put 1 damage counter on that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: pain-amplifier
+            display: Pain Amplifier
+          cost:
+          - Psychic
+          - Colorless
+          text: Put 1 damage counter on each of your opponent’s Pokémon that already has damage counters on it.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-claydol
+    display: Team Magma's Claydol
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: zu-ka
+      display: Zu-Ka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 344
+        name:
+          id: claydol
+          display: Claydol
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-baltoy
+          display: Team Magma's Baltoy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: clay-curse
+            display: Clay Curse
+          cost:
+          - Colorless
+          - Colorless
+          text: Put 2 damage counters on your opponent’s Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: clay-pulse
+            display: Clay Pulse
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: Does 10 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-houndoom
+    display: Team Magma's Houndoom
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-houndour
+          display: Team Magma's Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: target-scorch
+            display: Target Scorch
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: damage-burn
+            display: Damage Burn
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-houndour
+    display: Team Magma's Houndour
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: atsuko-ujiie
+      display: Atsuko Ujiie
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: dark-shock
+            display: Dark Shock
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-lairon
+    display: Team Magma's Lairon
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 305
+        name:
+          id: lairon
+          display: Lairon
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-aron
+          display: Team Magma's Aron
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: land-sonic
+            display: Land Sonic
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+          text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-mightyena
+    display: Team Magma's Mightyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 262
+        name:
+          id: mightyena
+          display: Mightyena
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: team-magmas-poochyena
+          display: Team Magma's Poochyena
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: call-for-help
+            display: Call for Help
+          text: Once during your turn (before your attack), if Team Magma’s Mightyena is your Active Pokémon, you may search your deck for a Pokémon with Team Magma in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can’t be used if Team Magma’s Mightyena is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-magmas-rhyhorn
+    display: Team Magma's Rhyhorn
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mt-tbt
+      display: Mt. TBT
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 111
+        name:
+          id: rhyhorn
+          display: Rhyhorn
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-damage
+            display: Double Damage
+          cost:
+          - Colorless
+          text: Does 10 damage to each Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: horn-rush
+            display: Horn Rush
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: bulbasaur
+    display: Bulbasaur
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growth
+            display: Growth
+          cost:
+          - Colorless
+          text: Attach a {G} Energy card from your hand to Bulbasaur.
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: cubone
+    display: Cubone
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 104
+        name:
+          id: cubone
+          display: Cubone
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bone-attack
+            display: Bone Attack
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: jigglypuff
+    display: Jigglypuff
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 39
+        name:
+          id: jigglypuff
+          display: Jigglypuff
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: doubleslap
+            display: Doubleslap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: rest
+            display: Rest
+          cost:
+          - Colorless
+          - Colorless
+          text: Remove all Special Conditions and 3 damage counters from Jigglypuff (all if there are less than 3). Jigglypuff is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: plunder
+            display: Plunder
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: psyduck
+    display: Psyduck
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 54
+        name:
+          id: psyduck
+          display: Psyduck
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: amnesia
+            display: Amnesia
+          cost:
+          - Psychic
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: tail-strike
+            display: Tail Strike
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: squirtle
+    display: Squirtle
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 7
+        name:
+          id: squirtle
+          display: Squirtle
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: shell-retreat
+            display: Shell Retreat
+          text: As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent’s attack is reduced by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-carvanha
+    display: Team Aqua's Carvanha
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: yosuke-da-silva
+      display: Yosuke Da Silva
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 318
+        name:
+          id: carvanha
+          display: Carvanha
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: poison-fang
+            display: Poison Fang
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-carvanha
+    display: Team Aqua's Carvanha
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 318
+        name:
+          id: carvanha
+          display: Carvanha
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: razor-fin
+            display: Razor Fin
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-chinchou
+    display: Team Aqua's Chinchou
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kazuo-yazawa
+      display: Kazuo Yazawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 170
+        name:
+          id: chinchou
+          display: Chinchou
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-corphish
+    display: Team Aqua's Corphish
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: jungo-suzuki
+      display: Jungo Suzuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 341
+        name:
+          id: corphish
+          display: Corphish
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: toxic-grip
+            display: Toxic Grip
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-corphish
+    display: Team Aqua's Corphish
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: jungo-suzuki
+      display: Jungo Suzuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 341
+        name:
+          id: corphish
+          display: Corphish
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slow-acting-poison
+            display: Slow-Acting Poison
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: At the end of your opponent’s next turn, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-electrike
+    display: Team Aqua's Electrike
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: m-akiyama
+      display: M. Akiyama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-electrike
+    display: Team Aqua's Electrike
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: m-akiyama
+      display: M. Akiyama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 309
+        name:
+          id: electrike
+          display: Electrike
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: self-charge
+            display: Self Charge
+          cost:
+          - Colorless
+          text: Attach an Energy card from your hand to Team Aqua’s Electrike.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-poochyena
+    display: Team Aqua's Poochyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 261
+        name:
+          id: poochyena
+          display: Poochyena
+      hit_points: 40
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-scratch
+            display: Double Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: tail-slap
+            display: Tail Slap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-poochyena
+    display: Team Aqua's Poochyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 261
+        name:
+          id: poochyena
+          display: Poochyena
+      hit_points: 50
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roar
+            display: Roar
+          cost:
+          - Colorless
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+      - var: Attack
+        val:
+          name:
+            id: aqua-crush
+            display: Aqua Crush
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-aquas-spheal
+    display: Team Aqua's Spheal
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 363
+        name:
+          id: spheal
+          display: Spheal
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: powder-snow
+            display: Powder Snow
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aquas-spheal
+    display: Team Aqua's Spheal
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 363
+        name:
+          id: spheal
+          display: Spheal
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: aqua-trance
+            display: Aqua Trance
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: At the end of your opponent’s next turn, the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-aron
+    display: Team Magma's Aron
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 304
+        name:
+          id: aron
+          display: Aron
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mud-slap
+            display: Mud Slap
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-aron
+    display: Team Magma's Aron
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 304
+        name:
+          id: aron
+          display: Aron
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dig-under
+            display: Dig Under
+          cost:
+          - Fighting
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-baltoy
+    display: Team Magma's Baltoy
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: atsuko-ujiie
+      display: Atsuko Ujiie
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 343
+        name:
+          id: baltoy
+          display: Baltoy
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: double-spin
+            display: Double Spin
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-baltoy
+    display: Team Magma's Baltoy
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: atsuko-ujiie
+      display: Atsuko Ujiie
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 343
+        name:
+          id: baltoy
+          display: Baltoy
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: night-attack
+            display: Night Attack
+          cost:
+          - Fighting
+          text: Put 1 damage counter on 1 of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: spinning-attack
+            display: Spinning Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-houndour
+    display: Team Magma's Houndour
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: atsuko-ujiie
+      display: Atsuko Ujiie
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: super-singe
+            display: Super Singe
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-houndour
+    display: Team Magma's Houndour
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: atsuko-ujiie
+      display: Atsuko Ujiie
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: kick-away
+            display: Kick Away
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+      - var: Attack
+        val:
+          name:
+            id: steady-firebreathing
+            display: Steady Firebreathing
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-numel
+    display: Team Magma's Numel
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 322
+        name:
+          id: numel
+          display: Numel
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-poochyena
+    display: Team Magma's Poochyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 261
+        name:
+          id: poochyena
+          display: Poochyena
+      hit_points: 40
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: snarl
+            display: Snarl
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-magmas-poochyena
+    display: Team Magma's Poochyena
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 261
+        name:
+          id: poochyena
+          display: Poochyena
+      hit_points: 50
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: darkness-call
+            display: Darkness Call
+          cost:
+          - Colorless
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+      - var: Attack
+        val:
+          name:
+            id: sharp-fang
+            display: Sharp Fang
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: team-magmas-rhyhorn
+    display: Team Magma's Rhyhorn
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: yosuke-da-silva
+      display: Yosuke Da Silva
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 111
+        name:
+          id: rhyhorn
+          display: Rhyhorn
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-stab
+            display: Double Stab
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: second-strike
+            display: Second Strike
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-rhyhorn
+    display: Team Magma's Rhyhorn
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: yosuke-da-silva
+      display: Yosuke Da Silva
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 111
+        name:
+          id: rhyhorn
+          display: Rhyhorn
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: knock-over
+            display: Knock Over
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 10
+          text: You may discard any Stadium card in play.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-aqua-schemer
+    display: Team Aqua Schemer
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Discard any 1 Pokémon from your hand. Then draw 3 cards. If you discarded a Pokémon with Team Aqua in its name, draw 4 cards instead.
+      sub: Supporter
+- title:
+    id: team-magma-schemer
+    display: Team Magma Schemer
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Discard any 1 Pokémon from your hand. Then draw 3 cards. If you discarded a Pokémon with Team Magma in its name, draw 4 cards instead.
+      sub: Supporter
+- title:
+    id: archie
+    display: Archie
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Pokémon with Team Aqua in its name and put it onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as a Basic Pokémon. If it is a Stage 2 Pokémon, put 2 damage counters on that Pokémon.
+      sub: Supporter
+- title:
+    id: dual-ball
+    display: Dual Ball
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: big-mama-tagawa
+      display: '"Big Mama" Tagawa'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Flip 2 coins. For each heads, search your deck for a Basic Pokémon card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: maxie
+    display: Maxie
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Search your hand or discard pile for a Pokémon with Team Magma in its name and put it onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon. If it is a Stage 2 Pokémon, put 2 damage counters on that Pokémon.
+      sub: Supporter
+- title:
+    id: strength-charm
+    display: Strength Charm
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Attach Strength Charm to 1 of your Pokémon that doesn’t already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.
+        Whenever an attack from the Pokémon that Strength Charm is attached to does damage to the Active Pokémon (after applying Weakness and Resistance), the attack does 10 more damage. At the end of the turn in which this happens, discard Strength Charm.
+      sub: PokemonTool
+- title:
+    id: team-aqua-ball
+    display: Team Aqua Ball
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Pokémon that has Team Aqua in its name, show it to your opponent, and put it into your hand. If tails, search your deck for a Basic Pokémon that has Team Aqua in its name, show it to your opponent and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: team-aqua-belt
+    display: Team Aqua Belt
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Attach Team Aqua Belt to 1 of your Pokémon with Team Aqua in its name that doesn’t already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.
+        At any time between turns, if the Pokémon Team Aqua Belt is attached to is your Active Pokémon, search your deck for a card that evolves from that Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck aftrerward, then discard Team Aqua Belt.
+      sub: PokemonTool
+- title:
+    id: team-aqua-conspirator
+    display: Team Aqua Conspirator
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 2 in any combination of Basic Pokémon with Team Aqua in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: team-aqua-hideout
+    display: Team Aqua Hideout
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Each Pokémon that does not have Team Aqua in its name pays {C} more to retreat.
+      sub: Stadium
+- title:
+    id: team-aqua-technical-machine-01
+    display: Team Aqua Technical Machine 01
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Attach this card to 1 of your Pokémon that has Team Aqua in its name. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Team Aqua Technical Machine 01.
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: miracle
+            display: Miracle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.
+      sub: Item
+      secondary_subs:
+      - id: technical-machine
+        display: Technical Machine
+- title:
+    id: team-magma-ball
+    display: Team Magma Ball
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Pokémon that has Team Magma in its name, show it to your opponent, and put it into your hand. If tails, search your deck for a Basic Pokémon that has Team Magma in its name, show it to your opponent and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: team-magma-belt
+    display: Team Magma Belt
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Attach Team Magma Belt to 1 of your Pokémon with Team Magma in its name that doesn’t already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.
+        At any time between turns, if the Pokémon Team Magma Belt is attached to is your Active Pokémon, search your deck for a card that evolves from that Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward, then discard Team Magma Belt.
+      sub: PokemonTool
+- title:
+    id: team-magma-conspirator
+    display: Team Magma Conspirator
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 2 in any combination of Basic Pokémon with Team Magma in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: team-magma-hideout
+    display: Team Magma Hideout
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Whenever any player plays a Basic Pokémon that doesn’t have Team Magma in its name from his or her hand, that player puts 1 damage counter on that Pokémon.
+      sub: Stadium
+- title:
+    id: team-magma-technical-machine-01
+    display: Team Magma Technical Machine 01
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Attach this card to 1 of your Pokémon that has Team Magma in its name. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Team Magma Technical Machine 01.
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crushing-magma
+            display: Crushing Magma
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Choose an Energy card attached to the Defending Pokémon and put that card at the bottom of your opponent’s deck.
+      sub: Item
+      secondary_subs:
+      - id: technical-machine
+        display: Technical Machine
+- title:
+    id: warp-point
+    display: Warp Point
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Trainer
+    val:
+      text: Your opponent switches 1 of his or her Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch 1 of your Active Pokémon with 1 of your Benched Pokémon, if any.
+      sub: Item
+- title:
+    id: aqua-energy
+    display: Aqua Energy
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Aqua Energy can be attached only to a Pokémon with Team Aqua in its name. Aqua Energy provides {W} and {D} Energy but provides 2 Energy at a time. (Doesn’t count as a basic Energy card when not in play and has no effect other than providing Energy.) At the end of your turn, discard Aqua Energy.
+- title:
+    id: magma-energy
+    display: Magma Energy
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-03-15
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Magma Energy can be attached only to a Pokémon with Team Magma in its name. Magma Energy provides {F} and /or {D} Energy but provides 2 Energy at a time. (Doesn’t count as a basic Energy card when not in play and has no effect other than providing Energy.) At the end of your turn, discard Magma Energy.
+- title:
+    id: double-rainbow-energy
+    display: Double Rainbow Energy
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-03-15
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Double Rainbow Energy can be attached only to an Evolved Pokémon (excluding Pokémon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn’t count as a basic Energy when not in play and has no effect other than providing Energy.) Damage done to your opponent’s Pokémon by the Pokémon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pokémon Double Rainbow Energy is attached to is no longer an Evolved Pokémon, discard Double Rainbow Energy.
+- title:
+    id: blaziken-ex
+    display: Blaziken ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 257
+        name:
+          id: blaziken
+          display: Blaziken
+      hit_points: 150
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: combusken
+          display: Combusken
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: blaze-kick
+            display: Blaze Kick
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: volcanic-ash
+            display: Volcanic Ash
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          text: Discard 2 {R} Energy attached to Blaziken ex and then choose 1 of your opponent’s Pokémon. This attack does 100 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: cradily-ex
+    display: Cradily ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 346
+        name:
+          id: cradily
+          display: Cradily
+      hit_points: 150
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: lileep
+          display: Lileep
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: primal-vibes
+            display: Primal Vibes
+          text: As long as Cradily ex is your Active Pokémon, your opponent can’t play a Pokémon from his or her hand to evolve his or her Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: eerie-light
+            display: Eerie Light
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: acidic-poison
+            display: Acidic Poison
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Defending Pokémon is now Poisoned and Burned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: entei-ex
+    display: Entei ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 244
+        name:
+          id: entei
+          display: Entei
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: searing-flame
+            display: Searing Flame
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: bright-flame
+            display: Bright Flame
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard 2 Energy attached to Entei ex.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: raikou-ex
+    display: Raikou ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 243
+        name:
+          id: raikou
+          display: Raikou
+      hit_points: 100
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dazzle-blast
+            display: Dazzle Blast
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: lightning-tackle
+            display: Lightning Tackle
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flip a coin. If tails, Raikou ex does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: sceptile-ex
+    display: Sceptile ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 254
+        name:
+          id: sceptile
+          display: Sceptile
+      hit_points: 150
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: grovyle
+          display: Grovyle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: green-heal
+            display: Green Heal
+          cost:
+          - Grass
+          text: Remove 4 damage counters from each of your Pokémon that has {G} Energy attached. If that Pokémon has less than 4 damage counters, remove all of them.
+      - var: Attack
+        val:
+          name:
+            id: poison-ring
+            display: Poison Ring
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Poisoned. The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: slashing-strike
+            display: Slashing Strike
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Sceptile ex can’t use Slashing Strike during your next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: suicune-ex
+    display: Suicune ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 245
+        name:
+          id: suicune
+          display: Suicune
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-flip
+            display: Energy Flip
+          cost:
+          - Water
+          text: Choose 1 of your opponent’s Benched Pokémon. This attack does 10 damage to that Pokémon. You may move an Energy card attached to that Pokémon to another of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: reverse-stream
+            display: Reverse Stream
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: You may return all basic Energy cards attached to Suicune ex to your hand. If you do, this attack does 50 damage plus 10 more damage for each basic Energy card you returned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: swampert-ex
+    display: Swampert ex
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 260
+        name:
+          id: swampert
+          display: Swampert
+      hit_points: 150
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: marshtomp
+          display: Marshtomp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-pump
+            display: Hyper Pump
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack’s Energy cost. You can’t add more than 80 damage in this way.
+      - var: Attack
+        val:
+          name:
+            id: crushing-wave
+            display: Crushing Wave
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pokémon. (Don’t apply Weakness and Resistance to Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: absol
+    display: Absol
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 359
+        name:
+          id: absol
+          display: Absol
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: feint-attack
+            display: Feint Attack
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: jirachi
+    display: Jirachi
+  set:
+    name:
+      id: team-magma-vs-team-aqua
+      display: Team Magma vs Team Aqua
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ma
+      display: MA
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-03-15
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 385
+        name:
+          id: jirachi
+          display: Jirachi
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times

@@ -1,0 +1,836 @@
+- title:
+    id: servine
+    display: Servine
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 496
+        name:
+          id: servine
+          display: Servine
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snivy
+          display: Snivy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wrap
+            display: Wrap
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pansage
+    display: Pansage
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 511
+        name:
+          id: pansage
+          display: Pansage
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dwebble
+    display: Dwebble
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: The Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 557
+        name:
+          id: dwebble
+          display: Dwebble
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: withdraw
+            display: Withdraw
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: pignite
+    display: Pignite
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 499
+        name:
+          id: pignite
+          display: Pignite
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tepig
+          display: Tepig
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Colorless
+          text: Search your deck for a {R} Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: heat-crash
+            display: Heat Crash
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: dewott
+    display: Dewott
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 502
+        name:
+          id: dewott
+          display: Dewott
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: oshawott
+          display: Oshawott
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: razor-shell
+            display: Razor Shell
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: emolga
+    display: Emolga
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: The energy made in its cheeks’ electric pouches is stored inside its membranes and released while it is gliding.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 587
+        name:
+          id: emolga
+          display: Emolga
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: acrobatics
+            display: Acrobatics
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip 2 coins. This attack does 20 more damage for each heads.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: woobat
+    display: Woobat
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 527
+        name:
+          id: woobat
+          display: Woobat
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psy-bolt
+            display: Psy Bolt
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: drilbur
+    display: Drilbur
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 529
+        name:
+          id: drilbur
+          display: Drilbur
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hone-claws
+            display: Hone Claws
+          cost:
+          - Colorless
+          text: During your next turn, each of this Pokémon’s attacks does 30 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: purrloin
+    display: Purrloin
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 509
+        name:
+          id: purrloin
+          display: Purrloin
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knock-off
+            display: Knock Off
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, discard a random card from your opponent’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: scraggy
+    display: Scraggy
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 559
+        name:
+          id: scraggy
+          display: Scraggy
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klang
+    display: Klang
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don’t return.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 600
+        name:
+          id: klang
+          display: Klang
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: klink
+          display: Klink
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: metal-sound
+            display: Metal Sound
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: guard-press
+            display: Guard Press
+          cost:
+          - Metal
+          - Metal
+          - Colorless
+          damage:
+            scalar: 60
+          text: During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: axew
+    display: Axew
+  set:
+    name:
+      id: mcdonalds-collection-2012
+      display: McDonald's Collection 2012
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd12
+      display: MCD12
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-06-15
+    flavor: They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 610
+        name:
+          id: axew
+          display: Axew
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dual-chop
+            display: Dual Chop
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1

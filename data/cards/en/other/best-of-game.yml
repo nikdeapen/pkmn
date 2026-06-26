@@ -1,0 +1,580 @@
+- title:
+    id: electabuzz
+    display: Electabuzz
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '1'
+      display: '1'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2002-12-01
+    flavor: Normally found near power plants, it can wander away and cause major blackouts in cities.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 125
+        name:
+          id: electabuzz
+          display: Electabuzz
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: thunderpunch
+            display: Thunderpunch
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-sneasel
+    display: Rocket's Sneasel
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '5'
+      display: '5'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-01-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 215
+        name:
+          id: sneasel
+          display: Sneasel
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: entrap
+            display: Entrap
+          cost:
+          - Darkness
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: continuous-scratch
+            display: Continuous Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hitmonchan
+    display: Hitmonchan
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '2'
+      display: '2'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-02-01
+    flavor: While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 107
+        name:
+          id: hitmonchan
+          display: Hitmonchan
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: jab
+            display: Jab
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: special-punch
+            display: Special Punch
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-scizor
+    display: Rocket's Scizor
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '4'
+      display: '4'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-03-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 212
+        name:
+          id: scizor
+          display: Scizor
+      hit_points: 60
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: focus
+            display: Focus
+          cost:
+          - Colorless
+          text: During your next turn, Rocket’s Scizor’s Agility attack’s damage is doubled.
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Rocket’s Scizor.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-ivysaur
+    display: Dark Ivysaur
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '6'
+      display: '6'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bulbasaur
+          display: Bulbasaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: vine-pull
+            display: Vine Pull
+          text: Once during your turn when Dark Ivysaur retreats, choose 1 of your opponent’s Benched Pokémon and switch it with his or her Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fury-strikes
+            display: Fury Strikes
+          cost:
+          - Grass
+          - Grass
+          text: Your opponent puts 3 markers onto his or her Pokémon (divided as he or she chooses). (More than 1 marker can be put on the same Pokémon.) Then, this attack does 10 damage to each Pokémon for each marker on it. Don’t apply Weakness and Resistance. Remove the markers at the end of the turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-venusaur
+    display: Dark Venusaur
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '7'
+      display: '7'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-05-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dark-ivysaur
+          display: Dark Ivysaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: horrid-pollen
+            display: Horrid Pollen
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 30
+          text: Flip 2 coins. If 1 is heads, the Defending Pokémon is now Asleep and Poisoned. If both are heads, the Defending Pokémon is now Confused and Poisoned. If both are tails, the Defending Pokémon is now Paralyzed and Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-mewtwo
+    display: Rocket's Mewtwo
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '8'
+      display: '8'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-06-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: juxtapose
+            display: Juxtapose
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, switch the number of damage counters on Rocket’s Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It’s okay if 1 of the Pokémon has no damage counters on it.)
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: psyburn
+            display: Psyburn
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-hitmonchan
+    display: Rocket's Hitmonchan
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '9'
+      display: '9'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '29'
+      display: '29'
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 107
+        name:
+          id: hitmonchan
+          display: Hitmonchan
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crosscounter
+            display: Crosscounter
+          cost:
+          - Fighting
+          text: If an attack does damage to Rocket’s Hitmonchan during your opponent’s next turn (even if Rocket’s Hitmonchan is Knocked Out), flip a coin. If heads, Rocket’s Hitmonchan attacks your opponent’s Active Pokémon for double that amount of damage. (If Rocket’s Hitmonchan takes 20 damage, it does 40 damage to that Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: magnum-punch
+            display: Magnum Punch
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: professor-elm
+    display: Professor Elm
+  set:
+    name:
+      id: best-of-game
+      display: Best of Game
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: '3'
+      display: '3'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-07-24
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle your hand into your deck. Then, draw 7 cards. You can’t play any more Trainer cards this turn.
+      sub: Item

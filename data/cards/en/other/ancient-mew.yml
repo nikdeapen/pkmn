@@ -1,0 +1,52 @@
+- title:
+    id: ancient-mew
+    display: Ancient Mew
+  set:
+    name:
+      id: ancient-mew
+      display: Ancient Mew
+    series:
+      id: other
+      display: Other
+    context: English
+  number:
+    number:
+      id: no-number
+      display: No Number
+  meta:
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2000-07-21
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 30
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psyche
+            display: Psyche
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times

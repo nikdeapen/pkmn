@@ -1,0 +1,7827 @@
+- title:
+    id: tangela
+    display: Tangela
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ooyama
+      display: OOYAMA
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: mega-drain
+            display: Mega Drain
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+          text: Heal 20 damage from this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: tangrowth
+    display: Tangrowth
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: Its vines grow so profusely that, in the warm season, you can’t even see its eyes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 465
+        name:
+          id: tangrowth
+          display: Tangrowth
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tangela
+          display: Tangela
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-storm
+            display: Leaf Storm
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 80
+          text: Heal 40 damage from each of your {G} Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flog
+            display: Flog
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 110
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: hoppip
+    display: Hoppip
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mina-nakai
+      display: Mina Nakai
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 187
+        name:
+          id: hoppip
+          display: Hoppip
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splash
+            display: Splash
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: skiploom
+    display: Skiploom
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: eri-yamaki
+      display: Eri Yamaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 188
+        name:
+          id: skiploom
+          display: Skiploom
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: hoppip
+          display: Hoppip
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splash
+            display: Splash
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: jumpluff
+    display: Jumpluff
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 189
+        name:
+          id: jumpluff
+          display: Jumpluff
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: skiploom
+          display: Skiploom
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fluffy-transport
+            display: Fluffy Transport
+          cost:
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: solar-step
+            display: Solar Step
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage times the number of your remaining Prize cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: yanma
+    display: Yanma
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 193
+        name:
+          id: yanma
+          display: Yanma
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scout
+            display: Scout
+          cost:
+          - Colorless
+          text: Your opponent reveals his or her hand.
+      - var: Attack
+        val:
+          name:
+            id: speed-dive
+            display: Speed Dive
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: yanmega
+    display: Yanmega
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 469
+        name:
+          id: yanmega
+          display: Yanmega
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: yanma
+          display: Yanma
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sonic-vision
+            display: Sonic Vision
+          text: If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon’s attacks.
+      - var: Attack
+        val:
+          name:
+            id: assault-boom
+            display: Assault Boom
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If your opponent’s Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: yanmega-break
+    display: Yanmega BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 469
+        name:
+          id: yanmega
+          display: Yanmega
+      hit_points: 140
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: yanmega
+          display: Yanmega
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: barrier-break
+            display: Barrier Break
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on your opponent’s Active Pokémon.
+- title:
+    id: seedot
+    display: Seedot
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 273
+        name:
+          id: seedot
+          display: Seedot
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bide
+            display: Bide
+          cost:
+          - Grass
+          text: Flip a coin. If heads, if this Pokémon would be Knocked Out by damage from an attack during your opponent’s next turn, it is not Knocked Out and its remaining HP becomes 10 instead.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: nuzleaf
+    display: Nuzleaf
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 274
+        name:
+          id: nuzleaf
+          display: Nuzleaf
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: seedot
+          display: Seedot
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: harden
+            display: Harden
+          cost:
+          - Grass
+          text: During your opponent’s next turn, if this Pokémon would be damaged by an attack, prevent that attack’s damage done to this Pokémon if that damage is 60 or less.
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: shiftry
+    display: Shiftry
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 275
+        name:
+          id: shiftry
+          display: Shiftry
+      hit_points: 140
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: nuzleaf
+          display: Nuzleaf
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wicked-wind
+            display: Wicked Wind
+          cost:
+          - Grass
+          damage:
+            scalar: 40
+          text: Until the end of your opponent’s next turn, each Stadium or Pokémon Tool card in play has no effect. (This includes cards that come into play on that turn.)
+      - var: Attack
+        val:
+          name:
+            id: extrasensory
+            display: Extrasensory
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: foongus
+    display: Foongus
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: It lures Pokémon with its pattern that looks just like a Poké Ball then releases poison spores.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 590
+        name:
+          id: foongus
+          display: Foongus
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: play-ball
+            display: Play Ball
+          text: When you play this Pokémon from your hand onto your Bench, you may put 3 Poké Ball cards from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: amoonguss
+    display: Amoonguss
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 591
+        name:
+          id: amoonguss
+          display: Amoonguss
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: foongus
+          display: Foongus
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crazy-spore
+            display: Crazy Spore
+          cost:
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Confused and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: strange-reaction
+            display: Strange Reaction
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: If your opponent’s Active Pokémon is Confused, it is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: larvesta
+    display: Larvesta
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 636
+        name:
+          id: larvesta
+          display: Larvesta
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bug-bite
+            display: Bug Bite
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: volcarona
+    display: Volcarona
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: When volcanic ash darkened the atmosphere, it is said that Volcarona’s fire provided a replacement for the sun.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 637
+        name:
+          id: volcarona
+          display: Volcarona
+      hit_points: 110
+      energy_types:
+      - Grass
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: larvesta
+          display: Larvesta
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shimmering-scales
+            display: Shimmering Scales
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Confused. If tails, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: power-hurricane
+            display: Power Hurricane
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard all Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: ponyta
+    display: Ponyta
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Its legs grow strong while it chases after its parent. It runs in fields and mountains all day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: returning-flames
+            display: Returning Flames
+          cost:
+          - Colorless
+          text: Put 2 {R} Energy cards from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: live-coal
+            display: Live Coal
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: rapidash
+    display: Rapidash
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ponyta
+          display: Ponyta
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: fire-blast
+            display: Fire Blast
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 70
+          text: Discard a {R} Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: chimchar
+    display: Chimchar
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shibuzoh
+      display: Shibuzoh.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 390
+        name:
+          id: chimchar
+          display: Chimchar
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, discard a {R} Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: monferno
+    display: Monferno
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 391
+        name:
+          id: monferno
+          display: Monferno
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: chimchar
+          display: Chimchar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: infernape
+    display: Infernape
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 392
+        name:
+          id: infernape
+          display: Infernape
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: monferno
+          display: Monferno
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare-blitz
+            display: Flare Blitz
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 120
+          text: Discard all {R} Energy attached to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flare-up
+            display: Flare Up
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 200
+          text: If you have fewer than 10 {R} Energy cards in your discard pile, this attack does nothing. Shuffle 10 {R} Energy cards from your discard pile into your deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: talonflame-break
+    display: Talonflame BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 663
+        name:
+          id: talonflame
+          display: Talonflame
+      hit_points: 170
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: talonflame
+          display: Talonflame
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare-blitz
+            display: Flare Blitz
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 150
+          text: Discard all {R} Energy attached to this Pokémon.
+- title:
+    id: litleo
+    display: Litleo
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 667
+        name:
+          id: litleo
+          display: Litleo
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pyroar
+    display: Pyroar
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yumi
+      display: Yumi
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride’s cubs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 668
+        name:
+          id: pyroar
+          display: Pyroar
+      hit_points: 120
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: litleo
+          display: Litleo
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 60
+          text: Search your deck for a {R} Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: incinerate
+            display: Incinerate
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 90
+          text: Before doing damage, discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pyroar-break
+    display: Pyroar BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 668
+        name:
+          id: pyroar
+          display: Pyroar
+      hit_points: 160
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: pyroar
+          display: Pyroar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: kaiser-tackle
+            display: Kaiser Tackle
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 180
+          text: This Pokémon does 50 damage to itself.
+- title:
+    id: volcanion
+    display: Volcanion
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 721
+        name:
+          id: volcanion
+          display: Volcanion
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: power-heater
+            display: Power Heater
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Choose 2 of your Benched Pokémon. Attach a {R} Energy card from your discard pile to each of those Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: steam-artillery
+            display: Steam Artillery
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: volcanion-ex
+    display: Volcanion-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 721
+        name:
+          id: volcanion
+          display: Volcanion
+      hit_points: 180
+      energy_types:
+      - Fire
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: steam-up
+            display: Steam Up
+          text: Once during your turn (before your attack), you may discard a {R} Energy card from your hand. If you do, during this turn, your Basic {R} Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: volcanic-heat
+            display: Volcanic Heat
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 130
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mantine
+    display: Mantine
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: demizuposuka
+      display: DemizuPosuka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 226
+        name:
+          id: mantine
+          display: Mantine
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: healing-wave
+            display: Healing Wave
+          cost:
+          - Water
+          text: Discard as many cards as you like from your hand. Heal 10 damage from this Pokémon for each card you discarded in this way.
+      - var: Attack
+        val:
+          name:
+            id: dwindling-wave
+            display: Dwindling Wave
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 90
+            modifier: Minus
+          text: This attack does 90 damage minus 10 damage for each damage counter on this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: shellos
+    display: Shellos
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Its shape and coloration vary, depending on its habitat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 422
+        name:
+          id: shellos
+          display: Shellos
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: gastrodon
+    display: Gastrodon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 423
+        name:
+          id: gastrodon
+          display: Gastrodon
+      hit_points: 110
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shellos
+          display: Shellos
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sticky-shot
+            display: Sticky Shot
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, the Defending Pokémon’s attacks cost {C} more, and its Retreat Cost is {C} more.
+      - var: Attack
+        val:
+          name:
+            id: water-pulse
+            display: Water Pulse
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 60
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: oshawott
+    display: Oshawott
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 501
+        name:
+          id: oshawott
+          display: Oshawott
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dewott
+    display: Dewott
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: As a result of strict training, each Dewott learns different forms for using the scalchops.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 502
+        name:
+          id: dewott
+          display: Dewott
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: oshawott
+          display: Oshawott
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: razor-shell
+            display: Razor Shell
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: samurott
+    display: Samurott
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 503
+        name:
+          id: samurott
+          display: Samurott
+      hit_points: 140
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dewott
+          display: Dewott
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ultimate-blade
+            display: Ultimate Blade
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: If the damage from this attack reduces your opponent’s Active Pokémon’s HP to 60 or less, that Pokémon is Knocked Out.
+      - var: Attack
+        val:
+          name:
+            id: pike
+            display: Pike
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 90
+          text: This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: clauncher
+    display: Clauncher
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 692
+        name:
+          id: clauncher
+          display: Clauncher
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-pincers
+            display: Double Pincers
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: clawitzer
+    display: Clawitzer
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 693
+        name:
+          id: clawitzer
+          display: Clawitzer
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clauncher
+          display: Clauncher
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: mega-boost
+            display: Mega Boost
+          text: Once during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Mega Evolution Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: crabhammer
+            display: Crabhammer
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: clawitzer-break
+    display: Clawitzer BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 693
+        name:
+          id: clawitzer
+          display: Clawitzer
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: clawitzer
+          display: Clawitzer
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lock-on
+            display: Lock-On
+          cost:
+          - Colorless
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn. During your next turn, any damage done to that Pokémon by attacks is increased by 120 (after applying Weakness and Resistance).
+- title:
+    id: bergmite
+    display: Bergmite
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 712
+        name:
+          id: bergmite
+          display: Bergmite
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ice-block
+            display: Ice Block
+          cost:
+          - Water
+          text: Heal 30 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: icy-snow
+            display: Icy Snow
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: avalugg
+    display: Avalugg
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: saya-tsuruta
+      display: Saya Tsuruta
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 713
+        name:
+          id: avalugg
+          display: Avalugg
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bergmite
+          display: Bergmite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crunch
+            display: Crunch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: melting-floe
+            display: Melting Floe
+          cost:
+          - Water
+          - Water
+          - Water
+          text: Discard the top 3 cards of your deck. For each {W} Energy card you discarded in this way, discard the top 3 cards of your opponent’s deck.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: mareep
+    display: Mareep
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: eri-yamaki
+      display: Eri Yamaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 179
+        name:
+          id: mareep
+          display: Mareep
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: flaaffy
+    display: Flaaffy
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 180
+        name:
+          id: flaaffy
+          display: Flaaffy
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mareep
+          display: Mareep
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: thunder-shock
+            display: Thunder Shock
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: ampharos
+    display: Ampharos
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 181
+        name:
+          id: ampharos
+          display: Ampharos
+      hit_points: 140
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: flaaffy
+          display: Flaaffy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: shocking-light
+            display: Shocking Light
+          text: Once during your turn (before your attack), you may put 3 damage counters on 1 of your opponent’s Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: gigavolt
+            display: Gigavolt
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: joltik
+    display: Joltik
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 595
+        name:
+          id: joltik
+          display: Joltik
+      hit_points: 30
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: attach
+            display: Attach
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: galvantula
+    display: Galvantula
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: When attacked, they create an electric barrier by spitting out many electrically charged threads.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 596
+        name:
+          id: galvantula
+          display: Galvantula
+      hit_points: 90
+      energy_types:
+      - Grass
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: joltik
+          display: Joltik
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-thread
+            display: Double Thread
+          cost:
+          - Colorless
+          text: This attack does 30 damage to 2 of your opponent’s Benched Pokémon. Apply Weakness and Resistance.
+      - var: Attack
+        val:
+          name:
+            id: electroweb
+            display: Electroweb
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: nidoran-male
+    display: Nidoran Male
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: hasuno
+      display: Hasuno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 32
+        name:
+          id: nidoran-male
+          display: Nidoran♂
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: come-along
+            display: Come Along
+          cost:
+          - Colorless
+          text: Search your deck for Nidoran Female and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidorino
+    display: Nidorino
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 33
+        name:
+          id: nidorino
+          display: Nidorino
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nidoran-male
+          display: Nidoran Male
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: nido-press
+            display: Nido Press
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If Nidorina is on your Bench, this attack does 40 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoking
+    display: Nidoking
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mina-nakai
+      display: Mina Nakai
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: One swing of its mighty tail can snap a telephone pole as if it were a matchstick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 34
+        name:
+          id: nidoking
+          display: Nidoking
+      hit_points: 150
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: nidorino
+          display: Nidorino
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: kings-palace
+            display: King's Palace
+          text: Your Nidoqueen’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: power-lariat
+            display: Power Lariat
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 30 more damage for each Evolution Pokémon on your Bench.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: drifloon
+    display: Drifloon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kodama
+      display: kodama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: These Pokémon are called the “Signpost for Wandering Spirits.” Children holding them sometimes vanish.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 425
+        name:
+          id: drifloon
+          display: Drifloon
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: transfer-pain
+            display: Transfer Pain
+          cost:
+          - Colorless
+          text: Move 1 damage counter from 1 of your Pokémon to 1 of your opponent’s Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: drifblim
+    display: Drifblim
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It’s drowsy in daytime, but flies off in the evening in big groups. No one knows where they go.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 426
+        name:
+          id: drifblim
+          display: Drifblim
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drifloon
+          display: Drifloon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: eerie-wave
+            display: Eerie Wave
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: burst-curse
+            display: Burst Curse
+          cost:
+          - Psychic
+          - Psychic
+          text: Discard 2 Energy attached to this Pokémon. Put 8 damage counters on your opponent’s Pokémon in any way you like.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: litwick
+    display: Litwick
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 607
+        name:
+          id: litwick
+          display: Litwick
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slightly-simmer
+            display: Slightly Simmer
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 cards and discard them. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: lampent
+    display: Lampent
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: miki-kudo
+      display: miki kudo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It arrives near the moment of death and steals spirit from the body.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 608
+        name:
+          id: lampent
+          display: Lampent
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: litwick
+          display: Litwick
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mirror-mirror
+            display: Mirror Mirror
+          cost:
+          - Colorless
+          text: Each player either draws or discards cards until that player has 4 cards in his or her hand. (Your opponent does this first.)
+      - var: Attack
+        val:
+          name:
+            id: flickering-flames
+            display: Flickering Flames
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: chandelure
+    display: Chandelure
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: The spirits burned up in its ominous flame lose their way and wander this world forever.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 609
+        name:
+          id: chandelure
+          display: Chandelure
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: lampent
+          display: Lampent
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sinister-selection
+            display: Sinister Selection
+          text: Once during your turn (before your attack), you may look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.
+      - var: Attack
+        val:
+          name:
+            id: past-friends
+            display: Past Friends
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 10 more damage for each Supporter card in your discard pile.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hoopa
+    display: Hoopa
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yoshinobu-saito
+      display: Yoshinobu Saito
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 720
+        name:
+          id: hoopa
+          display: Hoopa
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyperspace-punch
+            display: Hyperspace Punch
+          cost:
+          - Colorless
+          text: This attack does 20 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: portal-strike
+            display: Portal Strike
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 130
+          text: This Pokémon can’t use Portal Strike during your next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mankey
+    display: Mankey
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 56
+        name:
+          id: mankey
+          display: Mankey
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: focus-energy
+            display: Focus Energy
+          cost:
+          - Colorless
+          text: During your next turn, this Pokémon’s Flop attack’s base damage is 50.
+      - var: Attack
+        val:
+          name:
+            id: flop
+            display: Flop
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: primeape
+    display: Primeape
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 57
+        name:
+          id: primeape
+          display: Primeape
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mankey
+          display: Mankey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swagger
+            display: Swagger
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: spirited-throw
+            display: Spirited Throw
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If, before doing damage, your opponent’s Active Pokémon has more remaining HP than this Pokémon, this attack does 60 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nosepass
+    display: Nosepass
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: you-iribi
+      display: You Iribi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 299
+        name:
+          id: nosepass
+          display: Nosepass
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: rolling-tackle
+            display: Rolling Tackle
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: probopass
+    display: Probopass
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It freely controls three small units called Mini-Noses using magnetic force.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 476
+        name:
+          id: probopass
+          display: Probopass
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nosepass
+          display: Nosepass
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bounce-back
+            display: Bounce Back
+          cost:
+          - Fighting
+          damage:
+            scalar: 40
+          text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: rock-tomb
+            display: Rock Tomb
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: anorith
+    display: Anorith
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 347
+        name:
+          id: anorith
+          display: Anorith
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: restored
+          display: Restored
+        evolves_from:
+        - id: claw-fossil-anorith
+          display: Claw Fossil Anorith
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: restored-barrier
+            display: Restored Barrier
+          text: Each of your Restored Pokémon has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: x-scissor
+            display: X-Scissor
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: armaldo
+    display: Armaldo
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: satoshi-shirai
+      display: Satoshi Shirai
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: Protected by a hard shell, its body is very sturdy. It skewers prey with its claws to feed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 348
+        name:
+          id: armaldo
+          display: Armaldo
+      hit_points: 150
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: anorith
+          display: Anorith
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rushing-water
+            display: Rushing Water
+          cost:
+          - Colorless
+          damage:
+            scalar: 40
+          text: Move an Energy from your opponent’s Active Pokémon to 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: guard-claw
+            display: Guard Claw
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: croagunk
+    display: Croagunk
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 453
+        name:
+          id: croagunk
+          display: Croagunk
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-up
+            display: Poison Up
+          cost:
+          - Colorless
+          text: If the Defending Pokémon is Poisoned, put 3 more damage counters on that Pokémon between turns. This effect can be applied more than once.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: toxicroak
+    display: Toxicroak
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 454
+        name:
+          id: toxicroak
+          display: Toxicroak
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: croagunk
+          display: Croagunk
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: poison-enzyme
+            display: Poison Enzyme
+          text: Prevent all damage done to this Pokémon by attacks from your opponent’s Poisoned Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: poison-jab
+            display: Poison Jab
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sneasel
+    display: Sneasel
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 215
+        name:
+          id: sneasel
+          display: Sneasel
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nyan-roll
+            display: Nyan Roll
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: weavile
+    display: Weavile
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 461
+        name:
+          id: weavile
+          display: Weavile
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sneasel
+          display: Sneasel
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: tear-away
+            display: Tear Away
+          text: As often as you like during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: spiritomb
+    display: Spiritomb
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 442
+        name:
+          id: spiritomb
+          display: Spiritomb
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nightmare
+            display: Nightmare
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+          text: Your opponent’s Active Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: damage-play
+            display: Damage Play
+          cost:
+          - Darkness
+          - Colorless
+          text: Move as many damage counters on your opponent’s Benched Pokémon as you like to any of your opponent’s other Pokémon in any way you like.
+      retreat_cost: 1
+- title:
+    id: pawniard
+    display: Pawniard
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 624
+        name:
+          id: pawniard
+          display: Pawniard
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: charge-order
+            display: Charge Order
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: This attack does 10 damage times the number of your Pawniard.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bisharp
+    display: Bisharp
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 625
+        name:
+          id: bisharp
+          display: Bisharp
+      hit_points: 100
+      energy_types:
+      - Darkness
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pawniard
+          display: Pawniard
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: retaliate
+            display: Retaliate
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: mach-claw
+            display: Mach Claw
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 60
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: yveltal
+    display: Yveltal
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 717
+        name:
+          id: yveltal
+          display: Yveltal
+      hit_points: 130
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: oblivion-wing
+            display: Oblivion Wing
+          cost:
+          - Darkness
+          damage:
+            scalar: 30
+          text: Attach a {D} Energy card from your discard pile to 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: darkness-blade
+            display: Darkness Blade
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 100
+          text: Flip a coin. If tails, this Pokémon can’t attack during your next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: yveltal-break
+    display: Yveltal BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 717
+        name:
+          id: yveltal
+          display: Yveltal
+      hit_points: 150
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: yveltal
+          display: Yveltal
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: baleful-night
+            display: Baleful Night
+          cost:
+          - Darkness
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 120
+          text: This attack does 30 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+- title:
+    id: steelix-ex
+    display: Steelix-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 180
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wild-edge
+            display: Wild Edge
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: You may do 50 more damage. If you do, this Pokémon does 20 damage to itself.
+      - var: Attack
+        val:
+          name:
+            id: iron-tail
+            display: Iron Tail
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 100 damage times the number of heads.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-steelix-ex
+    display: M Steelix-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 240
+      energy_types:
+      - Fighting
+      - Metal
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: steelix-ex
+          display: Steelix-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: canyon-axe
+            display: Canyon Axe
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 160
+          text: This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: shieldon
+    display: Shieldon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 410
+        name:
+          id: shieldon
+          display: Shieldon
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: restored
+          display: Restored
+        evolves_from:
+        - id: armor-fossil-shieldon
+          display: Armor Fossil Shieldon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-head
+            display: Rock Head
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: hammer-in
+            display: Hammer In
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bastiodon
+    display: Bastiodon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 411
+        name:
+          id: bastiodon
+          display: Bastiodon
+      hit_points: 150
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shieldon
+          display: Shieldon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: counter-head
+            display: Counter Head
+          cost:
+          - Colorless
+          - Colorless
+          text: During your opponent’s next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fortress-of-rage
+            display: Fortress of Rage
+          cost:
+          - Metal
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+            modifier: Plus
+          text: This attack does 10 more damage for each of your Benched Pokémon that has any damage counters on it.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klink
+    display: Klink
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 599
+        name:
+          id: klink
+          display: Klink
+      hit_points: 50
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: disorderly-flip
+            display: Disorderly Flip
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klang
+    display: Klang
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: A minigear and big gear comprise its body. If the minigear it launches at a foe doesn’t return, it will die.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 600
+        name:
+          id: klang
+          display: Klang
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: klink
+          display: Klink
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vice-grip
+            display: Vice Grip
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: disorderly-flip
+            display: Disorderly Flip
+          cost:
+          - Metal
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 4 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klinklang
+    display: Klinklang
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 601
+        name:
+          id: klinklang
+          display: Klinklang
+      hit_points: 140
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: klang
+          display: Klang
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: heavy-bumper
+            display: Heavy Bumper
+          text: Any damage done to this Pokémon by an opponent’s attack is reduced by 10 for each {C} in your opponent’s Active Pokémon’s Retreat Cost (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: gear-spinner
+            display: Gear Spinner
+          cost:
+          - Metal
+          - Metal
+          - Colorless
+          damage:
+            scalar: 70
+          text: During your next turn, this Pokémon’s Gear Spinner attack does 70 more damage (before applying Weakness and Resistance).
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: cobalion
+    display: Cobalion
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 638
+        name:
+          id: cobalion
+          display: Cobalion
+      hit_points: 120
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-guard
+            display: Quick Guard
+          cost:
+          - Metal
+          text: Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent’s next turn. This Pokémon can’t use Quick Guard during your next turn.
+      - var: Attack
+        val:
+          name:
+            id: revenge-blast
+            display: Revenge Blast
+          cost:
+          - Metal
+          - Metal
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: This attack does 30 more damage for each Prize card your opponent has taken.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: magearna-ex
+    display: Magearna-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 801
+        name:
+          id: magearna
+          display: Magearna
+      hit_points: 160
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: mystic-heart
+            display: Mystic Heart
+          text: Prevent all effects of your opponent’s attacks, except damage, done to each of your Pokémon that has any {M} Energy attached to it. (Existing effects are not removed.)
+      - var: Attack
+        val:
+          name:
+            id: soul-blaster
+            display: Soul Blaster
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: During your next turn, this Pokémon’s Soul Blaster attack’s base damage is 60.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: marill
+    display: Marill
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shibuzoh
+      display: Shibuzoh.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: The tip of its tail is filled with oil that is lighter than water, so it acts as a float.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 183
+        name:
+          id: marill
+          display: Marill
+      hit_points: 60
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble-drain
+            display: Bubble Drain
+          cost:
+          - Fairy
+          damage:
+            scalar: 10
+          text: Heal 10 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: azumarill
+    display: Azumarill
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: The bubble-like pattern on its stomach helps it camouflage itself when it’s in the water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 184
+        name:
+          id: azumarill
+          display: Azumarill
+      hit_points: 100
+      energy_types:
+      - Water
+      - Fairy
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: marill
+          display: Marill
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: play-rough
+            display: Play Rough
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      - var: Attack
+        val:
+          name:
+            id: bubble-drain
+            display: Bubble Drain
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 80
+          text: Heal 30 damage from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gardevoir-ex
+    display: Gardevoir-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 170
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: link-blast
+            display: Link Blast
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached to them, this attack does 70 more damage.
+      - var: Attack
+        val:
+          name:
+            id: luminous-blade
+            display: Luminous Blade
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-gardevoir-ex
+    display: M Gardevoir-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 210
+      energy_types:
+      - Psychic
+      - Fairy
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: gardevoir-ex
+          display: Gardevoir-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: despair-ray
+            display: Despair Ray
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 110
+            modifier: Plus
+          text: Discard as many of your Benched Pokémon as you like. This attack does 10 more damage for each Benched Pokémon you discarded in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klefki
+    display: Klefki
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: saya-tsuruta
+      display: Saya Tsuruta
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 707
+        name:
+          id: klefki
+          display: Klefki
+      hit_points: 70
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wonder-lock
+            display: Wonder Lock
+          text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may discard all cards attached to this Pokémon and attach it to 1 of your Pokémon as a Pokémon Tool card. Prevent any damage done to the Pokémon this card is attached to by attacks from your opponent’s Mega Evolution Pokémon. If this card is attached to a Pokémon, discard this card at the end of your opponent’s turn.
+      - var: Attack
+        val:
+          name:
+            id: fairy-wind
+            display: Fairy Wind
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: xerneas
+    display: Xerneas
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 716
+        name:
+          id: xerneas
+          display: Xerneas
+      hit_points: 130
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: geomancy
+            display: Geomancy
+          cost:
+          - Fairy
+          text: Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a {Y} Energy card and attach it to that Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: rainbow-spear
+            display: Rainbow Spear
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: xerneas-break
+    display: Xerneas BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 716
+        name:
+          id: xerneas
+          display: Xerneas
+      hit_points: 150
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: xerneas
+          display: Xerneas
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: life-stream
+            display: Life Stream
+          cost:
+          - Fairy
+          - Fairy
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage times the amount of Energy attached to all of your Pokémon.
+- title:
+    id: druddigon
+    display: Druddigon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 621
+        name:
+          id: druddigon
+          display: Druddigon
+      hit_points: 120
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: proud-fang
+            display: Proud Fang
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If your opponent has any Pokémon BREAK in play, this attack does 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: giga-claw
+            display: Giga Claw
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 100
+          text: Flip 2 coins. If both of them are tails, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: deino
+    display: Deino
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Lacking sight, it’s unaware of its surroundings, so it bumps into things and eats anything that moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 633
+        name:
+          id: deino
+          display: Deino
+      hit_points: 60
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roar
+            display: Roar
+          cost:
+          - Colorless
+          text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: headbutt-bounce
+            display: Headbutt Bounce
+          cost:
+          - Psychic
+          - Darkness
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: zweilous
+    display: Zweilous
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 634
+        name:
+          id: zweilous
+          display: Zweilous
+      hit_points: 90
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: deino
+          display: Deino
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-hit
+            display: Double Hit
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: power-breath
+            display: Power Breath
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: hydreigon
+    display: Hydreigon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: hideki-ishikawa
+      display: Hideki Ishikawa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2016-08-03
+    flavor: It responds to movement by attacking. This scary, three-headed Pokémon devours everything in its path!
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 635
+        name:
+          id: hydreigon
+          display: Hydreigon
+      hit_points: 150
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: zweilous
+          display: Zweilous
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cruel-fang
+            display: Cruel Fang
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 40 (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: dark-burn
+            display: Dark Burn
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Discard as many {D} Energy attached to your Pokémon as you like. This attack does 50 damage times the amount of {D} Energy you discarded in this way.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: hydreigon-break
+    display: Hydreigon BREAK
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-break
+      display: Rare BREAK
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 635
+        name:
+          id: hydreigon
+          display: Hydreigon
+      hit_points: 190
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: break
+          display: BREAK
+        evolves_from:
+        - id: hydreigon
+          display: Hydreigon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: calamity-blast
+            display: Calamity Blast
+          cost:
+          - Psychic
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 150
+          text: Discard 3 Energy attached to this Pokémon. This attack does 50 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stall
+            display: Stall
+          cost:
+          - Colorless
+          text: You can use this attack only if you go second, and only on your first turn. Discard an Energy attached to 1 of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: persian
+    display: Persian
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: anesaki-dynamic
+      display: Anesaki Dynamic
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: Its lithe muscles allow it to walk without making a sound. It attacks in an instant.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 53
+        name:
+          id: persian
+          display: Persian
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: meowth
+          display: Meowth
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raid
+            display: Raid
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon evolved from Meowth during this turn, this attack does 30 more damage.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: aipom
+    display: Aipom
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 190
+        name:
+          id: aipom
+          display: Aipom
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fiddle-around
+            display: Fiddle Around
+          cost:
+          - Colorless
+          text: Look at the top 3 cards of your opponent’s deck and put them back in any order.
+      - var: Attack
+        val:
+          name:
+            id: tail-jab
+            display: Tail Jab
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ambipom
+    display: Ambipom
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 424
+        name:
+          id: ambipom
+          display: Ambipom
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: aipom
+          display: Aipom
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: furry-chance
+            display: Furry Chance
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Discard the top card of your opponent’s deck. If that card is an Energy card, this attack does 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: double-hit
+            display: Double Hit
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Flip 2 coins. This attack does 50 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rufflet
+    display: Rufflet
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 627
+        name:
+          id: rufflet
+          display: Rufflet
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: reckless-charge
+            display: Reckless Charge
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: braviary
+    display: Braviary
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: They fight for their friends without any thought about danger to themselves. One can carry a car while flying.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 628
+        name:
+          id: braviary
+          display: Braviary
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rufflet
+          display: Rufflet
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 more damage.
+      - var: Attack
+        val:
+          name:
+            id: sky-drop
+            display: Sky Drop
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+            modifier: Minus
+          text: This attack does 120 damage minus 20 damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: fletchling
+    display: Fletchling
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: common
+      display: Common
+    release_date: 2016-08-03
+    flavor: Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 661
+        name:
+          id: fletchling
+          display: Fletchling
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: fletchinder
+    display: Fletchinder
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 662
+        name:
+          id: fletchinder
+          display: Fletchinder
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: fletchling
+          display: Fletchling
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: glide
+            display: Glide
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: talonflame
+    display: Talonflame
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2016-08-03
+    flavor: When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 663
+        name:
+          id: talonflame
+          display: Talonflame
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: fletchinder
+          display: Fletchinder
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: gale-wings
+            display: Gale Wings
+          text: If this Pokémon is in your hand when you are setting up to play, you may put it face down as your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: aero-blitz
+            display: Aero Blitz
+          cost:
+          - Colorless
+          damage:
+            scalar: 40
+          text: Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hawlucha
+    display: Hawlucha
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: miki-kudo
+      display: miki kudo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+    flavor: With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 701
+        name:
+          id: hawlucha
+          display: Hawlucha
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sudden-cyclone
+            display: Sudden Cyclone
+          text: When you play this Pokémon from your hand onto your Bench, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: acrobatics
+            display: Acrobatics
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 2 coins. This attack does 20 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: armor-fossil-shieldon
+    display: Armor Fossil Shieldon
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Look at the bottom 7 cards of your deck. You may reveal a Shieldon you find there and put it onto your Bench. Shuffle the other cards back into your deck.
+      sub: Item
+- title:
+    id: captivating-poke-puff
+    display: Captivating Poké Puff
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Your opponent reveals his or her hand. Put any number of Basic Pokémon you find there onto your opponent’s Bench.
+      sub: Item
+- title:
+    id: claw-fossil-anorith
+    display: Claw Fossil Anorith
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Look at the bottom 7 cards of your deck. You may reveal an Anorith you find there and put it onto your Bench. Shuffle the other cards back into your deck.
+      sub: Item
+- title:
+    id: gardevoir-spirit-link
+    display: Gardevoir Spirit Link
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Your turn does not end if the Pokémon this card is attached to becomes M Gardevoir-EX.
+      sub: PokemonTool
+- title:
+    id: greedy-dice
+    display: Greedy Dice
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if you took it as a face-down Prize card, before you put it into your hand.
+        Flip a coin. If heads, take 1 more Prize card.
+      sub: Item
+- title:
+    id: ninja-boy
+    display: Ninja Boy
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your Basic Pokémon in play. Search your deck for a Basic Pokémon and switch it with that Pokémon. (Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.) Shuffle the first Pokémon into your deck.
+      sub: Supporter
+- title:
+    id: pokemon-ranger
+    display: Pokémon Ranger
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Remove all effects of attacks on each player and his or her Pokémon.
+      sub: Supporter
+- title:
+    id: special-charge
+    display: Special Charge
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle 2 Special Energy cards from your discard pile into your deck.
+      sub: Item
+- title:
+    id: steelix-spirit-link
+    display: Steelix Spirit Link
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Your turn does not end if the Pokémon this card is attached to becomes M Steelix-EX.
+      sub: PokemonTool
+- title:
+    id: volcanion-ex
+    display: Volcanion-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 721
+        name:
+          id: volcanion
+          display: Volcanion
+      hit_points: 180
+      energy_types:
+      - Fire
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: steam-up
+            display: Steam Up
+          text: Once during your turn (before your attack), you may discard a {R} Energy card from your hand. If you do, during this turn, your Basic {R} Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: volcanion-heat
+            display: Volcanion Heat
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 130
+          text: This Pokémon can’t attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: steelix-ex
+    display: Steelix-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 180
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wild-edge
+            display: Wild Edge
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: You may do 50 more damage. If you do, this Pokémon does 20 damage to itself.
+      - var: Attack
+        val:
+          name:
+            id: iron-tail
+            display: Iron Tail
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 100 damage times the number of heads.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-steelix-ex
+    display: M Steelix-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 240
+      energy_types:
+      - Fighting
+      - Metal
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: steelix-ex
+          display: Steelix-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: canyon-axe
+            display: Canyon Axe
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 160
+          text: This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: magearna-ex
+    display: Magearna-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 801
+        name:
+          id: magearna
+          display: Magearna
+      hit_points: 160
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: mystic-heart
+            display: Mystic Heart
+          text: Prevent all effects of your opponent’s attacks, except damage, done to each of your Pokémon that has any {M} Energy attached to it. (Existing effects are not removed.)
+      - var: Attack
+        val:
+          name:
+            id: soul-blaster
+            display: Soul Blaster
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: During your next turn, this Pokémon’s Soul Blaster attack’s base damage is 60.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gardevoir-ex
+    display: Gardevoir-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 170
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: link-blast
+            display: Link Blast
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached to them, this attack does 70 more damage.
+      - var: Attack
+        val:
+          name:
+            id: luminous-blade
+            display: Luminous Blade
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-gardevoir-ex
+    display: M Gardevoir-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 210
+      energy_types:
+      - Psychic
+      - Fairy
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: gardevoir-ex
+          display: Gardevoir-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: despair-ray
+            display: Despair Ray
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 110
+            modifier: Plus
+          text: Discard as many of your Benched Pokémon as you like. This attack does 10 more damage for each Benched Pokémon you discarded in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pokemon-ranger
+    display: Pokémon Ranger
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Remove all effects of attacks on each player and his or her Pokémon.
+      sub: Supporter
+- title:
+    id: professor-sycamore
+    display: Professor Sycamore
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2016-08-03
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: volcanion-ex
+    display: Volcanion-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '115'
+      display: '115'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 721
+        name:
+          id: volcanion
+          display: Volcanion
+      hit_points: 180
+      energy_types:
+      - Fire
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: steam-up
+            display: Steam Up
+          text: Once during your turn (before your attack), you may discard a {R} Energy card from your hand. If you do, during this turn, your Basic {R} Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: volcanic-heat
+            display: Volcanic Heat
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 130
+          text: This Pokémon can’t attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: gardevoir-ex
+    display: Gardevoir-EX
+  set:
+    name:
+      id: steam-siege
+      display: Steam Siege
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: sts
+      display: STS
+  number:
+    number:
+      id: '116'
+      display: '116'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2016-08-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 170
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: link-blast
+            display: Link Blast
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached to them, this attack does 70 more damage.
+      - var: Attack
+        val:
+          name:
+            id: luminous-blade
+            display: Luminous Blade
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus

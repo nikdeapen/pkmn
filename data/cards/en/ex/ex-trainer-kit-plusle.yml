@@ -1,0 +1,205 @@
+- title:
+    id: beldum
+    display: Beldum
+  set:
+    name:
+      id: ex-trainer-kit-plusle
+      display: EX Trainer Kit - Plusle
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2p
+      display: TK2P
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 374
+        name:
+          id: beldum
+          display: Beldum
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: metal-ball
+            display: Metal Ball
+          cost:
+          - Psychic
+          text: Put 1 damage counter on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: ex-trainer-kit-plusle
+      display: EX Trainer Kit - Plusle
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2p
+      display: TK2P
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: cat-kick
+            display: Cat Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: plusle
+    display: Plusle
+  set:
+    name:
+      id: ex-trainer-kit-plusle
+      display: EX Trainer Kit - Plusle
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2p
+      display: TK2P
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 311
+        name:
+          id: plusle
+          display: Plusle
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pickup-power
+            display: Pickup Power
+          cost:
+          - Colorless
+          text: Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.
+      - var: Attack
+        val:
+          name:
+            id: rear-spark
+            display: Rear Spark
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 10
+          text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus

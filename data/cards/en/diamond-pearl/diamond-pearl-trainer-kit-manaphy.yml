@@ -1,0 +1,72 @@
+- title:
+    id: manaphy
+    display: Manaphy
+  set:
+    name:
+      id: diamond-pearl-trainer-kit-manaphy
+      display: D&P Trainer Kit - Manaphy
+    series:
+      id: diamond-pearl
+      display: Diamond & Pearl
+    context: English
+    live_code:
+      id: tk3m
+      display: TK3M
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2007-09-07
+    flavor: Born on a cold seafloor, it will swim great distances to return to its birthplace.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 490
+        name:
+          id: manaphy
+          display: Manaphy
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: aqua-ring
+            display: Aqua Ring
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: Switch Manaphy with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus

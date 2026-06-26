@@ -1,0 +1,8197 @@
+- title:
+    id: blaines-arcanine
+    display: Blaine's Arcanine
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 59
+        name:
+          id: arcanine
+          display: Arcanine
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blaines-growlithe
+          display: Blaine's Growlithe
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: heat-tackle
+            display: Heat Tackle
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Blaine’s Arcanine does 10 damage to itself.
+      - var: Attack
+        val:
+          name:
+            id: firestorm
+            display: Firestorm
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 120
+          text: Discard 3 {R} Energy cards attached to Blaine’s Arcanine in order to use this attack.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-charizard
+    display: Blaine's Charizard
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '50'
+      display: '50'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: blaines-charmeleon
+          display: Blaine's Charmeleon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roaring-flames
+            display: Roaring Flames
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Discard all {R} Energy cards attached to Blaine’s Charizard. If all Energy cards attached to Blaine’s Charizard provide 2 {R} Energy, discard all of them. This attack does 20 damage plus 20 more damage for each {R} Energy discarded in this way.
+      - var: Attack
+        val:
+          name:
+            id: flame-jet
+            display: Flame Jet
+          cost:
+          - Fire
+          - Fire
+          text: Flip a coin. If heads, choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. Don’t apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: brocks-ninetales
+    display: Brock's Ninetales
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 38
+        name:
+          id: ninetales
+          display: Ninetales
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: brocks-vulpix
+          display: Brock's Vulpix
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: shapeshift
+            display: Shapeshift
+          text: Once during your turn (before your attack), you may attach an Evolution card from your hand to Brock’s Ninetales. (This doesn’t count as evolving Brock’s Ninetales.) Treat Brock’s Ninetales as if it were that Pokémon instead. It can’t evolve, devolve, or use the Pokémon Power of that Pokémon. During your turn, you may discard the Evolution card attached to Brock’s Ninetales. This power can’t be used if Brock’s Ninetales is Asleep, Confused, or Paralyzed. If Brock’s Ninetales becomes Asleep, Confused, or Paralyzed, discard all Evolution cards attached to it.
+      - var: Attack
+        val:
+          name:
+            id: will-o-the-wisp
+            display: Will-o'-the-wisp
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: erikas-venusaur
+    display: Erika's Venusaur
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: erikas-ivysaur
+          display: Erika's Ivysaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growth
+            display: Growth
+          cost:
+          - Grass
+          text: Flip a coin. If heads, you may attach up to 2 {G} Energy cards from your hand to Erika’s Venusaur.
+      - var: Attack
+        val:
+          name:
+            id: wide-solarbeam
+            display: Wide Solarbeam
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she only has 1). This attack does 20 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-gyarados
+    display: Giovanni's Gyarados
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: giovannis-magikarp
+          display: Giovanni's Magikarp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: summon-storm
+            display: Summon Storm
+          cost:
+          - Water
+          text: Flip 2 coins. If both of them are heads, this attack does 20 damage to each other Pokémon (even your own). Don’t apply Weakness and Resistance for this attack.
+      - var: Attack
+        val:
+          name:
+            id: dragon-tornado
+            display: Dragon Tornado
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Unless this attack Knocks Out the Defending Pokémon, choose 1 of your opponent’s Benched Pokémon and switch it with the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: giovannis-machamp
+    display: Giovanni's Machamp
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '50'
+      display: '50'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 68
+        name:
+          id: machamp
+          display: Machamp
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: giovannis-machoke
+          display: Giovanni's Machoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: fortitude
+            display: Fortitude
+          text: If Giovanni’s Machamp would be Knocked Out by an opponent’s attack, flip a coin. If heads, Giovanni’s Machamp is not Knocked Out and its remaining HP become 10 instead. This power can’t be used if Giovanni’s Machamp is already Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: hurricane-punch
+            display: Hurricane Punch
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 4 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-nidoking
+    display: Giovanni's Nidoking
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '58'
+      display: '58'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 34
+        name:
+          id: nidoking
+          display: Nidoking
+      hit_points: 120
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: giovannis-nidorino
+          display: Giovanni's Nidorino
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: intimidate
+            display: Intimidate
+          cost:
+          - Grass
+          text: If the Defending Pokémon’s maximum HP is 50 or less, it can’t attack Giovanni’s Nidoking during your opponent’s next turn. (Benching or evolving either Pokémon ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: tumbling-attack
+            display: Tumbling Attack
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-persian
+    display: Giovanni's Persian
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 53
+        name:
+          id: persian
+          display: Persian
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: giovannis-meowth
+          display: Giovanni's Meowth
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: call-the-boss
+            display: Call the Boss
+          text: When you play Giovanni’s Persian from your hand, you may search your deck for the Trainer card named Giovanni, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kogas-beedrill
+    display: Koga's Beedrill
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kogas-kakuna
+          display: Koga's Kakuna
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nerve-poison
+            display: Nerve Poison
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: hyper-needle
+            display: Hyper Needle
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flip a coin. If tails, this attack does nothing. Either way, you can’t use this attack again as long as Koga’s Beedrill stays in play (even putting Koga’s Beedrill on the Bench won’t let you use it again).
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kogas-ditto
+    display: Koga's Ditto
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: giant-growth
+            display: Giant Growth
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, Koga’s Ditto’s maximum HP is now 80 and Koga’s Ditto’s Pound attack’s base damage is 30 instead of 10. (Benching Koga’s Ditto ends this effect.)
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lt-surges-raichu
+    display: Lt. Surge's Raichu
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lt-surges-pikachu
+          display: Lt. Surge's Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: kerzap
+            display: Kerzap
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all {L} Energy cards attached to Lt. Surge’s Raichu. If tails, this attack does 20 damage.
+      - var: Attack
+        val:
+          name:
+            id: thundertackle
+            display: Thundertackle
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Lt. Surge’s Raichu does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-golduck
+    display: Misty's Golduck
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 55
+        name:
+          id: golduck
+          display: Golduck
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mistys-psyduck
+          display: Misty's Psyduck
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: electro-beam
+            display: Electro Beam
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, discard all Energy cards attached to Misty’s Golduck.
+      - var: Attack
+        val:
+          name:
+            id: super-removal
+            display: Super Removal
+          cost:
+          - Psychic
+          - Colorless
+          text: Flip a coin. If heads, choose 1 Energy card attached to each of your opponent’s Pokémon that has any Energy cards and discard those Energy cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-gyarados
+    display: Misty's Gyarados
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mistys-magikarp
+          display: Misty's Magikarp
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: rebellion
+            display: Rebellion
+          text: Whenever Misty’s Gyarados attacks, flip 2 coins. If both of them are tails, that attack does nothing. Instead, shuffle Misty’s Gyarados and all cards attached to it into your deck. (This power works even if Misty’s Gyarados is Confused.)
+      - var: Attack
+        val:
+          name:
+            id: tidal-wave
+            display: Tidal Wave
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 70
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: rockets-mewtwo
+    display: Rocket's Mewtwo
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: juxtapose
+            display: Juxtapose
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, switch the number of damage counters on Rocket’s Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It’s okay if 1 of the Pokémon has no damage counters on it.)
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: psyburn
+            display: Psyburn
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-zapdos
+    display: Rocket's Zapdos
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: plasma
+            display: Plasma
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+          text: If there are any {L} Energy cards in your discard pile, attach 1 of them to Rocket’s Zapdos.
+      - var: Attack
+        val:
+          name:
+            id: electroburn
+            display: Electroburn
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+          text: Rocket’s Zapdos does damage to itself equal to 10 times the number of {L} Energy cards attached to it.
+      retreat_cost: 2
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sabrinas-alakazam
+    display: Sabrina's Alakazam
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '44'
+      display: '44'
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 65
+        name:
+          id: alakazam
+          display: Alakazam
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: sabrinas-kadabra
+          display: Sabrina's Kadabra
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: psylink
+            display: Psylink
+          text: Sabrina’s Alakazam always has a copy of every attack your {P} Pokémon in play have (including their Energy costs and anything else required in order to use those attacks, such as discarding Energy cards). This power can’t be used if Sabrina’s Alakazam is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: mega-burn
+            display: Mega Burn
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: You can’t use this attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaine
+    display: Blaine
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: During this turn, instead of attaching your free Energy card, you may instead attach 2 {R} Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)
+      sub: Item
+- title:
+    id: giovanni
+    display: Giovanni
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into.
+      sub: Item
+- title:
+    id: koga
+    display: Koga
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned.
+      sub: Item
+- title:
+    id: sabrina
+    display: Sabrina
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name.
+      sub: Item
+- title:
+    id: blaines-ninetales
+    display: Blaine's Ninetales
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 38
+        name:
+          id: ninetales
+          display: Ninetales
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blaines-vulpix
+          display: Blaine's Vulpix
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: healing-fire
+            display: Healing Fire
+          text: Whenever you attach a {R} Energy card from your hand to Blaine’s Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine’s Ninetales is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: burn-up
+            display: Burn Up
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, discard all {R} Energy cards attached to Blaine’s Ninetales.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: brocks-dugtrio
+    display: Brock's Dugtrio
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 51
+        name:
+          id: dugtrio
+          display: Dugtrio
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: brocks-diglett
+          display: Brock's Diglett
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lie-low
+            display: Lie Low
+          cost:
+          - Fighting
+          text: All damage done to Brock’s Dugtrio during your opponent’s next turn is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: earthdrill
+            display: Earthdrill
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 60
+          text: This attack can’t be used unless Brock’s Dugtrio used its Lie Low attack last turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: giovannis-nidoqueen
+    display: Giovanni's Nidoqueen
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '51'
+      display: '51'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 31
+        name:
+          id: nidoqueen
+          display: Nidoqueen
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: giovannis-nidorina
+          display: Giovanni's Nidorina
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mega-kick
+            display: Mega Kick
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+      - var: Attack
+        val:
+          name:
+            id: love-lariat
+            display: Love Lariat
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 damage plus 50 more damage if you have at least 1 Giovanni’s Nidoking on your Bench. If tails, this attack does nothing.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-pinsir
+    display: Giovanni's Pinsir
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 127
+        name:
+          id: pinsir
+          display: Pinsir
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: snapping-pincers
+            display: Snapping Pincers
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.
+      - var: Attack
+        val:
+          name:
+            id: overhead-toss
+            display: Overhead Toss
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: If you have any Benched Pokémon, flip a coin. If tails, choose 1 of your Benched Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-arbok
+    display: Koga's Arbok
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '44'
+      display: '44'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 24
+        name:
+          id: arbok
+          display: Arbok
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: kogas-ekans
+          display: Koga's Ekans
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-buildup
+            display: Poison Buildup
+          cost:
+          - Grass
+          text: Koga’s Arbok is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: poison-power
+            display: Poison Power
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: If Koga’s Arbok is Poisoned, this attack’s base damage is 40 instead of 20 and the Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-muk
+    display: Koga's Muk
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '38'
+      display: '38'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 89
+        name:
+          id: muk
+          display: Muk
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: kogas-grimer
+          display: Koga's Grimer
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: energy-drain
+            display: Energy Drain
+          text: If an opponent’s attack does damage to Koga’s Muk (even if Koga’s Muk is Knocked Out), flip a coin. If heads and if it has any, choose 1 Energy card attached to the attacking Pokémon and discard it. This power can’t be used if Koga’s Muk is already Asleep, Confused, or Paralyzed when your opponent attacks.
+      - var: Attack
+        val:
+          name:
+            id: sludge-whirlpool
+            display: Sludge Whirlpool
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-pidgeotto
+    display: Koga's Pidgeotto
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 17
+        name:
+          id: pidgeotto
+          display: Pidgeotto
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: kogas-pidgey
+          display: Koga's Pidgey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-turn
+            display: Quick Turn
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: aerial-maneuvers
+            display: Aerial Maneuvers
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage, and, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Koga’s Pidgeotto. If tails, this attack does 10 damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lt-surges-jolteon
+    display: Lt. Surge's Jolteon
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 135
+        name:
+          id: jolteon
+          display: Jolteon
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lt-surges-eevee
+          display: Lt. Surge's Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: high-voltage
+            display: High Voltage
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent can’t play Trainer cards during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: thunder-flare
+            display: Thunder Flare
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 damage times the number of damage counters on Lt. Surge’s Jolteon, then flip a coin. If tails, Lt. Surge’s Jolteon does 30 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-gengar
+    display: Sabrina's Gengar
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 94
+        name:
+          id: gengar
+          display: Gengar
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: sabrinas-haunter
+          display: Sabrina's Haunter
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-wave
+            display: Dark Wave
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 20
+          text: All Pokémon Powers stop working until the end of your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: shadow-bind
+            display: Shadow Bind
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 40
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 2
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sabrinas-golduck
+    display: Sabrina's Golduck
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 55
+        name:
+          id: golduck
+          display: Golduck
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sabrinas-psyduck
+          display: Sabrina's Psyduck
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: damage-shift
+            display: Damage Shift
+          cost:
+          - Psychic
+          - Psychic
+          text: Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don’t apply Weakness and Resistance.)
+      - var: Attack
+        val:
+          name:
+            id: water-spray
+            display: Water Spray
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-charmeleon
+    display: Blaine's Charmeleon
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '29'
+      display: '29'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blaines-charmander
+          display: Blaine's Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-claws
+            display: Fire Claws
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: bonfire
+            display: Bonfire
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          text: Flip 3 coins. For each heads, discard 1 {R} Energy card attached to Blaine’s Charmeleon. If you can’t discard Energy cards, this attack does nothing. This attack does 10 damage times the number of heads to each of your opponent’s Pokémon. Don’t apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-dodrio
+    display: Blaine's Dodrio
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 85
+        name:
+          id: dodrio
+          display: Dodrio
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blaines-doduo
+          display: Blaine's Doduo
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mega-peck
+            display: Mega Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: blaines-rapidash
+    display: Blaine's Rapidash
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: blaines-ponyta
+          display: Blaine's Ponyta
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-mane
+            display: Fire Mane
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: stamp
+            display: Stamp
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage (to the Defending Pokémon) and 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage (to the Defending Pokémon).
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: brocks-graveler
+    display: Brock's Graveler
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 75
+        name:
+          id: graveler
+          display: Graveler
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: brocks-geodude
+          display: Brock's Geodude
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: detonate
+            display: Detonate
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 50
+          text: Does 10 damage to each Pokémon on each player’s bench. (Don’t apply Weakness and Resistance for Benched Pokémon.) Brock’s Graveler does 50 damage to itself. If there is a Stadium card in play, discard it.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: brocks-primeape
+    display: Brock's Primeape
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 57
+        name:
+          id: primeape
+          display: Primeape
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: brocks-mankey
+          display: Brock's Mankey
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: scram
+            display: Scram
+          text: If Brock’s Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock’s Primeape is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: mega-thrash
+            display: Mega Thrash
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 60
+          text: Brock’s Primeape does 20 damage to itself. If there is a Stadium card in play, discard it.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: brocks-sandslash
+    display: Brock's Sandslash
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 28
+        name:
+          id: sandslash
+          display: Sandslash
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: brocks-sandshrew
+          display: Brock's Sandshrew
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: needle-ball
+            display: Needle Ball
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: brocks-vulpix
+    display: Brock's Vulpix
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 37
+        name:
+          id: vulpix
+          display: Vulpix
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnotic-gaze
+            display: Hypnotic Gaze
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: fire-ring
+            display: Fire Ring
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 20
+          text: If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: erikas-bellsprout
+    display: Erika's Bellsprout
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 69
+        name:
+          id: bellsprout
+          display: Bellsprout
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: soak-up
+            display: Soak Up
+          text: Once during your turn (before your attack), you may take up to 2 {G} Energy cards attached to your other Pokémon and attach them to Erika’s Bellsprout. This power can’t be used if Erika’s Bellsprout is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: stretch-vine
+            display: Stretch Vine
+          cost:
+          - Grass
+          text: Choose 1 of your opponent’s Benched Pokémon, and this attack does 10 damage to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: erikas-bulbasaur
+    display: Erika's Bulbasaur
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleep-seed
+            display: Sleep Seed
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: errand-running
+            display: Errand-Running
+          cost:
+          - Grass
+          - Grass
+          text: Flip a coin. If heads, you may search your deck for a Trainer card. Show it to your opponent and put it into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: erikas-clefairy
+    display: Erika's Clefairy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 35
+        name:
+          id: clefairy
+          display: Clefairy
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunar-power
+            display: Lunar Power
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, search your deck for a card that evolves from 1 of your Benched Pokémon and put that card on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: moon-kick
+            display: Moon Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: erikas-ivysaur
+    display: Erika's Ivysaur
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: erikas-bulbasaur
+          display: Erika's Bulbasaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: relaxing-scent
+            display: Relaxing Scent
+          text: As long as Erika’s Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika’s Ivysaur is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: double-razor-leaf
+            display: Double Razor Leaf
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-machoke
+    display: Giovanni's Machoke
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 67
+        name:
+          id: machoke
+          display: Machoke
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: giovannis-machop
+          display: Giovanni's Machop
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: risky-attack
+            display: Risky Attack
+          cost:
+          - Fighting
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack does no damage to the Defending Pokémon and Giovanni’s Machoke does 100 damage to itself.
+      - var: Attack
+        val:
+          name:
+            id: headlock
+            display: Headlock
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 20 damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-meowth
+    display: Giovanni's Meowth
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: false-charity
+            display: False Charity
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, look at the top card of your opponent’s deck. If it’s a Trainer card, put it in your opponent’s discard pile; otherwise, put it into his or her hand.
+      - var: Attack
+        val:
+          name:
+            id: double-scratch
+            display: Double Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: giovannis-nidorina
+    display: Giovanni's Nidorina
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 30
+        name:
+          id: nidorina
+          display: Nidorina
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: giovannis-nidoran-female
+          display: Giovanni's Nidoran Female
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting-tackle
+            display: Poison Sting Tackle
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Giovanni’s Nidorina does 20 damage to itself. Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-nidorino
+    display: Giovanni's Nidorino
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 33
+        name:
+          id: nidorino
+          display: Nidorino
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: giovannis-nidoran-male
+          display: Giovanni's Nidoran Male
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rend
+            display: Rend
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-golbat
+    display: Koga's Golbat
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 42
+        name:
+          id: golbat
+          display: Golbat
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: kogas-zubat
+          display: Koga's Zubat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: sonic-scream
+            display: Sonic Scream
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kogas-kakuna
+    display: Koga's Kakuna
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 14
+        name:
+          id: kakuna
+          display: Kakuna
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: kogas-weedle
+          display: Koga's Weedle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: emerge
+            display: Emerge
+          text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for an Evolution card named Koga’s Beedrill and put it on Koga’s Kakuna. (This counts as evolving Koga’s Kakuna.) Shuffle your deck afterward. This power can’t be used if Koga’s Kakuna is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: toxic-secretion
+            display: Toxic Secretion
+          cost:
+          - Grass
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player’s turn (even if it was already Poisoned).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-koffing
+    display: Koga's Koffing
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 109
+        name:
+          id: koffing
+          display: Koffing
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smokescreen
+            display: Smokescreen
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: obscuring-gas
+            display: Obscuring Gas
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, shuffle Koga’s Koffing and all cards attached to it into your deck (after doing damage).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-pidgey
+    display: Koga's Pidgey
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 16
+        name:
+          id: pidgey
+          display: Pidgey
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: messenger
+            display: Messenger
+          cost:
+          - Colorless
+          text: Put Koga’s Pidgey and all cards attached to it on top of your deck. Then search your deck for any Basic Pokémon or Evolution card not named Koga’s Pidgey. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kogas-weezing
+    display: Koga's Weezing
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 110
+        name:
+          id: weezing
+          display: Weezing
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: kogas-koffing
+          display: Koga's Koffing
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spontaneous-explosion
+            display: Spontaneous Explosion
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage and Koga’s Weezing does 30 damage to itself; if tails, this attack does 10 damage.
+      - var: Attack
+        val:
+          name:
+            id: toxic-cloud
+            display: Toxic Cloud
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, this Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player’s turn (even if it was already Poisoned).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: lt-surges-eevee
+    display: Lt. Surge's Eevee
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surprise
+            display: Surprise
+          cost:
+          - Colorless
+          text: Look at a random card from your opponent’s hand. Your opponent shuffles that card into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lt-surges-electrode
+    display: Lt. Surge's Electrode
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 101
+        name:
+          id: electrode
+          display: Electrode
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lt-surges-voltorb
+          display: Lt. Surge's Voltorb
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: shock-blast
+            display: Shock Blast
+          text: If Lt. Surge’s Electrode is your Active Pokémon and gets damaged (even if it’s Knocked Out), flip a coin. If tails, this power does 20 damage to each Active Pokémon. This power works even if Lt. Surge’s Electrode is already Asleep, Confused, or Paralyzed when it takes damage.
+      - var: Attack
+        val:
+          name:
+            id: power-ball
+            display: Power Ball
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip 3 coins. This attack does 30 damage plus 10 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lt-surges-raticate
+    display: Lt. Surge's Raticate
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lt-surges-rattata
+          display: Lt. Surge's Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: focus-energy
+            display: Focus Energy
+          cost:
+          - Colorless
+          text: During your next turn, Lt. Surge’s Raticate’s Double-edge attack’s damage (base damage and damage to itself) is doubled.
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-edge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Lt. Surge’s Raticate does 20 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mistys-dewgong
+    display: Misty's Dewgong
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 87
+        name:
+          id: dewgong
+          display: Dewgong
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mistys-seel
+          display: Misty's Seel
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ice-throw
+            display: Ice Throw
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon is {F}, this attack’s base damage is doubled.
+      - var: Attack
+        val:
+          name:
+            id: take-down
+            display: Take Down
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Misty’s Dewgong does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-haunter
+    display: Sabrina's Haunter
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '29'
+      display: '29'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 93
+        name:
+          id: haunter
+          display: Haunter
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sabrinas-gastly
+          display: Sabrina's Gastly
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nightmare
+            display: Nightmare
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: shadow-attack
+            display: Shadow Attack
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          text: Flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 30 damage to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sabrinas-hypno
+    display: Sabrina's Hypno
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sabrinas-drowzee
+          display: Sabrina's Drowzee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: invigorate
+            display: Invigorate
+          cost:
+          - Psychic
+          text: Choose 1 Basic Pokémon in any player’s discard pile. Put it onto that player’s Bench. Put a number of damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can’t put a Pokémon on a Bench that’s full.)
+      - var: Attack
+        val:
+          name:
+            id: pendulum-curse
+            display: Pendulum Curse
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a number of coins equal to the number of damage counters on the Defending Pokémon. This attack does 20 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-jynx
+    display: Sabrina's Jynx
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '21'
+      display: '21'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 124
+        name:
+          id: jynx
+          display: Jynx
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: helping-hand
+            display: Helping Hand
+          cost:
+          - Psychic
+          text: Choose 1 of your opponent’s Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards.
+      - var: Attack
+        val:
+          name:
+            id: hug
+            display: Hug
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-kadabra
+    display: Sabrina's Kadabra
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '41'
+      display: '41'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 64
+        name:
+          id: kadabra
+          display: Kadabra
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sabrinas-abra
+          display: Sabrina's Abra
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: life-drain
+            display: Life Drain
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10.
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-mr-mime
+    display: Sabrina's Mr. Mime
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 122
+        name:
+          id: mr-mime
+          display: Mr. Mime
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magic-darts
+            display: Magic Darts
+          cost:
+          - Psychic
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon and flip 3 coins. This attack does 10 damage times the number of heads to that Pokémon. Don’t apply Weakness and Resistance for this attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-charmander
+    display: Blaine's Charmander
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-tail-slap
+            display: Fire Tail Slap
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Use this attack only if there are any {R} Energy cards attached to Blaine’s Charmander. Flip a coin. If tails, discard 1 of those cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-doduo
+    display: Blaine's Doduo
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 84
+        name:
+          id: doduo
+          display: Doduo
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wild-kick
+            display: Wild Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: retaliate
+            display: Retaliate
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of damage counters on Blaine’s Doduo.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: blaines-growlithe
+    display: Blaine's Growlithe
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 58
+        name:
+          id: growlithe
+          display: Growlithe
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stoke
+            display: Stoke
+          cost:
+          - Fire
+          text: Search your deck for a {R} Energy card and attach it to Blaine’s Growlithe. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-mankey
+    display: Blaine's Mankey
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 56
+        name:
+          id: mankey
+          display: Mankey
+      hit_points: 40
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pranks
+            display: Pranks
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, choose a card from your opponent’s discard pile and put it on top of his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-ponyta
+    display: Blaine's Ponyta
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hind-kick
+            display: Hind Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: If you have any Benched Pokémon, flip a coin. If heads, switch Blaine’s Ponyta with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-rhyhorn
+    display: Blaine's Rhyhorn
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 111
+        name:
+          id: rhyhorn
+          display: Rhyhorn
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: horn-charge
+            display: Horn Charge
+          cost:
+          - Fighting
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: overrun
+            display: Overrun
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: blaines-vulpix
+    display: Blaine's Vulpix
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 37
+        name:
+          id: vulpix
+          display: Vulpix
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: call-will-o-the-wisp
+            display: Call Will-o'-the-wisp
+          cost:
+          - Fire
+          text: Flip 3 coins. For each heads, if you have a {R} Energy card in your discard pile, put it into your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: brocks-diglett
+    display: Brock's Diglett
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 50
+        name:
+          id: diglett
+          display: Diglett
+      hit_points: 40
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: tremor
+            display: Tremor
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+          text: Does 10 damage to each of your own Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 30
+        modifier: Minus
+- title:
+    id: brocks-geodude
+    display: Brock's Geodude
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 74
+        name:
+          id: geodude
+          display: Geodude
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-toss
+            display: Rock Toss
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: erikas-jigglypuff
+    display: Erika's Jigglypuff
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 39
+        name:
+          id: jigglypuff
+          display: Jigglypuff
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: group-therapy
+            display: Group Therapy
+          cost:
+          - Colorless
+          text: You and your opponent remove 1 damage counter from each of your Pokémon with damage counters on them.
+      - var: Attack
+        val:
+          name:
+            id: pulled-punch
+            display: Pulled Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Minus
+          text: If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any damage counters on it, this attack does 10 damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: erikas-oddish
+    display: Erika's Oddish
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 43
+        name:
+          id: oddish
+          display: Oddish
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: strange-powder
+            display: Strange Powder
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused; if tails, the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: erikas-paras
+    display: Erika's Paras
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 46
+        name:
+          id: paras
+          display: Paras
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: irongrip
+            display: Irongrip
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: poison-spore
+            display: Poison Spore
+          cost:
+          - Grass
+          - Grass
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned and this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-machop
+    display: Giovanni's Machop
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 66
+        name:
+          id: machop
+          display: Machop
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: chop
+            display: Chop
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: fury-punch
+            display: Fury Punch
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Giovanni’s Machop.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-magikarp
+    display: Giovanni's Magikarp
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ancestral-memory
+            display: Ancestral Memory
+          cost:
+          - Water
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, this attack does nothing. Either way, you can’t use this attack again as long as Giovanni’s Magikarp stays in play (even putting Giovanni’s Magikarp on the Bench won’t let you use it again).
+      - var: Attack
+        val:
+          name:
+            id: flail-around
+            display: Flail Around
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-meowth
+    display: Giovanni's Meowth
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cat-fleas
+            display: Cat Fleas
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: cat-kick
+            display: Cat Kick
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: giovannis-nidoran-female
+    display: Giovanni's Nidoran Female
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 29
+        name:
+          id: nidoran-female
+          display: Nidoran♀
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: horn-thrust
+            display: Horn Thrust
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-edge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Giovanni’s Nidoran Female does 20 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: giovannis-nidoran-male
+    display: Giovanni's Nidoran Male
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 32
+        name:
+          id: nidoran-male
+          display: Nidoran♂
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: retaliation
+            display: Retaliation
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+          text: You can’t use this attack unless Giovanni’s Nidoran Male has 2 or more damage counters on it.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-ekans
+    display: Koga's Ekans
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 23
+        name:
+          id: ekans
+          display: Ekans
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fast-acting-poison
+            display: Fast-Acting Poison
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip 2 coins. If both are heads, the Defending Pokémon is now Confused and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-grimer
+    display: Koga's Grimer
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '19'
+      display: '19'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 88
+        name:
+          id: grimer
+          display: Grimer
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sludge-grip
+            display: Sludge Grip
+          cost:
+          - Grass
+          text: If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch it with the Defending Pokémon. The new Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: sludge-toss
+            display: Sludge Toss
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-koffing
+    display: Koga's Koffing
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 109
+        name:
+          id: koffing
+          display: Koffing
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smelly-gas
+            display: Smelly Gas
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, this attack does 10 damage to each Benched Pokémon (including your own). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-pidgey
+    display: Koga's Pidgey
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 16
+        name:
+          id: pidgey
+          display: Pidgey
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: sand-attack
+            display: Sand-attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kogas-tangela
+    display: Koga's Tangela
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleep-powder
+            display: Sleep Powder
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: grasping-vine
+            display: Grasping Vine
+          cost:
+          - Grass
+          - Colorless
+          text: Flip a coin. If heads, draw 2 cards.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-weedle
+    display: Koga's Weedle
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 13
+        name:
+          id: weedle
+          display: Weedle
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sting
+            display: Sting
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: sharp-stinger
+            display: Sharp Stinger
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kogas-zubat
+    display: Koga's Zubat
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 41
+        name:
+          id: zubat
+          display: Zubat
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: group-attack
+            display: Group Attack
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of Koga’s Zubats you have in play. Before doing damage, you may search your deck for any number of Basic Pokémon named Koga’s Zubat and put them onto your Bench. (You can’t get more cards with this attack than you have room on your Bench.) If you do, shuffle your deck afterward.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lt-surges-pikachu
+    display: Lt. Surge's Pikachu
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lt-surges-rattata
+    display: Lt. Surge's Rattata
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: focus-energy
+            display: Focus Energy
+          cost:
+          - Colorless
+          text: During your next turn, Lt. Surge’s Rattata’s Quick Attack’s base damage is doubled.
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lt-surges-voltorb
+    display: Lt. Surge's Voltorb
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '15'
+      display: '15'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 100
+        name:
+          id: voltorb
+          display: Voltorb
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bouncing-ball
+            display: Bouncing Ball
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, Lt. Surge’s Voltorb does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-horsea
+    display: Misty's Horsea
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 116
+        name:
+          id: horsea
+          display: Horsea
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ink-spurt
+            display: Ink Spurt
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, whenever the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack does nothing. (This effect lasts until the Defending Pokémon evolves or is Benched.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-magikarp
+    display: Misty's Magikarp
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: play-dead
+            display: Play Dead
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Misty’s Magikarp.
+      - var: Attack
+        val:
+          name:
+            id: leap
+            display: Leap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-poliwag
+    display: Misty's Poliwag
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 60
+        name:
+          id: poliwag
+          display: Poliwag
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubbles
+            display: Bubbles
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, you can’t use this attack during your next turn.
+      - var: Attack
+        val:
+          name:
+            id: amnesia
+            display: Amnesia
+          cost:
+          - Water
+          - Water
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-psyduck
+    display: Misty's Psyduck
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 54
+        name:
+          id: psyduck
+          display: Psyduck
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: esp
+            display: ESP
+          cost:
+          - Psychic
+          text: Flip 3 coins. If exactly 1 is heads, draw a card. If exactly 2 are heads, this attack does 20 damage. If all 3 are heads, choose 1 of the Defending Pokémon’s attacks. Misty’s Psyduck copies that attack except for its Energy costs. (No matter what type the Defending Pokémon is, Misty’s Psyduck’s type is still {W}.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-seel
+    display: Misty's Seel
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '14'
+      display: '14'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 86
+        name:
+          id: seel
+          display: Seel
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: frostbite
+            display: Frostbite
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: mirage
+            display: Mirage
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: mistys-staryu
+    display: Misty's Staryu
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 120
+        name:
+          id: staryu
+          display: Staryu
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: star-boomerang
+            display: Star Boomerang
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, return Misty’s Staryu and all cards attached to it to your hand. (Either way, this attack does its damage.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-abra
+    display: Sabrina's Abra
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 63
+        name:
+          id: abra
+          display: Abra
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: synchronize
+            display: Synchronize
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+          text: This attack can’t be used unless Sabrina’s Abra and the Defending Pokémon have the same number of Energy cards attached to them.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-abra
+    display: Sabrina's Abra
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 63
+        name:
+          id: abra
+          display: Abra
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psyscan
+            display: Psyscan
+          cost:
+          - Psychic
+          text: Look at your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-drowzee
+    display: Sabrina's Drowzee
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-support
+            display: Energy Support
+          cost:
+          - Psychic
+          text: Search your deck for a {P} Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: mind-shock
+            display: Mind Shock
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Don’t apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sabrinas-gastly
+    display: Sabrina's Gastly
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 92
+        name:
+          id: gastly
+          display: Gastly
+      hit_points: 30
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lick
+            display: Lick
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: fade-out
+            display: Fade Out
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 30
+          text: Return Sabrina’s Gastly and all Energy cards attached to it to your hand. (Discard all other cards attached to Sabrina’s Gastly.)
+      retreat_cost: 0
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sabrinas-gastly
+    display: Sabrina's Gastly
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 92
+        name:
+          id: gastly
+          display: Gastly
+      hit_points: 40
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: gaseous-form
+            display: Gaseous Form
+          text: Sabrina’s Gastly gets +10 HP for each {P} Energy card attached to it. This power works even if Sabrina’s Gastly is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: suffocating-gas
+            display: Suffocating Gas
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sabrinas-porygon
+    display: Sabrina's Porygon
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 137
+        name:
+          id: porygon
+          display: Porygon
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sharp-point
+            display: Sharp Point
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: barrier-attack
+            display: Barrier Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: All damage done by attacks to Sabrina’s Porygon during your opponent’s next turn is reduced by 10 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: sabrinas-psyduck
+    display: Sabrina's Psyduck
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '16'
+      display: '16'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 54
+        name:
+          id: psyduck
+          display: Psyduck
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: random-esp
+            display: Random ESP
+          cost:
+          - Psychic
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, this attack does no damage and Sabrina’s Psyduck is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaine
+    display: Blaine
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: During this turn, instead of attaching your free Energy card, you may instead attach 2 {R} Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)
+      sub: Item
+- title:
+    id: brocks-protection
+    display: Brock's Protection
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Attach Brock’s Protection to 1 of your Pokémon with Brock in its name. Energy cards attached to that Pokémon can’t be removed by your opponent’s attacks or Trainer cards. (This doesn’t stop the rest of the attack or Trainer card from working normally.)
+      sub: Item
+- title:
+    id: chaos-gym
+    display: Chaos Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Whenever a player plays a Trainer card other than a Stadium card, he or she flips a coin. If heads, that player plays that card normally. If tails, the player can’t play that card. If the card isn’t put into play, the player’s opponent may use that card instead, if he or she does everything required in order to play that card (like discarding cards). Either way, the card goes to its owner’s discard pile.
+      sub: Stadium
+- title:
+    id: erikas-kindness
+    display: Erika's Kindness
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Remove 2 damage counters from each Pokémon (yours and your opponent’s) with any damage counters on it. If a Pokémon has just 1 damage counter, remove it.
+      sub: Item
+- title:
+    id: giovanni
+    display: Giovanni
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into.
+      sub: Item
+- title:
+    id: giovannis-last-resort
+    display: Giovanni's Last Resort
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Remove all damage counters from 1 of your Pokémon with Giovanni in its name. Then discard your hand.
+      sub: Item
+- title:
+    id: koga
+    display: Koga
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned.
+      sub: Item
+- title:
+    id: lt-surges-secret-plan
+    display: Lt. Surge's Secret Plan
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Put 1 card from your hand face down onto your Bench. (You can’t play this card if your Bench is full.) Treat that card as a Basic Pokémon as long as it’s face down. Flip the card if either player needs to know what it is in order to use an attack, a Pokémon Power, or a Trainer card. Flip the card if it ever uses an attack or Pokémon Power, evolves, retreats, is damaged by an attack, or is otherwise affected by an attack. At any time during your turn, you may flip the card over. When you flip that card over, if it isn’t a Basic Pokémon, discard it and all cards attached to it.
+      sub: Item
+- title:
+    id: mistys-wish
+    display: Misty's Wish
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Look at 1 of your Prize cards. Then, ask your opponent if you may switch that card with 1 of the cards in your hand. If your opponent accepts and if you have any other cards in your hand, switch those cards. If your opponent declines, return the Prize card face down and draw a card.
+      sub: Item
+- title:
+    id: resistance-gym
+    display: Resistance Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Each Pokémon’s Resistance is reduced by 20. (If a Pokémon’s Resistance is -30, it becomes -10.)
+      sub: Stadium
+- title:
+    id: sabrina
+    display: Sabrina
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name.
+      sub: Item
+- title:
+    id: blaines-quiz-2
+    display: 'Blaine''s Quiz #2'
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Put a card from your hand face down in front of you. Your opponent guesses whether it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card over. If your opponent guessed right, he or she draws 2 cards. If your opponent guessed wrong, you draw 2 cards. Either way, return the card to your hand.
+      sub: Item
+- title:
+    id: blaines-quiz-3
+    display: 'Blaine''s Quiz #3'
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Put a Basic or Evolution card from your hand face down in front of you and tell your opponent the name of an attack of that card. Your opponent guesses the name of that card. Flip the card over. If your opponent guessed right, he or she draws 3 cards. If your opponent guessed wrong, you draw 3 cards. Either way, return the card to your hand.
+      sub: Item
+- title:
+    id: cinnabar-city-gym
+    display: Cinnabar City Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Ignore Weakness when a {W} Pokémon does damage to a Pokémon with Blaine in its name.
+      sub: Stadium
+- title:
+    id: fuchsia-city-gym
+    display: Fuchsia City Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Once during each player’s turn (before attacking), that player may flip a coin. If heads, that player may shuffle 1 of his or her Pokémon in play with Koga in its name and any cards attached to it into his or her deck.
+      sub: Stadium
+- title:
+    id: kogas-ninja-trick
+    display: Koga's Ninja Trick
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '115'
+      display: '115'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Attach Koga’s Ninja Trick to your Active Pokémon with Koga in its name. If this Pokémon goes to your Bench, discard this card. When your opponent attacks, you may switch this Pokémon with 1 of your Benched Pokémon (before damage or other effects of attacks).
+      sub: Item
+- title:
+    id: master-ball
+    display: Master Ball
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '116'
+      display: '116'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Look at 7 cards from the top of your deck. You may choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, then put it into your hand. Shuffle the rest into your deck.
+      sub: Item
+- title:
+    id: max-revive
+    display: Max Revive
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '117'
+      display: '117'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Discard 2 Energy cards from your hand in order to put 1 Basic Pokémon from your discard pile onto your Bench. (You can’t play Max Revive if your Bench is full.)
+      sub: Item
+- title:
+    id: mistys-tears
+    display: Misty's Tears
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '118'
+      display: '118'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Discard 1 of the other cards in your hand in order to search your deck for up to 2 {W} Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: rockets-minefield-gym
+    display: Rocket's Minefield Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '119'
+      display: '119'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Whenever a player puts a Basic Pokémon onto his or her Bench from his or her hand, he or she flips a coin. If tails, put damage counters on that Pokémon.
+      sub: Stadium
+- title:
+    id: rockets-secret-experiment
+    display: Rocket's Secret Experiment
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '120'
+      display: '120'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for any card and put it into your hand. Shuffle your deck afterward. If tails, you can’t play Trainer cards until the end of your next turn.
+      sub: Item
+- title:
+    id: sabrinas-psychic-control
+    display: Sabrina's Psychic Control
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '121'
+      display: '121'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, choose a Trainer card in your opponent’s discard pile that isn’t put in play (like PlusPower or Mysterious Fossil). You may use that card as if it were in your hand, if you do everything required in order to play that card (like discarding cards). The card stays in your opponent’s discard pile.
+      sub: Item
+- title:
+    id: saffron-city-gym
+    display: Saffron City Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '122'
+      display: '122'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: As often as each player like during his or her turn (before attacking), that player may return 1 basic Energy card attached to 1 of his or her Pokémon with Sabrina in its name to his or her hand.
+      sub: Stadium
+- title:
+    id: viridian-city-gym
+    display: Viridian City Gym
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '123'
+      display: '123'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Whenever a Pokémon with Giovanni in its name evolves, its owner removes 2 damage counters from that Pokémon (or 1 if it only has 1).
+      sub: Stadium
+- title:
+    id: fervor
+    display: Fervor
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '124'
+      display: '124'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Show the top 3 cards of your deck to all players. Put any {R} Energy cards there into your hand and discard the rest.
+      sub: Item
+- title:
+    id: transparent-walls
+    display: Transparent Walls
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '125'
+      display: '125'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: Until the end of your opponent’s next turn, prevent all damage from attacks done to your Benched Pokémon. (Any other effects of attacks still happen.)
+      sub: Item
+- title:
+    id: warp-point
+    display: Warp Point
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '126'
+      display: '126'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2000-10-16
+  sub:
+    var: Trainer
+    val:
+      text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon.
+      sub: Item
+- title:
+    id: fighting-energy
+    display: Fighting Energy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '127'
+      display: '127'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2000-10-16
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fighting
+- title:
+    id: fire-energy
+    display: Fire Energy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '128'
+      display: '128'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2000-10-16
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fire
+- title:
+    id: grass-energy
+    display: Grass Energy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '129'
+      display: '129'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2000-10-16
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Grass
+- title:
+    id: lightning-energy
+    display: Lightning Energy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '130'
+      display: '130'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2000-10-16
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Lightning
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '131'
+      display: '131'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2000-10-16
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: water-energy
+    display: Water Energy
+  set:
+    name:
+      id: gym-challenge
+      display: Gym Challenge
+    series:
+      id: gym
+      display: Gym
+    context: English
+    live_code:
+      id: g2
+      display: G2
+  number:
+    number:
+      id: '132'
+      display: '132'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2000-10-16
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Water

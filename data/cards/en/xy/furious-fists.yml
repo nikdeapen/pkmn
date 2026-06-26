@@ -1,0 +1,7430 @@
+- title:
+    id: bellsprout
+    display: Bellsprout
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Even though its body is extremely skinny, it is blindingly fast when catching its prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 69
+        name:
+          id: bellsprout
+          display: Bellsprout
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: knock-off
+            display: Knock Off
+          cost:
+          - Grass
+          - Colorless
+          text: Discard a random card from your opponent’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: weepinbell
+    display: Weepinbell
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 70
+        name:
+          id: weepinbell
+          display: Weepinbell
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bellsprout
+          display: Bellsprout
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: spit-poison
+            display: Spit Poison
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Your opponent’s Active Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: victreebel
+    display: Victreebel
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: Said to live in huge colonies deep in jungles, although no one has ever returned from there.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 71
+        name:
+          id: victreebel
+          display: Victreebel
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: weepinbell
+          display: Weepinbell
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wafting-scent
+            display: Wafting Scent
+          text: Once during your turn (before your attack), you may discard a {G} Energy attached to this Pokémon. If you do, your opponent’s Active Pokémon is now Confused and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: spiral-drain
+            display: Spiral Drain
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Heal 30 damage from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: heracross-ex
+    display: Heracross-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 214
+        name:
+          id: heracross
+          display: Heracross
+      hit_points: 170
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: guard-press
+            display: Guard Press
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+          text: During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: giga-power
+            display: Giga Power
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-heracross-ex
+    display: M Heracross-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 214
+        name:
+          id: heracross
+          display: Heracross
+      hit_points: 220
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: heracross-ex
+          display: Heracross-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: big-bang-horn
+            display: Big Bang Horn
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 180
+            modifier: Minus
+          text: This attack does 180 damage minus 10 damage for each damage counter on this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: shroomish
+    display: Shroomish
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 285
+        name:
+          id: shroomish
+          display: Shroomish
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: leafeon
+    display: Leafeon
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 470
+        name:
+          id: leafeon
+          display: Leafeon
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: soothing-scent
+            display: Soothing Scent
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+          text: Your opponent’s Active Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: magical-leaf
+            display: Magical Leaf
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: shelmet
+    display: Shelmet
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: When it and Karrablast are together, and both receive electrical stimulation, they both evolve.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 616
+        name:
+          id: shelmet
+          display: Shelmet
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: jump-on
+            display: Jump On
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: accelgor
+    display: Accelgor
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 617
+        name:
+          id: accelgor
+          display: Accelgor
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shelmet
+          display: Shelmet
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raid
+            display: Raid
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon evolved from Shelmet during this turn, this attack does 40 more damage.
+      - var: Attack
+        val:
+          name:
+            id: afterimage-strike
+            display: Afterimage Strike
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+          text: If any damage is done to this Pokémon by attacks during your opponent’s next turn, flip a coin. If heads, prevent that damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: magmar
+    display: Magmar
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 126
+        name:
+          id: magmar
+          display: Magmar
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Discard a {R} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: magmortar
+    display: Magmortar
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It blasts fireballs of over 3,600 degrees Fahrenheit from the ends of its arms. It lives in volcanic craters.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 467
+        name:
+          id: magmortar
+          display: Magmortar
+      hit_points: 120
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magmar
+          display: Magmar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Fire
+          damage:
+            scalar: 30
+          text: Search your deck for a {R} Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: twin-bursts
+            display: Twin Bursts
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If Electivire is on your Bench, this attack does 80 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: combusken
+    display: Combusken
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 256
+        name:
+          id: combusken
+          display: Combusken
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: torchic
+          display: Torchic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: midair-strike
+            display: Midair Strike
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaziken
+    display: Blaziken
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: It can clear a 30-story building in a leap. Its fiery punches scorch its foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 257
+        name:
+          id: blaziken
+          display: Blaziken
+      hit_points: 140
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: combusken
+          display: Combusken
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: clutch
+            display: Clutch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: burning-shot
+            display: Burning Shot
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          text: Discard 2 Energy attached to this Pokémon. This attack does 150 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwag
+    display: Poliwag
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 60
+        name:
+          id: poliwag
+          display: Poliwag
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: spiral-current
+            display: Spiral Current
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Confused. That Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwhirl
+    display: Poliwhirl
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: It can live in or out of water. When out of water, it constantly sweats to keep its body slimy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 61
+        name:
+          id: poliwhirl
+          display: Poliwhirl
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: poliwag
+          display: Poliwag
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: finishing-blow
+            display: Finishing Blow
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If your opponent’s Active Pokémon already has any damage counters on it, this attack does 50 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwrath
+    display: Poliwrath
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 62
+        name:
+          id: poliwrath
+          display: Poliwrath
+      hit_points: 140
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: steamroll
+            display: Steamroll
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: submission
+            display: Submission
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 130
+          text: This Pokémon does 30 damage to itself.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: politoed
+    display: Politoed
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 186
+        name:
+          id: politoed
+          display: Politoed
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: kings-song
+            display: King's Song
+          text: Ignore all {C} Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath’s attacks.
+      - var: Attack
+        val:
+          name:
+            id: hyper-voice
+            display: Hyper Voice
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: glaceon
+    display: Glaceon
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 471
+        name:
+          id: glaceon
+          display: Glaceon
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: blizzard
+            display: Blizzard
+          cost:
+          - Water
+          damage:
+            scalar: 30
+          text: This Pokémon does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: ice-edge
+            display: Ice Edge
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: seismitoad-ex
+    display: Seismitoad-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 537
+        name:
+          id: seismitoad
+          display: Seismitoad
+      hit_points: 180
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quaking-punch
+            display: Quaking Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent can’t play any Item cards from his or her hand during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: grenade-hammer
+            display: Grenade Hammer
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 130
+          text: This attack does 30 damage to 2 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: cubchoo
+    display: Cubchoo
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 613
+        name:
+          id: cubchoo
+          display: Cubchoo
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: frost-breath
+            display: Frost Breath
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: beartic
+    display: Beartic
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 614
+        name:
+          id: beartic
+          display: Beartic
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cubchoo
+          display: Cubchoo
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: igloo-hold
+            display: Igloo Hold
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 20 more damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost.
+      - var: Attack
+        val:
+          name:
+            id: mountain-drop
+            display: Mountain Drop
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If there is any Stadium card in play, this attack does 40 more damage.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: clauncher
+    display: Clauncher
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 692
+        name:
+          id: clauncher
+          display: Clauncher
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Water
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: crabhammer
+            display: Crabhammer
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: clawitzer
+    display: Clawitzer
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 693
+        name:
+          id: clawitzer
+          display: Clawitzer
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clauncher
+          display: Clauncher
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: reverse-thrust
+            display: Reverse Thrust
+          cost:
+          - Water
+          damage:
+            scalar: 30
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: splash-cannon
+            display: Splash Cannon
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: This attack does 20 more damage for each {W} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: amaura
+    display: Amaura
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 698
+        name:
+          id: amaura
+          display: Amaura
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: restored
+          display: Restored
+        evolves_from:
+        - id: sail-fossil
+          display: Sail Fossil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stampede
+            display: Stampede
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: aurora-beam
+            display: Aurora Beam
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: aurorus
+    display: Aurorus
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 699
+        name:
+          id: aurorus
+          display: Aurorus
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: amaura
+          display: Amaura
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: ice-shield
+            display: Ice Shield
+          text: Any damage done by an opponent’s attack to each of your {W} Pokémon that has any {W} Energy attached to it is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: icy-wind
+            display: Icy Wind
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-shock
+            display: Thunder Shock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: raichu
+    display: Raichu
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pikachu
+          display: Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-shock
+            display: Thunder Shock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: electro-ball
+            display: Electro Ball
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: electabuzz
+    display: Electabuzz
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Electricity runs across the surface of its body. In darkness, its body glows a whitish blue.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 125
+        name:
+          id: electabuzz
+          display: Electabuzz
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: light-punch
+            display: Light Punch
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: electivire
+    display: Electivire
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: As its electric charge amplifies, blue sparks begin to crackle between its horns.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 466
+        name:
+          id: electivire
+          display: Electivire
+      hit_points: 120
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: electabuzz
+          display: Electabuzz
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tag-team-spark
+            display: Tag Team Spark
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 20 more damage for each Energy attached to your Magmortar.
+      - var: Attack
+        val:
+          name:
+            id: gigavolt
+            display: Gigavolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage. If tails, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: plusle
+    display: Plusle
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 311
+        name:
+          id: plusle
+          display: Plusle
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: positive-hand
+            display: Positive Hand
+          cost:
+          - Colorless
+          text: Discard a basic Energy card from your hand. If you do, draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: electric-tail
+            display: Electric Tail
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: minun
+    display: Minun
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 312
+        name:
+          id: minun
+          display: Minun
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: negative-discard
+            display: Negative Discard
+          cost:
+          - Colorless
+          text: Put 2 basic Energy cards from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: static-shock
+            display: Static Shock
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: thundurus
+    display: Thundurus
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 642
+        name:
+          id: thundurus
+          display: Thundurus
+      hit_points: 120
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raging-thunder-punch
+            display: Raging Thunder Punch
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If your opponent’s Active Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage.
+      - var: Attack
+        val:
+          name:
+            id: lightning-slam
+            display: Lightning Slam
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 100
+          text: This Pokémon can’t use Lightning Slam during your next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dedenne
+    display: Dedenne
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 702
+        name:
+          id: dedenne
+          display: Dedenne
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: entrainment
+            display: Entrainment
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: energy-short
+            display: Energy Short
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage times the amount of Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: drowzee
+    display: Drowzee
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sinister-suggestion
+            display: Sinister Suggestion
+          cost:
+          - Psychic
+          text: Whenever your opponent flips a coin during his or her next turn, treat it as tails.
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hypno
+    display: Hypno
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drowzee
+          display: Drowzee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hand-control
+            display: Hand Control
+          cost:
+          - Psychic
+          text: Your opponent reveals his or her hand. You may choose a Supporter card you find there. If you do, your opponent plays that Supporter card. However, you make all decisions for that card. (That Supporter card is discarded.)
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 60
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: jynx
+    display: Jynx
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It wiggles its hips as it walks. It can cause people to dance in unison with it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 124
+        name:
+          id: jynx
+          display: Jynx
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: victory-kiss
+            display: Victory Kiss
+          text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may heal 10 damage from your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hug
+            display: Hug
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: skorupi
+    display: Skorupi
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 451
+        name:
+          id: skorupi
+          display: Skorupi
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: pierce
+            display: Pierce
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gothita
+    display: Gothita
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Their ribbonlike feelers increase their psychic power. They are always staring at something.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 574
+        name:
+          id: gothita
+          display: Gothita
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slap
+            display: Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: psy-bolt
+            display: Psy Bolt
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gothorita
+    display: Gothorita
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 575
+        name:
+          id: gothorita
+          display: Gothorita
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gothita
+          display: Gothita
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fortunate-eye
+            display: Fortunate Eye
+          cost:
+          - Colorless
+          text: Look at the top 5 cards of your opponent’s deck and put them back on top of his or her deck in any order.
+      - var: Attack
+        val:
+          name:
+            id: smack
+            display: Smack
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gothitelle
+    display: Gothitelle
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 576
+        name:
+          id: gothitelle
+          display: Gothitelle
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: gothorita
+          display: Gothorita
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: teleport-room
+            display: Teleport Room
+          text: Once during your turn (before your attack), you may discard any Stadium card in play. If you do, put a Stadium card with a different name from your discard pile into play.
+      - var: Attack
+        val:
+          name:
+            id: psy-report
+            display: Psy Report
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Your opponent reveals his or her hand.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: golett
+    display: Golett
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 622
+        name:
+          id: golett
+          display: Golett
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: rock-smash
+            display: Rock Smash
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: golurk
+    display: Golurk
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 623
+        name:
+          id: golurk
+          display: Golurk
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: golett
+          display: Golett
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wreck
+            display: Wreck
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If there is any Stadium card in play, this attack does 60 more damage. Discard that Stadium card.
+      - var: Attack
+        val:
+          name:
+            id: golurk-hammer
+            display: Golurk Hammer
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: machop
+    display: Machop
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 66
+        name:
+          id: machop
+          display: Machop
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knuckle-punch
+            display: Knuckle Punch
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: machoke
+    display: Machoke
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 67
+        name:
+          id: machoke
+          display: Machoke
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: machop
+          display: Machop
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: beatdown
+            display: Beatdown
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: machamp
+    display: Machamp
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 68
+        name:
+          id: machamp
+          display: Machamp
+      hit_points: 150
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: machoke
+          display: Machoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: fighting-fury
+            display: Fighting Fury
+          text: Each of your {F} Pokémon’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: machamp-crush
+            display: Machamp Crush
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 80
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 40 (before applying Weakness and Resistance).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmonlee
+    display: Hitmonlee
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 106
+        name:
+          id: hitmonlee
+          display: Hitmonlee
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stretch-kick
+            display: Stretch Kick
+          cost:
+          - Fighting
+          text: This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: spiral-kick
+            display: Spiral Kick
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmonchan
+    display: Hitmonchan
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 107
+        name:
+          id: hitmonchan
+          display: Hitmonchan
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bullet-punch
+            display: Bullet Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 2 coins. This attack does 20 more damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: mach-cross
+            display: Mach Cross
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmontop
+    display: Hitmontop
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: It fights while spinning like a top. The centrifugal force boosts its destructive power by 10.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 237
+        name:
+          id: hitmontop
+          display: Hitmontop
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-draw
+            display: Quick Draw
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: helicoptero
+            display: Helicoptero
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: breloom
+    display: Breloom
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 286
+        name:
+          id: breloom
+          display: Breloom
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shroomish
+          display: Shroomish
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: giga-drain
+            display: Giga Drain
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sky-uppercut
+            display: Sky Uppercut
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: makuhita
+    display: Makuhita
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 296
+        name:
+          id: makuhita
+          display: Makuhita
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: punch
+            display: Punch
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: strength
+            display: Strength
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hariyama
+    display: Hariyama
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It stomps on the ground to build power. It can send a 10-ton truck flying with a straight-arm punch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 297
+        name:
+          id: hariyama
+          display: Hariyama
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: makuhita
+          display: Makuhita
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: thick-fat
+            display: Thick Fat
+          text: Any damage done to this Pokémon by attacks from your opponent’s {R} and {W} Pokémon is reduced by 30 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: rocket-slap
+            display: Rocket Slap
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: trapinch
+    display: Trapinch
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 328
+        name:
+          id: trapinch
+          display: Trapinch
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mountain-munch
+            display: Mountain Munch
+          cost:
+          - Fighting
+          text: Discard the top card of your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: mud-slap
+            display: Mud-Slap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: lucario-ex
+    display: Lucario-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 180
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: missile-jab
+            display: Missile Jab
+          cost:
+          - Fighting
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-smash
+            display: Corkscrew Smash
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 60
+          text: You may draw cards until you have 6 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: somersault-kick
+            display: Somersault Kick
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-lucario-ex
+    display: M Lucario-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 220
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: lucario-ex
+          display: Lucario-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rising-fist
+            display: Rising Fist
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 140
+          text: Discard an Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mienfoo
+    display: Mienfoo
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 619
+        name:
+          id: mienfoo
+          display: Mienfoo
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flop
+            display: Flop
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mienshao
+    display: Mienshao
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: It wields the fur on its arm like a whip. Its arm attacks come with such rapidity that they cannot even be seen.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 620
+        name:
+          id: mienshao
+          display: Mienshao
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mienfoo
+          display: Mienfoo
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aero-turn
+            display: Aero Turn
+          cost:
+          - Fighting
+          damage:
+            scalar: 40
+          text: Return this Pokémon and all cards attached to it to your hand.
+      - var: Attack
+        val:
+          name:
+            id: high-jump-kick
+            display: High Jump Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: landorus
+    display: Landorus
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 645
+        name:
+          id: landorus
+          display: Landorus
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shout-of-power
+            display: Shout of Power
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sky-lariat
+            display: Sky Lariat
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 90
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pancham
+    display: Pancham
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 674
+        name:
+          id: pancham
+          display: Pancham
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bad-influence-evolution
+            display: Bad-Influence Evolution
+          cost:
+          - Colorless
+          text: If you have any {D} Pokémon on your Bench, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: confront
+            display: Confront
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: pancham
+    display: Pancham
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 674
+        name:
+          id: pancham
+          display: Pancham
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: comet-punch
+            display: Comet Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyrunt
+    display: Tyrunt
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: This Pokémon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 696
+        name:
+          id: tyrunt
+          display: Tyrunt
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: restored
+          display: Restored
+        evolves_from:
+        - id: jaw-fossil
+          display: Jaw Fossil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: crunch
+            display: Crunch
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyrantrum
+    display: Tyrantrum
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 697
+        name:
+          id: tyrantrum
+          display: Tyrantrum
+      hit_points: 150
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tyrunt
+          display: Tyrunt
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: chew-up
+            display: Chew Up
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If your opponent’s Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.
+      - var: Attack
+        val:
+          name:
+            id: giga-impact
+            display: Giga Impact
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 150
+          text: This Pokémon can’t attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: hawlucha
+    display: Hawlucha
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 701
+        name:
+          id: hawlucha
+          display: Hawlucha
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: shining-spirit
+            display: Shining Spirit
+          text: Damage from this Pokémon’s attacks isn’t affected by Weakness or Resistance.
+      - var: Attack
+        val:
+          name:
+            id: flying-press
+            display: Flying Press
+          cost:
+          - Fighting
+          damage:
+            scalar: 60
+          text: If your opponent’s Active Pokémon isn’t a Pokémon-EX, this attack does nothing.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hawlucha-ex
+    display: Hawlucha-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 701
+        name:
+          id: hawlucha
+          display: Hawlucha
+      hit_points: 130
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: counterattack
+            display: Counterattack
+          text: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: moonsault-stomp
+            display: Moonsault Stomp
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If there is any Stadium card in play, this attack does 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: drapion
+    display: Drapion
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It takes great pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 452
+        name:
+          id: drapion
+          display: Drapion
+      hit_points: 110
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: skorupi
+          display: Skorupi
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: venoshock
+            display: Venoshock
+          cost:
+          - Darkness
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If your opponent’s Active Pokémon is Poisoned, this attack does 40 more damage.
+      - var: Attack
+        val:
+          name:
+            id: venomous-fang
+            display: Venomous Fang
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Your opponent’s Active Pokémon is now Poisoned.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: scraggy
+    display: Scraggy
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling it skin up to its neck.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 559
+        name:
+          id: scraggy
+          display: Scraggy
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-punch
+            display: Corkscrew Punch
+          cost:
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: scrafty
+    display: Scrafty
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 560
+        name:
+          id: scrafty
+          display: Scrafty
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: scraggy
+          display: Scraggy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: low-kick
+            display: Low Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: machine-gun-headbutt
+            display: Machine Gun Headbutt
+          cost:
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pangoro
+    display: Pangoro
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: Although it possesses a violent temperament, it won’t put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 675
+        name:
+          id: pangoro
+          display: Pangoro
+      hit_points: 120
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pancham
+          display: Pancham
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: clobber
+            display: Clobber
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: You may discard an Item card from your hand. If you do, this attack does 40 more damage.
+      - var: Attack
+        val:
+          name:
+            id: hammer-arm
+            display: Hammer Arm
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard the top card of your opponent’s deck.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: clefairy
+    display: Clefairy
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 35
+        name:
+          id: clefairy
+          display: Clefairy
+      hit_points: 60
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: moonlight
+            display: Moonlight
+          cost:
+          - Colorless
+          text: Heal 30 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: clefairy
+    display: Clefairy
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 35
+        name:
+          id: clefairy
+          display: Clefairy
+      hit_points: 60
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: moonblast
+            display: Moonblast
+          cost:
+          - Fairy
+          damage:
+            scalar: 10
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: clefable
+    display: Clefable
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 36
+        name:
+          id: clefable
+          display: Clefable
+      hit_points: 90
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clefairy
+          display: Clefairy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: follow-me
+            display: Follow Me
+          cost:
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: moonblast
+            display: Moonblast
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sylveon
+    display: Sylveon
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It sends a soothing aura from its ribbonlike feelers to calm fights.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 700
+        name:
+          id: sylveon
+          display: Sylveon
+      hit_points: 90
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: curly-ribbon
+            display: Curly Ribbon
+          cost:
+          - Fairy
+          damage:
+            scalar: 30
+          text: Move an Energy attached to your opponent’s Active Pokémon to 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: echoed-voice
+            display: Echoed Voice
+          cost:
+          - Fairy
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your next turn, this Pokémon’s Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: klefki
+    display: Klefki
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: These key collectors threaten any attackers by fiercely jingling their keys at them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 707
+        name:
+          id: klefki
+          display: Klefki
+      hit_points: 60
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: secret-key
+            display: Secret Key
+          text: Each of your {Y} Pokémon’s Resistance is now -40.
+      - var: Attack
+        val:
+          name:
+            id: fairy-lock
+            display: Fairy Lock
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dragonite-ex
+    display: Dragonite-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 180
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: bust-in
+            display: Bust In
+          text: When you play this Pokémon from your hand onto your Bench, you may move any number of basic Energy attached to your Pokémon to this Pokémon. If you do, switch this Pokémon with your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: jet-sonic
+            display: Jet Sonic
+          cost:
+          - Grass
+          - Grass
+          - Lightning
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: You may discard an Energy attached to this Pokémon. If you do, this attack does 40 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: vibrava
+    display: Vibrava
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 329
+        name:
+          id: vibrava
+          display: Vibrava
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: trapinch
+          display: Trapinch
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: charge-energy
+            display: Charge Energy
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: vibration
+            display: Vibration
+          cost:
+          - Grass
+          - Fighting
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: flygon
+    display: Flygon
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 330
+        name:
+          id: flygon
+          display: Flygon
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: vibrava
+          display: Vibrava
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rainbow-shower
+            display: Rainbow Shower
+          cost:
+          - Colorless
+          text: Attach as many basic Energy cards as you like from your hand to your Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: sand-sweep
+            display: Sand Sweep
+          cost:
+          - Grass
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 70
+          text: Heal 30 damage from each of your Pokémon that has any Energy attached to it.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: noivern
+    display: Noivern
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 715
+        name:
+          id: noivern
+          display: Noivern
+      hit_points: 100
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: noibat
+          display: Noibat
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: echolocation
+            display: Echolocation
+          text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+      - var: Attack
+        val:
+          name:
+            id: boomburst
+            display: Boomburst
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          text: This attack does 30 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: lickitung
+    display: Lickitung
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 108
+        name:
+          id: lickitung
+          display: Lickitung
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lickilicky
+    display: Lickilicky
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 463
+        name:
+          id: lickilicky
+          display: Lickilicky
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lickitung
+          display: Lickitung
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knock-off
+            display: Knock Off
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Discard a random card from your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: lickichop
+            display: Lickichop
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: energy-evolution
+            display: Energy Evolution
+          text: When you attach a basic Energy card from your hand to this Pokémon, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: slakoth
+    display: Slakoth
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: The way Slakoth lolls around makes anyone who watches it feel like doing the same.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 287
+        name:
+          id: slakoth
+          display: Slakoth
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: big-yawn
+            display: Big Yawn
+          cost:
+          - Colorless
+          - Colorless
+          text: Both Active Pokémon are now Asleep.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: vigoroth
+    display: Vigoroth
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Its heartbeat is fast and its blood so agitated that it can’t sit still for one second.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 288
+        name:
+          id: vigoroth
+          display: Vigoroth
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slakoth
+          display: Slakoth
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: reckless-charge
+            display: Reckless Charge
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: slaking
+    display: Slaking
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: planeta
+      display: PLANETA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2014-08-13
+    flavor: The world’s laziest Pokémon. It moves to another spot when there’s no food left within its reach.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 289
+        name:
+          id: slaking
+          display: Slaking
+      hit_points: 150
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: vigoroth
+          display: Vigoroth
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: amnesia
+            display: Amnesia
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Choose 1 of your opponent’s Active Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: knuckle-sandwich
+            display: Knuckle Sandwich
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: patrat
+    display: Patrat
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 504
+        name:
+          id: patrat
+          display: Patrat
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: safety-check
+            display: Safety Check
+          cost:
+          - Colorless
+          text: Look at 1 of your face-down Prize cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: watchog
+    display: Watchog
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+    flavor: Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 505
+        name:
+          id: watchog
+          display: Watchog
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: patrat
+          display: Patrat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: held-item-inspection
+            display: Held-Item Inspection
+          cost:
+          - Colorless
+          text: Your opponent reveals his or her hand. Choose an Item card you find there. Your opponent shuffles that card into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: thorough-crunch
+            display: Thorough Crunch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip 2 coins. For each heads, discard an Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: tornadus
+    display: Tornadus
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2014-08-13
+    flavor: The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 641
+        name:
+          id: tornadus
+          display: Tornadus
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: push-down
+            display: Push Down
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: twister-throw
+            display: Twister Throw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: noibat
+    display: Noibat
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: common
+      display: Common
+    release_date: 2014-08-13
+    flavor: They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 714
+        name:
+          id: noibat
+          display: Noibat
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: battle-reporter
+    display: Battle Reporter
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Draw cards until you have the same number of cards in your hand as your opponent.
+      sub: Supporter
+- title:
+    id: energy-switch
+    display: Energy Switch
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Move a basic Energy from 1 of your Pokémon to another of your Pokémon.
+      sub: Item
+- title:
+    id: fighting-stadium
+    display: Fighting Stadium
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: The attacks of each {F} Pokémon in play (both yours and your opponent’s) do 20 more damage to the Defending Pokémon-EX (before applying Weakness and Resistance).
+      sub: Stadium
+- title:
+    id: focus-sash
+    display: Focus Sash
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: If the {F} Pokémon this card is attached to has full HP and would be Knocked Out by damage from an opponent’s attack, that Pokémon is not Knocked Out and its remaining HP becomes 10 instead. Then, discard this card.
+      sub: PokemonTool
+- title:
+    id: fossil-researcher
+    display: Fossil Researcher
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 2 in any combination of Amaura or Tyrunt and put them onto your bench. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: full-heal
+    display: Full Heal
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Remove all Special Conditions from your Active Pokémon.
+      sub: Item
+- title:
+    id: jaw-fossil
+    display: Jaw Fossil
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Look at the bottom 7 cards of your deck. You may reveal a Tyrunt you find there and put it onto your Bench. Shuffle the other cards back into your deck.
+      sub: Item
+- title:
+    id: korrina
+    display: Korrina
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a {F} Pokémon and an Item card, reveal them, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: maintenance
+    display: Maintenance
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle 2 cards from your hand into your deck. (If you can’t shuffle 2 cards into your deck, you can’t play this card.) Then, draw a card.
+      sub: Item
+- title:
+    id: mountain-ring
+    display: Mountain Ring
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Prevent all damage done to Benched Pokémon by attacks (both yours and your opponent’s).
+      sub: Stadium
+- title:
+    id: sail-fossil
+    display: Sail Fossil
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Look at the bottom 7 cards of your deck. You may reveal an Amaura you find there and put it onto your Bench. Shuffle the other cards back into your deck.
+      sub: Item
+- title:
+    id: sparkling-robe
+    display: Sparkling Robe
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: The Pokémon this card is attached to can’t be affected by any Special Conditions. (Remove any Special Conditions affecting that Pokémon.)
+      sub: PokemonTool
+- title:
+    id: super-scoop-up
+    display: Super Scoop Up
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, put 1 of your Pokémon and all cards attached to it into your hand.
+      sub: Item
+- title:
+    id: tool-retriever
+    display: Tool Retriever
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Choose up to 2 Pokémon Tool cards attached to your Pokémon and put them into your hand.
+      sub: Item
+- title:
+    id: training-center
+    display: Training Center
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Each Stage 1 and Stage 2 Pokémon in play (both yours and your opponent’s) gets +30 HP.
+      sub: Stadium
+- title:
+    id: herbal-energy
+    display: Herbal Energy
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          This card can only be attached to {G} Pokémon. This card provides {G} Energy only while this card is attached to a {G} Pokémon.
+          When you attach this card from your hand to 1 of your {G} Pokémon, heal 30 damage from that Pokémon.
+          (If this card is attached to anything other than a {G} Pokémon, discard this card.)
+- title:
+    id: strong-energy
+    display: Strong Energy
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2014-08-13
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          This card can only be attached to {F} Pokémon. This card provides {F} Energy only while this card is attached to a {F} Pokémon.
+          The attacks of the {F} Pokémon this card is attached to do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+          (If this card is attached to anything other than a {F} Pokémon, discard this card.)
+- title:
+    id: heracross-ex
+    display: Heracross-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 214
+        name:
+          id: heracross
+          display: Heracross
+      hit_points: 170
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: guard-press
+            display: Guard Press
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+          text: During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: giga-power
+            display: Giga Power
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: seismitoad-ex
+    display: Seismitoad-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 537
+        name:
+          id: seismitoad
+          display: Seismitoad
+      hit_points: 180
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quaking-punch
+            display: Quaking Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent can’t play any Item cards from his or her hand during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: grenade-hammer
+            display: Grenade Hammer
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 130
+          text: This attack does 30 damage to 2 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: lucario-ex
+    display: Lucario-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 180
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: missile-jab
+            display: Missile Jab
+          cost:
+          - Fighting
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-smash
+            display: Corkscrew Smash
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 60
+          text: You may draw cards until you have 6 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: somersault-kick
+            display: Somersault Kick
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite-ex
+    display: Dragonite-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 180
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: bust-in
+            display: Bust In
+          text: When you play this Pokémon from your hand onto your Bench, you may move any number of basic Energy attached to your Pokémon to this Pokémon. If you do, switch this Pokémon with your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: jet-sonic
+            display: Jet Sonic
+          cost:
+          - Grass
+          - Grass
+          - Lightning
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: You may discard an Energy attached to this Pokémon. If you do, this attack does 40 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: battle-reporter
+    display: Battle Reporter
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Draw cards until you have the same number of cards in your hand as your opponent.
+      sub: Supporter
+- title:
+    id: fossil-researcher
+    display: Fossil Researcher
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 2 in any combination of Amaura or Tyrunt and put them onto your bench. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: korrina
+    display: Korrina
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2014-08-13
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a {F} Pokémon and an Item card, reveal them, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: m-heracross-ex
+    display: M Heracross-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 214
+        name:
+          id: heracross
+          display: Heracross
+      hit_points: 220
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: heracross-ex
+          display: Heracross-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: big-bang-horn
+            display: Big Bang Horn
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 180
+            modifier: Minus
+          text: This attack does 180 damage minus 10 damage for each damage counter on this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-lucario-ex
+    display: M Lucario-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2014-08-13
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 220
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: lucario-ex
+          display: Lucario-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rising-fist
+            display: Rising Fist
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 140
+          text: Discard an Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: m-lucario-ex
+    display: M Lucario-EX
+  set:
+    name:
+      id: furious-fists
+      display: Furious Fists
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: ffi
+      display: FFI
+  number:
+    number:
+      id: 55a
+      display: 55a
+    printed_total: '111'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2017-05-19
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 220
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: lucario-ex
+          display: Lucario-EX
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rising-fist
+            display: Rising Fist
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 140
+          text: Discard an Energy attached to your opponent’s Active Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times

@@ -50,10 +50,17 @@ impl CardService for Cards {
 }
 
 impl Cards {
+    //! Constants
+
+    /// The maximum (and default) number of cards returned per page.
+    const MAX_PAGE_SIZE: u32 = 500;
+}
+
+impl Cards {
     //! Paging
 
-    /// Applies the `request` paging to `cards`. (page is 0-based; an absent or zero page size
-    /// returns every card)
+    /// Applies the `request` paging to `cards`. (page is 0-based; the page size is clamped to
+    /// [Self::MAX_PAGE_SIZE], which is also the default when absent or zero)
     fn paginate(
         &self,
         cards: Vec<Card>,
@@ -61,16 +68,17 @@ impl Cards {
     ) -> (Vec<Card>, PageResponse) {
         let total: u32 = cards.len() as u32;
         let page: u32 = request.map(|page| page.page()).unwrap_or(0);
-        let page_size: u32 = request.map(|page| page.page_size()).unwrap_or(0);
-        let cards: Vec<Card> = if page_size == 0 {
-            cards
+        let requested: u32 = request.map(|page| page.page_size()).unwrap_or(0);
+        let page_size: u32 = if (1..=Self::MAX_PAGE_SIZE).contains(&requested) {
+            requested
         } else {
-            cards
-                .into_iter()
-                .skip((page * page_size) as usize)
-                .take(page_size as usize)
-                .collect()
+            Self::MAX_PAGE_SIZE
         };
+        let cards: Vec<Card> = cards
+            .into_iter()
+            .skip((page * page_size) as usize)
+            .take(page_size as usize)
+            .collect();
         (cards, PageResponse::new(page, page_size, total))
     }
 }

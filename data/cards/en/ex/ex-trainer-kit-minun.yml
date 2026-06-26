@@ -1,0 +1,428 @@
+- title:
+    id: arcanine
+    display: Arcanine
+  set:
+    name:
+      id: ex-trainer-kit-minun
+      display: EX Trainer Kit - Minun
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2m
+      display: TK2M
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 59
+        name:
+          id: arcanine
+          display: Arcanine
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: growlithe
+          display: Growlithe
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: heat-tackle
+            display: Heat Tackle
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Arcanine does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: ex-trainer-kit-minun
+      display: EX Trainer Kit - Minun
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2m
+      display: TK2M
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: ex-trainer-kit-minun
+      display: EX Trainer Kit - Minun
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2m
+      display: TK2M
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: damage-burn
+            display: Damage Burn
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: growlithe
+    display: Growlithe
+  set:
+    name:
+      id: ex-trainer-kit-minun
+      display: EX Trainer Kit - Minun
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2m
+      display: TK2M
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 58
+        name:
+          id: growlithe
+          display: Growlithe
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: flame-tail
+            display: Flame Tail
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mareep
+    display: Mareep
+  set:
+    name:
+      id: ex-trainer-kit-minun
+      display: EX Trainer Kit - Minun
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2m
+      display: TK2M
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 179
+        name:
+          id: mareep
+          display: Mareep
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: minor-errand-running
+            display: Minor Errand-Running
+          cost:
+          - Colorless
+          text: Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: minun
+    display: Minun
+  set:
+    name:
+      id: ex-trainer-kit-minun
+      display: EX Trainer Kit - Minun
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk2m
+      display: TK2M
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '12'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2006-03-03
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 312
+        name:
+          id: minun
+          display: Minun
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: drawup-power
+            display: Drawup Power
+          cost:
+          - Colorless
+          text: Search your deck for an Energy card, show it to your opponent, and put into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: front-spark
+            display: Front Spark
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus

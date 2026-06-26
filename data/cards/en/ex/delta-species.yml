@@ -1,0 +1,7519 @@
+- title:
+    id: beedrill
+    display: Beedrill
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 90
+      energy_types:
+      - Grass
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kakuna
+          display: Kakuna
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: final-sting
+            display: Final Sting
+          text: Once during your turn (before your attack), you may Knock Out Beedrill. If you do, choose 1 of your opponent’s Defending Pokémon. That Pokémon is now Paralyzed and Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns. This power can’t be used if Beedrill is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: super-slash
+            display: Super Slash
+          cost:
+          - Grass
+          - Metal
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon is an Evolved Pokémon, this attack does 50 damage plus 30 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: crobat
+    display: Crobat
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 169
+        name:
+          id: crobat
+          display: Crobat
+      hit_points: 90
+      energy_types:
+      - Grass
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: golbat
+          display: Golbat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: radar-jam
+            display: Radar Jam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent can’t play any Trainer cards (except for Supporter cards) from his or her hand during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: target-attack
+            display: Target Attack
+          cost:
+          - Grass
+          - Metal
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. If that Pokémon already has damage counters on it, this attack does 60 damage instead. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite
+    display: Dragonite
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 100
+      energy_types:
+      - Lightning
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: delta-charge
+            display: Delta Charge
+          text: Once during your turn (before your attack), you may attach a {L} Energy card from your discard pile to 1 of your Benched Pokémon. This power can’t be used if Dragonite is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Dragonite during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Lightning
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: espeon
+    display: Espeon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 196
+        name:
+          id: espeon
+          display: Espeon
+      hit_points: 70
+      energy_types:
+      - Psychic
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: delta-heal
+            display: Delta Heal
+          text: Once during your turn (before your attack), you may remove 1 damage counter from each of your Pokémon that has δ on its card. You can’t use more than 1 Delta Heal Poké-Power each turn. This power can’t be used if Espeon is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: psyshock
+            display: Psyshock
+          cost:
+          - Psychic
+          - Metal
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: flareon
+    display: Flareon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 136
+        name:
+          id: flareon
+          display: Flareon
+      hit_points: 70
+      energy_types:
+      - Fire
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: delta-search
+            display: Delta Search
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your deck for a Holon Energy card and attach it to Flareon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: return-burn
+            display: Return Burn
+          cost:
+          - Fire
+          - Metal
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may return an Energy card attached to Flareon to your hand. If you do, the Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: gardevoir
+    display: Gardevoir
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 100
+      energy_types:
+      - Psychic
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kirlia
+          display: Kirlia
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: energy-jump
+            display: Energy Jump
+          text: Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Gardevoir is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: psychic-rage
+            display: Psychic Rage
+          cost:
+          - Metal
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage for each damage counter on Gardevoir to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: black-magic
+            display: Black Magic
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 20 more damage times the number of your opponent’s Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: jolteon
+    display: Jolteon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 135
+        name:
+          id: jolteon
+          display: Jolteon
+      hit_points: 70
+      energy_types:
+      - Lightning
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: delta-search
+            display: Delta Search
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your deck for a Holon Energy card and attach it to Jolteon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: return-spark
+            display: Return Spark
+          cost:
+          - Lightning
+          - Metal
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may return an Energy card attached to Jolteon to your hand. If you do, this attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: latias
+    display: Latias
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 70
+      energy_types:
+      - Lightning
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: delta-aura
+            display: Delta Aura
+          text: If you have Latios or Latios ex in play, the attack cost of Latias’s Extra Crush is now {L}{M}{C}.
+      - var: Attack
+        val:
+          name:
+            id: spiral-drain
+            display: Spiral Drain
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 20
+          text: Remove 2 damage counters from Latias.
+      - var: Attack
+        val:
+          name:
+            id: extra-crush
+            display: Extra Crush
+          cost:
+          - Lightning
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: If your opponent has no Pokémon-ex in play, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: latios
+    display: Latios
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 80
+      energy_types:
+      - Lightning
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: delta-aura
+            display: Delta Aura
+          text: If you have Latias or Latias ex in play, the attack cost of Latios’s Psychic Force is now {L}{M}{C}.
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: psychic-force
+            display: Psychic Force
+          cost:
+          - Lightning
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: If your opponent has no Stage 2 Evolved Pokémon in play, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: marowak
+    display: Marowak
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 105
+        name:
+          id: marowak
+          display: Marowak
+      hit_points: 80
+      energy_types:
+      - Fighting
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cubone
+          display: Cubone
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-bone
+            display: Energy Bone
+          cost:
+          - Fighting
+          - Metal
+          text: Choose a number of your opponent’s Pokémon up to the amount of Energy attached to Marowak. This attack does 20 damage to each of them.
+      - var: Attack
+        val:
+          name:
+            id: metal-crusher
+            display: Metal Crusher
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: If the Defending Pokémon is {M} Pokémon, this attack’s base damage is 90.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: metagross
+    display: Metagross
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 376
+        name:
+          id: metagross
+          display: Metagross
+      hit_points: 100
+      energy_types:
+      - Lightning
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: metang
+          display: Metang
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: delta-control
+            display: Delta Control
+          text: Once during your turn (before your attack), you may look at the top 4 cards of your deck, choose 1 of them, and put it into your hand. Put the 3 other cards on the bottom of your deck in any order. This power can’t be used if Metagross is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: crush-and-burn
+            display: Crush and Burn
+          cost:
+          - Lightning
+          - Metal
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: You may discard as many Energy cards as you like attached to your Pokémon in play. If you do, this attack does 30 damage plus 20 more damage for each Energy card you discarded.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mewtwo
+    display: Mewtwo
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 70
+      energy_types:
+      - Fire
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: delta-switch
+            display: Delta Switch
+          text: Once during your turn, when you put Mewtwo from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to your other Pokémon (excluding Mewtwo) in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: energy-burst
+            display: Energy Burst
+          cost:
+          - Fire
+          - Metal
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the total amount of Energy attached to Mewtwo and the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: rayquaza
+    display: Rayquaza
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 90
+      energy_types:
+      - Lightning
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: delta-guard
+            display: Delta Guard
+          text: As long as Rayquaza has any Holon Energy cards attached to it, ignore the effect of Rayquaza’s Lightning Storm attack.
+      - var: Attack
+        val:
+          name:
+            id: power-blow
+            display: Power Blow
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the amount of Energy attached to Rayquaza.
+      - var: Attack
+        val:
+          name:
+            id: lightning-storm
+            display: Lightning Storm
+          cost:
+          - Lightning
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Put 7 damage counters on Rayquaza.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: salamence
+    display: Salamence
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 110
+      energy_types:
+      - Fire
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: shelgon
+          display: Shelgon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-dance
+            display: Fire Dance
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Search your discard pile for a {R} Energy card and attach it to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: delta-blast
+            display: Delta Blast
+          cost:
+          - Fire
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard a {M} Energy card attached to Salamence.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fire
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: starmie
+    display: Starmie
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 121
+        name:
+          id: starmie
+          display: Starmie
+      hit_points: 60
+      energy_types:
+      - Water
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: staryu
+          display: Staryu
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: metal-navigation
+            display: Metal Navigation
+          text: Once during your turn (before your attack), you may search your deck for a {M} Energy card and attach it to Starmie. Shuffle your deck afterward. This power can’t be used if Starmie is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Water
+          text: Draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: energy-loop
+            display: Energy Loop
+          cost:
+          - Metal
+          damage:
+            scalar: 30
+          text: Return an Energy card attached to Starmie to your hand.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyranitar
+    display: Tyranitar
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 248
+        name:
+          id: tyranitar
+          display: Tyranitar
+      hit_points: 120
+      energy_types:
+      - Fire
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pupitar
+          display: Pupitar
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: crush-draw
+            display: Crush Draw
+          text: Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If not, put the card back on top of your deck. This power can’t be used if Tyranitar is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: delta-crush
+            display: Delta Crush
+          cost:
+          - Fire
+          - Metal
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: You may discard an Energy card attached to Tyranitar. If you do, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: umbreon
+    display: Umbreon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 197
+        name:
+          id: umbreon
+          display: Umbreon
+      hit_points: 70
+      energy_types:
+      - Darkness
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: delta-moon
+            display: Delta Moon
+          text: When your opponent attaches a Special Energy card from his or her hand to 1 of his or her Pokémon, put 1 damage counter on that Pokémon. You can’t use more than 1 Delta Moon Poké-Body each turn.
+      - var: Attack
+        val:
+          name:
+            id: feint-attack
+            display: Feint Attack
+          cost:
+          - Darkness
+          - Metal
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: vaporeon
+    display: Vaporeon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 134
+        name:
+          id: vaporeon
+          display: Vaporeon
+      hit_points: 70
+      energy_types:
+      - Water
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: delta-search
+            display: Delta Search
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your deck for a Holon Energy card and attach it to Vaporeon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: return-wave
+            display: Return Wave
+          cost:
+          - Water
+          - Metal
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may return an Energy card attached to Vaporeon to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: azumarill
+    display: Azumarill
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 184
+        name:
+          id: azumarill
+          display: Azumarill
+      hit_points: 80
+      energy_types:
+      - Water
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: marill
+          display: Marill
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubblebeam
+            display: Bubblebeam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: rolling-tackle
+            display: Rolling Tackle
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: azurill
+    display: Azurill
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 298
+        name:
+          id: azurill
+          display: Azurill
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: baby-evolution
+            display: Baby Evolution
+          text: Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill) and remove all damage counters from Azurill.
+      - var: Attack
+        val:
+          name:
+            id: type-match
+            display: Type Match
+          cost:
+          - Colorless
+          text: Choose a basic Energy card in your hand and show it to your opponent. Then, search your deck for a Basic Pokémon or Evolution card of that Energy type, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: holons-electrode
+    display: Holon's Electrode
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 101
+        name:
+          id: electrode
+          display: Electrode
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: holons-voltorb
+          display: Holon's Voltorb
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dazzle-blast
+            display: Dazzle Blast
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Confused.
+      - var: Text
+        val:
+          text: You may attach this as an Energy card from your hand to 1 of your Pokémon that already has an Energy card attached to it. When you attach this card, return an Energy card attached to that Pokémon to your hand. While attached, this card is a Special Energy card and provides every type of Energy but 2 Energy at a time. (Has no effect other than providing Energy.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: holons-magneton
+    display: Holon's Magneton
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 82
+        name:
+          id: magneton
+          display: Magneton
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: holons-magnemite
+          display: Holon's Magnemite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: extra-ball
+            display: Extra Ball
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 20 more damage.
+      - var: Text
+        val:
+          text: You may attach this as an Energy card from your hand to 1 of your Pokémon that already has an Energy card attached to it. When you attach this card, return an Energy card attached to that Pokémon to your hand. While attached, this card is a Special Energy card and provides every type of Energy but 2 Energy at a time. (Has no effect other than providing Energy.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hypno
+    display: Hypno
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drowzee
+          display: Drowzee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: binding-aura
+            display: Binding Aura
+          text: Your opponent can’t play any Basic Pokémon or Evolution cards from his or her hand to evolve an Active Pokémon and can’t attach any Energy cards from his or her hand to an Asleep Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sleep-inducer
+            display: Sleep Inducer
+          cost:
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mightyena
+    display: Mightyena
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 262
+        name:
+          id: mightyena
+          display: Mightyena
+      hit_points: 70
+      energy_types:
+      - Darkness
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: poochyena
+          display: Poochyena
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: delta-fang
+            display: Delta Fang
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon is Pokémon-ex, that Pokémon can’t attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: gang-up
+            display: Gang Up
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of {D} Pokémon and {M} Pokémon you have in play.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: porygon2
+    display: Porygon2
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 233
+        name:
+          id: porygon2
+          display: Porygon2
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: porygon
+          display: Porygon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: backup
+            display: Backup
+          text: Once during your turn (before your attack), if you have less than 6 cards in your hand, you may draw cards until you have 6 cards in your hand. This power can’t be used if Porygon2 is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: machine-burst
+            display: Machine Burst
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: If Porygon2 has a Technical Machine card attached to it, the Defending Pokémon is now Asleep and Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rain-castform
+    display: Rain Castform
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 351
+        name:
+          id: castform
+          display: Castform
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: temperamental-weather
+            display: Temperamental Weather
+          text: Once during your turn (before your attack), you may search your deck for Castform, Sunny Castform, or Snow-cloud Castform and switch it with Rain Castform. (Any cards attached to Rain Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Rain Castform back into your deck. You can’t use more than 1 Temperamental Weather Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: holon-splash
+            display: Holon Splash
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each Holon Energy card attached to Rain Castform.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: sandslash
+    display: Sandslash
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 28
+        name:
+          id: sandslash
+          display: Sandslash
+      hit_points: 80
+      energy_types:
+      - Fighting
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sandshrew
+          display: Sandshrew
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: delta-storm
+            display: Delta Storm
+          text: As long as Sandslash is your Active Pokémon, put 1 damage counter on each of your opponent’s Pokémon-ex between turns.
+      - var: Attack
+        val:
+          name:
+            id: rend
+            display: Rend
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowking
+    display: Slowking
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 199
+        name:
+          id: slowking
+          display: Slowking
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: prize-shift
+            display: Prize Shift
+          text: Once during your turn (before your attack), you may choose a card from your hand and put it as a Prize card face up. If you do, choose 1 of your face-down Prize cards without looking and put it into your hand. This power can’t be used if Slowking is affected by a Special Condition or if all of your Prize cards are face up.
+      - var: Attack
+        val:
+          name:
+            id: psychic-option
+            display: Psychic Option
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If Slowking has a {W} Energy card attached to it, this attack does 20 damage plus 20 more damage. If Slowking has a {P} Energy card attached to it, discard a Special Energy card attached to the Defending Pokémon, if any.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: snow-cloud-castform
+    display: Snow-cloud Castform
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 351
+        name:
+          id: castform
+          display: Castform
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: temperamental-weather
+            display: Temperamental Weather
+          text: Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Sunny Castform and switch it with Snow-cloud Castform. (Any cards attached to Snow-cloud Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Snow-cloud Castform back into your deck. You can’t use more than 1 Temperamental Weather Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: holon-blizzard
+            display: Holon Blizzard
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: If Snow-cloud Castform has any Holon Energy cards attached to it, this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: starmie
+    display: Starmie
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 121
+        name:
+          id: starmie
+          display: Starmie
+      hit_points: 70
+      energy_types:
+      - Water
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: staryu
+          display: Staryu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: sunny-castform
+    display: Sunny Castform
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 351
+        name:
+          id: castform
+          display: Castform
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: temperamental-weather
+            display: Temperamental Weather
+          text: Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Snow-cloud Castform and switch it with Sunny Castform. (Any cards attached to Sunny Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Sunny Castform back into your deck. You can’t use more than 1 Temperamental Weather Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: holon-search
+            display: Holon Search
+          cost:
+          - Colorless
+          - Colorless
+          text: Search your deck for a Holon Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: swellow
+    display: Swellow
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 277
+        name:
+          id: swellow
+          display: Swellow
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: taillow
+          display: Taillow
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: steep-dive
+            display: Steep Dive
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent’s next turn. If tails, during your next turn, Swellow’s Glide attack’s base damage is 100.
+      - var: Attack
+        val:
+          name:
+            id: glide
+            display: Glide
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: weezing
+    display: Weezing
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 110
+        name:
+          id: weezing
+          display: Weezing
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: koffing
+          display: Koffing
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: body-odor
+            display: Body Odor
+          text: As long as Weezing is the Active Pokémon, put 1 damage counter on each of your opponent’s Pokémon that has any Poké-Bodies between turns.
+      - var: Attack
+        val:
+          name:
+            id: mist-attack
+            display: Mist Attack
+          cost:
+          - Grass
+          text: Does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: sludge-whirlpool
+            display: Sludge Whirlpool
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: castform
+    display: Castform
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 351
+        name:
+          id: castform
+          display: Castform
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: temperamental-weather
+            display: Temperamental Weather
+          text: Once during your turn (before your attack), you may search your deck for Sunny Castform, Rain Castform, or Snow-cloud Castform and switch it with Castform. (Any cards attached to Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Castform back into your deck. You can’t use more than 1 Temperamental Weather Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: holon-draw
+            display: Holon Draw
+          cost:
+          - Colorless
+          text: Draw a card. If Castform has any Holon Energy cards attached to it, draw 2 more cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: energy-link
+            display: Energy Link
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your discard pile for an Energy card and attach it to Ditto.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: toxic
+            display: Toxic
+          cost:
+          - Grass
+          - Colorless
+          text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each damage counter on Ditto.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: copy
+            display: Copy
+          cost:
+          - Colorless
+          text: Choose 1 of the Defending Pokémon’s attacks. Copy copies that attack. This attack does nothing if Ditto doesn’t have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Ditto performs that attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: thunderbolt
+            display: Thunderbolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 40
+          text: Discard all Energy cards attached to Ditto.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: smash-turn
+            display: Smash Turn
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: After your attack, you may switch Ditto with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coin. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: dragon-rage
+            display: Dragon Rage
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: twister
+            display: Twister
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: golbat
+    display: Golbat
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 42
+        name:
+          id: golbat
+          display: Golbat
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: zubat
+          display: Zubat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-poison-breath
+            display: Super Poison Breath
+          cost:
+          - Grass
+          text: Each Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: sonic-signal
+            display: Sonic Signal
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 2 of your opponent’s Pokémon. This attack does 10 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hariyama
+    display: Hariyama
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 297
+        name:
+          id: hariyama
+          display: Hariyama
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: makuhita
+          display: Makuhita
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: reversal-aura
+            display: Reversal Aura
+          text: As long as you have more Prize cards left than your opponent, each of Hariyama’s attacks does 20 more damage to the Active Pokémon (before applying Weakness and Resistance) and damage done by the Active Pokémon to Hariyama is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: slap-push
+            display: Slap Push
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: brick-smash
+            display: Brick Smash
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: illumise
+    display: Illumise
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 314
+        name:
+          id: illumise
+          display: Illumise
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: beacon-protection
+            display: Beacon Protection
+          text: As long as you have Volbeat in play, prevent all effects, including damage, done to Illumise by attacks from your opponent’s Pokémon that has Dark in its name.
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: strange-rasping
+            display: Strange Rasping
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kakuna
+    display: Kakuna
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 14
+        name:
+          id: kakuna
+          display: Kakuna
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: weedle
+          display: Weedle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fast-evolution
+            display: Fast Evolution
+          cost:
+          - Grass
+          text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kirlia
+    display: Kirlia
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 281
+        name:
+          id: kirlia
+          display: Kirlia
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ralts
+          display: Ralts
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: calm-mind
+            display: Calm Mind
+          cost:
+          - Colorless
+          text: Remove 3 damage counters from Kirlia.
+      - var: Attack
+        val:
+          name:
+            id: psychic-boom
+            display: Psychic Boom
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: magneton
+    display: Magneton
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 82
+        name:
+          id: magneton
+          display: Magneton
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magnemite
+          display: Magnemite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: supersonic
+            display: Supersonic
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: speed-ball
+            display: Speed Ball
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: metang
+    display: Metang
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 375
+        name:
+          id: metang
+          display: Metang
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: beldum
+          display: Beldum
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sharp-claws
+            display: Sharp Claws
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: magnetic-blast
+            display: Magnetic Blast
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: persian
+    display: Persian
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 53
+        name:
+          id: persian
+          display: Persian
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: meowth
+          display: Meowth
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: prowl
+            display: Prowl
+          text: Once during your turn, when you play Persian from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: snap-tail
+            display: Snap Tail
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pupitar
+    display: Pupitar
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 247
+        name:
+          id: pupitar
+          display: Pupitar
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: larvitar
+          display: Larvitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: paralyzing-gaze
+            display: Paralyzing Gaze
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-edge
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Pupitar does 10 damage to itself.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: rapidash
+    display: Rapidash
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ponyta
+          display: Ponyta
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-singe
+            display: Super Singe
+          cost:
+          - Fire
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: shelgon
+    display: Shelgon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 372
+        name:
+          id: shelgon
+          display: Shelgon
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bagon
+          display: Bagon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tight-jaw
+            display: Tight Jaw
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fire
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: shelgon
+    display: Shelgon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 372
+        name:
+          id: shelgon
+          display: Shelgon
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bagon
+          display: Bagon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: exoskeleton
+            display: Exoskeleton
+          text: Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: heat-blast
+            display: Heat Blast
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fire
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: skarmory
+    display: Skarmory
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 227
+        name:
+          id: skarmory
+          display: Skarmory
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: shining-horn
+            display: Shining Horn
+          text: As long as Skarmory is the only Pokémon you have in play, your opponent’s Basic Pokémon can’t attack.
+      - var: Attack
+        val:
+          name:
+            id: cry-for-help
+            display: Cry for Help
+          cost:
+          - Colorless
+          text: Search your deck for a {M} Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: steel-wing
+            display: Steel Wing
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, any damage done to Skarmory by attacks is reduced by 20 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: volbeat
+    display: Volbeat
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 313
+        name:
+          id: volbeat
+          display: Volbeat
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: extra-protection
+            display: Extra Protection
+          text: As long as you have Illumise in play, prevent all effects, including damage, done to Volbeat by attacks from your opponent’s Pokémon-ex.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fire
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Discard a {R} Energy card attached to Bagon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fire
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: beldum
+    display: Beldum
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 374
+        name:
+          id: beldum
+          display: Beldum
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: conductive-body
+            display: Conductive Body
+          text: As long as Beldum is your Active Pokémon, you pay {C} less to retreat Beldum for each Beldum on your Bench.
+      - var: Attack
+        val:
+          name:
+            id: take-down
+            display: Take Down
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Beldum does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: cubone
+    display: Cubone
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 104
+        name:
+          id: cubone
+          display: Cubone
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: beat
+            display: Beat
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each damage counter on Cubone.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: fireworks
+            display: Fireworks
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, discard a {R} Energy card attached to Ditto.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Fighting
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: spiral-drain
+            display: Spiral Drain
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: Remove 3 damage counters from Ditto (all if there are less than 3).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hook
+            display: Hook
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: thunder-jolt
+            display: Thunder Jolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, Dratini does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: drowzee
+    display: Drowzee
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: disable
+            display: Disable
+          cost:
+          - Psychic
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 50
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: metal-scoop
+            display: Metal Scoop
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your discard pile for a {M} Energy card and attach it to Eevee.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: holons-magnemite
+    display: Holon's Magnemite
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 40
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Metal
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Text
+        val:
+          text: You may attach this as an Energy card from your hand to 1 of your Pokémon. While attached, this card is a Special Energy card and provides {C} Energy.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: holons-voltorb
+    display: Holon's Voltorb
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: takao-unno
+      display: Takao Unno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 100
+        name:
+          id: voltorb
+          display: Voltorb
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Text
+        val:
+          text: You may attach this as an Energy card from your hand to 1 of your Pokémon. While attached, this card is a Special Energy card and provides {C} Energy.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: koffing
+    display: Koffing
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 109
+        name:
+          id: koffing
+          display: Koffing
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confusion-gas
+            display: Confusion Gas
+          cost:
+          - Grass
+          text: The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: larvitar
+    display: Larvitar
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 246
+        name:
+          id: larvitar
+          display: Larvitar
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rising-lunge
+            display: Rising Lunge
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: magnemite
+    display: Magnemite
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: magnetic-blast
+            display: Magnetic Blast
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: makuhita
+    display: Makuhita
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 296
+        name:
+          id: makuhita
+          display: Makuhita
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sand-attack
+            display: Sand Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: marill
+    display: Marill
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 183
+        name:
+          id: marill
+          display: Marill
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: jump-on
+            display: Jump On
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hiroki-fuchino
+      display: Hiroki Fuchino
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pickup-power
+            display: Pickup Power
+          cost:
+          - Colorless
+          text: Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ponyta
+    display: Ponyta
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: poochyena
+    display: Poochyena
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 261
+        name:
+          id: poochyena
+          display: Poochyena
+      hit_points: 50
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roar
+            display: Roar
+          cost:
+          - Colorless
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: porygon
+    display: Porygon
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 137
+        name:
+          id: porygon
+          display: Porygon
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sharpen
+            display: Sharpen
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ralts
+    display: Ralts
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kenkichi-toyama
+      display: Kenkichi Toyama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 280
+        name:
+          id: ralts
+          display: Ralts
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: quick-blow
+            display: Quick Blow
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sandshrew
+    display: Sandshrew
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 27
+        name:
+          id: sandshrew
+          display: Sandshrew
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dig-under
+            display: Dig Under
+          cost:
+          - Fighting
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: yawn
+            display: Yawn
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: staryu
+    display: Staryu
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 120
+        name:
+          id: staryu
+          display: Staryu
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: spinning-attack
+            display: Spinning Attack
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: staryu
+    display: Staryu
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 120
+        name:
+          id: staryu
+          display: Staryu
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: recover
+            display: Recover
+          cost:
+          - Water
+          text: Discard a {W} Energy card attached to Staryu and remove 4 damage counters from Staryu (all if there are less than 4).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: taillow
+    display: Taillow
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 276
+        name:
+          id: taillow
+          display: Taillow
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: skill-dive
+            display: Skill Dive
+          cost:
+          - Colorless
+          text: Does 10 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: weedle
+    display: Weedle
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 13
+        name:
+          id: weedle
+          display: Weedle
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: string-shot
+            display: String Shot
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: zubat
+    display: Zubat
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 41
+        name:
+          id: zubat
+          display: Zubat
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-fang
+            display: Poison Fang
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dual-ball
+    display: Dual Ball
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: big-mama-tagawa
+      display: '"Big Mama" Tagawa'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Flip 2 coins. For each heads, search your deck for a Basic Pokémon card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: great-ball
+    display: Great Ball
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: holon-farmer
+    display: Holon Farmer
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard a card from your hand. If you can’t discard a card from your hand, you can’t play this card.
+        Search your discard pile for 3 basic Energy cards and any combination of 3 Basic Pokémon or Evolution cards, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: holon-lass
+    display: Holon Lass
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard a card from your hand. If you can’t discard a card from your hand, you can’t play this card.
+        Count the total number of Prize cards left (both yours and your opponent’s). Look at that many cards from the top of your deck, choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: holon-mentor
+    display: Holon Mentor
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard a card from your hand. If you can’t discard a card from your hand, you can’t play this card.
+        Search your deck for up to 3 Basic Pokémon that each has 100 HP or less, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: holon-research-tower
+    display: Holon Research Tower
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Each player’s basic Energy cards attached to Pokémon that has δ on its card are both their usual Energy type and {M} type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)
+      sub: Stadium
+- title:
+    id: holon-researcher
+    display: Holon Researcher
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard a card from your hand. If you can’t discard a card from your hand, you can’t play this card.
+        Search your deck for a {M} Energy card or a Basic Pokémon (or Evolution card) that has δ on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: holon-ruins
+    display: Holon Ruins
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Each player that has any Pokémon in play that has δ on its card may draw a card once during his or her turn. If the player does, he or she discards a card from his or her hand.
+      sub: Stadium
+- title:
+    id: holon-scientist
+    display: Holon Scientist
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard a card from your hand. If you can’t discard a card from your hand, you can’t play this card.
+        If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent.
+      sub: Supporter
+- title:
+    id: holon-transceiver
+    display: Holon Transceiver
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. Or, search your discard pile for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand.
+      sub: Item
+- title:
+    id: master-ball
+    display: Master Ball
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 7 cards from your deck. Choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, and put it into your hand. Put the other 6 cards back on top of your deck. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: super-scoop-up
+    display: Super Scoop Up
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand.
+      sub: Item
+- title:
+    id: potion
+    display: Potion
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).
+      sub: Item
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2005-10-31
+  sub:
+    var: Trainer
+    val:
+      text: Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
+      sub: Item
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: milky-isobe
+      display: Milky Isobe
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance). Ignore this effect unless the Attacking Pokémon is {D} or has Dark in its name. Darkness Energy provides {D} Energy. (Doesn’t count as a basic Energy card.)
+- title:
+    id: holon-energy-ff
+    display: Holon Energy FF
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          Holon Energy FF provides {C} Energy.
+          If the Pokémon that Holon Energy FF is attached to also has a basic {R} Energy card attached to it, that Pokémon has no Weakness. If the Pokémon that Holon Energy FF is attached to also has a basic {F} Energy card attached to it, damage done by that Pokémon’s attack isn’t affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pokémon-ex.
+- title:
+    id: holon-energy-gl
+    display: Holon Energy GL
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          Holon Energy GL provides {C} Energy.
+          If the Pokémon that Holon Energy GL is attached to also has a basic {G} Energy card attached to it, that Pokémon can’t be affected by any Special Conditions. If the Pokémon that Holon Energy GL is attached to also has a basic {L} Energy card attached to it, damage done by your opponent’s Pokémon-ex is reduced by 10. Ignore these effects if Holon Energy GL is attached to Pokémon-ex.
+- title:
+    id: holon-energy-wp
+    display: Holon Energy WP
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          Holon Energy WP provides {C} Energy.
+          If the Pokémon that Holon Energy WP is attached to also has a basic {W} Energy card attached to it, prevent all effects, excluding damage, done to that Pokémon by your opponent’s Pokémon. If the Pokémon that Holon Energy WP is attached to also has a basic {P} Energy card attached to it, that Pokémon’s Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pokémon-ex.
+- title:
+    id: metal-energy
+    display: Metal Energy
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: milky-isobe
+      display: Milky Isobe
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2005-10-31
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Damage done by attacks to the Pokémon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pokémon that Metal Energy is attached to isn’t {M}. Metal Energy provides {M} Energy. (Doesn’t count as a basic Energy card.)
+- title:
+    id: flareon-ex
+    display: Flareon ex
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 136
+        name:
+          id: flareon
+          display: Flareon
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: evolutionary-flame
+            display: Evolutionary Flame
+          text: Once during your turn, when you play Flareon ex from your hand to evolve 1 of your Pokémon, you may choose 1 of the Defending Pokémon. That Pokémon is now Burned and Confused.
+      - var: Attack
+        val:
+          name:
+            id: flame-screen
+            display: Flame Screen
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, any damage done to Flareon ex by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: heat-tackle
+            display: Heat Tackle
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Flareon ex does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: jolteon-ex
+    display: Jolteon ex
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 135
+        name:
+          id: jolteon
+          display: Jolteon
+      hit_points: 100
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: evolutionary-thunder
+            display: Evolutionary Thunder
+          text: Once during your turn, when you play Jolteon ex from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: second-bite
+            display: Second Bite
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: thunder-blast
+            display: Thunder Blast
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard a {L} Energy card attached to Jolteon ex.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: vaporeon-ex
+    display: Vaporeon ex
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 134
+        name:
+          id: vaporeon
+          display: Vaporeon
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: evolutionary-swirl
+            display: Evolutionary Swirl
+          text: Once during your turn, when you play Vaporeon ex from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle his or her hand into his or her deck. Then, your opponent draws up to 4 cards.
+      - var: Attack
+        val:
+          name:
+            id: fastwave
+            display: Fastwave
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hydrosplash
+            display: Hydrosplash
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: groudon-star
+    display: Groudon Star
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo-star
+      display: Rare Holo Star
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: critical-collection
+            display: Critical Collection
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+          text: Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many {F} Energy cards and attach them to Groudon Star.
+      - var: Attack
+        val:
+          name:
+            id: ground-slash
+            display: Ground Slash
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard a {F} Energy card attached to Groudon Star.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kyogre-star
+    display: Kyogre Star
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo-star
+      display: Rare Holo Star
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: critical-collection
+            display: Critical Collection
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many {W} Energy cards and attach them to Kyogre Star.
+      - var: Attack
+        val:
+          name:
+            id: sheer-cold
+            display: Sheer Cold
+          cost:
+          - Water
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If heads, each Defending Pokémon can’t attack during your opponent’s next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: metagross-star
+    display: Metagross Star
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo-star
+      display: Rare Holo Star
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 376
+        name:
+          id: metagross
+          display: Metagross
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: critical-collection
+            display: Critical Collection
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+          text: Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many {M} Energy cards and attach them to Metagross Star.
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: azumarill
+    display: Azumarill
+  set:
+    name:
+      id: delta-species
+      display: Delta Species
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: ds
+      display: DS
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '113'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2005-10-31
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 184
+        name:
+          id: azumarill
+          display: Azumarill
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: marill
+          display: Marill
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: thick-fat
+            display: Thick Fat
+          text: Any damage done to Azumarill by attacks from {R} Pokémon and {W} Pokémon is reduced by 30 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: bubblebeam
+            display: Bubblebeam
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times

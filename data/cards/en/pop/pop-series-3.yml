@@ -1,0 +1,1173 @@
+- title:
+    id: blastoise
+    display: Blastoise
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 9
+        name:
+          id: blastoise
+          display: Blastoise
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: wartortle
+          display: Wartortle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smash-turn
+            display: Smash Turn
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: After your attack, you may switch Blastoise with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: rocket-tackle
+            display: Rocket Tackle
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: flareon
+    display: Flareon
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 136
+        name:
+          id: flareon
+          display: Flareon
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: fire-spin
+            display: Fire Spin
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard 2 basic Energy cards attached to Flareon or this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: jolteon
+    display: Jolteon
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 135
+        name:
+          id: jolteon
+          display: Jolteon
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: pin-missile
+            display: Pin Missile
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 4 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: minun
+    display: Minun
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 312
+        name:
+          id: minun
+          display: Minun
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cheer-up
+            display: Cheer Up
+          cost:
+          - Colorless
+          text: Draw a card. If you have Plusle in play, draw 2 cards instead.
+      - var: Attack
+        val:
+          name:
+            id: negative-ion
+            display: Negative Ion
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: power-bolt
+            display: Power Bolt
+          cost:
+          - Lightning
+          - Lightning
+          text: Choose 1 of your opponent’s Pokémon that has any Poké-Powers. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: plusle
+    display: Plusle
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 311
+        name:
+          id: plusle
+          display: Plusle
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cheer-up
+            display: Cheer Up
+          cost:
+          - Colorless
+          text: Draw a card. If you have Minun in play, draw 2 cards instead.
+      - var: Attack
+        val:
+          name:
+            id: positive-ion
+            display: Positive Ion
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: body-bolt
+            display: Body Bolt
+          cost:
+          - Lightning
+          - Lightning
+          text: Choose 1 of your opponent’s Pokémon that has any Poké-Bodies. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: vaporeon
+    display: Vaporeon
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 134
+        name:
+          id: vaporeon
+          display: Vaporeon
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 20 more damage for each {W} Energy attached to Vaporeon but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: combusken
+    display: Combusken
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 256
+        name:
+          id: combusken
+          display: Combusken
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: torchic
+          display: Torchic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Discard a {R} Energy attached to Combusken.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: donphan
+    display: Donphan
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: tomoaki-imakuni
+      display: Tomoaki Imakuni
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 232
+        name:
+          id: donphan
+          display: Donphan
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: phanpy
+          display: Phanpy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sniff-out
+            display: Sniff Out
+          cost:
+          - Colorless
+          text: Put any 1 card from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: fury-attack
+            display: Fury Attack
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: forretress
+    display: Forretress
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 205
+        name:
+          id: forretress
+          display: Forretress
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pineco
+          display: Pineco
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: toxic
+            display: Toxic
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: high-pressure-system
+    display: High Pressure System
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2006-04-01
+  sub:
+    var: Trainer
+    val:
+      text: Each player pays {C} less to retreat his or her {R} and {W} Pokémon.
+      sub: Stadium
+- title:
+    id: low-pressure-system
+    display: Low Pressure System
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: shin-ichi-yoshikawa
+      display: Shin-ichi Yoshikawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2006-04-01
+  sub:
+    var: Trainer
+    val:
+      text: Each {G} and {L} Pokémon in play (both yours and your opponent’s) gets +10 HP.
+      sub: Stadium
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: duplicate
+            display: Duplicate
+          text: Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn.
+      - var: Attack
+        val:
+          name:
+            id: psybeam
+            display: Psybeam
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: take-down
+            display: Take Down
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Eevee does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ivysaur
+    display: Ivysaur
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bulbasaur
+          display: Bulbasaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gouge
+            display: Gouge
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: poisonpowder
+            display: Poisonpowder
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: marshtomp
+    display: Marshtomp
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 259
+        name:
+          id: marshtomp
+          display: Marshtomp
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mudkip
+          display: Mudkip
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mud-slap
+            display: Mud Slap
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: double-edge
+            display: Double-edge
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Marshtomp does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: pichu-bros
+    display: Pichu Bros.
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 172
+        name:
+          id: pichu
+          display: Pichu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bustle
+            display: Bustle
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads. If either coin is heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ho-oh-ex
+    display: Ho-Oh ex
+  set:
+    name:
+      id: pop-series-3
+      display: POP Series 3
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p3
+      display: P3
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2006-04-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 250
+        name:
+          id: ho-oh
+          display: Ho-Oh
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: golden-wing
+            display: Golden Wing
+          text: If Ho-Oh ex would be Knocked Out by damage from an opponent’s attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: rainbow-burn
+            display: Rainbow Burn
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 20 more damage for each type of basic Energy card attached to Ho-Oh ex.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times

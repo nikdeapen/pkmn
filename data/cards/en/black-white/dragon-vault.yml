@@ -1,0 +1,1384 @@
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: It is called the “Mirage Pokémon” because so few have seen it. Its shed skin has been found.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 40
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wrap
+            display: Wrap
+          cost:
+          - Grass
+          - Lightning
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: It is called the “Mirage Pokémon” because so few have seen it. Its shed skin has been found.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 40
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnotic-gaze
+            display: Hypnotic Gaze
+          cost:
+          - Grass
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: tail-whap
+            display: Tail Whap
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 70
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-whap
+            display: Tail Whap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: dragon-pulse
+            display: Dragon Pulse
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard the top card of your deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 70
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: healing-melody
+            display: Healing Melody
+          cost:
+          - Grass
+          text: Heal 10 damage from each of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite
+    display: Dragonite
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 150
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hurricane-tail
+            display: Hurricane Tail
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip 4 coins. This attack does 60 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: Dreaming of one day flying, it practices by leaping off cliffs every day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 50
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon claw
+          cost:
+          - Fire
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: shelgon
+    display: Shelgon
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 372
+        name:
+          id: shelgon
+          display: Shelgon
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bagon
+          display: Bagon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knock-away
+            display: Knock Away
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: salamence
+    display: Salamence
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: beruburi
+      display: BERUBURI
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 140
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: shelgon
+          display: Shelgon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: scornful-storm
+            display: Scornful Storm
+          text: Once during your turn (before your attack), you may have your opponent discard cards from his or her hand until he or she has 4 cards left in his or her hand.
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: This attack’s damage isn’t affected by any effects on the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: latias
+    display: Latias
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: Its body is covered in a down that can refract light in such a way that it becomes invisible.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 100
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-assist
+            display: Energy Assist
+          cost:
+          - Colorless
+          text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sky-heal
+            display: Sky Heal
+          cost:
+          - Fire
+          - Psychic
+          damage:
+            scalar: 40
+          text: If Latios is on your Bench, heal 20 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: latios
+    display: Latios
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 100
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sky-blade
+            display: Sky Blade
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: If Latias is on your Bench, this attack does 20 more damage.
+      - var: Attack
+        val:
+          name:
+            id: speed-wing
+            display: Speed Wing
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: rayquaza
+    display: Rayquaza
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: It lives in the ozone layer far above the clouds and cannot be seen from the ground.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 120
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-pulse
+            display: Dragon Pulse
+          cost:
+          - Lightning
+          damage:
+            scalar: 40
+          text: Discard the top 2 cards of your deck.
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Fire
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 90
+          text: This attack’s damage isn’t affected by any effects on the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: axew
+    display: Axew
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 610
+        name:
+          id: axew
+          display: Axew
+      hit_points: 40
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: signs-of-evolution
+            display: Signs of Evolution
+          cost:
+          - Fighting
+          text: Flip a coin. If heads, search your deck for Fraxure, reveal it, and put it into your hand, Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Metal
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: axew
+    display: Axew
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 610
+        name:
+          id: axew
+          display: Axew
+      hit_points: 50
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Fighting
+          - Metal
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: fraxure
+    display: Fraxure
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they’ve been fighting.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 611
+        name:
+          id: fraxure
+          display: Fraxure
+      hit_points: 70
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: axew
+          display: Axew
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: grit
+            display: Grit
+          text: If this Pokémon is affected by a Special Condition, each of its attacks does 40 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Fighting
+          - Metal
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: fraxure
+    display: Fraxure
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 611
+        name:
+          id: fraxure
+          display: Fraxure
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: axew
+          display: Axew
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: sharp-fang
+            display: Sharp Fang
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: haxorus
+    display: Haxorus
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 612
+        name:
+          id: haxorus
+          display: Haxorus
+      hit_points: 140
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: fraxure
+          display: Fraxure
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: axe-slugger
+            display: Axe Slugger
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If the Defending Pokémon is a {C} Pokémon, this attack does 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dragon-pulse
+            display: Dragon Pulse
+          cost:
+          - Fighting
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard the top card of your deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: druddigon
+    display: Druddigon
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 621
+        name:
+          id: druddigon
+          display: Druddigon
+      hit_points: 110
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tight-jaw
+            display: Tight Jaw
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: dragon-tail
+            display: Dragon Tail
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Times
+          text: Flip 2 coins. This attack does 80 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: exp-share
+    display: Exp. Share
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+  sub:
+    var: Trainer
+    val:
+      text: When your Active Pokémon is Knocked Out by damage from an opponent’s attack, you may move 1 basic Energy card that was attached to that Pokémon to the Pokémon this card is attached to.
+      sub: PokemonTool
+- title:
+    id: first-ticket
+    display: First Ticket
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+  sub:
+    var: Trainer
+    val:
+      text: Before you flip a coin to decide who goes first in a game, you may play this card. Don’t flip that coin, and you go first. If both players play First Ticket, flip the coin as normal. (You may play only 1 First Ticket before you flip that coin.)
+      sub: Item
+- title:
+    id: super-rod
+    display: Super Rod
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile back into your deck.
+      sub: Item
+- title:
+    id: kyurem
+    display: Kyurem
+  set:
+    name:
+      id: dragon-vault
+      display: Dragon Vault
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: drv
+      display: DRV
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '20'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2012-10-05
+    flavor: It can produce ultracold air. Its body is frozen.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 646
+        name:
+          id: kyurem
+          display: Kyurem
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      - var: Attack
+        val:
+          name:
+            id: blizzard
+            display: Blizzard
+          cost:
+          - Water
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: Does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times

@@ -1,0 +1,80 @@
+- title:
+    id: raichu
+    display: Raichu
+  set:
+    name:
+      id: heartgold-soulsilver-trainer-kit-raichu
+      display: HS Trainer Kit - Raichu
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: tk4r
+      display: TK4R
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2010-05-07
+    flavor: If the electric pouches in its cheeks become fully charged, both ears will stand straight up.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pikachu
+          display: Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: iron-tail
+            display: Iron Tail
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: thunderbolt
+            display: Thunderbolt
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 100
+          text: Discard all Energy attached to Raichu.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus

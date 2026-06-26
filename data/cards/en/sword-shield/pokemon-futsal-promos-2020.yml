@@ -1,0 +1,348 @@
+- title:
+    id: pikachu-on-the-ball
+    display: Pikachu on the Ball
+  set:
+    name:
+      id: pokemon-futsal-promos-2020
+      display: Pokémon Futsal Promos 2020
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: fut20
+      display: FUT20
+  number:
+    number:
+      id: '001'
+      display: '001'
+    printed_total: '005'
+  meta:
+    artists:
+    - id: the-pokemon-company-art-team
+      display: The Pokémon Company Art Team
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2020-09-11
+    flavor: Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-whap
+            display: Tail Whap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: lightning-shot
+            display: Lightning Shot
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 120
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee-on-the-ball
+    display: Eevee on the Ball
+  set:
+    name:
+      id: pokemon-futsal-promos-2020
+      display: Pokémon Futsal Promos 2020
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: fut20
+      display: FUT20
+  number:
+    number:
+      id: '002'
+      display: '002'
+    printed_total: '005'
+  meta:
+    artists:
+    - id: the-pokemon-company-art-team
+      display: The Pokémon Company Art Team
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2020-09-11
+    flavor: It has the ability to alter the composition of its body to suit its surrounding environment.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: make-the-assist
+            display: Make the Assist
+          cost:
+          - Colorless
+          text: Attach a basic Energy card from your hand to 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: grookey-on-the-ball
+    display: Grookey on the Ball
+  set:
+    name:
+      id: pokemon-futsal-promos-2020
+      display: Pokémon Futsal Promos 2020
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: fut20
+      display: FUT20
+  number:
+    number:
+      id: '003'
+      display: '003'
+    printed_total: '005'
+  meta:
+    artists:
+    - id: the-pokemon-company-art-team
+      display: The Pokémon Company Art Team
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2020-10-16
+    flavor: When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 810
+        name:
+          id: grookey
+          display: Grookey
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tenacious-defense
+            display: Tenacious Defense
+          cost:
+          - Grass
+          text: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: scorbunny-on-the-ball
+    display: Scorbunny on the Ball
+  set:
+    name:
+      id: pokemon-futsal-promos-2020
+      display: Pokémon Futsal Promos 2020
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: fut20
+      display: FUT20
+  number:
+    number:
+      id: '004'
+      display: '004'
+    printed_total: '005'
+  meta:
+    artists:
+    - id: the-pokemon-company-art-team
+      display: The Pokémon Company Art Team
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2021-06-18
+    flavor: A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 813
+        name:
+          id: scorbunny
+          display: Scorbunny
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fiery-dribbling
+            display: Fiery Dribbling
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: reckless-charge
+            display: Reckless Charge
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: This Pokémon also does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: sobble-on-the-ball
+    display: Sobble on the Ball
+  set:
+    name:
+      id: pokemon-futsal-promos-2020
+      display: Pokémon Futsal Promos 2020
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: fut20
+      display: FUT20
+  number:
+    number:
+      id: '005'
+      display: '005'
+    printed_total: '005'
+  meta:
+    artists:
+    - id: the-pokemon-company-art-team
+      display: The Pokémon Company Art Team
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2021-09-07
+    flavor: When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 816
+        name:
+          id: sobble
+          display: Sobble
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spectacular-save
+            display: Spectacular Save
+          cost:
+          - Water
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times

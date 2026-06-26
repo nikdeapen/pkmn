@@ -1,0 +1,6757 @@
+- title:
+    id: clefable
+    display: Clefable
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 36
+        name:
+          id: clefable
+          display: Clefable
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clefairy
+          display: Clefairy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fairy-power
+            display: Fairy Power
+          cost:
+          - Colorless
+          - Colorless
+          text: Return 1 of your Pokémon and all cards attached to it in your hand.
+      - var: Attack
+        val:
+          name:
+            id: moon-impact
+            display: Moon Impact
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: deoxys
+    display: Deoxys
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 386
+        name:
+          id: deoxys
+          display: Deoxys
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cell-storm
+            display: Cell Storm
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 60
+          text: Discard 2 {P} Energy attached to Deoxys and remove 6 damage counters from Deoxys.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dialga
+    display: Dialga
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 483
+        name:
+          id: dialga
+          display: Dialga
+      hit_points: 100
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: time-rewind
+            display: Time Rewind
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          - Metal
+          damage:
+            scalar: 70
+          text: Shuffle your hand into your deck.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: espeon
+    display: Espeon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 196
+        name:
+          id: espeon
+          display: Espeon
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: solar-suggestion
+            display: Solar Suggestion
+          cost:
+          - Psychic
+          text: Move up to 4 damage counters from any of your Pokémon to any of your opponent’s Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: psybeam
+            display: Psybeam
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: forretress
+    display: Forretress
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 205
+        name:
+          id: forretress
+          display: Forretress
+      hit_points: 90
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pineco
+          display: Pineco
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mirror-shot
+            display: Mirror Shot
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: everyone-explode-now
+            display: Everyone Explode Now
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Does 30 damage times the number of Pineco and Forretress you have in play. This attack does 30 damage to each of your Pineco and Forretress in play.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: groudon
+    display: Groudon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: volcano-stomp
+            display: Volcano Stomp
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 80
+          text: Flip a coin. If heads, discard the top 4 cards of your opponent’s deck. If tails, discard the top 4 cards of your deck.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: gyarados
+    display: Gyarados
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-splash
+            display: Hydro Splash
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hitmontop
+    display: Hitmontop
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 237
+        name:
+          id: hitmontop
+          display: Hitmontop
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: triple-kick
+            display: Triple Kick
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 3 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: close-combat
+            display: Close Combat
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: During your opponent’s next turn, any damage done to Hitmontop by attacks is increased by 20 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: ho-oh
+    display: Ho-Oh
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Legends claim this Pokémon flies the world’s skies continuously on its magnificent seven-colored wings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 250
+        name:
+          id: ho-oh
+          display: Ho-Oh
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: scorching-wing
+            display: Scorching Wing
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Flip a coin. If tails, discard all {R} Energy attached to Ho-Oh.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: houndoom
+    display: Houndoom
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: houndour
+          display: Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-counterattack
+            display: Fire Counterattack
+          cost:
+          - Darkness
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If your opponent has any {F} Pokémon in play, this attack does 20 damage plus 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dark-roar
+            display: Dark Roar
+          cost:
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 50
+          text: Your opponent discards a card from his or her hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: jirachi
+    display: Jirachi
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Generations have believed that any wish written on a note on its head will come true when it awakens.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 385
+        name:
+          id: jirachi
+          display: Jirachi
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: stardust-song
+            display: Stardust Song
+          text: Once during your turn, when you put Jirachi from your hand onto your Bench, you may flip 3 coins. For each heads, search your discard pile for a {P} Energy card and attach it to Jirachi.
+      - var: Attack
+        val:
+          name:
+            id: time-hollow
+            display: Time Hollow
+          cost:
+          - Psychic
+          text: Choose a number of your opponent’s Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kyogre
+    display: Kyogre
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: destructive-tsunami
+            display: Destructive Tsunami
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          text: Flip a coin. If heads, this attack does 40 damage to each of your opponent’s Pokémon. If tails, this attack does 40 damage to each of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: leafeon
+    display: Leafeon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 470
+        name:
+          id: leafeon
+          display: Leafeon
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: miasma-wind
+            display: Miasma Wind
+          cost:
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sooting-scent
+            display: Sooting Scent
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: lucario
+    display: Lucario
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: takashi-yamaguchi
+      display: Takashi Yamaguchi
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It’s said that no foe can remain invisible to Lucario, since it can detect auras. Even foes it could not otherwise see.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: riolu
+          display: Riolu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dimension-sphere
+            display: Dimension Sphere
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 20 more damage for each of your Pokémon in the Lost Zone.
+      - var: Attack
+        val:
+          name:
+            id: sky-uppercut
+            display: Sky Uppercut
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: lugia
+    display: Lugia
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 249
+        name:
+          id: lugia
+          display: Lugia
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: hydro-splash
+            display: Hydro Splash
+          cost:
+          - Water
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: magmortar
+    display: Magmortar
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 467
+        name:
+          id: magmortar
+          display: Magmortar
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magmar
+          display: Magmar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hard-crush
+            display: Hard Crush
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.
+      - var: Attack
+        val:
+          name:
+            id: mantle-bazooka
+            display: Mantle Bazooka
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard 2 {R} Energy attached to Magmortar.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ninetales
+    display: Ninetales
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 38
+        name:
+          id: ninetales
+          display: Ninetales
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: vulpix
+          display: Vulpix
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: roast-reveal
+            display: Roast Reveal
+          text: Once during your turn (before your attack), you may discard a {R} Energy card from your hand. If you do, draw 3 cards. This power can’t be used if Ninetales is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: will-o-the-wisp
+            display: Will-o'-the-wisp
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: pachirisu
+    display: Pachirisu
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It’s one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 417
+        name:
+          id: pachirisu
+          display: Pachirisu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: self-generation
+            display: Self-Generation
+          text: Once during your turn, when you put Pachirisu from your hand onto your Bench, you may attach up to 2 {L} Energy cards from your hand to Pachirisu.
+      - var: Attack
+        val:
+          name:
+            id: shocking-bolt
+            display: Shocking Bolt
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 50
+          text: Put all Energy cards attached to Pachirisu in the Lost Zone.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: palkia
+    display: Palkia
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: daisuke-iwamoto
+      display: Daisuke Iwamoto
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 484
+        name:
+          id: palkia
+          display: Palkia
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wormhole
+            display: Wormhole
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 60
+          text: Switch Palkia with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: rayquaza
+    display: Rayquaza
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: inferno-spear
+            display: Inferno Spear
+          cost:
+          - Fire
+          - Fire
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 100
+          text: Discard a {R} Energy and a {L} Energy attached to Rayquaza.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: smeargle
+    display: Smeargle
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 235
+        name:
+          id: smeargle
+          display: Smeargle
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: portrait
+            display: Portrait
+          text: Once during your turn (before your attack), if Smeargle is your Active Pokémon, you may look at your opponent’s hand. If you do, choose a Supporter card you find there and use the effect of that card as the effect of this power. This power can’t be used if Smeargle is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: tail-rap
+            display: Tail Rap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: umbreon
+    display: Umbreon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 197
+        name:
+          id: umbreon
+          display: Umbreon
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: moonlight-fang
+            display: Moonlight Fang
+          cost:
+          - Darkness
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent’s Pokémon than has any Poké-Powers or Poké-Bodies.
+      - var: Attack
+        val:
+          name:
+            id: quick-blow
+            display: Quick Blow
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: ampharos
+    display: Ampharos
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 181
+        name:
+          id: ampharos
+          display: Ampharos
+      hit_points: 120
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: flaaffy
+          display: Flaaffy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: acceleration-bolt
+            display: Acceleration Bolt
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: Search your deck for up to 2 basic Energy cards and attach them to 1 of your Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: thunder
+            display: Thunder
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip a coin. If tails, Ampharos does 20 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: cleffa
+    display: Cleffa
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Because of its unusual, star-like silhouette, people believe that it came here on a meteor.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 173
+        name:
+          id: cleffa
+          display: Cleffa
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sweet-sleeping-face
+            display: Sweet Sleeping Face
+          text: As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.
+      - var: Attack
+        val:
+          name:
+            id: eeeeeeek
+            display: Eeeeeeek
+          cost: []
+          text: Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep.
+      retreat_cost: 0
+- title:
+    id: feraligatr
+    display: Feraligatr
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 160
+        name:
+          id: feraligatr
+          display: Feraligatr
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: croconaw
+          display: Croconaw
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spinning-tail
+            display: Spinning Tail
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          text: This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: granbull
+    display: Granbull
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 210
+        name:
+          id: granbull
+          display: Granbull
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: snubbull
+          display: Snubbull
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: timid-tackle
+            display: Timid Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Granbull does 20 damage to itself. Switch Granbull with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: chomp
+            display: Chomp
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Does 40 damage plus 10 more damage for each damage counter on Granbull.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: meganium
+    display: Meganium
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 154
+        name:
+          id: meganium
+          display: Meganium
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: bayleef
+          display: Bayleef
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleep-powder
+            display: Sleep Powder
+          cost:
+          - Grass
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: giant-bloom
+            display: Giant Bloom
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Remove 2 damage counters from Meganium.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mismagius
+    display: Mismagius
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Its cries sound like incantations to torment the foe. It appears where you least expect it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 429
+        name:
+          id: mismagius
+          display: Mismagius
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: misdreavus
+          display: Misdreavus
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleeping-spell
+            display: Sleeping Spell
+          cost:
+          - Psychic
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: poltergeist
+            display: Poltergeist
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Look at your opponent’s hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mr-mime
+    display: Mr. Mime
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Its fingertips emit a peculiar force field that hardens air to create an actual wall.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 122
+        name:
+          id: mr-mime
+          display: Mr. Mime
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: trick-reveal
+            display: Trick Reveal
+          text: Once during your turn (before your attack), you may have both you and your opponent reveal your hands. This power can’t be used if Mr. Mime is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: juggling
+            display: Juggling
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidgeot
+    display: Pidgeot
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 18
+        name:
+          id: pidgeot
+          display: Pidgeot
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pidgeotto
+          display: Pidgeotto
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headwind
+            display: Headwind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, the attack cost of each of the Defending Pokémon’s attacks is {C}{C} more.
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 damage plus 30 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: skarmory
+    display: Skarmory
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 227
+        name:
+          id: skarmory
+          display: Skarmory
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: steel-coat
+            display: Steel Coat
+          cost:
+          - Metal
+          text: Search your deck for a {M} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: razor-wing
+            display: Razor Wing
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: slowking
+    display: Slowking
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: It has incredible intellect and intuition. Whatever the situation, it remains calm and collected.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 199
+        name:
+          id: slowking
+          display: Slowking
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: second-sight
+            display: Second Sight
+          text: Once during your turn (before your attack), you may look at the top 3 cards of either player’s deck and put them back on top of that player’s deck in any order. This power can’t be used if Slowking is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: psyshock
+            display: Psyshock
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: snorlax
+    display: Snorlax
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Its stomach’s digestive juices can dissolve any kind of poison. It can even eat things off the ground.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 143
+        name:
+          id: snorlax
+          display: Snorlax
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: layabout
+            display: Layabout
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Remove all damage counters from Snorlax. Snorlax can’t use Layabout during your next turn.
+      - var: Attack
+        val:
+          name:
+            id: clomp-clomp-clobber
+            display: Clomp Clomp Clobber
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Put 1 Energy card attached to Snorlax in the Lost Zone.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: tangrowth
+    display: Tangrowth
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Its vines grow so profusely that, in the warm season, you can’t even see its eyes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 465
+        name:
+          id: tangrowth
+          display: Tangrowth
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tangela
+          display: Tangela
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: grind
+            display: Grind
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the amount of Energy attached to Tangrowth.
+      - var: Attack
+        val:
+          name:
+            id: plow-over
+            display: Plow Over
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, put 1 Energy card attached to the Defending Pokémon in the Lost Zone.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: typhlosion
+    display: Typhlosion
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 157
+        name:
+          id: typhlosion
+          display: Typhlosion
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: quilava
+          display: Quilava
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magma-punch
+            display: Magma Punch
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: fire-spin
+            display: Fire Spin
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard 2 Energy attached to Typhlosion.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyrogue
+    display: Tyrogue
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Even though it is small, it can’t be ignored because it will slug any handy target without warning.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 236
+        name:
+          id: tyrogue
+          display: Tyrogue
+      hit_points: 30
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sweet-sleeping-face
+            display: Sweet Sleeping Face
+          text: As long as Tyrogue is Asleep, prevent all damage done to Tyrogue by attacks.
+      - var: Attack
+        val:
+          name:
+            id: mischievous-punch
+            display: Mischievous Punch
+          cost: []
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness or Resistance. Tyrogue is now Asleep.
+      retreat_cost: 0
+- title:
+    id: ursaring
+    display: Ursaring
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: With its ability to distinguish any aroma, it unfailing finds all food buried deep underground.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 217
+        name:
+          id: ursaring
+          display: Ursaring
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: teddiursa
+          display: Teddiursa
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confront
+            display: Confront
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: cross-chop
+            display: Cross Chop
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 50 damage plus 30 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: weezing
+    display: Weezing
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 110
+        name:
+          id: weezing
+          display: Weezing
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: koffing
+          display: Koffing
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-poison-breath
+            display: Super Poison Breath
+          cost:
+          - Psychic
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: super-explosion
+            display: Super Explosion
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: Weezing does 90 damage to itself, and don’t apply Weakness to this damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: zangoose
+    display: Zangoose
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2011-02-09
+    flavor: Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 335
+        name:
+          id: zangoose
+          display: Zangoose
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swords-dance
+            display: Swords Dance
+          cost:
+          - Colorless
+          text: During your next turn, Zangoose’s Lost Claw attack’s base damage is 60.
+      - var: Attack
+        val:
+          name:
+            id: lost-claw
+            display: Lost Claw
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Choose 1 card from your opponent’s hand without looking and put it in the Lost Zone.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bayleef
+    display: Bayleef
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 153
+        name:
+          id: bayleef
+          display: Bayleef
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: chikorita
+          display: Chikorita
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hammer-in
+            display: Hammer In
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: croconaw
+    display: Croconaw
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 159
+        name:
+          id: croconaw
+          display: Croconaw
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: totodile
+          display: Totodile
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: big-bite
+            display: Big Bite
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: donphan
+    display: Donphan
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 232
+        name:
+          id: donphan
+          display: Donphan
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: phanpy
+          display: Phanpy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-hurl
+            display: Rock Hurl
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: double-spin
+            display: Double Spin
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Times
+          text: Flip 2 coins. This attack does 70 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: flaaffy
+    display: Flaaffy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: As a result of storing too much electricity, it developed patches where even downy wool won’t grow.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 180
+        name:
+          id: flaaffy
+          display: Flaaffy
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mareep
+          display: Mareep
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-spear
+            display: Thunder Spear
+          cost:
+          - Lightning
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: flareon
+    display: Flareon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: It stores some of the air it inhales in its internal flame pouch, which heats it to over 3,000 degrees Fahrenheit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 136
+        name:
+          id: flareon
+          display: Flareon
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-tail
+            display: Flame Tail
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard an Energy attached to Flareon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: jolteon
+    display: Jolteon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 135
+        name:
+          id: jolteon
+          display: Jolteon
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: mach-bolt
+            display: Mach Bolt
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: magby
+    display: Magby
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don’t underestimate it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 240
+        name:
+          id: magby
+          display: Magby
+      hit_points: 30
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sweet-sleeping-face
+            display: Sweet Sleeping Face
+          text: As long as Magby is Asleep, prevent all damage done to Magby by attacks.
+      - var: Attack
+        val:
+          name:
+            id: play-with-fire
+            display: Play with Fire
+          cost: []
+          text: The Defending Pokémon is now Burned. Magby is now Asleep.
+      retreat_cost: 0
+- title:
+    id: mime-jr
+    display: Mime Jr.
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 439
+        name:
+          id: mime-jr
+          display: Mime Jr.
+      hit_points: 30
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sweet-sleeping-face
+            display: Sweet Sleeping Face
+          text: As long as Mime Jr. is Asleep, prevent all damage done to Mime Jr. by attacks.
+      - var: Attack
+        val:
+          name:
+            id: sleepy-lost
+            display: Sleepy Lost
+          cost: []
+          text: Put the top card of your opponent’s deck in the Lost Zone. Mime Jr. is now Asleep.
+      retreat_cost: 0
+- title:
+    id: pidgeotto
+    display: Pidgeotto
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 17
+        name:
+          id: pidgeotto
+          display: Pidgeotto
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pidgey
+          display: Pidgey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: twister
+            display: Twister
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip 2 coins. If both of them are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: quilava
+    display: Quilava
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 156
+        name:
+          id: quilava
+          display: Quilava
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cyndaquil
+          display: Cyndaquil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Discard an Energy attached to Quilava.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: riolu
+    display: Riolu
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: takashi-yamaguchi
+      display: Takashi Yamaguchi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: They communicate with one another using their auras. They are able to run all through the night.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 447
+        name:
+          id: riolu
+          display: Riolu
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tumble-over
+            display: Tumble Over
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: Riolu can’t attack during your next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: seviper
+    display: Seviper
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 336
+        name:
+          id: seviper
+          display: Seviper
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-buildup
+            display: Poison Buildup
+          cost:
+          - Colorless
+          text: Seviper is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: poison-effect
+            display: Poison Effect
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: vaporeon
+    display: Vaporeon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+    flavor: When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 134
+        name:
+          id: vaporeon
+          display: Vaporeon
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spiral-drain
+            display: Spiral Drain
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Remove 2 damage counters from Vaporeon.
+      - var: Attack
+        val:
+          name:
+            id: dual-splash
+            display: Dual Splash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          text: Choose 2 of your opponent’s Pokémon. This attack does 30 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: chikorita
+    display: Chikorita
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 152
+        name:
+          id: chikorita
+          display: Chikorita
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nap
+            display: Nap
+          cost:
+          - Colorless
+          text: Remove 1 damage counter from Chikorita.
+      - var: Attack
+        val:
+          name:
+            id: reckless-charge
+            display: Reckless Charge
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Chikorita does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: clefairy
+    display: Clefairy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 35
+        name:
+          id: clefairy
+          display: Clefairy
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: minimize
+            display: Minimize
+          cost:
+          - Colorless
+          text: During your opponent’s next turn ,any damage done to Clefairy by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: slap
+            display: Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cyndaquil
+    display: Cyndaquil
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 155
+        name:
+          id: cyndaquil
+          display: Cyndaquil
+      hit_points: 40
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fireworks
+            display: Fireworks
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, discard a {R} Energy attached to Cyndaquil.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It has the ability to alter the composition of its body to suit its surrounding environment.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmonchan
+    display: Hitmonchan
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: Its punches slice the air. However, it seems to need a short break after fighting for three minutes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 107
+        name:
+          id: hitmonchan
+          display: Hitmonchan
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: detect
+            display: Detect
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: sky-uppercut
+            display: Sky Uppercut
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hitmonlee
+    display: Hitmonlee
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 106
+        name:
+          id: hitmonlee
+          display: Hitmonlee
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: kick
+            display: Kick
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: high-jump-kick
+            display: High Jump Kick
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: To corner prey, they check each other’s location using barks that only they can understand.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: jump-on
+            display: Jump On
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: koffing
+    display: Koffing
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 109
+        name:
+          id: koffing
+          display: Koffing
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smokescreen
+            display: Smokescreen
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: suffocating-gas
+            display: Suffocating Gas
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: magikarp
+    display: Magikarp
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splash
+            display: Splash
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magmar
+    display: Magmar
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 126
+        name:
+          id: magmar
+          display: Magmar
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: live-coal
+            display: Live Coal
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: magma-punch
+            display: Magma Punch
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mareep
+    display: Mareep
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 179
+        name:
+          id: mareep
+          display: Mareep
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: static-shock
+            display: Static Shock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mawile
+    display: Mawile
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 303
+        name:
+          id: mawile
+          display: Mawile
+      hit_points: 60
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: selfish-draw
+            display: Selfish Draw
+          cost:
+          - Colorless
+          text: Look at the top card of your deck. You may put it into your hand. If not, discard it and draw a card.
+      - var: Attack
+        val:
+          name:
+            id: destructive-jaw
+            display: Destructive Jaw
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: misdreavus
+    display: Misdreavus
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 200
+        name:
+          id: misdreavus
+          display: Misdreavus
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mumble
+            display: Mumble
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: dual-draw
+            display: Dual Draw
+          cost:
+          - Psychic
+          text: Each player draws 3 cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: phanpy
+    display: Phanpy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 231
+        name:
+          id: phanpy
+          display: Phanpy
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: ultra-thick-skin
+            display: Ultra-Thick Skin
+          text: As long as Phanpy has Energy attached to it, any damage done to Phanpy by attacks is reduced by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: rock-smash
+            display: Rock Smash
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pidgey
+    display: Pidgey
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 16
+        name:
+          id: pidgey
+          display: Pidgey
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: messenger
+            display: Messenger
+          cost:
+          - Colorless
+          text: Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle Pidgey and all cards attached to it back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: glide
+            display: Glide
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pineco
+    display: Pineco
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 204
+        name:
+          id: pineco
+          display: Pineco
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: focus-energy
+            display: Focus Energy
+          cost:
+          - Colorless
+          text: During your next turn, Pineco’s Surprise Attack attack’s base damage is 80.
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: relicanth
+    display: Relicanth
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: Discovered by chance during deep-sea explorations, it has not changed since ancient times.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 369
+        name:
+          id: relicanth
+          display: Relicanth
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: prehistoric-wisdom
+            display: Prehistoric Wisdom
+          cost:
+          - Colorless
+          text: Choose a card from your hand and put it in the Lost Zone. Then, draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: granite-head
+            display: Granite Head
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, any damage done to Relicanth by attacks is reduced by 30 (after applying Weakness and Resistance).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: whismy-tackle
+            display: Whismy Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: snubbull
+    display: Snubbull
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 209
+        name:
+          id: snubbull
+          display: Snubbull
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: roar
+            display: Roar
+          cost:
+          - Colorless
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sharp-fang
+            display: Sharp Fang
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: tangela
+    display: Tangela
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: nutritional-support
+            display: Nutritional Support
+          cost:
+          - Grass
+          text: Search your deck for a {G} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: poisonpowder
+            display: Poisonpowder
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: teddiursa
+    display: Teddiursa
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 216
+        name:
+          id: teddiursa
+          display: Teddiursa
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fake-tears
+            display: Fake Tears
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent can’t play any Trainer cards from his or her hand during your opponent’s next turn, and any damage done to Teddiursa by attack is reduced by 30 (after applying weakness and resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: totodile
+    display: Totodile
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 158
+        name:
+          id: totodile
+          display: Totodile
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-tail
+            display: Aqua Tail
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin for each {W} Energy attached to Totodile. This attack does 30 damage plus 20 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: vulpix
+    display: Vulpix
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+    flavor: If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 37
+        name:
+          id: vulpix
+          display: Vulpix
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, discard a {R} Energy attached to Vulpix.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: cheerleaders-cheer
+    display: Cheerleader's Cheer
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Draw 3 cards. Your opponent may draw a card.
+      sub: Supporter
+- title:
+    id: copycat
+    display: Copycat
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand.
+      sub: Supporter
+- title:
+    id: dual-ball
+    display: Dual Ball
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: takashi-yamaguchi
+      display: Takashi Yamaguchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Flip 2 coins. For each heads, search your deck for a Basic Pokémon, show it to your opponent, and put it into your hand. If you do, shuffle your deck afterward.
+      sub: Item
+- title:
+    id: interviewers-questions
+    display: Interviewer's Questions
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 8 cards of your deck. Choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Shuffle the other cards back into your deck.
+      sub: Supporter
+- title:
+    id: lost-remover
+    display: Lost Remover
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: wataru-kawahara
+      display: Wataru Kawahara
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Put 1 Special Energy card attached to 1 of your opponent’s Pokémon in the Lost Zone.
+      sub: Item
+- title:
+    id: lost-world
+    display: Lost World
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Once during each player’s turn, if that player’s opponent has 6 or more Pokémon in the Lost Zone, the player may choose to win the game.
+      sub: Stadium
+- title:
+    id: professor-elms-training-method
+    display: Professor Elm's Training Method
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: professor-oaks-new-theory
+    display: Professor Oak's New Theory
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle your hand into your deck. Then, draw 6 cards.
+      sub: Supporter
+- title:
+    id: research-record
+    display: Research Record
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 4 cards of your deck and put as many of them as you like back on top of your deck in any order. Then, put the remaining cards on the bottom of your deck in any order.
+      sub: Item
+- title:
+    id: sages-training
+    display: Sage's Training
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Trainer
+    val:
+      text: Look at the top 5 cards of your deck. Choose any 2 cards you find there and put them into your hand. Discard the other cards.
+      sub: Supporter
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance). Ignore this Effect if the Pokémon that Darkness Energy is attached to isn’t {D}. Darkness Energy provides {D} Energy. (Doesn’t count as a basic Energy card.)
+- title:
+    id: metal-energy
+    display: Metal Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Damage done by attacks to the Pokémon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pokémon that Metal Energy is attached to isn’t {M}. Metal Energy provides {M} Energy. (Doesn’t count as a basic Energy card.)
+- title:
+    id: grass-energy
+    display: Grass Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Grass
+- title:
+    id: fire-energy
+    display: Fire Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fire
+- title:
+    id: water-energy
+    display: Water Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Water
+- title:
+    id: lightning-energy
+    display: Lightning Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Lightning
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: fighting-energy
+    display: Fighting Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Fighting
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Darkness
+- title:
+    id: metal-energy
+    display: Metal Energy
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '95'
+  meta:
+    rarity:
+      id: common
+      display: Common
+    release_date: 2011-02-09
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Metal
+- title:
+    id: deoxys
+    display: Deoxys
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl1
+      display: SL1
+    printed_total: '95'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 386
+        name:
+          id: deoxys
+          display: Deoxys
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cell-storm
+            display: Cell Storm
+          cost:
+          - Psychic
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 60
+          text: Discard 2 {P} Energy attached to Deoxys and remove 6 damage counters from Deoxys.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dialga
+    display: Dialga
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl2
+      display: SL2
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 483
+        name:
+          id: dialga
+          display: Dialga
+      hit_points: 100
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: time-rewind
+            display: Time Rewind
+          cost:
+          - Metal
+          - Metal
+          - Metal
+          - Metal
+          damage:
+            scalar: 70
+          text: Shuffle your hand into your deck.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: entei
+    display: Entei
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl3
+      display: SL3
+    printed_total: '95'
+  meta:
+    artists:
+    - id: yuri-umemura
+      display: Yuri Umemura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: A Pokémon that races across the land. It is said that one is born every time a new volcano appears.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 244
+        name:
+          id: entei
+          display: Entei
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: extreme-speed
+            display: Extreme Speed
+          text: Entei’s Retreat Cost is {C} Energy less for each {R} Energy attached to Entei.
+      - var: Attack
+        val:
+          name:
+            id: wild-blaze
+            display: Wild Blaze
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard the top 3 cards of your deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: groudon
+    display: Groudon
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl4
+      display: SL4
+    printed_total: '95'
+  meta:
+    artists:
+    - id: yuri-umemura
+      display: Yuri Umemura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: volcano-stomp
+            display: Volcano Stomp
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 80
+          text: Flip a coin. If heads, discard the top 4 cards of your opponent’s deck. If tails, discard the top 4 cards of your deck.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: ho-oh
+    display: Ho-Oh
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl5
+      display: SL5
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Legends claim this Pokémon flies the world’s skies continuously on its magnificent seven-colored wings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 250
+        name:
+          id: ho-oh
+          display: Ho-Oh
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: scorching-wing
+            display: Scorching Wing
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Flip a coin. If tails, discard all {R} Energy attached to Ho-Oh.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: kyogre
+    display: Kyogre
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl6
+      display: SL6
+    printed_total: '95'
+  meta:
+    artists:
+    - id: yuri-umemura
+      display: Yuri Umemura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: destructive-tsunami
+            display: Destructive Tsunami
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          text: Flip a coin. If heads, this attack does 40 damage to each of your opponent’s Pokémon. If tails, this attack does 40 damage to each of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: lugia
+    display: Lugia
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl7
+      display: SL7
+    printed_total: '95'
+  meta:
+    artists:
+    - id: hideaki-hakozaki
+      display: Hideaki Hakozaki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 249
+        name:
+          id: lugia
+          display: Lugia
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: hydro-splash
+            display: Hydro Splash
+          cost:
+          - Water
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: palkia
+    display: Palkia
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl8
+      display: SL8
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 484
+        name:
+          id: palkia
+          display: Palkia
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wormhole
+            display: Wormhole
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 60
+          text: Switch Palkia with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: raikou
+    display: Raikou
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl9
+      display: SL9
+    printed_total: '95'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: A Pokémon that races across the land while barking a cry that sounds like crashing thunder.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 243
+        name:
+          id: raikou
+          display: Raikou
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: extreme-speed
+            display: Extreme Speed
+          text: Raikou’s Retreat Cost is {C} less for each {L} Energy attached to Raikou.
+      - var: Attack
+        val:
+          name:
+            id: raging-thunder
+            display: Raging Thunder
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+          text: Does 20 damage to 1 of your Pokémon and don’t apply Weakness and Resistance to this damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: rayquaza
+    display: Rayquaza
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl10
+      display: SL10
+    printed_total: '95'
+  meta:
+    artists:
+    - id: noriko-hotta
+      display: Noriko Hotta
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: inferno-spear
+            display: Inferno Spear
+          cost:
+          - Fire
+          - Fire
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 100
+          text: Discard a {R} Energy and a {L} Energy attached to Rayquaza.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: suicune
+    display: Suicune
+  set:
+    name:
+      id: call-of-legends
+      display: Call of Legends
+    series:
+      id: heartgold-soulsilver
+      display: HeartGold & SoulSilver
+    context: English
+    live_code:
+      id: cl
+      display: CL
+  number:
+    number:
+      id: sl11
+      display: SL11
+    printed_total: '95'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2011-02-09
+    flavor: This Pokémon races across the land. It is said that north winds will somehow blow whenever it appears.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 245
+        name:
+          id: suicune
+          display: Suicune
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: extreme-speed
+            display: Extreme Speed
+          text: Suicune’s Retreat Cost is {C} less for each {W} Energy attached to Suicune.
+      - var: Attack
+        val:
+          name:
+            id: tsunami
+            display: Tsunami
+          cost:
+          - Water
+          - Water
+          - Colorless
+          text: This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times

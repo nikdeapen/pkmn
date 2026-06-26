@@ -1,0 +1,8216 @@
+- title:
+    id: weedle
+    display: Weedle
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It eats its weight in leaves every day. It fends off attackers with the needle on its head.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 13
+        name:
+          id: weedle
+          display: Weedle
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: triple-stab
+            display: Triple Stab
+          cost:
+          - Grass
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: kakuna
+    display: Kakuna
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: While awaiting evolution, it hides from predators under leaves and in nooks of branches.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 14
+        name:
+          id: kakuna
+          display: Kakuna
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: weedle
+          display: Weedle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hide
+            display: Hide
+          cost:
+          - Grass
+          text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: beedrill
+    display: Beedrill
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: Its best attack involves flying around at high speed, striking with poison needles, then flying off.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 120
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kakuna
+          display: Kakuna
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swift-sting
+            display: Swift Sting
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon has full HP, this attack does 40 more damage, and the Defending Pokémon is now Confused and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: pierce
+            display: Pierce
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: exeggcute
+    display: Exeggcute
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Its six eggs converse using telepathy. They can quickly gather if they become separated.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 102
+        name:
+          id: exeggcute
+          display: Exeggcute
+      hit_points: 30
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: propagation
+            display: Propagation
+          text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon into your hand.
+      - var: Attack
+        val:
+          name:
+            id: seed-bomb
+            display: Seed Bomb
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: exeggutor
+    display: Exeggutor
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It is called “The Walking Jungle.” If a head grows too big, it falls off and becomes an Exeggcute.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 103
+        name:
+          id: exeggutor
+          display: Exeggutor
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: exeggcute
+          display: Exeggcute
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: blockade
+            display: Blockade
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Your opponent can’t play any Supporter cards from his or her hand during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: reckless-charge
+            display: Reckless Charge
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: grovyle
+    display: Grovyle
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 253
+        name:
+          id: grovyle
+          display: Grovyle
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: treecko
+          display: Treecko
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: cut
+            display: Cut
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sceptile
+    display: Sceptile
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 254
+        name:
+          id: sceptile
+          display: Sceptile
+      hit_points: 130
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: grovyle
+          display: Grovyle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: x-scissor
+            display: X-Scissor
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 40 more damage.
+      - var: Attack
+        val:
+          name:
+            id: energy-bloom
+            display: Energy Bloom
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 80
+          text: Heal 20 damage from each of your Pokémon that has any Energy attached to it.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: cacnea
+    display: Cacnea
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: By storing water in its body, this desert dweller can survive for 30 days without water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 331
+        name:
+          id: cacnea
+          display: Cacnea
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Grass
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: cacturne
+    display: Cacturne
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It becomes active at night, seeking prey that is exhausted from the day’s desert heat.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 332
+        name:
+          id: cacturne
+          display: Cacturne
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cacnea
+          display: Cacnea
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rapid-fire-needles
+            display: Rapid-Fire Needles
+          cost:
+          - Grass
+          damage:
+            scalar: 60
+          text: Does 30 damage to 1 of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: payback
+            display: Payback
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If your opponent has only 1 Prize card left, this attack does 60 more damage and discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: leafeon
+    display: Leafeon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: With cells similar to those of plants, it performs photosynthesis inside its body and creates pure air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 470
+        name:
+          id: leafeon
+          display: Leafeon
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-crush
+            display: Energy Crush
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the amount of Energy attached to all of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: leaf-blade
+            display: Leaf Blade
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus
+- title:
+    id: flareon
+    display: Flareon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees F.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 136
+        name:
+          id: flareon
+          display: Flareon
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vengeance
+            display: Vengeance
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more damage for each Pokémon in your discard pile.
+      - var: Attack
+        val:
+          name:
+            id: heat-tackle
+            display: Heat Tackle
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: This Pokémon does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: heatran-ex
+    display: Heatran-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 485
+        name:
+          id: heatran
+          display: Heatran
+      hit_points: 180
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: heat-boiler
+            display: Heat Boiler
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If this Pokémon is affected by a Special Condition, this attack does 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dynamite-press
+            display: Dynamite Press
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If this Pokémon has any Plasma Energy attached to it, this attack does 10 more damage for each damage counter on the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: litwick
+    display: Litwick
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 607
+        name:
+          id: litwick
+          display: Litwick
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: live-coal
+            display: Live Coal
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: lampent
+    display: Lampent
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 608
+        name:
+          id: lampent
+          display: Lampent
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: litwick
+          display: Litwick
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: live-coal
+            display: Live Coal
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: searing-flame
+            display: Searing Flame
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: chandelure
+    display: Chandelure
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: The spirits burned up in its ominous flame lose their way and wander this world forever.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 609
+        name:
+          id: chandelure
+          display: Chandelure
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: lampent
+          display: Lampent
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: flare-navigate
+            display: Flare Navigate
+          text: Once during your turn (before your attack), you may search your deck for a {R} Energy card and attach it to 1 of your Pokémon. If you do, put 1 damage counter on that Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: absorb-life
+            display: Absorb Life
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 70
+          text: Heal 30 damage from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: reshiram
+    display: Reshiram
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: purifying-flame
+            display: Purifying Flame
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Remove all Special Conditions from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fusion-flare
+            display: Fusion Flare
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If Zekrom is on your Bench, this attack does 40 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: horsea
+    display: Horsea
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 116
+        name:
+          id: horsea
+          display: Horsea
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fin-smack
+            display: Fin Smack
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: seadra
+    display: Seadra
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Its spines provide protection. Its fins and bones are prized as traditional-medicine ingredients.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 117
+        name:
+          id: seadra
+          display: Seadra
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: horsea
+          display: Horsea
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smokescreen
+            display: Smokescreen
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: vaporeon
+    display: Vaporeon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Its cell composition is similar to water molecules. As a result, it can’t be seen when it melts away into water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 134
+        name:
+          id: vaporeon
+          display: Vaporeon
+      hit_points: 110
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: refreshing-rain
+            display: Refreshing Rain
+          cost:
+          - Colorless
+          text: Heal 30 damage from each of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: gold-breaker
+            display: Gold Breaker
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: wooper
+    display: Wooper
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 194
+        name:
+          id: wooper
+          display: Wooper
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: quagsire
+    display: Quagsire
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It has an easygoing nature. It doesn’t care if it bumps its head on boats and boulders while swimming.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 195
+        name:
+          id: quagsire
+          display: Quagsire
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wooper
+          display: Wooper
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: laid-back
+            display: Laid-Back
+          text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: mud-gun
+            display: Mud Gun
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If this Pokémon has any {F} Energy attached to it, this attack does 30 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: glaceon
+    display: Glaceon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 471
+        name:
+          id: glaceon
+          display: Glaceon
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: freeze-zone
+            display: Freeze Zone
+          text: The Retreat Cost of each of your Team Plasma Pokémon in play is {C}{C} less.
+      - var: Attack
+        val:
+          name:
+            id: icy-wind
+            display: Icy Wind
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: tympole
+    display: Tympole
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 535
+        name:
+          id: tympole
+          display: Tympole
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: palpitoad
+    display: Palpitoad
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 536
+        name:
+          id: palpitoad
+          display: Palpitoad
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tympole
+          display: Tympole
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vibration
+            display: Vibration
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: suspicious-soundwave
+            display: Suspicious Soundwave
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: seismitoad
+    display: Seismitoad
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: By putting power into its bumps, it creates vibrations and increases the power of its punches.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 537
+        name:
+          id: seismitoad
+          display: Seismitoad
+      hit_points: 140
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: palpitoad
+          display: Palpitoad
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: seismic-punch
+            display: Seismic Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Does 30 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: splashing-turn
+            display: Splashing Turn
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: vanillite
+    display: Vanillite
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 582
+        name:
+          id: vanillite
+          display: Vanillite
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: jump-on
+            display: Jump On
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: vanillish
+    display: Vanillish
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: They cool down the surrounding air and create ice particles, which they use to freeze their foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 583
+        name:
+          id: vanillish
+          display: Vanillish
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: vanillite
+          display: Vanillite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surefire-spin
+            display: Surefire Spin
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip 2 coins. If both of them are heads, this attack does 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: vanilluxe
+    display: Vanilluxe
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 584
+        name:
+          id: vanilluxe
+          display: Vanilluxe
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: vanillish
+          display: Vanillish
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: chillmax
+            display: ChillMAX
+          cost:
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: cold-breath
+            display: Cold Breath
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: cryogonal
+    display: Cryogonal
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148° F.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 615
+        name:
+          id: cryogonal
+          display: Cryogonal
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-sign
+            display: Call Sign
+          cost:
+          - Colorless
+          text: Search your deck for a {W} Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: cryofreeze
+            display: Cryofreeze
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Discard an Energy attached to this Pokémon. The Defending Pokémon can’t attack during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: kyurem
+    display: Kyurem
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 646
+        name:
+          id: kyurem
+          display: Kyurem
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: frost-spear
+            display: Frost Spear
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+          text: Does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: blizzard-burn
+            display: Blizzard Burn
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 120
+          text: This Pokémon can’t attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: voltorb
+    display: Voltorb
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 100
+        name:
+          id: voltorb
+          display: Voltorb
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: electrode
+    display: Electrode
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: hiron
+      display: HiRON
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: It is known to drift on winds if it is bloated to bursting with stored electricity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 101
+        name:
+          id: electrode
+          display: Electrode
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: voltorb
+          display: Voltorb
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: magnetic-draw
+            display: Magnetic Draw
+          text: Once during your turn (before your attack), you may draw cards until you have 4 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: electro-ball
+            display: Electro Ball
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: jolteon
+    display: Jolteon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: By storing electricity in its body, it can shoot its bristlelike fur like a barrage of missiles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 135
+        name:
+          id: jolteon
+          display: Jolteon
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pin-missile
+            display: Pin Missile
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 4 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: electri-diffuse
+            display: Electri-Diffuse
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 40
+          text: If the Defending Pokémon is a Pokémon-EX, that Pokémon can’t attack during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: chinchou
+    display: Chinchou
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It discharges positive and negative electricity from its antenna tips to shock its foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 170
+        name:
+          id: chinchou
+          display: Chinchou
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: static-shock
+            display: Static Shock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: lanturn
+    display: Lanturn
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Lanturn’s light can shine up from great depths. It is nicknamed “The Deep-Sea Star.”
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 171
+        name:
+          id: lanturn
+          display: Lanturn
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: chinchou
+          display: Chinchou
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: special-tackle
+            display: Special Tackle
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon has any Special Energy attached to it, this attack does 30 more damage.
+      - var: Attack
+        val:
+          name:
+            id: extreme-current
+            display: Extreme Current
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pachirisu
+    display: Pachirisu
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 417
+        name:
+          id: pachirisu
+          display: Pachirisu
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: minor-errand-running
+            display: Minor Errand-Running
+          cost:
+          - Colorless
+          text: Search your deck for 2 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: electric-tail
+            display: Electric Tail
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: thundurus-ex
+    display: Thundurus-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 642
+        name:
+          id: thundurus
+          display: Thundurus
+      hit_points: 170
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raiden-knuckle
+            display: Raiden Knuckle
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: thunderous-noise
+            display: Thunderous Noise
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mach-claw
+            display: Mach Claw
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Resistance.
+      - var: Attack
+        val:
+          name:
+            id: fusion-bolt
+            display: Fusion Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If Reshiram is on your Bench, this attack does 40 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoran-female
+    display: Nidoran Female
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: While it does not prefer to fight, even one drop of the poison it secretes from its barbs can be fatal.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 29
+        name:
+          id: nidoran-female
+          display: Nidoran♀
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidorina
+    display: Nidorina
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: When it senses danger, it raises all the barbs on its body. These barbs grow slower than Nidorino’s.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 30
+        name:
+          id: nidorina
+          display: Nidorina
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nidoran-female
+          display: Nidoran Female
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoqueen
+    display: Nidoqueen
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: Its entire body is armored with hard scales. It will protect the young in its burrow with its life.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 31
+        name:
+          id: nidoqueen
+          display: Nidoqueen
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: nidorina
+          display: Nidorina
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-horn
+            display: Poison Horn
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: double-stomp
+            display: Double Stomp
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip 2 coins. This attack does 30 more damage for each heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoran-male
+    display: Nidoran Male
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 32
+        name:
+          id: nidoran-male
+          display: Nidoran♂
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hit-back
+            display: Hit Back
+          cost:
+          - Psychic
+          damage:
+            scalar: 30
+          text: If this Pokémon has no damage counters on it, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidorino
+    display: Nidorino
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 33
+        name:
+          id: nidorino
+          display: Nidorino
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nidoran-male
+          display: Nidoran Male
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: horn-attack
+            display: Horn Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: grimer
+    display: Grimer
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 88
+        name:
+          id: grimer
+          display: Grimer
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lure-poison
+            display: Lure Poison
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: sludge-toss
+            display: Sludge Toss
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: muk
+    display: Muk
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It’s so stinky! Muk’s body contains toxic elements, and any plant will wilt when it passes by.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 89
+        name:
+          id: muk
+          display: Muk
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: grimer
+          display: Grimer
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-suction
+            display: Poison Suction
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: If the Defending Pokémon is Poisoned, heal 60 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sludge-crash
+            display: Sludge Crash
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip a coin until you get tails. For each heads, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mr-mime
+    display: Mr. Mime
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: hiroki-asanuma
+      display: Hiroki Asanuma
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 122
+        name:
+          id: mr-mime
+          display: Mr. Mime
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: bench-barrier
+            display: Bench Barrier
+          text: Prevent all damage done to your Benched Pokémon by attacks.
+      - var: Attack
+        val:
+          name:
+            id: psy-bolt
+            display: Psy Bolt
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: espeon
+    display: Espeon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Its fur is so sensitive, it can feel minute shifts in the air and predict the weather…and its foes’ thoughts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 196
+        name:
+          id: espeon
+          display: Espeon
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psy-alert
+            display: Psy Alert
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Draw cards until you have 6 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: shadow-ball
+            display: Shadow Ball
+          cost:
+          - Psychic
+          text: This attack does 40 damage to 1 of your opponent’s Pokémon. Also apply Weakness and Resistance for Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: sableye
+    display: Sableye
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 302
+        name:
+          id: sableye
+          display: Sableye
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: shadow-cage
+            display: Shadow Cage
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+- title:
+    id: beldum
+    display: Beldum
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Its cells are all magnetic, and it communicates with others by using magnetic pulses.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 374
+        name:
+          id: beldum
+          display: Beldum
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: calculate
+            display: Calculate
+          cost:
+          - Colorless
+          text: Look at the top 4 cards of your deck and put them back on top of your deck in any order.
+      - var: Attack
+        val:
+          name:
+            id: psypunch
+            display: Psypunch
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: metang
+    display: Metang
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 375
+        name:
+          id: metang
+          display: Metang
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: beldum
+          display: Beldum
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psy-bolt
+            display: Psy Bolt
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: psypunch
+            display: Psypunch
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: metagross
+    display: Metagross
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: With four linked brains, it’s more intelligent than a supercomputer, and it uses calculations to analyze foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 376
+        name:
+          id: metagross
+          display: Metagross
+      hit_points: 140
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: metang
+          display: Metang
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: plasma-search
+            display: Plasma Search
+          text: Once during your turn (before your attack), you may search your deck for a Team Plasma card, reveal it, and put it into your hand. Shuffle your deck afterward. You may not use an Ability with the same name during your turn.
+      - var: Attack
+        val:
+          name:
+            id: mind-bend
+            display: Mind Bend
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: The Defending Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: deoxys-ex
+    display: Deoxys-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 386
+        name:
+          id: deoxys
+          display: Deoxys
+      hit_points: 170
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: power-connect
+            display: Power Connect
+          text: Your Team Plasma Pokémon’s attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: helix-force
+            display: Helix Force
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon has any Plasma Energy attached to it, this attack does 30 more damage for each Energy attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: yamask
+    display: Yamask
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 562
+        name:
+          id: yamask
+          display: Yamask
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: transfer-pain
+            display: Transfer Pain
+          cost:
+          - Psychic
+          text: Move 1 damage counter from any of your Pokémon to any of your opponent’s Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+- title:
+    id: yamask
+    display: Yamask
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 562
+        name:
+          id: yamask
+          display: Yamask
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: will-o-wisp
+            display: Will-O-Wisp
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+- title:
+    id: cofagrigus
+    display: Cofagrigus
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 563
+        name:
+          id: cofagrigus
+          display: Cofagrigus
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: yamask
+          display: Yamask
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: six-feet-under
+            display: Six Feet Under
+          text: Once during your turn (before your attack) you may Knock Out this Pokémon. If you do, put 3 damage counters on your opponent’s Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: slap-of-misfortune
+            display: Slap of Misfortune
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 70
+          text: Whenever your opponent flips a coin during his or her next turn, treat it as tails.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+- title:
+    id: cofagrigus
+    display: Cofagrigus
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 563
+        name:
+          id: cofagrigus
+          display: Cofagrigus
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: yamask
+          display: Yamask
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: elongating-arms
+            display: Elongating Arms
+          cost:
+          - Colorless
+          text: This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: crazy-slap
+            display: Crazy Slap
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 4 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoking
+    display: Nidoking
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: One swing of its mighty tail can snap a telephone pole as if it were a matchstick.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 34
+        name:
+          id: nidoking
+          display: Nidoking
+      hit_points: 140
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: nidorino
+          display: Nidorino
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lovestrike
+            display: Lovestrike
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 40 more damage for each Nidoqueen on your Bench.
+      - var: Attack
+        val:
+          name:
+            id: horn-drill
+            display: Horn Drill
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mankey
+    display: Mankey
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 56
+        name:
+          id: mankey
+          display: Mankey
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: primeape
+    display: Primeape
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 57
+        name:
+          id: primeape
+          display: Primeape
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mankey
+          display: Mankey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: karate-chop
+            display: Karate Chop
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 80
+            modifier: Minus
+          text: Does 80 damage minus 10 damage for each damage counter on this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: onix
+    display: Onix
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Opening its large mouth, it ingests massive amounts of soil and creates long tunnels.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 95
+        name:
+          id: onix
+          display: Onix
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: swing-around
+            display: Swing Around
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip 2 coins. This attack does 60 damage times the number of heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: makuhita
+    display: Makuhita
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 296
+        name:
+          id: makuhita
+          display: Makuhita
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: continuous-slap
+            display: Continuous Slap
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: hammer-in
+            display: Hammer In
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hariyama
+    display: Hariyama
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 297
+        name:
+          id: hariyama
+          display: Hariyama
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: makuhita
+          display: Makuhita
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fake-out
+            display: Fake Out
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: pivot-throw
+            display: Pivot Throw
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 90
+          text: During your opponent’s next turn, any damage done to this Pokémon by attacks is increased by 20 (after applying Weakness and Resistance).
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: umbreon
+    display: Umbreon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: When exposed to the moon’s aura, the rings on its body glow faintly and it’s filled with a mysterious power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 197
+        name:
+          id: umbreon
+          display: Umbreon
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: eevee
+          display: Eevee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: dark-shade
+            display: Dark Shade
+          text: Each of your Team Plasma Pokémon in play gets +20 HP.
+      - var: Attack
+        val:
+          name:
+            id: darkness-fang
+            display: Darkness Fang
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sneasel
+    display: Sneasel
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 215
+        name:
+          id: sneasel
+          display: Sneasel
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: weavile
+    display: Weavile
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: They communicate by clawing signs in boulders and work together to surround enemies.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 461
+        name:
+          id: weavile
+          display: Weavile
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sneasel
+          display: Sneasel
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hail
+            display: Hail
+          cost:
+          - Colorless
+          text: This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: vilify
+            display: Vilify
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Discard as many Pokémon as you like from your hand. This attack does 30 damage times the number of Pokémon you discarded.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: absol
+    display: Absol
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: It appears from deep in the mountains to warn people about upcoming disasters it has sensed with its horn.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 359
+        name:
+          id: absol
+          display: Absol
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mind-jack
+            display: Mind Jack
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 more damage for each of your opponent’s Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fearsome-shadow
+            display: Fearsome Shadow
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Your opponent reveals his or her hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: sandile
+    display: Sandile
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: They live hidden under hot desert sands in order to keep their body temperature from dropping.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 551
+        name:
+          id: sandile
+          display: Sandile
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gentle-slap
+            display: Gentle Slap
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: krokorok
+    display: Krokorok
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 552
+        name:
+          id: krokorok
+          display: Krokorok
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sandile
+          display: Sandile
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Darkness
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-punch
+            display: Corkscrew Punch
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: krookodile
+    display: Krookodile
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 553
+        name:
+          id: krookodile
+          display: Krookodile
+      hit_points: 140
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: krokorok
+          display: Krokorok
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: piston-headbutt
+            display: Piston Headbutt
+          cost:
+          - Darkness
+          damage:
+            scalar: 30
+          text: Move an Energy attached to the Defending Pokémon to 1 of your opponent’s Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hammer-in
+            display: Hammer In
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pawniard
+    display: Pawniard
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 624
+        name:
+          id: pawniard
+          display: Pawniard
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pawniard
+    display: Pawniard
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 624
+        name:
+          id: pawniard
+          display: Pawniard
+      hit_points: 50
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cut
+            display: Cut
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bisharp
+    display: Bisharp
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 625
+        name:
+          id: bisharp
+          display: Bisharp
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pawniard
+          display: Pawniard
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          damage:
+            scalar: 40
+      - var: Attack
+        val:
+          name:
+            id: dragon-slayer
+            display: Dragon Slayer
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If the Defending Pokémon is a {N} Pokémon, this attack does 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: bisharp
+    display: Bisharp
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 625
+        name:
+          id: bisharp
+          display: Bisharp
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pawniard
+          display: Pawniard
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cut-down
+            display: Cut Down
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slicing-blade
+            display: Slicing Blade
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: deino
+    display: Deino
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Lacking sight, it’s unaware of its surroundings, so it bumps into things and eats anything that moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 633
+        name:
+          id: deino
+          display: Deino
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: push-down
+            display: Push Down
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: deino
+    display: Deino
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Lacking sight, it’s unaware of its surroundings, so it bumps into things and eats anything that moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 633
+        name:
+          id: deino
+          display: Deino
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: zweilous
+    display: Zweilous
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: The two heads do not get along. Whichever head eats more than the other gets to be the leader.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 634
+        name:
+          id: zweilous
+          display: Zweilous
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: deino
+          display: Deino
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: hydreigon
+    display: Hydreigon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: It responds to movement by attacking. This scary, three-headed Pokémon devours everything in its path!
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 635
+        name:
+          id: hydreigon
+          display: Hydreigon
+      hit_points: 150
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: zweilous
+          display: Zweilous
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tractorbeam
+            display: Tractorbeam
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with the Defending Pokémon. This attack does 40 damage to the new Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: obsidian-fang
+            display: Obsidian Fang
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Before doing damage, discard all Pokémon Tool cards attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: steelix
+    display: Steelix
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 150
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: onix
+          display: Onix
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: metal-defender
+            display: Metal Defender
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, this Pokémon has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mawile
+    display: Mawile
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 303
+        name:
+          id: mawile
+          display: Mawile
+      hit_points: 70
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: astonish
+            display: Astonish
+          cost:
+          - Metal
+          text: Flip a coin. If heads, choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: big-ol-bite
+            display: Big Ol' Bite
+          cost:
+          - Metal
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Heal 30 damage from this Pokémon. The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It is called the “Mirage Pokémon” because so few have seen it. Its shed skin has been found.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 50
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shed-skin
+            display: Shed Skin
+          cost:
+          - Grass
+          text: Heal 20 damage from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: tail-smack
+            display: Tail Smack
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 70
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wrap
+            display: Wrap
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: tail-smack
+            display: Tail Smack
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite
+    display: Dragonite
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: akira-komayama
+      display: Akira Komayama
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 150
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: deafen
+            display: Deafen
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Your opponent can’t play any Item cards from his or her hand during his or her next turn.
+      - var: Attack
+        val:
+          name:
+            id: healwing
+            display: Healwing
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: Heal 30 damage from this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: kingdra
+    display: Kingdra
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+    flavor: It lives in caves on the seafloor and creates giant whirlpools every time it moves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 230
+        name:
+          id: kingdra
+          display: Kingdra
+      hit_points: 140
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: seadra
+          display: Seadra
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-vortex
+            display: Dragon Vortex
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the number of {W} Energy cards and {L} Energy cards in your discard pile. Then, shuffle all of those cards back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: tri-bullet
+            display: Tri Bullet
+          cost:
+          - Water
+          text: This attack does 30 damage to 3 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: latias-ex
+    display: Latias-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 160
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: bright-down
+            display: Bright Down
+          text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon with Abilities.
+      - var: Attack
+        val:
+          name:
+            id: barrier-break
+            display: Barrier Break
+          cost:
+          - Fire
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: latios-ex
+    display: Latios-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 170
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mach-flight
+            display: Mach Flight
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: luster-purge
+            display: Luster Purge
+          cost:
+          - Water
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 150
+          text: Discard all Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: rattata
+    display: Rattata
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: raticate
+    display: Raticate
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rattata
+          display: Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: transfer-junk
+            display: Transfer Junk
+          cost:
+          - Colorless
+          text: Put a Team Plasma Pokémon, a Team Plasma Trainer card, and a Team Plasma Energy card from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growl
+            display: Growl
+          cost:
+          - Colorless
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: eevee
+    display: Eevee
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 133
+        name:
+          id: eevee
+          display: Eevee
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: signs-of-evolution
+            display: Signs of Evolution
+          cost:
+          - Colorless
+          text: Search your deck for 3 Pokémon of different types that evolve from Eevee. Reveal them and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: hoothoot
+    display: Hoothoot
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: match
+      display: match
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: It marks time precisely. Some countries consider it to be a wise friend, versed in the world’s ways.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 163
+        name:
+          id: hoothoot
+          display: Hoothoot
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dual-draw
+            display: Dual Draw
+          cost:
+          - Colorless
+          text: Each player draws 2 cards.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: noctowl
+    display: Noctowl
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 164
+        name:
+          id: noctowl
+          display: Noctowl
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: hoothoot
+          display: Hoothoot
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: powerful-vision
+            display: Powerful Vision
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of cards in your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: fly
+            display: Fly
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: miltank
+    display: Miltank
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: It is said that kids who drink Miltank’s milk grow up to become hearty, healthy adults.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 241
+        name:
+          id: miltank
+          display: Miltank
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: max-milk
+            display: Max Milk
+          cost:
+          - Colorless
+          - Colorless
+          text: Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: kecleon
+    display: Kecleon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 352
+        name:
+          id: kecleon
+          display: Kecleon
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: color-change
+            display: Color Change
+          text: As long as this Pokémon is your Active Pokémon, this Pokémon is the same type as the your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: imittack
+            display: Imittack
+          cost:
+          - Colorless
+          text: Choose 1 of the Defending Pokémon’s attacks. If this Pokémon has the necessary Energy to use that attack, use it as this attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: starly
+    display: Starly
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2013-05-08
+    flavor: Because they are weak individually, they form groups. However, they bicker if the group grows too big.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 396
+        name:
+          id: starly
+          display: Starly
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: staravia
+    display: Staravia
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+    flavor: Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 397
+        name:
+          id: staravia
+          display: Staravia
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: starly
+          display: Starly
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: take-down
+            display: Take Down
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: staraptor
+    display: Staraptor
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2013-05-08
+    flavor: It never stops attacking even if it is injured. It fusses over the shape of its comb.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 398
+        name:
+          id: staraptor
+          display: Staraptor
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: staravia
+          display: Staravia
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      - var: Attack
+        val:
+          name:
+            id: strong-breeze
+            display: Strong Breeze
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tornadus-ex
+    display: Tornadus-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo EX
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 641
+        name:
+          id: tornadus
+          display: Tornadus
+      hit_points: 180
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: windfall
+            display: Windfall
+          cost:
+          - Colorless
+          text: Shuffle your hand into your deck. Then, draw 6 cards.
+      - var: Attack
+        val:
+          name:
+            id: jet-blast
+            display: Jet Blast
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 30 more damage for each Plasma Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: float-stone
+    display: Float Stone
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: The Pokémon this card is attached to has no Retreat Cost.
+      sub: PokemonTool
+- title:
+    id: frozen-city
+    display: Frozen City
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Whenever any player attaches an Energy from his or her hand to 1 of his or her Pokémon (excluding Team Plasma Pokémon) put 2 damage counters on that Pokémon.
+      sub: Stadium
+- title:
+    id: ghetsis
+    display: Ghetsis
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Your opponent reveals his or her hand and shuffles all Item cards found there into his or her deck. Then, draw a number of cards equal to the number of Item cards your opponent shuffled into his or her deck.
+      sub: Supporter
+- title:
+    id: shadow-triad
+    display: Shadow Triad
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Put a Team Plasma card from your discard pile into your hand.
+      sub: Supporter
+- title:
+    id: superior-energy-retrieval
+    display: Superior Energy Retrieval
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Discard 2 cards from your hand. (If you can’t discard 2 cards, you can’t play this card.) Put 4 basic Energy cards from your discard pile into your hand. (You can’t choose a card you discarded with the effect of this card.)
+      sub: Item
+- title:
+    id: team-plasma-badge
+    display: Team Plasma Badge
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: The Pokémon this card is attached to is a Team Plasma Pokémon.
+      sub: PokemonTool
+- title:
+    id: team-plasma-ball
+    display: Team Plasma Ball
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Team Plasma Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: plasma-energy
+    display: Plasma Energy
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2013-05-08
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: This card provides {C} Energy.
+- title:
+    id: life-dew
+    display: Life Dew
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ace-spec-rare
+      display: ACE SPEC Rare
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: If the Pokémon this card is attached to is Knocked Out, your opponent takes 1 fewer Prize card.
+      sub: PokemonTool
+- title:
+    id: rock-guard
+    display: Rock Guard
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ace-spec-rare
+      display: ACE SPEC Rare
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: If the Pokémon this card is attached to is your Active Pokémon and is damaged by an opponent’s attack (even if that Pokémon is Knocked Out), put 6 damage counters on the Attacking Pokémon.
+      sub: PokemonTool
+- title:
+    id: heatran-ex
+    display: Heatran-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 485
+        name:
+          id: heatran
+          display: Heatran
+      hit_points: 180
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: heat-boiler
+            display: Heat Boiler
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If this Pokémon is affected by a Special Condition, this attack does 60 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dynamite-press
+            display: Dynamite Press
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If this Pokémon has any Plasma Energy attached to it, this attack does 10 more damage for each damage counter on the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: thundurus-ex
+    display: Thundurus-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 642
+        name:
+          id: thundurus
+          display: Thundurus
+      hit_points: 170
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: raiden-knuckle
+            display: Raiden Knuckle
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: thunderous-noise
+            display: Thunderous Noise
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: deoxys-ex
+    display: Deoxys-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 386
+        name:
+          id: deoxys
+          display: Deoxys
+      hit_points: 170
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: power-connect
+            display: Power Connect
+          text: Your Team Plasma Pokémon’s attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: helix-force
+            display: Helix Force
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If this Pokémon has any Plasma Energy attached to it, this attack does 30 more damage for each Energy attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: latias-ex
+    display: Latias-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 160
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: bright-down
+            display: Bright Down
+          text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon with Abilities.
+      - var: Attack
+        val:
+          name:
+            id: barrier-break
+            display: Barrier Break
+          cost:
+          - Fire
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: latios-ex
+    display: Latios-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 170
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mach-flight
+            display: Mach Flight
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: luster-purge
+            display: Luster Purge
+          cost:
+          - Water
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 150
+          text: Discard all Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: tornadus-ex
+    display: Tornadus-EX
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 641
+        name:
+          id: tornadus
+          display: Tornadus
+      hit_points: 180
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: windfall
+            display: Windfall
+          cost:
+          - Colorless
+          text: Shuffle your hand into your deck. Then, draw 6 cards.
+      - var: Attack
+        val:
+          name:
+            id: jet-blast
+            display: Jet Blast
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 30 more damage for each Plasma Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: ghetsis
+    display: Ghetsis
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '115'
+      display: '115'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Your opponent reveals his or her hand and shuffles all Item cards found there into his or her deck. Then, draw a number of cards equal to the number of Item cards your opponent shuffled into his or her deck.
+      sub: Supporter
+- title:
+    id: professor-juniper
+    display: Professor Juniper
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '116'
+      display: '116'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: kanako-eo
+      display: Kanako Eo
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: empoleon
+    display: Empoleon
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '117'
+      display: '117'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2013-05-08
+    flavor: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 395
+        name:
+          id: empoleon
+          display: Empoleon
+      hit_points: 140
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: prinplup
+          display: Prinplup
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: diving-draw
+            display: Diving Draw
+          text: Once during your turn (before your attack), you may discard a card from your hand. Then, draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: attack-command
+            display: Attack Command
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of Pokémon in play (both yours and your opponent’s).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: sigilyph
+    display: Sigilyph
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '118'
+      display: '118'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2013-05-08
+    flavor: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 561
+        name:
+          id: sigilyph
+          display: Sigilyph
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: safeguard
+            display: Safeguard
+          text: Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: psychic
+            display: Psychic
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Does 10 more damage for each Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: garbodor
+    display: Garbodor
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '119'
+      display: '119'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2013-05-08
+    flavor: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 569
+        name:
+          id: garbodor
+          display: Garbodor
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: trubbish
+          display: Trubbish
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: garbotoxin
+            display: Garbotoxin
+          text: If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).
+      - var: Attack
+        val:
+          name:
+            id: sludge-toss
+            display: Sludge Toss
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: garchomp
+    display: Garchomp
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '120'
+      display: '120'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2013-05-08
+    flavor: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 445
+        name:
+          id: garchomp
+          display: Garchomp
+      hit_points: 140
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: gabite
+          display: Gabite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mach-cut
+            display: Mach Cut
+          cost:
+          - Fighting
+          damage:
+            scalar: 60
+          text: Discard a Special Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: dragonblade
+            display: Dragonblade
+          cost:
+          - Water
+          - Fighting
+          damage:
+            scalar: 100
+          text: Discard the top 2 cards of your deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Dragon
+        scalar: 2
+        modifier: Times
+- title:
+    id: max-potion
+    display: Max Potion
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '121'
+      display: '121'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to that Pokémon.
+      sub: Item
+- title:
+    id: ultra-ball
+    display: Ultra Ball
+  set:
+    name:
+      id: plasma-freeze
+      display: Plasma Freeze
+    series:
+      id: black-white
+      display: Black & White
+    context: English
+    live_code:
+      id: plf
+      display: PLF
+  number:
+    number:
+      id: '122'
+      display: '122'
+    printed_total: '116'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2013-05-08
+  sub:
+    var: Trainer
+    val:
+      text: Discard 2 cards from your hand. (If you can’t discard 2 cards, you can’t play this card.) Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item

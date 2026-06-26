@@ -1,0 +1,7633 @@
+- title:
+    id: beedrill
+    display: Beedrill
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 15
+        name:
+          id: beedrill
+          display: Beedrill
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kakuna
+          display: Kakuna
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: link-needle
+            display: Link Needle
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one) you have in play.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: butterfree
+    display: Butterfree
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 12
+        name:
+          id: butterfree
+          display: Butterfree
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: metapod
+          display: Metapod
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sooth-dust
+            display: Sooth Dust
+          text: As long as Butterfree is your Active Pokémon, remove 1 damage counter from each of your Pokémon between turns.
+      - var: Attack
+        val:
+          name:
+            id: whirlwind
+            display: Whirlwind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dewgong
+    display: Dewgong
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: toshinao-aoki
+      display: Toshinao Aoki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 87
+        name:
+          id: dewgong
+          display: Dewgong
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: seel
+          display: Seel
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: safeguard
+            display: Safeguard
+          text: Prevent all effects of attacks, including damage, done to Dewgong by your opponent’s Pokémon-ex.
+      - var: Attack
+        val:
+          name:
+            id: cold-breath
+            display: Cold Breath
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: aurora-beam
+            display: Aurora Beam
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: ditto
+    display: Ditto
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 132
+        name:
+          id: ditto
+          display: Ditto
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: form-variation
+            display: Form Variation
+          text: Once during your turn (before your attack), you may search your discard pile for a Basic Pokémon (excluding Pokémon-ex and Ditto) and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Place Ditto in the discard pile.
+      - var: Attack
+        val:
+          name:
+            id: energy-ball
+            display: Energy Ball
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each Energy attached to Ditto but not used to pay for this attack’s Energy cost. You can’t add more then 20 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: exeggutor
+    display: Exeggutor
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 103
+        name:
+          id: exeggutor
+          display: Exeggutor
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: exeggcute
+          display: Exeggcute
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psychic-exchange
+            display: Psychic Exchange
+          cost:
+          - Colorless
+          text: Shuffle your hand into your deck. Draw up to 8 cards.
+      - var: Attack
+        val:
+          name:
+            id: big-eggsplosion
+            display: Big Eggsplosion
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kangaskhan
+    display: Kangaskhan
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 115
+        name:
+          id: kangaskhan
+          display: Kangaskhan
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fetch
+            display: Fetch
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: one-two-punch
+            display: One-Two Punch
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: marowak
+    display: Marowak
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 105
+        name:
+          id: marowak
+          display: Marowak
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cubone
+          display: Cubone
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Fighting
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: vengeance
+            display: Vengeance
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each Basic Pokémon and each Evolution card in your discard pile. You can’t add more than 60 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoking
+    display: Nidoking
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 34
+        name:
+          id: nidoking
+          display: Nidoking
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: nidorino
+          display: Nidorino
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: power-gene
+            display: Power Gene
+          text: As long as Nidoking is in play, your attacks by Nidoran Female, Nidorina, Nidoqueen, Nidoran Male, and Nidorino do 10 more damage to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: earth-poison
+            display: Earth Poison
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+          text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: bound-crush
+            display: Bound Crush
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 60 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Nidoking can’t use Bound Crush during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoqueen
+    display: Nidoqueen
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 31
+        name:
+          id: nidoqueen
+          display: Nidoqueen
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: nidorina
+          display: Nidorina
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: family-bonds
+            display: Family Bonds
+          text: As long as Nidoqueen is in play, the Retreat Cost for Nidoran Female, Nidorina, Nidoran Male, Nidorino and Nidoking is 0.
+      - var: Attack
+        val:
+          name:
+            id: toxic
+            display: Toxic
+          cost:
+          - Grass
+          text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+      - var: Attack
+        val:
+          name:
+            id: power-lariat
+            display: Power Lariat
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Does 40 damage plus 10 more damage for each Evolved Pokémon you have in play.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidgeot
+    display: Pidgeot
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 18
+        name:
+          id: pidgeot
+          display: Pidgeot
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pidgeotto
+          display: Pidgeotto
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: quick-search
+            display: Quick Search
+          text: Once during your turn (before your attack), you may choose any 1 card from your deck and put it into your hand. Shuffle your deck afterward. You can’t use more than 1 Quick Search Poké-Power each turn. This power can’t be used if Pidgeot is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: clutch
+            display: Clutch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: poliwrath
+    display: Poliwrath
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 62
+        name:
+          id: poliwrath
+          display: Poliwrath
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: poliwhirl
+          display: Poliwhirl
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: spiral
+            display: Spiral
+          text: As long as Poliwrath is your Active Pokémon, your opponent’s Confused Pokémon can’t retreat.
+      - var: Attack
+        val:
+          name:
+            id: split-spiral-punch
+            display: Split Spiral Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: mega-throw
+            display: Mega Throw
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: raichu
+    display: Raichu
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pikachu
+          display: Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: recharge
+            display: Recharge
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {L} Energy cards and attach them to Raichu. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: thunder-reflection
+            display: Thunder Reflection
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may move any number of {L} Energy cards attached to Raichu to another of your Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rapidash
+    display: Rapidash
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 78
+        name:
+          id: rapidash
+          display: Rapidash
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ponyta
+          display: Ponyta
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: fiery-aura
+            display: Fiery Aura
+          text: As long as Rapidash is your Active Pokémon, put 4 damage counters instead of 2 on Burned Pokémon between turns.
+      - var: Attack
+        val:
+          name:
+            id: searing-flame
+            display: Searing Flame
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowbro
+    display: Slowbro
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 80
+        name:
+          id: slowbro
+          display: Slowbro
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: strange-behavior
+            display: Strange Behavior
+          text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don’t Knock Out Slowbro. This power can’t be used if Slowbro is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: psyshock
+            display: Psyshock
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: snorlax
+    display: Snorlax
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 143
+        name:
+          id: snorlax
+          display: Snorlax
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: rest-up
+            display: Rest Up
+          text: If Snorlax remains Asleep between turns, remove 2 damage counters from Snorlax (remove 1 if there is only 1).
+      - var: Attack
+        val:
+          name:
+            id: collapse
+            display: Collapse
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Snorlax is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: toss-and-turn
+            display: Toss and Turn
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If Snorlax is Asleep, this attack does 30 damage plus 30 more damage. (This attack can be used even if Snorlax is Asleep.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: tauros
+    display: Tauros
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 128
+        name:
+          id: tauros
+          display: Tauros
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knock-over
+            display: Knock Over
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: You may discard any Stadium card in play.
+      - var: Attack
+        val:
+          name:
+            id: rampage
+            display: Rampage
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each damage counter on Tauros. After doing damage, flip a coin. If tails, Tauros is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: victreebel
+    display: Victreebel
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 71
+        name:
+          id: victreebel
+          display: Victreebel
+      hit_points: 110
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: weepinbell
+          display: Weepinbell
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: acid-sampler
+            display: Acid Sampler
+          text: As long as Victreebel is your Active Pokémon, put 1 damage counter on each Defending Pokémon between turns. Acid Sampler stops working if your other Active Pokémon is not a Victreebel.
+      - var: Attack
+        val:
+          name:
+            id: acid
+            display: Acid
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: arcanine
+    display: Arcanine
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 59
+        name:
+          id: arcanine
+          display: Arcanine
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: growlithe
+          display: Growlithe
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: heat-tackle
+            display: Heat Tackle
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Arcanine does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: chansey
+    display: Chansey
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 113
+        name:
+          id: chansey
+          display: Chansey
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sing
+            display: Sing
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: egg-surprise
+            display: Egg Surprise
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, Chansey does 50 damage to the Defending Pokémon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cloyster
+    display: Cloyster
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 91
+        name:
+          id: cloyster
+          display: Cloyster
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: shellder
+          display: Shellder
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: exoskeleton
+            display: Exoskeleton
+          text: Any damage done to Cloyster by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: double-bubble
+            display: Double Bubble
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads. If either of the coins is heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: shell-attack
+            display: Shell Attack
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dodrio
+    display: Dodrio
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 85
+        name:
+          id: dodrio
+          display: Dodrio
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: doduo
+          display: Doduo
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: retreat-aid
+            display: Retreat Aid
+          text: As long as Dodrio is on your Bench, you pay {C}{C} less to retreat your Active Pokémon (excluding Pokémon-ex and Baby Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: tri-attack
+            display: Tri Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 3 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dugtrio
+    display: Dugtrio
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 51
+        name:
+          id: dugtrio
+          display: Dugtrio
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: diglett
+          display: Diglett
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sonicboom
+            display: Sonicboom
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness or Resistance.
+      - var: Attack
+        val:
+          name:
+            id: rumble
+            display: Rumble
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: farfetchd
+    display: Farfetch'd
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 83
+        name:
+          id: farfetchd
+          display: Farfetch'd
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hoard
+            display: Hoard
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: cross-cut
+            display: Cross-Cut
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: fearow
+    display: Fearow
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 22
+        name:
+          id: fearow
+          display: Fearow
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: spearow
+          display: Spearow
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: free-flight
+            display: Free Flight
+          text: If Fearow has no Energy attached to it, Fearow’s Retreat Cost is 0.
+      - var: Attack
+        val:
+          name:
+            id: shot-air
+            display: Shot Air
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: drill-peck
+            display: Drill Peck
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: hypno
+    display: Hypno
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drowzee
+          display: Drowzee
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: eerie-aura
+            display: Eerie Aura
+          text: As long as Hypno is your Active Pokémon, put 2 damage counters on each Pokémon that remains Asleep between turns.
+      - var: Attack
+        val:
+          name:
+            id: hypnotic-ray
+            display: Hypnotic Ray
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kingler
+    display: Kingler
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 99
+        name:
+          id: kingler
+          display: Kingler
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: krabby
+          display: Krabby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: salt-water
+            display: Salt Water
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {W} Energy cards and attach them to Kingler. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: hyper-pump
+            display: Hyper Pump
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 20 more damage for each basic Energy attached to Kingler but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magneton
+    display: Magneton
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 82
+        name:
+          id: magneton
+          display: Magneton
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magnemite
+          display: Magnemite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: speed-shot
+            display: Speed Shot
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: primeape
+    display: Primeape
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 57
+        name:
+          id: primeape
+          display: Primeape
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mankey
+          display: Mankey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: toss
+            display: Toss
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded.
+      - var: Attack
+        val:
+          name:
+            id: low-kick
+            display: Low Kick
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: scyther
+    display: Scyther
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 123
+        name:
+          id: scyther
+          display: Scyther
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: leaf-ride
+            display: Leaf Ride
+          text: If Scyther has any Energy attached to it, Scyther’s Retreat Cost is 0.
+      - var: Attack
+        val:
+          name:
+            id: fury-cutter
+            display: Fury Cutter
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip 3 coins. If 1 of them is heads, this attack does 10 damage plus 10 more damage. If 2 of them are heads, this attack does 10 damage plus 20 more damage. If all of them are heads, this attack does 10 damage plus 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: tangela
+    display: Tangela
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 114
+        name:
+          id: tangela
+          display: Tangela
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-tease
+            display: Vine Tease
+          cost:
+          - Colorless
+          text: Look at your Prize cards without showing your opponent. Choose 1 of the Prize cards and switch it with the top card of your deck without looking at the top card of your deck. If you have no cards in your deck, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: wiggle
+            display: Wiggle
+          cost:
+          - Grass
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: damage-burn
+            display: Damage Burn
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: drowzee
+    display: Drowzee
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hypnosis
+            display: Hypnosis
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: exeggcute
+    display: Exeggcute
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 102
+        name:
+          id: exeggcute
+          display: Exeggcute
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psybeam
+            display: Psybeam
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: double-spin
+            display: Double Spin
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: haunter
+    display: Haunter
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 93
+        name:
+          id: haunter
+          display: Haunter
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gastly
+          display: Gastly
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: head-trip
+            display: Head Trip
+          text: Once during your turn (before your attack), if Haunter is on your Bench, you may use this power. One of your Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: ivysaur
+    display: Ivysaur
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bulbasaur
+          display: Bulbasaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-seed
+            display: Poison Seed
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: kakuna
+    display: Kakuna
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 14
+        name:
+          id: kakuna
+          display: Kakuna
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: weedle
+          display: Weedle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: poison-payback
+            display: Poison Payback
+          text: If Kakuna is your Active Pokémon and is damaged by an opponent’s attack (even if Kakuna is Knocked Out), the Attacking Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: lickitung
+    display: Lickitung
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 108
+        name:
+          id: lickitung
+          display: Lickitung
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lick
+            display: Lick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: tongue-whip
+            display: Tongue Whip
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mankey
+    display: Mankey
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 56
+        name:
+          id: mankey
+          display: Mankey
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mischief
+            display: Mischief
+          cost:
+          - Colorless
+          text: Shuffle your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: light-punch
+            display: Light Punch
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: metapod
+    display: Metapod
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 11
+        name:
+          id: metapod
+          display: Metapod
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: caterpie
+          display: Caterpie
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: energy-protection
+            display: Energy Protection
+          text: Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can’t reduce more than 30 damage in this way.
+      - var: Attack
+        val:
+          name:
+            id: sharpen
+            display: Sharpen
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidorina
+    display: Nidorina
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 30
+        name:
+          id: nidorina
+          display: Nidorina
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nidoran-female
+          display: Nidoran Female
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: fast-evolution
+            display: Fast Evolution
+          cost:
+          - Colorless
+          - Colorless
+          text: Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidorino
+    display: Nidorino
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 33
+        name:
+          id: nidorino
+          display: Nidorino
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: nidoran-male
+          display: Nidoran Male
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-stab
+            display: Double Stab
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: rend
+            display: Rend
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: onix
+    display: Onix
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 95
+        name:
+          id: onix
+          display: Onix
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rock-throw
+            display: Rock Throw
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: tunneling
+            display: Tunneling
+          cost:
+          - Fighting
+          - Colorless
+          text: Choose up to 2 of your opponent’s Benched Pokémon. This attack does 10 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.) Onix can’t attack during your next turn.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: parasect
+    display: Parasect
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 47
+        name:
+          id: parasect
+          display: Parasect
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: paras
+          display: Paras
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-powder
+            display: Energy Powder
+          cost:
+          - Grass
+          text: Search your deck for up to 2 basic Energy cards and attach them to any of your Pokémon (excluding Pokémon-ex) in any way you like. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: toxic-spore
+            display: Toxic Spore
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: persian
+    display: Persian
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 53
+        name:
+          id: persian
+          display: Persian
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: meowth
+          display: Meowth
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: thick-skin
+            display: Thick Skin
+          text: Persian can’t be affected by any Special Conditions.
+      - var: Attack
+        val:
+          name:
+            id: poison-claws
+            display: Poison Claws
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: shining-claws
+            display: Shining Claws
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: The Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidgeotto
+    display: Pidgeotto
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 17
+        name:
+          id: pidgeotto
+          display: Pidgeotto
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pidgey
+          display: Pidgey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: clutch
+            display: Clutch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: cutting-wind
+            display: Cutting Wind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: poliwhirl
+    display: Poliwhirl
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 61
+        name:
+          id: poliwhirl
+          display: Poliwhirl
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: poliwag
+          display: Poliwag
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-stream
+            display: Energy Stream
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your discard pile for a basic Energy card and attach it to Poliwhirl.
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: porygon
+    display: Porygon
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: tomoaki-imakuni
+      display: Tomoaki Imakuni
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 137
+        name:
+          id: porygon
+          display: Porygon
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: data-retrieval
+            display: Data Retrieval
+          cost:
+          - Colorless
+          text: If you have less than 4 cards in your hand, draw cards until you have 4 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: raticate
+    display: Raticate
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rattata
+          display: Rattata
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: thick-skin
+            display: Thick Skin
+          text: Raticate can’t be affected by any Special Conditions.
+      - var: Attack
+        val:
+          name:
+            id: pickup
+            display: Pickup
+          cost:
+          - Colorless
+          text: Search your discard pile for a Basic Pokémon (or Evolution card), a Trainer card, and an Energy card. Show them to your opponent and put them into your hand.
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 40 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: venomoth
+    display: Venomoth
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 49
+        name:
+          id: venomoth
+          display: Venomoth
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: venonat
+          display: Venonat
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: protective-dust
+            display: Protective Dust
+          text: Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sleep-poison
+            display: Sleep Poison
+          cost:
+          - Grass
+          text: The Defending Pokémon is now Asleep and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: razor-wind
+            display: Razor Wind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: wartortle
+    display: Wartortle
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 8
+        name:
+          id: wartortle
+          display: Wartortle
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: squirtle
+          display: Squirtle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each {W} Energy attached to Wartortle but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+      - var: Attack
+        val:
+          name:
+            id: smash-turn
+            display: Smash Turn
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: After your attack, you may switch Wartortle with 1 of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: weepinbell
+    display: Weepinbell
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 70
+        name:
+          id: weepinbell
+          display: Weepinbell
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bellsprout
+          display: Bellsprout
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: corrosive-acid
+            display: Corrosive Acid
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: wigglytuff
+    display: Wigglytuff
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 40
+        name:
+          id: wigglytuff
+          display: Wigglytuff
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: jigglypuff
+          display: Jigglypuff
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: assistance
+            display: Assistance
+          text: Once during your turn (before your attack), if Wigglytuff is on your Bench, you may choose 1 of your Active Pokémon and remove 1 Special Condition from it.
+      - var: Attack
+        val:
+          name:
+            id: expand
+            display: Expand
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bellsprout
+    display: Bellsprout
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 69
+        name:
+          id: bellsprout
+          display: Bellsprout
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: vine-whip
+            display: Vine Whip
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: bulbasaur
+    display: Bulbasaur
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleep-poison
+            display: Sleep Poison
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: bulbasaur
+    display: Bulbasaur
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: gouge
+            display: Gouge
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: caterpie
+    display: Caterpie
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 10
+        name:
+          id: caterpie
+          display: Caterpie
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: signs-of-evolution
+            display: Signs of Evolution
+          cost:
+          - Colorless
+          text: Search your deck for a Metapod and a Butterfree card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: string-shot
+            display: String Shot
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: The Defending Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: clefairy
+    display: Clefairy
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 35
+        name:
+          id: clefairy
+          display: Clefairy
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gesture
+            display: Gesture
+          cost:
+          - Colorless
+          text: Choose 1 of your opponent’s Benched Pokémon and switch it with the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+      - var: Attack
+        val:
+          name:
+            id: moon-kick
+            display: Moon Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cubone
+    display: Cubone
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 104
+        name:
+          id: cubone
+          display: Cubone
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: beat
+            display: Beat
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Fighting
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: diglett
+    display: Diglett
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 50
+        name:
+          id: diglett
+          display: Diglett
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dig-under
+            display: Dig Under
+          cost:
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: doduo
+    display: Doduo
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 84
+        name:
+          id: doduo
+          display: Doduo
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: run-around
+            display: Run Around
+          cost:
+          - Colorless
+          text: Switch Doduo with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: random-peck
+            display: Random Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip 2 coins. This attack does 10 damage plus 10 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: gastly
+    display: Gastly
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 92
+        name:
+          id: gastly
+          display: Gastly
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slow-trip-gas
+            display: Slow Trip Gas
+          cost:
+          - Colorless
+          text: At the end of your opponent’s next turn, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: growlithe
+    display: Growlithe
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 58
+        name:
+          id: growlithe
+          display: Growlithe
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: flame-tail
+            display: Flame Tail
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: jigglypuff
+    display: Jigglypuff
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 39
+        name:
+          id: jigglypuff
+          display: Jigglypuff
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleep-inducer
+            display: Sleep Inducer
+          cost:
+          - Colorless
+          text: Switch 1 of your opponent’s Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: quick-blow
+            display: Quick Blow
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: krabby
+    display: Krabby
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 98
+        name:
+          id: krabby
+          display: Krabby
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: irongrip
+            display: Irongrip
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: nap
+            display: Nap
+          cost:
+          - Water
+          text: Remove 2 damage counters from Krabby (remove 1 if there is only 1).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magikarp
+    display: Magikarp
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: ascension
+            display: Ascension
+          cost:
+          - Water
+          - Colorless
+          text: Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magnemite
+    display: Magnemite
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: supersonic
+            display: Supersonic
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: speed-ball
+            display: Speed Ball
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 30
+        modifier: Minus
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: cat-kick
+            display: Cat Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoran-female
+    display: Nidoran Female
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 29
+        name:
+          id: nidoran-female
+          display: Nidoran♀
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: look-for-friends
+            display: Look for Friends
+          cost:
+          - Colorless
+          text: Reveal cards from your deck until you reveal a Basic Pokémon. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don’t reveal a Basic Pokémon, shuffle all the revealed cards back into your deck.)
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: nidoran-male
+    display: Nidoran Male
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 32
+        name:
+          id: nidoran-male
+          display: Nidoran♂
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Nidoran Female or Nidoran Male card and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: double-stab
+            display: Double Stab
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: paras
+    display: Paras
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 46
+        name:
+          id: paras
+          display: Paras
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: toxic-spore
+            display: Toxic Spore
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidgey
+    display: Pidgey
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 16
+        name:
+          id: pidgey
+          display: Pidgey
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corner
+            display: Corner
+          cost:
+          - Colorless
+          text: The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: gust
+            display: Gust
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: plasma
+            display: Plasma
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, search your discard pile for a {L} Energy card and attach it to Pikachu.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: poliwag
+    display: Poliwag
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 60
+        name:
+          id: poliwag
+          display: Poliwag
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spiral-attack
+            display: Spiral Attack
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: tail-whap
+            display: Tail Whap
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: ponyta
+    display: Ponyta
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 77
+        name:
+          id: ponyta
+          display: Ponyta
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: stomp
+            display: Stomp
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: rattata
+    display: Rattata
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: seel
+    display: Seel
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: toshinao-aoki
+      display: Toshinao Aoki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 86
+        name:
+          id: seel
+          display: Seel
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: horn-hazard
+            display: Horn Hazard
+          cost:
+          - Water
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: shellder
+    display: Shellder
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 90
+        name:
+          id: shellder
+          display: Shellder
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: minimize
+            display: Minimize
+          cost:
+          - Colorless
+          text: During your opponent’s next turn, any damage done to Shellder by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confusion-wave
+            display: Confusion Wave
+          cost:
+          - Colorless
+          text: Both Slowpoke and the Defending Pokémon are now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: spearow
+    display: Spearow
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hisao-nakamura
+      display: Hisao Nakamura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 21
+        name:
+          id: spearow
+          display: Spearow
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: claw
+            display: Claw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: squirtle
+    display: Squirtle
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: toshinao-aoki
+      display: Toshinao Aoki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 7
+        name:
+          id: squirtle
+          display: Squirtle
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sleepy-ball
+            display: Sleepy Ball
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: squirtle
+    display: Squirtle
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 7
+        name:
+          id: squirtle
+          display: Squirtle
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: smash-turn
+            display: Smash Turn
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: After your attack, you may switch Squirtle with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: venonat
+    display: Venonat
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 48
+        name:
+          id: venonat
+          display: Venonat
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psycho-waves
+            display: Psycho Waves
+          cost:
+          - Colorless
+          text: Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: voltorb
+    display: Voltorb
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 100
+        name:
+          id: voltorb
+          display: Voltorb
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: floating-electrons
+            display: Floating Electrons
+          text: As long as Voltorb has any Energy attached to it, Voltorb’s Retreat Cost is 0.
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: weedle
+    display: Weedle
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 13
+        name:
+          id: weedle
+          display: Weedle
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {G} Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: poison-spurt
+            display: Poison Spurt
+          cost:
+          - Grass
+          text: Discard a {G} Energy card attached to Weedle. The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: bills-maintenance
+    display: Bill's Maintenance
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: If you have any cards in your hand, shuffle 1 of them into your deck, then draw 3 cards.
+      sub: Supporter
+- title:
+    id: celios-network
+    display: Celio's Network
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Supporter
+- title:
+    id: energy-removal-2
+    display: Energy Removal 2
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent’s Pokémon and discard it.
+      sub: Item
+- title:
+    id: energy-switch
+    display: Energy Switch
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.
+      sub: Item
+- title:
+    id: expall
+    display: EXP.ALL
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Attach EXP. ALL to 1 of your Pokémon (excluding Pokémon-ex and Pokémon that has an owner in its name) that doesn’t already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.
+        During your opponent’s turn, if 1 of your Active Pokémon is Knocked Out by your opponent’s attack, you may take 1 basic Energy card attached to that Knocked Out Pokémon and attach it to the Pokémon with EXP.ALL attached to it. If you do, discard EXP.ALL.
+      sub: PokemonTool
+- title:
+    id: great-ball
+    display: Great Ball
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: life-herb
+    display: Life Herb
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, choose 1 of your Pokémon (excluding Pokémon-ex), and remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6).
+      sub: Item
+- title:
+    id: mt-moon
+    display: Mt. Moon
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Any Pokémon (both yours and your opponent’s) with maximum HP less than 70 can’t use any Poké-Powers.
+      sub: Stadium
+- title:
+    id: poke-ball
+    display: Poké Ball
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: pokedex-handy909
+    display: PokéDex HANDY909
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: k-utsunomiya
+      display: K. Utsunomiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle your deck. Look at 6 cards from the top of your deck, then put them back on top of your deck in any order.
+      sub: Item
+- title:
+    id: pokemon-reversal
+    display: Pokémon Reversal
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+      sub: Item
+- title:
+    id: prof-oaks-research
+    display: Prof. Oak's Research
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle your hand into your deck, then draw 5 cards.
+      sub: Supporter
+- title:
+    id: super-scoop-up
+    display: Super Scoop Up
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand.
+      sub: Item
+- title:
+    id: vs-seeker
+    display: VS Seeker
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: k-utsunomiya
+      display: K. Utsunomiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.
+      sub: Item
+- title:
+    id: potion
+    display: Potion
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).
+      sub: Item
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-08-30
+  sub:
+    var: Trainer
+    val:
+      text: Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
+      sub: Item
+- title:
+    id: multi-energy
+    display: Multi Energy
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-08-30
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Attach Multi Energy to 1 of your Pokémon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn’t count as a basic Energy card when not in play.) Multi Energy provides {C} Energy when attached to a Pokémon that already has Special Energy cards attached to it.
+- title:
+    id: blastoise-ex
+    display: Blastoise ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 9
+        name:
+          id: blastoise
+          display: Blastoise
+      hit_points: 150
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: wartortle
+          display: Wartortle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: energy-rain
+            display: Energy Rain
+          text: As often as you like during your turn (before your attack), you may attach a {W} Energy card from your hand to 1 of your Pokémon. Put 1 damage counter on that Pokémon. This power can’t be used if Blastoise ex is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: hyper-whirlpool
+            display: Hyper Whirlpool
+          cost:
+          - Water
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip a coin until you get tails. For each heads, your opponent discards an Energy card attached to the Defending Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: charizard-ex
+    display: Charizard ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 160
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: energy-flame
+            display: Energy Flame
+          text: All Energy attached to Charizard ex are {R} Energy instead of its usual type.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: burn-down
+            display: Burn Down
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 200
+          text: Discard 5 {R} Energy attached to Charizard ex. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, and any other effects on the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: clefable-ex
+    display: Clefable ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 36
+        name:
+          id: clefable
+          display: Clefable
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: clefairy
+          display: Clefairy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: metronome
+            display: Metronome
+          cost:
+          - Colorless
+          - Colorless
+          text: Choose 1 of the Defending Pokémon’s attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type that Pokémon is, Clefable ex’s type is still {C}.) Clefable ex performs that attack.
+      - var: Attack
+        val:
+          name:
+            id: moon-impact
+            display: Moon Impact
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: electrode-ex
+    display: Electrode ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 101
+        name:
+          id: electrode
+          display: Electrode
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: voltorb
+          display: Voltorb
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: extra-energy-bomb
+            display: Extra Energy Bomb
+          text: Once during your turn (before your attack), you may discard Electrode ex and all the cards attached to it (this counts as Knocking Out Electrode ex). If you do, search your discard pile for 5 Energy cards and attach them to any of your Pokémon (excluding Pokémon-ex) in any way you like. This power can’t be used if Electrode ex is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: crush-and-burn
+            display: Crush and Burn
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: You may discard as many Energy as you like attached to your Pokémon in play. If you do, this attack does 30 damage plus 20 more damage for each Energy you discarded.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: gengar-ex
+    display: Gengar ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 94
+        name:
+          id: gengar
+          display: Gengar
+      hit_points: 150
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: haunter
+          display: Haunter
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poltergeist
+            display: Poltergeist
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Look at your opponent’s hand. This attack does 40 damage plus 10 more damage for each Trainer card in your opponent’s hand.
+      - var: Attack
+        val:
+          name:
+            id: prize-count
+            display: Prize Count
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If you have more Prize cards left than your opponent, this attack does 60 damage plus 40 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        - Colorless
+        scalar: 30
+        modifier: Minus
+- title:
+    id: gyarados-ex
+    display: Gyarados ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: twister
+            display: Twister
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: dragon-rage
+            display: Dragon Rage
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: mr-mime-ex
+    display: Mr. Mime ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 122
+        name:
+          id: mr-mime
+          display: Mr. Mime
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: magic-odds
+            display: Magic Odds
+          text: If Mr. Mime ex would be damaged by an attack, prevent that attack’s damage done to Mr. Mime ex if that damage is 10, 30, 50, 70, 90, 110, 130, 150, or 170.
+      - var: Attack
+        val:
+          name:
+            id: breakdown
+            display: Breakdown
+          cost:
+          - Psychic
+          - Colorless
+          text: Count the number of cards in your opponent’s hand. Put that many damage counters on the Defending Pokémon.
+      retreat_cost: 1
+- title:
+    id: mr-mime-ex
+    display: Mr. Mime ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 122
+        name:
+          id: mr-mime
+          display: Mr. Mime
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: magic-evens
+            display: Magic Evens
+          text: If Mr. Mime ex would be damaged by an attack, prevent that attack’s damage done to Mr. Mime ex if that damage is 20, 40, 60, 80, 100, 120, 140, 160, or 180.
+      - var: Attack
+        val:
+          name:
+            id: breakdown
+            display: Breakdown
+          cost:
+          - Psychic
+          - Colorless
+          text: Count the number of cards in your opponent’s hand. Put that many damage counters on the Defending Pokémon.
+      retreat_cost: 1
+- title:
+    id: venusaur-ex
+    display: Venusaur ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '112'
+      display: '112'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 150
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: ivysaur
+          display: Ivysaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: energy-trans
+            display: Energy Trans
+          text: As often as you like during your turn (before your attack), move a {G} Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Venusaur ex is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: pollen-hazard
+            display: Pollen Hazard
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Poisoned, Burned, and Confused.
+      - var: Attack
+        val:
+          name:
+            id: solarbeam
+            display: Solarbeam
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each damage counter on Charmander.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: articuno-ex
+    display: Articuno ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 110
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: legendary-ascent
+            display: Legendary Ascent
+          text: Once during your turn, when you put Articuno ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Articuno ex. If you do, you may also move any number of basic {W} Energy cards attached to your Pokémon to Articuno ex.
+      - var: Attack
+        val:
+          name:
+            id: cold-crush
+            display: Cold Crush
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may discard an Energy card attached to Articuno ex. If you do, your opponent discards an Energy card attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: moltres-ex
+    display: Moltres ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '115'
+      display: '115'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 146
+        name:
+          id: moltres
+          display: Moltres
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: legendary-ascent
+            display: Legendary Ascent
+          text: Once during your turn, when you put Moltres ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Moltres ex. If you do, you may also move any number of basic {R} Energy cards attached to your Pokémon to Moltres ex.
+      - var: Attack
+        val:
+          name:
+            id: crushing-flames
+            display: Crushing Flames
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 60
+          text: You may discard an Energy card attached to Moltres ex. If you do, the Defending Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: zapdos-ex
+    display: Zapdos ex
+  set:
+    name:
+      id: firered-leafgreen
+      display: FireRed & LeafGreen
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: rg
+      display: RG
+  number:
+    number:
+      id: '116'
+      display: '116'
+    printed_total: '112'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-08-30
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 110
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: legendary-ascent
+            display: Legendary Ascent
+          text: Once during your turn, when you put Zapdos ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Zapdos ex. If you do, you may also move any number of basic {L} Energy cards attached to your Pokémon to Zapdos ex.
+      - var: Attack
+        val:
+          name:
+            id: electron-crush
+            display: Electron Crush
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: You may discard an Energy card attached to Zapdos ex. If you do, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times

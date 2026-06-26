@@ -6,6 +6,8 @@ use crate::cards::scrape_set;
 use crate::cards::scrape_unknown_sets;
 use crate::cards::validate;
 use crate::cards::validate_images;
+use crate::cards::validate_series;
+use crate::cards::validate_set;
 use clap::{Parser, Subcommand};
 use std::error::Error;
 
@@ -66,6 +68,19 @@ enum Command {
     /// Validates the set data (unique ids across contexts).
     Validate,
 
+    /// Validates a set's cards and ensures each has a large & small image (generating missing
+    /// small images from the large).
+    ValidateSet {
+        /// The set id to validate.
+        set_id: String,
+    },
+
+    /// Validates every scraped set in a series. (see `validate-set`)
+    ValidateSeries {
+        /// The series id to validate.
+        series_id: String,
+    },
+
     /// Prints sets missing a logo or symbol image in R2.
     ValidateImages,
 }
@@ -87,6 +102,8 @@ impl Cli {
             Command::ScrapeSeries { source, series_id } => scrape_series(&source, &series_id),
             Command::ScrapeUnknownSets => scrape_unknown_sets(),
             Command::Validate => validate(),
+            Command::ValidateSet { set_id } => validate_set(&set_id),
+            Command::ValidateSeries { series_id } => validate_series(&series_id),
             Command::ValidateImages => validate_images(),
         }
     }

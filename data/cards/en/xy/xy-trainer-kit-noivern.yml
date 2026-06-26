@@ -1,0 +1,1361 @@
+- title:
+    id: spoink
+    display: Spoink
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 325
+        name:
+          id: spoink
+          display: Spoink
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splash
+            display: Splash
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gourgeist
+    display: Gourgeist
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 711
+        name:
+          id: gourgeist
+          display: Gourgeist
+      hit_points: 100
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pumpkaboo
+          display: Pumpkaboo
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: eerie-voice
+            display: Eerie Voice
+          cost:
+          - Psychic
+          text: Put 2 damage counters on each of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: spirit-scream
+            display: Spirit Scream
+          cost:
+          - Psychic
+          - Psychic
+          text: Put damage counters on both Active Pokémon until the remaining HP of each Pokémon is 10.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: arbok
+    display: Arbok
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 24
+        name:
+          id: arbok
+          display: Arbok
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ekans
+          display: Ekans
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gastro-acid
+            display: Gastro Acid
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon has no Abilities until the end of your next turn.
+      - var: Attack
+        val:
+          name:
+            id: poison-jab
+            display: Poison Jab
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Your opponent’s Active Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: bunnelby
+    display: Bunnelby
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 659
+        name:
+          id: bunnelby
+          display: Bunnelby
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: pumpkaboo
+    display: Pumpkaboo
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 710
+        name:
+          id: pumpkaboo
+          display: Pumpkaboo
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          text: Your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: noibat
+    display: Noibat
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 714
+        name:
+          id: noibat
+          display: Noibat
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: supersonic
+            display: Supersonic
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: noivern
+    display: Noivern
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+    flavor: They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 715
+        name:
+          id: noivern
+          display: Noivern
+      hit_points: 110
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: noibat
+          display: Noibat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: second-bite
+            display: Second Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sonic-bazooka
+            display: Sonic Bazooka
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage and your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: pokemon-catcher
+    display: Pokémon Catcher
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.
+      sub: Item
+- title:
+    id: potion
+    display: Potion
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Trainer
+    val:
+      text: Heal 30 damage from 1 of your Pokémon.
+      sub: Item
+- title:
+    id: ekans
+    display: Ekans
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 23
+        name:
+          id: ekans
+          display: Ekans
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: pumpkaboo
+    display: Pumpkaboo
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 710
+        name:
+          id: pumpkaboo
+          display: Pumpkaboo
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          text: Your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Darkness
+- title:
+    id: furfrou
+    display: Furfrou
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 676
+        name:
+          id: furfrou
+          display: Furfrou
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tight-jaw
+            display: Tight Jaw
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: sharp-fang
+            display: Sharp Fang
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: poke-ball
+    display: Poké Ball
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Darkness
+- title:
+    id: noibat
+    display: Noibat
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 714
+        name:
+          id: noibat
+          display: Noibat
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: supersonic
+            display: Supersonic
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: wing-attack
+            display: Wing Attack
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: professors-letter
+    display: Professor's Letter
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: psychic-energy
+    display: Psychic Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Darkness
+- title:
+    id: potion
+    display: Potion
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Trainer
+    val:
+      text: Heal 30 damage from 1 of your Pokémon.
+      sub: Item
+- title:
+    id: darkness-energy
+    display: Darkness Energy
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '30'
+  meta:
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Darkness
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+  sub:
+    var: Trainer
+    val:
+      text: Switch your Active Pokémon with 1 of your Benched Pokémon.
+      sub: Item
+- title:
+    id: noivern
+    display: Noivern
+  set:
+    name:
+      id: xy-trainer-kit-noivern
+      display: XY Trainer Kit - Noivern
+    series:
+      id: xy
+      display: XY
+    context: English
+    live_code:
+      id: tk6n
+      display: TK6N
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '30'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2014-03-12
+    flavor: They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 715
+        name:
+          id: noivern
+          display: Noivern
+      hit_points: 110
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: noibat
+          display: Noibat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: second-bite
+            display: Second Bite
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sonic-bazooka
+            display: Sonic Bazooka
+          cost:
+          - Psychic
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage and your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times

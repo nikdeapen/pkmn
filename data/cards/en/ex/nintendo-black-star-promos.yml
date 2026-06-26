@@ -1,0 +1,2566 @@
+- title:
+    id: kyogre-ex
+    display: Kyogre ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '001'
+      display: '001'
+  meta:
+    artists:
+    - id: hiromichi-sugiyama
+      display: Hiromichi Sugiyama
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-08-02
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: major-flood
+            display: Major Flood
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 60
+          text: Discard a {W} Energy card attached to Kyogre ex. Does 10 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: groudon-ex
+    display: Groudon ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '002'
+      display: '002'
+  meta:
+    artists:
+    - id: kazuo-yazawa
+      display: Kazuo Yazawa
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-08-02
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: major-earthquake
+            display: Major Earthquake
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 80
+          text: Discard a {F} Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '008'
+      display: '008'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-09-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 40
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: fireworks
+            display: Fireworks
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, discard a {R} Energy card attached to Torchic.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: combusken
+    display: Combusken
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '009'
+      display: '009'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-09-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 256
+        name:
+          id: combusken
+          display: Combusken
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: torchic
+          display: Torchic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '003'
+      display: '003'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-10-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-slap
+            display: Tail Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: grovyle
+    display: Grovyle
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '004'
+      display: '004'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-10-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 253
+        name:
+          id: grovyle
+          display: Grovyle
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: treecko
+          display: Treecko
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: poison-breath
+            display: Poison Breath
+          cost:
+          - Colorless
+          - Colorless
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mudkip
+    display: Mudkip
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '010'
+      display: '010'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-11-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 258
+        name:
+          id: mudkip
+          display: Mudkip
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: marshtomp
+    display: Marshtomp
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '011'
+      display: '011'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-11-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 259
+        name:
+          id: marshtomp
+          display: Marshtomp
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mudkip
+          display: Mudkip
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: slash
+            display: Slash
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '012'
+      display: '012'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-11-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: meowth
+    display: Meowth
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '013'
+      display: '013'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2003-11-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: plunder
+            display: Plunder
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage.).
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mudkip
+    display: Mudkip
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '005'
+      display: '005'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-01-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 258
+        name:
+          id: mudkip
+          display: Mudkip
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: latias
+    display: Latias
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '014'
+      display: '014'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-01-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-psy
+            display: Super Psy
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: searing-flame
+            display: Searing Flame
+          cost:
+          - Fire
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: latios
+    display: Latios
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '015'
+      display: '015'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-01-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-psy
+            display: Super Psy
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: freeze-dry
+            display: Freeze Dry
+          cost:
+          - Water
+          - Psychic
+          - Lightning
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '016'
+      display: '016'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-02-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: sporadic-sponging
+            display: Sporadic Sponging
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, remove 1 damage counter from Treecko.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '017'
+      display: '017'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-02-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Discard a {R} Energy card attached to Torchic.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mudkip
+    display: Mudkip
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '018'
+      display: '018'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-02-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 258
+        name:
+          id: mudkip
+          display: Mudkip
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: whirlpool
+            display: Whirlpool
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: whismur
+    display: Whismur
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '019'
+      display: '019'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-02-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 293
+        name:
+          id: whismur
+          display: Whismur
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: supersonic
+            display: Supersonic
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '006'
+      display: '006'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-02-24
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 40
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: fireworks
+            display: Fireworks
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, discard a {R} Energy card attached to Torchic.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ludicolo
+    display: Ludicolo
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '020'
+      display: '020'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-03-05
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 272
+        name:
+          id: ludicolo
+          display: Ludicolo
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: lombre
+          display: Lombre
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: rain-dish
+            display: Rain Dish
+          text: At any time between turns, remove 1 damage counter from Ludicolo.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 3 coins. This attack does 30 damage times the number of heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: jirachi
+    display: Jirachi
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '021'
+      display: '021'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-06-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 385
+        name:
+          id: jirachi
+          display: Jirachi
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: the-third-eye
+            display: The Third Eye
+          cost:
+          - Colorless
+          text: Discard an Energy card attached to Jirachi and draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: psywave
+            display: Psywave
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the amount of Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: beldum
+    display: Beldum
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '022'
+      display: '022'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-06-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 374
+        name:
+          id: beldum
+          display: Beldum
+      hit_points: 50
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: magnetic-call
+            display: Magnetic Call
+          text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a {M} Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can’t be used if Beldum is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: metal-charge
+            display: Metal Charge
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+          text: Put 1 damage counter on Beldum.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: treecko
+    display: Treecko
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '007'
+      display: '007'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-06-27
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-slap
+            display: Tail Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: chimecho
+    display: Chimecho
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '024'
+      display: '024'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-07-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 358
+        name:
+          id: chimecho
+          display: Chimecho
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: resonate
+            display: Resonate
+          cost:
+          - Colorless
+          text: Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch.
+      - var: Attack
+        val:
+          name:
+            id: healing-sound
+            display: Healing Sound
+          cost:
+          - Colorless
+          - Colorless
+          text: Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: metang
+    display: Metang
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '023'
+      display: '023'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-07-10
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 375
+        name:
+          id: metang
+          display: Metang
+      hit_points: 80
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: beldum
+          display: Beldum
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: metal-load
+            display: Metal Load
+          cost:
+          - Colorless
+          text: Search your discard pile for a {M} Energy card and attach it to Metang.
+      - var: Attack
+        val:
+          name:
+            id: metal-claw
+            display: Metal Claw
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: flygon
+    display: Flygon
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '025'
+      display: '025'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-08-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 330
+        name:
+          id: flygon
+          display: Flygon
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: vibrava
+          display: Vibrava
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sand-pit
+            display: Sand Pit
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: The Defending Pokémon can’t retreat until the end of your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: dragonbreath
+            display: Dragonbreath
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: tropical-wind
+    display: Tropical Wind
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '026'
+      display: '026'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2004-08-20
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep.
+      sub: Item
+- title:
+    id: tropical-tidal-wave
+    display: Tropical Tidal Wave
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '027'
+      display: '027'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-08-19
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer (excluding Supporter cards) you have in play.
+      sub: Item
+- title:
+    id: championship-arena
+    display: Championship Arena
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '028'
+      display: '028'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-08-19
+  sub:
+    var: Trainer
+    val:
+      text: At the end of each player’s turn, if that player has 8 or more cards in his or her hand, that player discards a number of cards until that player has 7 cards left in his or her hand.
+      sub: Stadium
+- title:
+    id: celebi
+    display: Celebi
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '029'
+      display: '029'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-10-28
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 251
+        name:
+          id: celebi
+          display: Celebi
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leaf-slice
+            display: Leaf Slice
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: suicune
+    display: Suicune
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '030'
+      display: '030'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-10-28
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 245
+        name:
+          id: suicune
+          display: Suicune
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: pure-body
+            display: Pure Body
+          text: Whenever you attach a {W} Energy card from your hand to Suicune, discard an Energy card attached to Suicune. (You can’t attach a {W} Energy card from your hand if Suicune has no Energy cards attached.)
+      - var: Attack
+        val:
+          name:
+            id: hypno-wave
+            display: Hypno Wave
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: moltres-ex
+    display: Moltres ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '031'
+      display: '031'
+  meta:
+    artists:
+    - id: ken-ikuji
+      display: Ken Ikuji
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 146
+        name:
+          id: moltres
+          display: Moltres
+      hit_points: 100
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: synchronized-lift
+            display: Synchronized Lift
+          text: As long as you have Articuno ex and Zapdos ex in play, the Retreat Cost for Moltres ex is 0.
+      - var: Attack
+        val:
+          name:
+            id: flame-gift
+            display: Flame Gift
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: You may move a {R} Energy card attached to Moltres ex to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: scorching-wing
+            display: Scorching Wing
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard all {R} Energy attached to Moltres ex.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: articuno-ex
+    display: Articuno ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '032'
+      display: '032'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: synchronized-lift
+            display: Synchronized Lift
+          text: As long as you have Zapdos ex and Moltres ex in play, the Retreat Cost for Articuno ex is 0.
+      - var: Attack
+        val:
+          name:
+            id: ice-gift
+            display: Ice Gift
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: You may move a {W} Energy attached to Articuno ex to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: freezing-wing
+            display: Freezing Wing
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: zapdos-ex
+    display: Zapdos ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '033'
+      display: '033'
+  meta:
+    artists:
+    - id: k-hoshiba
+      display: K. Hoshiba
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2005-11-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 100
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: synchronized-lift
+            display: Synchronized Lift
+          text: As long as you have Articuno ex and Moltres ex in play, the Retreat Cost for Zapdos ex is 0.
+      - var: Attack
+        val:
+          name:
+            id: thunder-gift
+            display: Thunder Gift
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: You may move a {L} Energy card attached to Zapdos ex to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: lightning-wing
+            display: Lightning Wing
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+          text: Does 10 damage to 1 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '035'
+      display: '035'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-06-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 40
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: iron-tail
+            display: Iron Tail
+          cost:
+          - Metal
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: tropical-tidal-wave
+    display: Tropical Tidal Wave
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '036'
+      display: '036'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-08-18
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer cards (excluding Supporter cards) you have in play.
+      sub: Item
+- title:
+    id: typhlosion
+    display: Typhlosion
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '034'
+      display: '034'
+  meta:
+    artists:
+    - id: hajime-kusajima
+      display: Hajime Kusajima
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-09-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 157
+        name:
+          id: typhlosion
+          display: Typhlosion
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: quilava
+          display: Quilava
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: burning-aura
+            display: Burning Aura
+          text: As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent’s) between turns.
+      - var: Attack
+        val:
+          name:
+            id: flickering-flames
+            display: Flickering Flames
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: rage
+            display: Rage
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Does 50 damage plus 10 more damage for each damage counter on Typhlosion.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kyogre-ex
+    display: Kyogre ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '037'
+      display: '037'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-10-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: frenzy
+            display: Frenzy
+          text: As long as your opponent has Groudon, Groudon ex, Rayquaza, or Rayquaza ex in play. Kyogre ex’s attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: aqua-supply
+            display: Aqua Supply
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+          text: You may attach a basic Energy card from your hand to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: tsunami
+            display: Tsunami
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: groudon-ex
+    display: Groudon ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '038'
+      display: '038'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-10-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: frenzy
+            display: Frenzy
+          text: As long as your opponent has Kyogre, Kyogre ex, Rayquaza, or Rayquaza ex in play, Groudon ex’s attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: mix-up
+            display: Mix-Up
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, your opponent discards the top card from his or her deck.
+      - var: Attack
+        val:
+          name:
+            id: earthquake
+            display: Earthquake
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: rayquaza-ex
+    display: Rayquaza ex
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '039'
+      display: '039'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-10-01
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: frenzy
+            display: Frenzy
+          text: As long as your opponent has Kyogre, Kyogre ex, Groudon, or Groudon ex in play, Rayquaza ex’s attacks do 40 damage to the Defending Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: dragon-bind
+            display: Dragon Bind
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: twister
+            display: Twister
+          cost:
+          - Fire
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+          text: Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: nintendo-black-star-promos
+      display: Nintendo Black Star Promos
+    series:
+      id: ex
+      display: EX
+    context: English
+  number:
+    number:
+      id: '040'
+      display: '040'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2006-10-06
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psywave
+            display: Psywave
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the amount of Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: devolution-beam
+            display: Devolution Beam
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, choose 1 of either player’s Evolved Pokémon, remove the highest stage Evolution card from that Pokémon, and put it into that player’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times

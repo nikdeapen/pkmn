@@ -1,0 +1,7532 @@
+- title:
+    id: azumarill
+    display: Azumarill
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 184
+        name:
+          id: azumarill
+          display: Azumarill
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: marill
+          display: Marill
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: froth
+            display: Froth
+          text: Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokémon, you may use this power. Each Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: water-punch
+            display: Water Punch
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin for each {W} Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-ampharos
+    display: Dark Ampharos
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: emi-miwa
+      display: Emi Miwa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 181
+        name:
+          id: ampharos
+          display: Ampharos
+      hit_points: 120
+      energy_types:
+      - Lightning
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dark-flaaffy
+          display: Dark Flaaffy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: darkest-impulse
+            display: Darkest Impulse
+          text: As long as Dark Ampharos is in play, whenever your opponent plays an Evolution card from his or her hand to evolve 1 of his or her Pokémon, put 2 damage counters on that Pokémon. You can’t use more than 1 Darkest Impulse Poké-Body each turn.
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: shock-bolt
+            display: Shock Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard all {L} Energy attached to Dark Ampharos.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-crobat
+    display: Dark Crobat
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-koizumi
+      display: Kyoko Koizumi
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 169
+        name:
+          id: crobat
+          display: Crobat
+      hit_points: 90
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dark-golbat
+          display: Dark Golbat
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: black-beam
+            display: Black Beam
+          text: Once during your turn (before your attack), if Dark Crobat is your Active Pokémon, you may choose 1 of the Defending Pokémon. That Pokémon is now Poisoned. This power can’t be used if Dark Crobat is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: dark-drain
+            display: Dark Drain
+          cost:
+          - Grass
+          - Colorless
+          text: Does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Remove from Dark Crobat a number of damage counters equal to the number of your opponent’s Pokémon in play.
+      - var: Attack
+        val:
+          name:
+            id: skill-dive
+            display: Skill Dive
+          cost:
+          - Grass
+          - Colorless
+          text: Does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-electrode
+    display: Dark Electrode
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 101
+        name:
+          id: electrode
+          display: Electrode
+      hit_points: 70
+      energy_types:
+      - Lightning
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: voltorb
+          display: Voltorb
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: darkness-navigation
+            display: Darkness Navigation
+          text: Once during your turn (before your attack), if Dark Electrode has no Energy attached to it, you may search your deck for a {D} or Dark Metal Energy and attach it to Dark Electrode. Shuffle your deck afterward. This power can’t be used if Dark Electrode is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: energy-bomb
+            display: Energy Bomb
+          cost:
+          - Lightning
+          damage:
+            scalar: 30
+          text: You may move all Energy cards attached to Dark Electrode to your Benched Pokémon in any way you like.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-houndoom
+    display: Dark Houndoom
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 70
+      energy_types:
+      - Fire
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: houndour
+          display: Houndour
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shakedown
+            display: Shakedown
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+          text: Choose a card from your opponent’s hand without looking and discard it.
+      - var: Attack
+        val:
+          name:
+            id: dark-fire
+            display: Dark Fire
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: You may discard a {R} Energy or {D} Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-hypno
+    display: Dark Hypno
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 70
+      energy_types:
+      - Psychic
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drowzee
+          display: Drowzee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-link
+            display: Dark Link
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, choose an attack on 1 of your Pokémon in play that has Dark in its name (excluding this one). Dark Link copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Dark Hypno’s type is still {P}{D}.) Dark Hypno performs that attack.
+      - var: Attack
+        val:
+          name:
+            id: black-magic
+            display: Black Magic
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the number of your opponent’s Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-marowak
+    display: Dark Marowak
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 105
+        name:
+          id: marowak
+          display: Marowak
+      hit_points: 70
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cubone
+          display: Cubone
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: brick-smash
+            display: Brick Smash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hard-bone
+            display: Hard Bone
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 70
+          text: Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-octillery
+    display: Dark Octillery
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 224
+        name:
+          id: octillery
+          display: Octillery
+      hit_points: 70
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: remoraid
+          display: Remoraid
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: black-suction-cups
+            display: Black Suction Cups
+          cost:
+          - Water
+          text: Does 10 damage to each Defending Pokémon. Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: ink-blast
+            display: Ink Blast
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-slowking
+    display: Dark Slowking
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 199
+        name:
+          id: slowking
+          display: Slowking
+      hit_points: 80
+      energy_types:
+      - Psychic
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: cunning
+            display: Cunning
+          text: Once during your turn (before your attack), you may look at the top card of your opponent’s deck. Then, you may shuffle his or her deck. This power can’t be used if Dark Slowking is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: litter
+            display: Litter
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: You may discard a combination of up to 2 Pokémon Tool cards and Rocket’s Secret Machine cards from your hand. If you do, this attack does 20 damage plus 30 more damage for each card you discarded.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-steelix
+    display: Dark Steelix
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-koizumi
+      display: Kyoko Koizumi
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 208
+        name:
+          id: steelix
+          display: Steelix
+      hit_points: 110
+      energy_types:
+      - Darkness
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: onix
+          display: Onix
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-link
+            display: Energy Link
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Search your discard pile for an Energy card and attach it to Dark Steelix.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: jumpluff
+    display: Jumpluff
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 189
+        name:
+          id: jumpluff
+          display: Jumpluff
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: skiploom
+          display: Skiploom
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: buffer
+            display: Buffer
+          text: If Jumpluff would be Knocked Out by an opponent’s attack, flip a coin. If heads, Jumpluff is not Knocked Out and its remaining HP becomes 10 instead.
+      - var: Attack
+        val:
+          name:
+            id: energy-crush
+            display: Energy Crush
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each Energy attached to all of your opponent’s Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kingdra
+    display: Kingdra
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 230
+        name:
+          id: kingdra
+          display: Kingdra
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: seadra
+          display: Seadra
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dragon-veil
+            display: Dragon Veil
+          text: As long as Kingdra is in play, each of your Active Pokémon has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: hyper-whirlpool
+            display: Hyper Whirlpool
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: aqua-sonic
+            display: Aqua Sonic
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage is not affected by Resistance.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: piloswine
+    display: Piloswine
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 221
+        name:
+          id: piloswine
+          display: Piloswine
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swinub
+          display: Swinub
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sheer-cold
+            display: Sheer Cold
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, each Defending Pokémon can’t attack during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: tonnage
+            display: Tonnage
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: You may do 60 damage plus 40 more damage. If you do, Piloswine does 30 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: togetic
+    display: Togetic
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 176
+        name:
+          id: togetic
+          display: Togetic
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: togepi
+          display: Togepi
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: holy-shield
+            display: Holy Shield
+          text: Prevent all effects of attacks, including damage, done to Togetic by your opponent’s Pokémon that has Dark in its name.
+      - var: Attack
+        val:
+          name:
+            id: dive
+            display: Dive
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: rainbow-moves
+            display: Rainbow Moves
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Benched Pokémon’s attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togetic’s type is still {C}.) Togetic performs that attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-dragonite
+    display: Dark Dragonite
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 120
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dark-dragonair
+          display: Dark Dragonair
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: dark-trance
+            display: Dark Trance
+          text: As often as you like during your turn (before your attack), you may move a {D} Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Dark Dragonite is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: double-wing-attack
+            display: Double Wing Attack
+          cost:
+          - Water
+          - Lightning
+          text: Does 30 damage to each Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: claw-swipe
+            display: Claw Swipe
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-muk
+    display: Dark Muk
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 89
+        name:
+          id: muk
+          display: Muk
+      hit_points: 70
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: grimer
+          display: Grimer
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sticky-goo
+            display: Sticky Goo
+          text: As long as Dark Muk is your Active Pokémon, your opponent pays {C}{C} more to retreat his or her Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slimy-water
+            display: Slimy Water
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of {C} Energy in the Defending Pokémon’s Retreat Cost (after applying effects to the Retreat Cost).
+      - var: Attack
+        val:
+          name:
+            id: acidic-poison
+            display: Acidic Poison
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Burned and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-raticate
+    display: Dark Raticate
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rattata
+          display: Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-seed
+            display: Dark Seed
+          cost:
+          - Darkness
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: spread-poison
+            display: Spread Poison
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-sandslash
+    display: Dark Sandslash
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 28
+        name:
+          id: sandslash
+          display: Sandslash
+      hit_points: 70
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sandshrew
+          display: Sandshrew
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: poison-payback
+            display: Poison Payback
+          text: If Dark Sandslash is your Active Pokémon and is damaged by an opponent’s attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-tyranitar
+    display: Dark Tyranitar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 248
+        name:
+          id: tyranitar
+          display: Tyranitar
+      hit_points: 120
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dark-pupitar
+          display: Dark Pupitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: grind
+            display: Grind
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar.
+      - var: Attack
+        val:
+          name:
+            id: spinning-tail
+            display: Spinning Tail
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          text: Does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: bite-off
+            display: Bite Off
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Plus
+          text: If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-tyranitar
+    display: Dark Tyranitar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-koizumi
+      display: Kyoko Koizumi
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 248
+        name:
+          id: tyranitar
+          display: Tyranitar
+      hit_points: 120
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dark-pupitar
+          display: Dark Pupitar
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sand-damage
+            display: Sand Damage
+          text: As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent’s Benched Basic Pokémon between turns. You can’t use more than 1 Sand Damage Poké-Body between turns.
+      - var: Attack
+        val:
+          name:
+            id: second-strike
+            display: Second Strike
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: delibird
+    display: Delibird
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 225
+        name:
+          id: delibird
+          display: Delibird
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: gift-exchange
+            display: Gift Exchange
+          text: Once during your turn (before your attack), if Delibird is your Active Pokémon, you may shuffle 1 card from your hand into your deck. Then, draw a card. This power can’t be used if Delibird is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: souvenir
+            display: Souvenir
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip 3 coins. If 1 of them is heads, put 4 damage counters on the Defending Pokémon. If 2 of them are heads, remove 1 damage counter from the Defending Pokémon. If all of them are heads, put 10 damage counters on the Defending Pokémon. If all of them are tails, remove all damage counters from the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: furret
+    display: Furret
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 162
+        name:
+          id: furret
+          display: Furret
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sentret
+          display: Sentret
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-change
+            display: Quick Change
+          cost:
+          - Colorless
+          text: Choose up to 3 cards in your hand and put them on top of your deck. Then, search your deck for that many cards and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: quick-tail-smash
+            display: Quick Tail Smash
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Before doing damage, you may flip a coin. If heads, this attack does 80 damage instead. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: ledian
+    display: Ledian
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 166
+        name:
+          id: ledian
+          display: Ledian
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ledyba
+          display: Ledyba
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: powder-protection
+            display: Powder Protection
+          text: Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40.
+      - var: Attack
+        val:
+          name:
+            id: split-spiral-punch
+            display: Split Spiral Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: magby
+    display: Magby
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 240
+        name:
+          id: magby
+          display: Magby
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: baby-evolution
+            display: Baby Evolution
+          text: Once during your turn (before your attack), you may put Magmar from your hand onto Magby (this counts as evolving Magby), and remove all damage counters from Magby.
+      - var: Attack
+        val:
+          name:
+            id: detour
+            display: Detour
+          cost:
+          - Colorless
+          text: If you have a Supporter card in play, use the effect on that card as the effect of this attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: misdreavus
+    display: Misdreavus
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 200
+        name:
+          id: misdreavus
+          display: Misdreavus
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: dark-spell
+            display: Dark Spell
+          text: Once during your turn (before your attack), if Misdreavus is your Active Pokémon, you may flip a coin. If heads, put 1 damage counter on 1 of your opponent’s Pokémon. This power can’t be used if Misdreavus is affected by a Special Condition or if your other Active Pokémon is not Misdreavus.
+      - var: Attack
+        val:
+          name:
+            id: hide-in-shadows
+            display: Hide in Shadows
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 20
+          text: Switch Misdreavus with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: quagsire
+    display: Quagsire
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 195
+        name:
+          id: quagsire
+          display: Quagsire
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wooper
+          display: Wooper
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: saturation
+            display: Saturation
+          text: When you attach a {W} Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.
+      - var: Attack
+        val:
+          name:
+            id: hyper-pump
+            display: Hyper Pump
+          cost:
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack’s Energy cost. You can’t add more than 60 damage in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: qwilfish
+    display: Qwilfish
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 211
+        name:
+          id: qwilfish
+          display: Qwilfish
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: spiny
+            display: Spiny
+          text: If Qwilfish is your Active Pokémon and is damaged by an opponent’s attack (even if Qwilfish is Knocked Out), flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: stun-poison
+            display: Stun Poison
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: yanma
+    display: Yanma
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 193
+        name:
+          id: yanma
+          display: Yanma
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: quick-charge
+            display: Quick Charge
+          cost:
+          - Colorless
+          text: Search your deck for up to 4 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-arbok
+    display: Dark Arbok
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 24
+        name:
+          id: arbok
+          display: Arbok
+      hit_points: 90
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ekans
+          display: Ekans
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: swallow-up
+            display: Swallow Up
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Before doing damage, count the remaining HP of the Defending Pokémon and Dark Arbok. If the Defending Pokémon has fewer remaining HP than Dark Arbok’s, this attack does 10 damage plus 30 more damage.
+      - var: Attack
+        val:
+          name:
+            id: extra-poison
+            display: Extra Poison
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-ariados
+    display: Dark Ariados
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-koizumi
+      display: Kyoko Koizumi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 168
+        name:
+          id: ariados
+          display: Ariados
+      hit_points: 70
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: spinarak
+          display: Spinarak
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-poison-breath
+            display: Super Poison Breath
+          cost:
+          - Colorless
+          text: Each Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: breaking-impact
+            display: Breaking Impact
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage for each {C} Energy in that Pokémon’s Retreat Cost (after applying effects to the Retreat Cost). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-dragonair
+    display: Dark Dragonair
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: emi-miwa
+      display: Emi Miwa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: evolutionary-light
+            display: Evolutionary Light
+          text: Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can’t be used if Dark Dragonair is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: dragon-rage
+            display: Dragon Rage
+          cost:
+          - Water
+          - Lightning
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-dragonair
+    display: Dark Dragonair
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomoaki-imakuni
+      display: Tomoaki Imakuni
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: double-tackle
+            display: Double Tackle
+          cost:
+          - Water
+          - Colorless
+          text: Does 20 damage to each Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: crushing-blow
+            display: Crushing Blow
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-flaaffy
+    display: Dark Flaaffy
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 180
+        name:
+          id: flaaffy
+          display: Flaaffy
+      hit_points: 80
+      energy_types:
+      - Lightning
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mareep
+          display: Mareep
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-slash
+            display: Thunder Slash
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: If the Defending Pokémon is a Basic Pokémon, the Defending Pokémon is now Paralyzed. Dark Flaaffy can’t use Thunder Slash during your next turn.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-golbat
+    display: Dark Golbat
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 42
+        name:
+          id: golbat
+          display: Golbat
+      hit_points: 70
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: zubat
+          display: Zubat
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: night-ambush
+            display: Night Ambush
+          cost:
+          - Grass
+          text: Does 30 damage to 1 of your opponent’s Pokémon. Dark Golbat can’t attack during your next turn. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-golduck
+    display: Dark Golduck
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 55
+        name:
+          id: golduck
+          display: Golduck
+      hit_points: 70
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: psyduck
+          display: Psyduck
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: darkness-shield
+            display: Darkness Shield
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pokémon during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: cold-crush
+            display: Cold Crush
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: You may discard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-gyarados
+    display: Dark Gyarados
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 80
+      energy_types:
+      - Water
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-scale
+            display: Dark Scale
+          text: If Dark Gyarados is your Active Pokémon and is Knocked Out by an opponent’s attack, put 3 damage counters on the Attacking Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sharp-fang
+            display: Sharp Fang
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: dark-streak
+            display: Dark Streak
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dark-houndoom
+    display: Dark Houndoom
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 229
+        name:
+          id: houndoom
+          display: Houndoom
+      hit_points: 70
+      energy_types:
+      - Fire
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: houndour
+          display: Houndour
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: fire-breath
+            display: Fire Breath
+          text: Once during your turn (before your attack), if Dark Houndoom is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Burned. This power can’t be used if Dark Houndoom is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: fire-payback
+            display: Fire Payback
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If you have less Benched Pokémon than your opponent, this attack does 40 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-magcargo
+    display: Dark Magcargo
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 219
+        name:
+          id: magcargo
+          display: Magcargo
+      hit_points: 80
+      energy_types:
+      - Fire
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slugma
+          display: Slugma
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-press
+            display: Energy Press
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each basic Energy card attached to all of your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-magneton
+    display: Dark Magneton
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: emi-miwa
+      display: Emi Miwa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 82
+        name:
+          id: magneton
+          display: Magneton
+      hit_points: 70
+      energy_types:
+      - Lightning
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magnemite
+          display: Magnemite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magnetic-lines
+            display: Magnetic Lines
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+          text: If your opponent has at least 2 Pokémon in play, move a basic Energy card from the Defending Pokémon to another of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: poison-pulse
+            display: Poison Pulse
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-pupitar
+    display: Dark Pupitar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomoaki-imakuni
+      display: Tomoaki Imakuni
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 247
+        name:
+          id: pupitar
+          display: Pupitar
+      hit_points: 70
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: larvitar
+          display: Larvitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: explosive-evolution
+            display: Explosive Evolution
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance.) Then, search your deck for a card that evolves from Dark Pupitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: double-tackle
+            display: Double Tackle
+          cost:
+          - Fighting
+          - Colorless
+          text: Does 20 damage to each Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-pupitar
+    display: Dark Pupitar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: emi-miwa
+      display: Emi Miwa
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 247
+        name:
+          id: pupitar
+          display: Pupitar
+      hit_points: 80
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: larvitar
+          display: Larvitar
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-streak
+            display: Dark Streak
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: rock-tumble
+            display: Rock Tumble
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: This attack’s damage is not affected by Resistance.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dark-weezing
+    display: Dark Weezing
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 110
+        name:
+          id: weezing
+          display: Weezing
+      hit_points: 80
+      energy_types:
+      - Grass
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: koffing
+          display: Koffing
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: methane-leak
+            display: Methane Leak
+          text: As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns.
+      - var: Attack
+        val:
+          name:
+            id: smog
+            display: Smog
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: darkness-charge
+            display: Darkness Charge
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: Put 2 damage counters on Dark Weezing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: heracross
+    display: Heracross
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 214
+        name:
+          id: heracross
+          display: Heracross
+      hit_points: 70
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: crust
+            display: Crust
+          text: Any damage done to Heracross by attacks from your opponent’s Basic Pokémon is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: get-even
+            display: Get Even
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If you have more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: magmar
+    display: Magmar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 126
+        name:
+          id: magmar
+          display: Magmar
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dump-and-draw
+            display: Dump and Draw
+          cost:
+          - Colorless
+          text: Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded.
+      - var: Attack
+        val:
+          name:
+            id: flame-tail
+            display: Flame Tail
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mantine
+    display: Mantine
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 226
+        name:
+          id: mantine
+          display: Mantine
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: ripples
+            display: Ripples
+          text: Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pokémon (excluding Mantine). This power can’t be used if Mantine is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: aqua-slash
+            display: Aqua Slash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+          text: Mantine can’t attack during your next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-meowth
+    display: Rocket's Meowth
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 52
+        name:
+          id: meowth
+          display: Meowth
+      hit_points: 60
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: snatch-and-run
+            display: Snatch and Run
+          cost:
+          - Colorless
+          text: Search your deck for a Pokémon Tool card or Rocket’s Secret Machine card, show it to your opponent, and put it into your hand. If you do, you may switch Rocket’s Meowth with 1 of your Benched Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: miraculous-comeback
+            display: Miraculous Comeback
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip a coin for each Pokémon in play (both yours and your opponent’s). This attack does 10 damage times the number of heads. Rocket’s Meowth does 10 damage times the number of tails to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-wobbuffet
+    display: Rocket's Wobbuffet
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 202
+        name:
+          id: wobbuffet
+          display: Wobbuffet
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-aid
+            display: Dark Aid
+          cost:
+          - Colorless
+          text: Search your discard pile for Pokémon Tool cards and Rocket’s Secret Machine cards. You may show either 1 Pokémon Tool card or Rocket’s Secret Machine card to your opponent and put it into your hand, or show a combination of 3 Pokémon Tool cards or Rocket’s Secret Machine cards to your opponent and shuffle them into your deck.
+      - var: Attack
+        val:
+          name:
+            id: amnesia
+            display: Amnesia
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+          text: Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: seadra
+    display: Seadra
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 117
+        name:
+          id: seadra
+          display: Seadra
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: horsea
+          display: Horsea
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: aqua-trick
+            display: Aqua Trick
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Move 1 Energy card attached to the Defending Pokémon to 1 of your opponent’s Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: skiploom
+    display: Skiploom
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 188
+        name:
+          id: skiploom
+          display: Skiploom
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: hoppip
+          display: Hoppip
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: buffer
+            display: Buffer
+          text: If Skiploom would be Knocked Out by an opponent’s attack, flip a coin. If heads, Skiploom is not Knocked Out and its remaining HP becomes 10 instead.
+      - var: Attack
+        val:
+          name:
+            id: miracle-powder
+            display: Miracle Powder
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: togepi
+    display: Togepi
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 175
+        name:
+          id: togepi
+          display: Togepi
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: yawn
+            display: Yawn
+          cost:
+          - Colorless
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: mini-metronome
+            display: Mini-Metronome
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, choose 1 of the Defending Pokémon’s attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi’s type is still {C}.) Togepi performs that attack.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cubone
+    display: Cubone
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 104
+        name:
+          id: cubone
+          display: Cubone
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: look-for-friends
+            display: Look for Friends
+          cost:
+          - Colorless
+          text: Reveal cards from your deck until you reveal a Basic Pokémon. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don’t reveal a Basic Pokémon, shuffle all the revealed cards back into your deck.)
+      - var: Attack
+        val:
+          name:
+            id: bonemerang
+            display: Bonemerang
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pound
+            display: Pound
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-song
+            display: Dragon Song
+          cost:
+          - Colorless
+          text: Each Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: tail-strike
+            display: Tail Strike
+          cost:
+          - Water
+          - Lightning
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: drowzee
+    display: Drowzee
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: insomnia
+            display: Insomnia
+          text: Drowzee can’t be Asleep.
+      - var: Attack
+        val:
+          name:
+            id: soothing-wave
+            display: Soothing Wave
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, each Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: ekans
+    display: Ekans
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 23
+        name:
+          id: ekans
+          display: Ekans
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-wrap
+            display: Tail Wrap
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: grimer
+    display: Grimer
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 88
+        name:
+          id: grimer
+          display: Grimer
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: taunt
+            display: Taunt
+          cost:
+          - Colorless
+          text: Choose 1 of your opponent’s Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+      - var: Attack
+        val:
+          name:
+            id: spit-poison
+            display: Spit Poison
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hoppip
+    display: Hoppip
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 187
+        name:
+          id: hoppip
+          display: Hoppip
+      hit_points: 30
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: buffer
+            display: Buffer
+          text: If Hoppip would be Knocked Out by an opponent’s attack, flip a coin. If heads, Hoppip is not Knocked Out and its remaining HP becomes 10 instead.
+      - var: Attack
+        val:
+          name:
+            id: miracle-powder
+            display: Miracle Powder
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: horsea
+    display: Horsea
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 116
+        name:
+          id: horsea
+          display: Horsea
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-plant
+            display: Water Plant
+          cost:
+          - Colorless
+          text: Search your discard pile for up to 2 {W} Energy cards, show them to your opponent, and put them into your hand.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: smokescreen
+            display: Smokescreen
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: houndour
+    display: Houndour
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 228
+        name:
+          id: houndour
+          display: Houndour
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-lift
+            display: Dark Lift
+          text: If Houndour has any {D} Energy attached to it, the Retreat Cost for Houndour is 0.
+      - var: Attack
+        val:
+          name:
+            id: firebreathing
+            display: Firebreathing
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: koffing
+    display: Koffing
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 109
+        name:
+          id: koffing
+          display: Koffing
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: knockout-gas
+            display: Knockout Gas
+          text: If Koffing is your Active Pokémon and is Knocked Out by an opponent’s attack, the Attacking Pokémon is now Confused and Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: larvitar
+    display: Larvitar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 246
+        name:
+          id: larvitar
+          display: Larvitar
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-attack
+            display: Fury Attack
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: larvitar
+    display: Larvitar
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 246
+        name:
+          id: larvitar
+          display: Larvitar
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: light-punch
+            display: Light Punch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: dig-drain
+            display: Dig Drain
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+          text: Remove 1 damage counter from Larvitar.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: ledyba
+    display: Ledyba
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 165
+        name:
+          id: ledyba
+          display: Ledyba
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a {G} Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: beat
+            display: Beat
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: magikarp
+    display: Magikarp
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-friends
+            display: Call for Friends
+          cost:
+          - Water
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magnemite
+    display: Magnemite
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 81
+        name:
+          id: magnemite
+          display: Magnemite
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sonicboom
+            display: Sonicboom
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: This attack’s damage isn’t affected by Weakness or Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mareep
+    display: Mareep
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 179
+        name:
+          id: mareep
+          display: Mareep
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: minor-errand-running
+            display: Minor Errand-Running
+          cost:
+          - Colorless
+          text: Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: quick-attack
+            display: Quick Attack
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: marill
+    display: Marill
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 183
+        name:
+          id: marill
+          display: Marill
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: minor-errand-running
+            display: Minor Errand-Running
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: onix
+    display: Onix
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 95
+        name:
+          id: onix
+          display: Onix
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: horn-rush
+            display: Horn Rush
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: granite-head
+            display: Granite Head
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+          text: During your opponent’s next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness and Resistance).
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: psyduck
+    display: Psyduck
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 54
+        name:
+          id: psyduck
+          display: Psyduck
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gentle-slap
+            display: Gentle Slap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: headache
+            display: Headache
+          cost:
+          - Water
+          text: Flip a coin. If heads, your opponent can’t play a Trainer card from his or her hand until the end of your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: rattata
+    display: Rattata
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: scramble
+            display: Scramble
+          text: As long as your opponent has any Pokémon-ex as his or her Active Pokémon, the Retreat Cost for Rattata is 0.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rattata
+    display: Rattata
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: snarl
+            display: Snarl
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: remoraid
+    display: Remoraid
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 223
+        name:
+          id: remoraid
+          display: Remoraid
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-draw
+            display: Energy Draw
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to Remoraid. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: razor-fin
+            display: Razor Fin
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: sandshrew
+    display: Sandshrew
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 27
+        name:
+          id: sandshrew
+          display: Sandshrew
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rear-kick
+            display: Rear Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: sentret
+    display: Sentret
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 161
+        name:
+          id: sentret
+          display: Sentret
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: friend-search
+            display: Friend Search
+          cost:
+          - Colorless
+          text: Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the other 4 cards back on top of your deck. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: surprise-attack
+            display: Surprise Attack
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowpoke
+    display: Slowpoke
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 79
+        name:
+          id: slowpoke
+          display: Slowpoke
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dense
+            display: Dense
+          text: Any damage done to Slowpoke by attacks from your opponent’s Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: slugma
+    display: Slugma
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 218
+        name:
+          id: slugma
+          display: Slugma
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: heat-tackle
+            display: Heat Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Slugma does 10 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: spinarak
+    display: Spinarak
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 167
+        name:
+          id: spinarak
+          display: Spinarak
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: rising-lunge
+            display: Rising Lunge
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: swinub
+    display: Swinub
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '79'
+      display: '79'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 220
+        name:
+          id: swinub
+          display: Swinub
+      hit_points: 50
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rest
+            display: Rest
+          cost:
+          - Colorless
+          - Colorless
+          text: Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: voltorb
+    display: Voltorb
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '80'
+      display: '80'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: sachiko-adachi
+      display: Sachiko Adachi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 100
+        name:
+          id: voltorb
+          display: Voltorb
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psycho-waves
+            display: Psycho Waves
+          cost:
+          - Colorless
+          text: Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: wooper
+    display: Wooper
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '81'
+      display: '81'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 194
+        name:
+          id: wooper
+          display: Wooper
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: saturation
+            display: Saturation
+          text: When you attach a {W} Energy card from your hand to Wooper, remove all Special Conditions and 1 damage counter from Wooper.
+      - var: Attack
+        val:
+          name:
+            id: wave-splash
+            display: Wave Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: zubat
+    display: Zubat
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '82'
+      display: '82'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: miki-tanaka
+      display: Miki Tanaka
+    rarity:
+      id: common
+      display: Common
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 41
+        name:
+          id: zubat
+          display: Zubat
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dark-streak
+            display: Dark Streak
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: ambush
+            display: Ambush
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: copycat
+    display: Copycat
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '83'
+      display: '83'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Shuffle your hand into your deck. Then, count the number of cards in your opponent’s hand and draw that many cards.
+      sub: Supporter
+- title:
+    id: pokemon-retriever
+    display: Pokémon Retriever
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '84'
+      display: '84'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Search your discard pile for Basic Pokémon and Evolution cards. You may either show 1 Basic Pokémon or Evolution card to your opponent and put it into your hand, or show a combination of 3 Basic Pokémon or Evolution cards to your opponent and shuffle them into your deck.
+      sub: Item
+      secondary_subs:
+      - id: rockets-secret-machine
+        display: Rocket's Secret Machine
+- title:
+    id: pow-hand-extension
+    display: Pow! Hand Extension
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '85'
+      display: '85'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You may use this card only if you have more Prize cards left than your opponent.
+        Move 1 Energy card attached to the Defending Pokémon to another of your opponent’s Pokémon. Or, switch 1 of your opponent’s Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+      sub: Item
+      secondary_subs:
+      - id: rockets-secret-machine
+        display: Rocket's Secret Machine
+- title:
+    id: rockets-admin
+    display: Rocket's Admin.
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)
+      sub: Supporter
+- title:
+    id: rockets-hideout
+    display: Rocket's Hideout
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '87'
+      display: '87'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Each Pokémon with Dark or Rocket’s in its name (both yours and your opponent’s) gets +20 HP.
+      sub: Stadium
+- title:
+    id: rockets-mission
+    display: Rocket's Mission
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Discard a card from your hand. Then, draw 3 cards. If you discarded a Pokémon that has Dark or Rocket’s in its name, draw 4 cards instead.
+      sub: Supporter
+- title:
+    id: rockets-poke-ball
+    display: Rocket's Poké Ball
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '89'
+      display: '89'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Pokémon with Dark in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      sub: Item
+- title:
+    id: rockets-tricky-gym
+    display: Rocket's Tricky Gym
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '90'
+      display: '90'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Each Pokémon with Dark or Rocket’s in its name (both yours and your opponent’s) can use attacks on this card instead of its own.
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: feint-attack
+            display: Feint Attack
+          cost:
+          - Colorless
+          text: Does 20 damage to 1 of your opponent’s Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+      sub: Stadium
+- title:
+    id: surprise-time-machine
+    display: Surprise! Time Machine
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '91'
+      display: '91'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Choose 1 of your Evolved Pokémon, remove the highest Stage Evolution card from it, and shuffle it into your deck (this counts as devolving that Pokémon). If that Pokémon remains in play, search your deck for an Evolution card that evolves from that Pokémon and put it onto that Pokémon (this counts as evolving that Pokémon). Shuffle your deck afterward.
+      sub: Item
+      secondary_subs:
+      - id: rockets-secret-machine
+        display: Rocket's Secret Machine
+- title:
+    id: swoop-teleporter
+    display: Swoop! Teleporter
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '92'
+      display: '92'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Search your deck for a Basic Pokémon (excluding Pokémon-ex) and switch it with 1 of your Basic Pokémon (excluding Pokémon-ex) in play. (Any cards attached to that Pokémon, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Place the first Basic Pokémon in the discard pile. Shuffle your deck afterward.
+      sub: Item
+      secondary_subs:
+      - id: rockets-secret-machine
+        display: Rocket's Secret Machine
+- title:
+    id: venture-bomb
+    display: Venture Bomb
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: katsura-tabata
+      display: Katsura Tabata
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Flip a coin. If heads, put 1 damage counter on 1 of your opponent’s Pokémon. If tails, put 1 damage counter on 1 of your Pokémon.
+      sub: Item
+      secondary_subs:
+      - id: rockets-secret-machine
+        display: Rocket's Secret Machine
+- title:
+    id: dark-metal-energy
+    display: Dark Metal Energy
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '94'
+      display: '94'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: Attach Dark Metal Energy to 1 of your Pokémon. While in play, Dark Metal Energy provides {D} Energy and {M} Energy, but provides only 1 Energy at a time. (Doesn’t count as a basic Energy card when not in play and has no effect other than providing Energy.)
+- title:
+    id: r-energy
+    display: R Energy
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '95'
+      display: '95'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: takumi-akabane
+      display: Takumi Akabane
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2004-11-08
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: R Energy can be attached only to a Pokémon that has Dark or Rocket’s in its name. While in play, R Energy provides 2 {D} Energy. (Doesn’t count as a basic Energy card.) If the Pokémon R Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance). When your turn ends, discard R Energy.
+- title:
+    id: rockets-articuno-ex
+    display: Rocket's Articuno ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '96'
+      display: '96'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: darkness-veil
+            display: Darkness Veil
+          text: As long as Rocket’s Articuno ex has any {D} Energy attached to it, prevent all effects, except damage, by an opponent’s attack done to Rocket’s Articuno ex.
+      - var: Attack
+        val:
+          name:
+            id: freeze-solid
+            display: Freeze Solid
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your discard pile for a {W} Energy card and attach it to Rocket’s Articuno ex.
+      - var: Attack
+        val:
+          name:
+            id: ice-wing
+            display: Ice Wing
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-entei-ex
+    display: Rocket's Entei ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 244
+        name:
+          id: entei
+          display: Entei
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-condition
+            display: Dark Condition
+          text: As long as Rocket’s Entei ex has any {D} Energy attached to it, Rocket’s Entei ex has no Weakness.
+      - var: Attack
+        val:
+          name:
+            id: energy-link
+            display: Energy Link
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your discard pile for an Energy card and attach it to Rocket’s Entei ex.
+      - var: Attack
+        val:
+          name:
+            id: volcanic-ash
+            display: Volcanic Ash
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          text: Discard 2 Energy attached to Rocket’s Entei ex and then choose 1 of your opponent’s Pokémon. This attack does 60 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-hitmonchan-ex
+    display: Rocket's Hitmonchan ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '98'
+      display: '98'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 107
+        name:
+          id: hitmonchan
+          display: Hitmonchan
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: strikes-back
+            display: Strikes Back
+          text: If Rocket’s Hitmonchan ex is your Active Pokémon and is damaged by an opponent’s attack (even if Rocket’s Hitmonchan ex is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: mach-punch
+            display: Mach Punch
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+          text: Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: magnum-punch
+            display: Magnum Punch
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-mewtwo-ex
+    display: Rocket's Mewtwo ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '99'
+      display: '99'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: darkness-switch
+            display: Darkness Switch
+          cost:
+          - Psychic
+          text: Discard an Energy card attached to Rocket’s Mewtwo ex, and then switch all damage counters on Rocket’s Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: psyburn
+            display: Psyburn
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-moltres-ex
+    display: Rocket's Moltres ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '100'
+      display: '100'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 146
+        name:
+          id: moltres
+          display: Moltres
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-lift
+            display: Dark Lift
+          text: If Rocket’s Moltres ex has any {D} Energy attached to it, the Retreat Cost for Rocket’s Moltres ex is 0.
+      - var: Attack
+        val:
+          name:
+            id: fire-dance
+            display: Fire Dance
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+          text: Search your discard pile for a {R} Energy card and attach it to 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-scizor-ex
+    display: Rocket's Scizor ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '101'
+      display: '101'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 212
+        name:
+          id: scizor
+          display: Scizor
+      hit_points: 120
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rockets-scyther-ex
+          display: Rocket's Scyther ex
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dual-armor
+            display: Dual Armor
+          text: As long as Rocket’s Scizor ex has any {M} Energy attached to it, Rocket’s Scizor ex is both {D} and {M} type.
+      - var: Attack
+        val:
+          name:
+            id: rotating-claws
+            display: Rotating Claws
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: You may discard an Energy card attached to Rocket’s Scizor ex. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Rocket’s Scizor ex.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: rockets-scyther-ex
+    display: Rocket's Scyther ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '102'
+      display: '102'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: hikaru-koike
+      display: Hikaru Koike
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 123
+        name:
+          id: scyther
+          display: Scyther
+      hit_points: 80
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dual-armor
+            display: Dual Armor
+          text: As long as Rocket’s Scyther ex has any {G} Energy attached to it, Rocket’s Scyther ex is both {G} and {D} type.
+      - var: Attack
+        val:
+          name:
+            id: bounce
+            display: Bounce
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: After your attack, you may switch Rocket’s Scyther ex with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: slashing-strike
+            display: Slashing Strike
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Rocket’s Scyther ex can’t use Slashing Strike during your next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: rockets-sneasel-ex
+    display: Rocket's Sneasel ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '103'
+      display: '103'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 215
+        name:
+          id: sneasel
+          display: Sneasel
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: drag-off
+            display: Drag Off
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+          text: Before doing damage, you may switch 1 of your opponent’s Benched Pokémon with the Defending Pokémon. If you do, this attack does 10 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+      - var: Attack
+        val:
+          name:
+            id: dark-ring
+            display: Dark Ring
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Does 30 damage plus 10 more damage for each of your {D} Pokémon in play.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: rockets-snorlax-ex
+    display: Rocket's Snorlax ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '104'
+      display: '104'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 143
+        name:
+          id: snorlax
+          display: Snorlax
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-healer
+            display: Dark Healer
+          text: As long as Rocket’s Snorlax ex has any {D} Energy attached to it, remove 1 damage counter from Rocket’s Snorlax ex between turns.
+      - var: Attack
+        val:
+          name:
+            id: poison-claws
+            display: Poison Claws
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+      - var: Attack
+        val:
+          name:
+            id: collapse
+            display: Collapse
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Rocket’s Snorlax ex is now Asleep.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-suicune-ex
+    display: Rocket's Suicune ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '105'
+      display: '105'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 245
+        name:
+          id: suicune
+          display: Suicune
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: dark-and-clear
+            display: Dark and Clear
+          text: As long as Rocket’s Suicune ex has any {D} Energy attached to it, Rocket’s Suicune ex can’t be affected by any Special Conditions.
+      - var: Attack
+        val:
+          name:
+            id: icy-wind
+            display: Icy Wind
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: hyper-splash
+            display: Hyper Splash
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage plus 40 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-zapdos-ex
+    display: Rocket's Zapdos ex
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '106'
+      display: '106'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: rare-holo-ex
+      display: Rare Holo ex
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: darkness-guard
+            display: Darkness Guard
+          text: As long as Rocket’s Zapdos ex has any {D} Energy attached to it, damage done to Rocket’s Zapdos ex by an opponent’s attack is reduced by 10 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: plasma
+            display: Plasma
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your discard pile for a {L} Energy card and attach it to Rocket’s Zapdos ex.
+      - var: Attack
+        val:
+          name:
+            id: raging-thunder
+            display: Raging Thunder
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+          text: This attack does 30 damage to 1 of your Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: mudkip-star
+    display: Mudkip Star
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo-star
+      display: Rare Holo Star
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 258
+        name:
+          id: mudkip
+          display: Mudkip
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: whirlpool
+            display: Whirlpool
+          cost:
+          - Water
+          text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: spring-back
+            display: Spring Back
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: torchic-star
+    display: Torchic Star
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '108'
+      display: '108'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo-star
+      display: Rare Holo Star
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fireworks
+            display: Fireworks
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Flip a coin. If tails, discard a {R} Energy card attached to Torchic Star.
+      - var: Attack
+        val:
+          name:
+            id: spring-back
+            display: Spring Back
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: treecko-star
+    display: Treecko Star
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo-star
+      display: Rare Holo Star
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 252
+        name:
+          id: treecko
+          display: Treecko
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: spring-back
+            display: Spring Back
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 30
+        modifier: Minus
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '110'
+      display: '110'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-11-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smokescreen
+            display: Smokescreen
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: fireworks
+            display: Fireworks
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, discard a {R} Energy card attached to Charmeleon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: here-comes-team-rocket
+    display: Here Comes Team Rocket!
+  set:
+    name:
+      id: team-rocket-returns
+      display: Team Rocket Returns
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tr
+      display: TR
+  number:
+    number:
+      id: '111'
+      display: '111'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2004-11-08
+  sub:
+    var: Trainer
+    val:
+      text: Each player plays with his or her Prize cards face up for the rest of the game.
+      sub: Supporter

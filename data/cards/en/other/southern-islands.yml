@@ -1,0 +1,1324 @@
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon’s body is covered by fine hairs that can be seen only under a microscope.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 30
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rainbow-wave
+            display: Rainbow Wave
+          cost:
+          - Psychic
+          text: Choose a type of Energy other than {C} attached to Mew. This attack does 20 damage to each of your opponent’s Pokémon of that type (including Benched Pokémon). Don’t apply Weakness and Resistance.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: pidgeot
+    display: Pidgeot
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 18
+        name:
+          id: pidgeot
+          display: Pidgeot
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pidgeotto
+          display: Pidgeotto
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: supersonic-flight
+            display: Supersonic Flight
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: slicing-wind
+            display: Slicing Wind
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: onix
+    display: Onix
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '40'
+      display: '40'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 95
+        name:
+          id: onix
+          display: Onix
+      hit_points: 90
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 2 coins. This attack does 20 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 40
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: togepi
+    display: Togepi
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 175
+        name:
+          id: togepi
+          display: Togepi
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bawl
+            display: Bawl
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: ivysaur
+    display: Ivysaur
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '23'
+      display: '23'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: A sure sign spring is on its way is when the seed on this Pokémon’s back flowers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 2
+        name:
+          id: ivysaur
+          display: Ivysaur
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bulbasaur
+          display: Bulbasaur
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: strange-scent
+            display: Strange Scent
+          cost:
+          - Grass
+          text: Each player flips a coin. Each player who gets heads chooses a total of 3 damage counters from among his or her Pokémon and removes them. (If the player’s Pokémon have fewer total damage counters than that, he or she removes all of them.)
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: raticate
+    display: Raticate
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '25'
+      display: '25'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: rattata
+          display: Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sharp-teeth
+            display: Sharp Teeth
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: ledyba
+    display: Ledyba
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '12'
+      display: '12'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 165
+        name:
+          id: ledyba
+          display: Ledyba
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: agility
+            display: Agility
+          cost:
+          - Grass
+          - Grass
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Ledyba.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: jigglypuff
+    display: Jigglypuff
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 39
+        name:
+          id: jigglypuff
+          display: Jigglypuff
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tempting-eyes
+            display: Tempting Eyes
+          cost:
+          - Colorless
+          text: Choose 1 of your opponent’s Benched Pokémon and switch it with the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: sing
+            display: Sing
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: butterfree
+    display: Butterfree
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: keiko-fukuyama
+      display: Keiko Fukuyama
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 12
+        name:
+          id: butterfree
+          display: Butterfree
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: metapod
+          display: Metapod
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fly
+            display: Fly
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Butterfree. If tails, this attack does nothing (not even damage).
+      - var: Attack
+        val:
+          name:
+            id: rainbow-powder
+            display: Rainbow Powder
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: tentacruel
+    display: Tentacruel
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon attacks its prey with its eighty toxin-producing tentacles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 73
+        name:
+          id: tentacruel
+          display: Tentacruel
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: tentacool
+          display: Tentacool
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tentacle-grip
+            display: Tentacle Grip
+          cost:
+          - Water
+          text: Flip a number of coins equal to the number of {W} Energy attached to Tentacruel. For each heads, draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: poison-sting
+            display: Poison Sting
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: marill
+    display: Marill
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon’s fur repels water like a duck’s feathers, allowing it to stay dry and fluffy even in water.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 183
+        name:
+          id: marill
+          display: Marill
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: squirt
+            display: Squirt
+          cost:
+          - Water
+          text: Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. Don’t apply Weakness and Resistance.
+      - var: Attack
+        val:
+          name:
+            id: rolling-tackle
+            display: Rolling Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: lapras
+    display: Lapras
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This gentle Pokémon can understand human language and allows people to ride on its back.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 131
+        name:
+          id: lapras
+          display: Lapras
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gentle-song
+            display: Gentle Song
+          cost:
+          - Colorless
+          text: If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep.
+      - var: Attack
+        val:
+          name:
+            id: ice-beam
+            display: Ice Beam
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: exeggutor
+    display: Exeggutor
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '27'
+      display: '27'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 103
+        name:
+          id: exeggutor
+          display: Exeggutor
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: exeggcute
+          display: Exeggcute
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sharpshooter
+            display: Sharpshooter
+          cost:
+          - Grass
+          text: Choose 1 of your opponent’s Pokémon. Flip a number of coins equal to the number of {G} Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don’t apply Weakness and Resistance.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: slowking
+    display: Slowking
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 199
+        name:
+          id: slowking
+          display: Slowking
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: slowpoke
+          display: Slowpoke
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: revelation
+            display: Revelation
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: psychic
+            display: Psychic
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: wartortle
+    display: Wartortle
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: When attacked, this Pokémon withdraws into its shell, although it can’t quite pull in all of its long tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 8
+        name:
+          id: wartortle
+          display: Wartortle
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: squirtle
+          display: Squirtle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each {W} Energy attached to Wartortle but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: lickitung
+    display: Lickitung
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '25'
+      display: '25'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 108
+        name:
+          id: lickitung
+          display: Lickitung
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lick-wounds
+            display: Lick Wounds
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, choose 1 Pokémon (yours or your opponent’s) with damage counters on it and remove 2 damage counters from it (1 if it only has 1).
+      - var: Attack
+        val:
+          name:
+            id: tongue-stretch
+            display: Tongue Stretch
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. Don’t apply Weakness and Resistance.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: vileplume
+    display: Vileplume
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '30'
+      display: '30'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 45
+        name:
+          id: vileplume
+          display: Vileplume
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: gloom
+          display: Gloom
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: paradise-pollen
+            display: Paradise Pollen
+          cost:
+          - Grass
+          text: Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1).
+      - var: Attack
+        val:
+          name:
+            id: horrid-pollen
+            display: Horrid Pollen
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: primeape
+    display: Primeape
+  set:
+    name:
+      id: southern-islands
+      display: Southern Islands
+    series:
+      id: other
+      display: Other
+    context: English
+    live_code:
+      id: si
+      display: SI
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '18'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2001-07-31
+    flavor: This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it’s not angry.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 57
+        name:
+          id: primeape
+          display: Primeape
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mankey
+          display: Mankey
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: low-kick
+            display: Low Kick
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: rampage
+            display: Rampage
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 20 damage plus 10 more damage for each damage counter on Primeape. Flip a coin. If tails, Primeape is now Confused (after doing damage).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times

@@ -1,0 +1,482 @@
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+- title:
+    id: combusken
+    display: Combusken
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 256
+        name:
+          id: combusken
+          display: Combusken
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: torchic
+          display: Torchic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flare
+            display: Flare
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+      - var: Attack
+        val:
+          name:
+            id: double-kick
+            display: Double Kick
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Times
+          text: Flip 2 coins. This attack does 40 damage times the number of heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: delcatty
+    display: Delcatty
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 301
+        name:
+          id: delcatty
+          display: Delcatty
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: skitty
+          display: Skitty
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: ultra-energy-source
+            display: Ultra Energy Source
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent’s).
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: latias
+    display: Latias
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: nakaoka
+      display: Nakaoka
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-dew
+            display: Dragon Dew
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+          text: Remove 1 damage counter from 1 of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: heat-blast
+            display: Heat Blast
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: numel
+    display: Numel
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 322
+        name:
+          id: numel
+          display: Numel
+      hit_points: 40
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: firebreathing
+            display: Firebreathing
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: skitty
+    display: Skitty
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 300
+        name:
+          id: skitty
+          display: Skitty
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: ex-trainer-kit-latias
+      display: EX Trainer Kit - Latias
+    series:
+      id: ex
+      display: EX
+    context: English
+    live_code:
+      id: tk1a
+      display: TK1A
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '10'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2004-06-04
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 50
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: firebreathing
+            display: Firebreathing
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times

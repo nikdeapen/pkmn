@@ -1,0 +1,5863 @@
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: tetsuya-koizumi
+      display: tetsuya koizumi
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-fang
+            display: Fire Fang
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Burned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kodama
+      display: kodama
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: When it swings its burning tail, it elevates the air temperature to unbearably high levels.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: burning-fighter
+            display: Burning Fighter
+          text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard the top 5 cards of your deck. If any of those cards are {R} Energy cards, attach them to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charizard
+    display: Charizard
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ryota-murayama
+      display: Ryota Murayama
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 160
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: resolute-flame
+            display: Resolute Flame
+          text: This Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon for each of their Pokémon-GX and Pokémon-EX in play.
+      - var: Attack
+        val:
+          name:
+            id: fiery-blast
+            display: Fiery Blast
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 130
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: torchic
+    display: Torchic
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 255
+        name:
+          id: torchic
+          display: Torchic
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: combusken
+    display: Combusken
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 256
+        name:
+          id: combusken
+          display: Combusken
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: torchic
+          display: Torchic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: natural-cure
+            display: Natural Cure
+          text: Whenever you attach an Energy card from your hand to this Pokémon, remove all Special Conditions from it.
+      - var: Attack
+        val:
+          name:
+            id: lunge
+            display: Lunge
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, this attack does nothing.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaziken
+    display: Blaziken
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 257
+        name:
+          id: blaziken
+          display: Blaziken
+      hit_points: 150
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: combusken
+          display: Combusken
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: firestarter
+            display: Firestarter
+          text: Once during your turn (before your attack), you may attach a {R} Energy card from your discard pile to 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fire-stream
+            display: Fire Stream
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard a {R} Energy from this Pokémon. This attack does 20 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: victini-prism-star
+    display: Victini Prism Star
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare-prism-star
+      display: Rare Prism Star
+    release_date: 2018-09-07
+    flavor: When it shares the infinite energy it creates, that being’s entire body will be overflowing with power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 494
+        name:
+          id: victini
+          display: Victini
+      hit_points: 90
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: infinity
+            display: Infinity
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage for each basic Energy card in your discard pile. Then, shuffle those cards into your deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: darumaka
+    display: Darumaka
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 554
+        name:
+          id: darumaka
+          display: Darumaka
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: damage-rush
+            display: Damage Rush
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: darmanitan
+    display: Darmanitan
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 555
+        name:
+          id: darmanitan
+          display: Darmanitan
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: darumaka
+          display: Darumaka
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: heat-assist
+            display: Heat Assist
+          cost:
+          - Fire
+          text: Attach up to 3 {R} Energy cards from your hand to your Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: darmani-hands
+            display: Darmani-Hands
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Flip 4 coins. This attack does 50 more damage for each heads.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: heatmor
+    display: Heatmor
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 631
+        name:
+          id: heatmor
+          display: Heatmor
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: singe
+            display: Singe
+          cost:
+          - Fire
+          text: Your opponent’s Active Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: charring-breath
+            display: Charring Breath
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 120
+          text: If your opponent’s Active Pokémon isn’t Burned, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: reshiram-gx
+    display: Reshiram-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: planeta-otani
+      display: PLANETA Otani
+    rarity:
+      id: rare-holo-gx
+      display: Rare Holo GX
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 180
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: scorching-column
+            display: Scorching Column
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 110
+          text: Your opponent’s Active Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: vermilion-gx
+            display: Vermilion-GX
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 180
+          text: You may attach up to 5 {R} Energy cards from your hand to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: litten
+    display: Litten
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ryota-murayama
+      display: Ryota Murayama
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 725
+        name:
+          id: litten
+          display: Litten
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: salandit
+    display: Salandit
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: mahou
+      display: MAHOU
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 757
+        name:
+          id: salandit
+          display: Salandit
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: dig-claws
+            display: Dig Claws
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: salazzle
+    display: Salazzle
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: naoki-saito
+      display: Naoki Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 758
+        name:
+          id: salazzle
+          display: Salazzle
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: salandit
+          display: Salandit
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ring-of-fire
+            display: Ring of Fire
+          cost:
+          - Fire
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Burned. It can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: horsea
+    display: Horsea
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 116
+        name:
+          id: horsea
+          display: Horsea
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splatter
+            display: Splatter
+          cost:
+          - Water
+          text: This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: horsea
+    display: Horsea
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 116
+        name:
+          id: horsea
+          display: Horsea
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 10 more damage times the amount of {W} Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: seadra
+    display: Seadra
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yumi
+      display: Yumi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 117
+        name:
+          id: seadra
+          display: Seadra
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: horsea
+          display: Horsea
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 20 more damage times the amount of {W} Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: kingdra-gx
+    display: Kingdra-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '18'
+      display: '18'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-gx
+      display: Rare Holo GX
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 230
+        name:
+          id: kingdra
+          display: Kingdra
+      hit_points: 230
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: seadra
+          display: Seadra
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 50 more damage times the amount of {W} Energy attached to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: reverse-thrust
+            display: Reverse Thrust
+          cost:
+          - Water
+          damage:
+            scalar: 30
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: maelstrom-gx
+            display: Maelstrom-GX
+          cost:
+          - Water
+          text: This attack does 40 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: magikarp
+    display: Magikarp
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '19'
+      display: '19'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: sekio
+      display: Sekio
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: Its reckless leaps make it easy pickings for predators. On the bright side, many Pokémon enjoy longer life spans, thanks to Magikarp.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-splash
+            display: Water Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: gyarados
+    display: Gyarados
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: There are people who swear that any place Gyarados appears is fated for destruction.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 160
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: commotion
+            display: Commotion
+          text: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on each of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: wild-tail
+            display: Wild Tail
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 160
+          text: You may discard any Stadium card in play.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: lapras
+    display: Lapras
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '21'
+      display: '21'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: saya-tsuruta
+      display: Saya Tsuruta
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 131
+        name:
+          id: lapras
+          display: Lapras
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-bullet
+            display: Aqua Bullet
+          cost:
+          - Water
+          damage:
+            scalar: 20
+          text: This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Plus
+          text: This attack does 10 more damage times the amount of {W} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: totodile
+    display: Totodile
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '22'
+      display: '22'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: hironobu-yoshida
+      display: Hironobu Yoshida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 158
+        name:
+          id: totodile
+          display: Totodile
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leer
+            display: Leer
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 3 coins. This attack does 10 damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: croconaw
+    display: Croconaw
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '23'
+      display: '23'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: Once it bites down, it won’t let go until it loses its fangs. New fangs quickly grow into place.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 159
+        name:
+          id: croconaw
+          display: Croconaw
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: totodile
+          display: Totodile
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: sweep-away
+            display: Sweep Away
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard the top 3 cards of your deck.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: feraligatr
+    display: Feraligatr
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '24'
+      display: '24'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 160
+        name:
+          id: feraligatr
+          display: Feraligatr
+      hit_points: 160
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: croconaw
+          display: Croconaw
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: downpour
+            display: Downpour
+          text: As often as you like during your turn (before your attack), you may discard a {W} Energy card from your hand.
+      - var: Attack
+        val:
+          name:
+            id: riptide
+            display: Riptide
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 20 more damage for each {W} Energy card in your discard pile. Then, shuffle those cards into your deck.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: wooper
+    display: Wooper
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '25'
+      display: '25'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: shibuzoh
+      display: Shibuzoh.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: When the temperature cools in the evening, they emerge from water to seek food along the shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 194
+        name:
+          id: wooper
+          display: Wooper
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: quagsire
+    display: Quagsire
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '26'
+      display: '26'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 195
+        name:
+          id: quagsire
+          display: Quagsire
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wooper
+          display: Wooper
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wash-out
+            display: Wash Out
+          text: As often as you like during your turn (before your attack), you may move a {W} Energy from 1 of your Benched Pokémon to your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 20 more damage times the amount of {W} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: corsola
+    display: Corsola
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '27'
+      display: '27'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: Pursued by Mareanie for the branches on its head, this Pokémon will sometimes snap its own branches off as a diversion while it escapes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 222
+        name:
+          id: corsola
+          display: Corsola
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble-shoot
+            display: Bubble Shoot
+          cost:
+          - Water
+          text: This attack does 20 damage times the amount of {W} Energy attached to this Pokémon to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: feebas
+    display: Feebas
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '28'
+      display: '28'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 349
+        name:
+          id: feebas
+          display: Feebas
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: submerge
+            display: Submerge
+          text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: milotic
+    display: Milotic
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '29'
+      display: '29'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: hatachu
+      display: hatachu
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people’s minds and hearts.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 350
+        name:
+          id: milotic
+          display: Milotic
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: feebas
+          display: Feebas
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aurora-wave
+            display: Aurora Wave
+          cost:
+          - Water
+          damage:
+            scalar: 30
+          text: Your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: aqua-split
+            display: Aqua Split
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 40
+          text: This attack does 40 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: phione
+    display: Phione
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '30'
+      display: '30'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kawayoo
+      display: kawayoo
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 489
+        name:
+          id: phione
+          display: Phione
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: murmurs-of-the-sea
+            display: Murmurs of the Sea
+          text: Your {W} Pokémon can’t be Confused. If those Pokémon are already Confused, remove that Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: water-pulse
+            display: Water Pulse
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: wishiwashi
+    display: Wishiwashi
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '31'
+      display: '31'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: It’s awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 746
+        name:
+          id: wishiwashi
+          display: Wishiwashi
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: meet-up
+            display: Meet Up
+          text: Your Wishiwashi-GX in play get +20 HP, and their attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: trapinch
+    display: Trapinch
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '32'
+      display: '32'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 328
+        name:
+          id: trapinch
+          display: Trapinch
+      hit_points: 60
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mini-earthquake
+            display: Mini Earthquake
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: This attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: hydreigon
+    display: Hydreigon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '33'
+      display: '33'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: The heads on their arms do not have brains. They use all three heads to consume and destroy everything.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 635
+        name:
+          id: hydreigon
+          display: Hydreigon
+      hit_points: 160
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: zweilous
+          display: Zweilous
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: weed-out
+            display: Weed Out
+          text: Once during your turn (before your attack), you may choose 3 of your Benched Pokémon. Then, discard your other Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: dark-destruction
+            display: Dark Destruction
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 120
+          text: You may discard an Energy from this Pokémon. If you do, discard an Energy from your opponent’s Active Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Minus
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '34'
+      display: '34'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ayaka-yoshida
+      display: Ayaka Yoshida
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 60
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wrap
+            display: Wrap
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dratini
+    display: Dratini
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '35'
+      display: '35'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: anesaki-dynamic
+      display: Anesaki Dynamic
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 147
+        name:
+          id: dratini
+          display: Dratini
+      hit_points: 70
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tail-whap
+            display: Tail Whap
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonair
+    display: Dragonair
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '36'
+      display: '36'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 148
+        name:
+          id: dragonair
+          display: Dragonair
+      hit_points: 100
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: dratini
+          display: Dratini
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-tail
+            display: Dragon Tail
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Flip 2 coins. This attack does 60 damage for each heads.
+      - var: Attack
+        val:
+          name:
+            id: waterfall
+            display: Waterfall
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite-gx
+    display: Dragonite-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '37'
+      display: '37'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-gx
+      display: Rare Holo GX
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 250
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Lightning
+          damage:
+            scalar: 70
+      - var: Attack
+        val:
+          name:
+            id: giga-impact
+            display: Giga Impact
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 200
+          text: This Pokémon can’t attack during your next turn.
+      - var: Attack
+        val:
+          name:
+            id: dragonporter-gx
+            display: Dragonporter-GX
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Put 3 {N} Pokémon from your discard pile onto your Bench. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: vibrava
+    display: Vibrava
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '38'
+      display: '38'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 329
+        name:
+          id: vibrava
+          display: Vibrava
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: trapinch
+          display: Trapinch
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sonic-edge
+            display: Sonic Edge
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: flygon
+    display: Flygon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '39'
+      display: '39'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 330
+        name:
+          id: flygon
+          display: Flygon
+      hit_points: 140
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: vibrava
+          display: Vibrava
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: dragon-guard
+            display: Dragon Guard
+          text: Prevent all effects of your opponent’s attacks, except damage, done to your {N} Pokémon. (Existing effects are not removed.)
+      - var: Attack
+        val:
+          name:
+            id: sand-tomb
+            display: Sand Tomb
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 110
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria
+    display: Altaria
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '40'
+      display: '40'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kyoko-umemoto
+      display: Kyoko Umemoto
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: fight-song
+            display: Fight Song
+          text: Your {N} Pokémon’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: pierce
+            display: Pierce
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria-gx
+    display: Altaria-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '41'
+      display: '41'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-gx
+      display: Rare Holo GX
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 200
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bright-tone
+            display: Bright Tone
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: sonic-edge
+            display: Sonic Edge
+          cost:
+          - Water
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 110
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: euphoria-gx
+            display: Euphoria-GX
+          cost:
+          - Fairy
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: bagon
+    display: Bagon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '42'
+      display: '42'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 371
+        name:
+          id: bagon
+          display: Bagon
+      hit_points: 60
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: risky-kick
+            display: Risky Kick
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: dragon-eye
+            display: Dragon Eye
+          cost:
+          - Fire
+          - Water
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: shelgon
+    display: Shelgon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '43'
+      display: '43'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yuka-morii
+      display: Yuka Morii
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: They lurk deep within caves—motionless, neither eating nor drinking. Why they don’t die is not known.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 372
+        name:
+          id: shelgon
+          display: Shelgon
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: bagon
+          display: Bagon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: energy-guard
+            display: Energy Guard
+          text: If this Pokémon has any basic Energy attached to it, it takes 20 less damage from attacks (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: rollout
+            display: Rollout
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: salamence-gx
+    display: Salamence-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '44'
+      display: '44'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-gx
+      display: Rare Holo GX
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 250
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: shelgon
+          display: Shelgon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: dragon-lift
+            display: Dragon Lift
+          text: Your Pokémon in play have no Retreat Cost, except Pokémon-GX and Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: bright-flame
+            display: Bright Flame
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 200
+          text: Discard 2 Energy from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flame-jet-gx
+            display: Flame Jet-GX
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          text: This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: druddigon
+    display: Druddigon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '45'
+      display: '45'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 621
+        name:
+          id: druddigon
+          display: Druddigon
+      hit_points: 110
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: rough-skin
+            display: Rough Skin
+          text: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '46'
+      display: '46'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: hasuno
+      display: Hasuno
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bolt-strike
+            display: Bolt Strike
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 150
+          text: Flip a coin. If tails, this Pokémon does 50 damage to itself.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: kyurem
+    display: Kyurem
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '47'
+      display: '47'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: tokiya
+      display: TOKIYA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 646
+        name:
+          id: kyurem
+          display: Kyurem
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 10 more damage for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: frost-spear
+            display: Frost Spear
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 100
+          text: This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: white-kyurem-gx
+    display: White Kyurem-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '48'
+      display: '48'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-holo-gx
+      display: Rare Holo GX
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 646
+        name:
+          id: kyurem
+          display: Kyurem
+      hit_points: 190
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Fire
+          damage:
+            scalar: 40
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: raging-blade
+            display: Raging Blade
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If this Pokémon has any damage counters on it, this attack does 80 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dragon-nova-gx
+            display: Dragon Nova-GX
+          cost:
+          - Fire
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 200
+          text: Your opponent’s Active Pokémon is now Burned and Paralyzed. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: zygarde
+    display: Zygarde
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '49'
+      display: '49'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: misa-tsutsui
+      display: Misa Tsutsui
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It’s thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 718
+        name:
+          id: zygarde
+          display: Zygarde
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rumble
+            display: Rumble
+          cost:
+          - Fighting
+          damage:
+            scalar: 20
+          text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: raging-blade
+            display: Raging Blade
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: If this Pokémon has any damage counters on it, this attack does 60 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: turtonator
+    display: Turtonator
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '50'
+      display: '50'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 776
+        name:
+          id: turtonator
+          display: Turtonator
+      hit_points: 110
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: explosive-jet
+            display: Explosive Jet
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 50
+            modifier: Times
+          text: Discard any amount of {R} Energy from your Pokémon. This attack does 50 damage for each card you discarded in this way.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: drampa
+    display: Drampa
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '51'
+      display: '51'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+    flavor: This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 780
+        name:
+          id: drampa
+          display: Drampa
+      hit_points: 120
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-wisdom
+            display: Dragon Wisdom
+          cost:
+          - Colorless
+          damage:
+            scalar: 20
+          text: Attach a basic Energy card from your discard pile to 1 of your {N} Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hyper-voice
+            display: Hyper Voice
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: jangmo-o
+    display: Jangmo-o
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '52'
+      display: '52'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yusuke-ohmura
+      display: Yusuke Ohmura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 782
+        name:
+          id: jangmo-o
+          display: Jangmo-o
+      hit_points: 60
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rigidify
+            display: Rigidify
+          cost:
+          - Lightning
+          text: During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: hakamo-o
+    display: Hakamo-o
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '53'
+      display: '53'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: hatachu
+      display: hatachu
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they’re regrown.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 783
+        name:
+          id: hakamo-o
+          display: Hakamo-o
+      hit_points: 90
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: jangmo-o
+          display: Jangmo-o
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: guard-press
+            display: Guard Press
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Lightning
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 70
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: kommo-o
+    display: Kommo-o
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: so-taro
+      display: so-taro
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+    flavor: Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 784
+        name:
+          id: kommo-o
+          display: Kommo-o
+      hit_points: 160
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: hakamo-o
+          display: Hakamo-o
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: guard-press
+            display: Guard Press
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+          text: During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: raging-uppercut
+            display: Raging Uppercut
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 90
+            modifier: Plus
+          text: If this Pokémon has 8 or more damage counters on it, this attack does 120 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: kangaskhan
+    display: Kangaskhan
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '55'
+      display: '55'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: The child in its pouch leaves home after roughly three years. That is the only time the mother is heard to cry wildly.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 115
+        name:
+          id: kangaskhan
+          display: Kangaskhan
+      hit_points: 120
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fetch
+            display: Fetch
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: one-two-punch
+            display: One-Two Punch
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: Flip a coin. If heads, this attack does 30 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: swablu
+    display: Swablu
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '56'
+      display: '56'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 333
+        name:
+          id: swablu
+          display: Swablu
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: swablu
+    display: Swablu
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '57'
+      display: '57'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: shibuzoh
+      display: Shibuzoh.
+    rarity:
+      id: common
+      display: Common
+    release_date: 2018-09-07
+    flavor: It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 333
+        name:
+          id: swablu
+          display: Swablu
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sing
+            display: Sing
+          cost:
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: blaines-last-stand
+    display: Blaine's Last Stand
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '58'
+      display: '58'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only when it is the last card in your hand.
+        Draw 2 cards for each {R} Pokémon you have in play.
+      sub: Supporter
+- title:
+    id: dragon-talon
+    display: Dragon Talon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '59'
+      display: '59'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: If the {N} Pokémon this card is attached to is your Active Pokémon and is damaged by an opponent’s attack (even if that Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+      sub: PokemonTool
+- title:
+    id: fiery-flint
+    display: Fiery Flint
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if you discard 2 other cards from your hand.
+        Search your deck for up to 4 {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+      sub: Item
+- title:
+    id: lance-prism-star
+    display: Lance Prism Star
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '61'
+      display: '61'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: kodama
+      display: kodama
+    rarity:
+      id: rare-prism-star
+      display: Rare Prism Star
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if 1 of your Pokémon was Knocked Out during your opponent’s last turn.
+        Search your deck for up to 2 {N} Pokémon and put them onto your Bench. Then, shuffle your deck.
+      sub: Supporter
+- title:
+    id: switch-raft
+    display: Switch Raft
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '62'
+      display: '62'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yoshinobu-saito
+      display: Yoshinobu Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: Switch your Active {W} Pokémon with 1 of your Benched Pokémon. If you do, heal 30 damage from the Pokémon you moved to your Bench.
+      sub: Item
+- title:
+    id: wela-volcano-park
+    display: Wela Volcano Park
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '63'
+      display: '63'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: Whenever a player flips a coin for the Special Condition Burned between turns, that Special Condition isn’t removed even if the result is heads.
+      sub: Stadium
+- title:
+    id: zinnia
+    display: Zinnia
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '64'
+      display: '64'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: megumi-mizutani
+      display: Megumi Mizutani
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if 1 of your Pokémon was Knocked Out during your opponent’s last turn.
+        Attach up to 2 basic Energy cards from your hand to 1 of your {N} Pokémon.
+      sub: Supporter
+- title:
+    id: reshiram-gx
+    display: Reshiram-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '65'
+      display: '65'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: planeta-igarashi
+      display: PLANETA Igarashi
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 180
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: scorching-column
+            display: Scorching Column
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 110
+          text: Your opponent’s Active Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: vermilion-gx
+            display: Vermilion-GX
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 180
+          text: You may attach up to 5 {R} Energy cards from your hand to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kingdra-gx
+    display: Kingdra-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 230
+        name:
+          id: kingdra
+          display: Kingdra
+      hit_points: 230
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: seadra
+          display: Seadra
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: This attack does 50 more damage times the amount of {W} Energy attached to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: reverse-thrust
+            display: Reverse Thrust
+          cost:
+          - Water
+          damage:
+            scalar: 30
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: maelstrom-gx
+            display: Maelstrom-GX
+          cost:
+          - Water
+          text: This attack does 40 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragonite-gx
+    display: Dragonite-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '67'
+      display: '67'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 149
+        name:
+          id: dragonite
+          display: Dragonite
+      hit_points: 250
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: dragonair
+          display: Dragonair
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-claw
+            display: Dragon Claw
+          cost:
+          - Lightning
+          damage:
+            scalar: 70
+      - var: Attack
+        val:
+          name:
+            id: giga-impact
+            display: Giga Impact
+          cost:
+          - Water
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 200
+          text: This Pokémon can’t attack during your next turn.
+      - var: Attack
+        val:
+          name:
+            id: dragonporter-gx
+            display: Dragonporter-GX
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Put 3 {N} Pokémon from your discard pile onto your Bench. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria-gx
+    display: Altaria-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '68'
+      display: '68'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 200
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bright-tone
+            display: Bright Tone
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: sonic-edge
+            display: Sonic Edge
+          cost:
+          - Water
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 110
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: euphoria-gx
+            display: Euphoria-GX
+          cost:
+          - Fairy
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: blaines-last-stand
+    display: Blaine's Last Stand
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '69'
+      display: '69'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only when it is the last card in your hand.
+        Draw 2 cards for each {R} Pokémon you have in play.
+      sub: Supporter
+- title:
+    id: zinnia
+    display: Zinnia
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '70'
+      display: '70'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: hideki-ishikawa
+      display: Hideki Ishikawa
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if 1 of your Pokémon was Knocked Out during your opponent’s last turn.
+        Attach up to 2 basic Energy cards from your hand to 1 of your {N} Pokémon.
+      sub: Supporter
+- title:
+    id: reshiram-gx
+    display: Reshiram-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '71'
+      display: '71'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: planeta-igarashi
+      display: PLANETA Igarashi
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 180
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: scorching-column
+            display: Scorching Column
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 110
+          text: Your opponent’s Active Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: vermilion-gx
+            display: Vermilion-GX
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 180
+          text: You may attach up to 5 {R} Energy cards from your hand to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria-gx
+    display: Altaria-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '72'
+      display: '72'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 200
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bright-tone
+            display: Bright Tone
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: sonic-edge
+            display: Sonic Edge
+          cost:
+          - Water
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 110
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: euphoria-gx
+            display: Euphoria-GX
+          cost:
+          - Fairy
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: salamence-gx
+    display: Salamence-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 373
+        name:
+          id: salamence
+          display: Salamence
+      hit_points: 250
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: shelgon
+          display: Shelgon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: dragon-lift
+            display: Dragon Lift
+          text: Your Pokémon in play have no Retreat Cost, except Pokémon-GX and Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: bright-flame
+            display: Bright Flame
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 200
+          text: Discard 2 Energy from this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flame-jet-gx
+            display: Flame Jet-GX
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          text: This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: white-kyurem-gx
+    display: White Kyurem-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '74'
+      display: '74'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rainbow-rare
+      display: Rainbow Rare
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 646
+        name:
+          id: kyurem
+          display: Kyurem
+      hit_points: 190
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Fire
+          damage:
+            scalar: 40
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: raging-blade
+            display: Raging Blade
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If this Pokémon has any damage counters on it, this attack does 80 more damage.
+      - var: Attack
+        val:
+          name:
+            id: dragon-nova-gx
+            display: Dragon Nova-GX
+          cost:
+          - Fire
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 200
+          text: Your opponent’s Active Pokémon is now Burned and Paralyzed. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: dragon-talon
+    display: Dragon Talon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '75'
+      display: '75'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: If the {N} Pokémon this card is attached to is your Active Pokémon and is damaged by an opponent’s attack (even if that Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+      sub: PokemonTool
+- title:
+    id: fiery-flint
+    display: Fiery Flint
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: eske-yoshinob
+      display: Eske Yoshinob
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if you discard 2 other cards from your hand.
+        Search your deck for up to 4 {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+      sub: Item
+- title:
+    id: switch-raft
+    display: Switch Raft
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '77'
+      display: '77'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yoshinobu-saito
+      display: Yoshinobu Saito
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2018-09-07
+  sub:
+    var: Trainer
+    val:
+      text: Switch your Active {W} Pokémon with 1 of your Benched Pokémon. If you do, heal 30 damage from the Pokémon you moved to your Bench.
+      sub: Item
+- title:
+    id: ultra-necrozma-gx
+    display: Ultra Necrozma-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: '78'
+      display: '78'
+    printed_total: '70'
+  meta:
+    artists:
+    - id: planeta-igarashi
+      display: PLANETA Igarashi
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2018-09-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 800
+        name:
+          id: necrozma
+          display: Necrozma
+      hit_points: 190
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: photon-geyser
+            display: Photon Geyser
+          cost:
+          - Psychic
+          - Metal
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Discard all basic {P} Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.
+      - var: Attack
+        val:
+          name:
+            id: sky-scorching-light-gx
+            display: Sky-Scorching Light-GX
+          cost:
+          - Psychic
+          - Metal
+          text: You can use this attack only if the total of both players’ remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent’s Pokémon. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria
+    display: Altaria
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: 40a
+      display: 40a
+    printed_total: '70'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2018-11-02
+    flavor: On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: fight-song
+            display: Fight Song
+          text: Your {N} Pokémon’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: pierce
+            display: Pierce
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv6
+      display: SV6
+    printed_total: SV94
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: shiny-rare
+      display: Shiny Rare
+    release_date: 2019-08-23
+    flavor: From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-fang
+            display: Fire Fang
+          cost:
+          - Fire
+          - Colorless
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Burned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmeleon
+    display: Charmeleon
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv7
+      display: SV7
+    printed_total: SV94
+  meta:
+    artists:
+    - id: nagimiso
+      display: nagimiso
+    rarity:
+      id: shiny-rare
+      display: Shiny Rare
+    release_date: 2019-08-23
+    flavor: When it swings its burning tail, it elevates the air temperature to unbearably high levels.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: burning-fighter
+            display: Burning Fighter
+          text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard the top 5 cards of your deck. If any of those cards are {R} Energy cards, attach them to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flamethrower
+            display: Flamethrower
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: wooper
+    display: Wooper
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv9
+      display: SV9
+    printed_total: SV94
+  meta:
+    artists:
+    - id: misa-tsutsui
+      display: Misa Tsutsui
+    rarity:
+      id: shiny-rare
+      display: Shiny Rare
+    release_date: 2019-08-23
+    flavor: When the temperature cools in the evening, they emerge from water to seek food along the shore.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 194
+        name:
+          id: wooper
+          display: Wooper
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: rain-splash
+            display: Rain Splash
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: quagsire
+    display: Quagsire
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv10
+      display: SV10
+    printed_total: SV94
+  meta:
+    artists:
+    - id: saya-tsuruta
+      display: Saya Tsuruta
+    rarity:
+      id: shiny-rare
+      display: Shiny Rare
+    release_date: 2019-08-23
+    flavor: This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 195
+        name:
+          id: quagsire
+          display: Quagsire
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: wooper
+          display: Wooper
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wash-out
+            display: Wash Out
+          text: As often as you like during your turn (before your attack), you may move a {W} Energy from 1 of your Benched Pokémon to your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 20 more damage times the amount of {W} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria
+    display: Altaria
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv37
+      display: SV37
+    printed_total: SV94
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: shiny-rare
+      display: Shiny Rare
+    release_date: 2019-08-23
+    flavor: On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 80
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: fight-song
+            display: Fight Song
+          text: Your {N} Pokémon’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: pierce
+            display: Pierce
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: swablu
+    display: Swablu
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv42
+      display: SV42
+    printed_total: SV94
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: shiny-rare
+      display: Shiny Rare
+    release_date: 2019-08-23
+    flavor: It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 333
+        name:
+          id: swablu
+          display: Swablu
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: reshiram-gx
+    display: Reshiram-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv51
+      display: SV51
+    printed_total: SV94
+  meta:
+    artists:
+    - id: planeta-igarashi
+      display: PLANETA Igarashi
+    rarity:
+      id: rare-shiny-gx
+      display: Rare Shiny GX
+    release_date: 2019-08-23
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 180
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flame-charge
+            display: Flame Charge
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: scorching-column
+            display: Scorching Column
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 110
+          text: Your opponent’s Active Pokémon is now Burned.
+      - var: Attack
+        val:
+          name:
+            id: vermilion-gx
+            display: Vermilion-GX
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 180
+          text: You may attach up to 5 {R} Energy cards from your hand to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: altaria-gx
+    display: Altaria-GX
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: sv77
+      display: SV77
+    printed_total: SV94
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare-shiny-gx
+      display: Rare Shiny GX
+    release_date: 2019-08-23
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 334
+        name:
+          id: altaria
+          display: Altaria
+      hit_points: 200
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: swablu
+          display: Swablu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bright-tone
+            display: Bright Tone
+          cost:
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 50
+          text: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.
+      - var: Attack
+        val:
+          name:
+            id: sonic-edge
+            display: Sonic Edge
+          cost:
+          - Water
+          - Fairy
+          - Colorless
+          damage:
+            scalar: 110
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: euphoria-gx
+            display: Euphoria-GX
+          cost:
+          - Fairy
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fairy
+        scalar: 2
+        modifier: Times
+- title:
+    id: fiery-flint
+    display: Fiery Flint
+  set:
+    name:
+      id: dragon-majesty
+      display: Dragon Majesty
+    series:
+      id: sun-moon
+      display: Sun & Moon
+    context: English
+    live_code:
+      id: drm
+      display: DRM
+  number:
+    number:
+      id: 60a
+      display: 60a
+    printed_total: '70'
+  meta:
+    artists:
+    - id: yoshinobu-saito
+      display: Yoshinobu Saito
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2020-01-01
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can play this card only if you discard 2 other cards from your hand.
+        Search your deck for up to 4 {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+      sub: Item

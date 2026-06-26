@@ -1,0 +1,1288 @@
+- title:
+    id: ampharos
+    display: Ampharos
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '52'
+      display: '52'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-03-01
+    flavor: The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 181
+        name:
+          id: ampharos
+          display: Ampharos
+      hit_points: 130
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: flaaffy
+          display: Flaaffy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: jamming
+            display: Jamming
+          text: After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent’s Pokémon. You can’t use more than 1 Jamming Poké-Body each turn.
+      - var: Attack
+        val:
+          name:
+            id: cluster-bolt
+            display: Cluster Bolt
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: You may discard all {L} Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent’s Benched Pokémon that has any Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: gallade
+    display: Gallade
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '55'
+      display: '55'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-03-01
+    flavor: A master of courtesy and swordsmanship, it fights using extending swords on it elbows.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 475
+        name:
+          id: gallade
+          display: Gallade
+      hit_points: 130
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kirlia
+          display: Kirlia
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sonic-blade
+            display: Sonic Blade
+          cost:
+          - Fighting
+          - Colorless
+          text: Put damage counters on the Defending Pokémon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: psychic-cut
+            display: Psychic Cut
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Plus
+- title:
+    id: latias
+    display: Latias
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-03-01
+    flavor: Its body is covered with a down that can refract light in such a way that it becomes invisble.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: miraculous-light
+            display: Miraculous Light
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Remove 2 damage counters and all Special Conditions from Latias.
+      - var: Attack
+        val:
+          name:
+            id: mist-ball
+            display: Mist Ball
+          cost:
+          - Fire
+          - Water
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard a {R} and a {W} Energy attached to Latias.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: latios
+    display: Latios
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: daisuke-ito
+      display: Daisuke Ito
+    level:
+      id: '47'
+      display: '47'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-03-01
+    flavor: A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 381
+        name:
+          id: latios
+          display: Latios
+      hit_points: 90
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energy-draw
+            display: Energy Draw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: luster-purge
+            display: Luster Purge
+          cost:
+          - Grass
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard 3 Energy attached to Latios.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: mothim
+    display: Mothim
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kazuyuki-kano
+      display: Kazuyuki Kano
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2008-03-01
+    flavor: It loves the honey of flowers and steals honey collected by COMBEE.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 414
+        name:
+          id: mothim
+          display: Mothim
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: burmy
+          display: Burmy
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: silver-wind
+            display: Silver Wind
+          cost: []
+          text: During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.
+      - var: Attack
+        val:
+          name:
+            id: raging-scales
+            display: Raging Scales
+          cost:
+          - Grass
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If Mothim has any damage counters on it, this attack does 30 damage plus 40 more damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: delibird
+    display: Delibird
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-03-01
+    flavor: It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 225
+        name:
+          id: delibird
+          display: Delibird
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: present
+            display: Present
+          cost: []
+          text: Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: ice-ball
+            display: Ice Ball
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Plus
+- title:
+    id: flaaffy
+    display: Flaaffy
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '26'
+      display: '26'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-03-01
+    flavor: If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 180
+        name:
+          id: flaaffy
+          display: Flaaffy
+      hit_points: 80
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mareep
+          display: Mareep
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: attract-current
+            display: Attract Current
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Search your deck for a {L} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: electromagnetic-kick
+            display: Electromagnetic Kick
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+          text: Flip a coin. If tails, Flaaffy does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: kirlia
+    display: Kirlia
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '28'
+      display: '28'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-03-01
+    flavor: It is highly perceptive of its Trainer’s feelings. It dances when it is feeling happy.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 281
+        name:
+          id: kirlia
+          display: Kirlia
+      hit_points: 80
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: ralts
+          display: Ralts
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psychic-research
+            display: Psychic Research
+          cost:
+          - Psychic
+          text: Search your discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your discard pile.)
+      - var: Attack
+        val:
+          name:
+            id: telekinesis
+            display: Telekinesis
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 20
+        modifier: Plus
+- title:
+    id: stantler
+    display: Stantler
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '28'
+      display: '28'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-03-01
+    flavor: Staring at its antlers creates an odd sensation as if one were being drawn into their centers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 234
+        name:
+          id: stantler
+          display: Stantler
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lead
+            display: Lead
+          cost: []
+          text: Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: frighten-horn
+            display: Frighten Horn
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: If the Defending Pokémon isn’t an Evolved Pokémon, that Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: wormadam-sandy-cloak
+    display: Wormadam Sandy Cloak
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '37'
+      display: '37'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2008-03-01
+    flavor: When BURMY evolved, it cloak became a part of this Pokémon’s body. The cloak is never shed.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 413
+        name:
+          id: wormadam
+          display: Wormadam
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: burmy-sandy-cloak
+          display: Burmy Sandy Cloak
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: sandy-cloak
+            display: Sandy Cloak
+          text: Prevent all effects, excluding damage, done to Wormadam Sandy Cloak.
+      - var: Attack
+        val:
+          name:
+            id: push-over
+            display: Push Over
+          cost:
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Does 40 damage plus 10 more damage for each {F} Energy attached to Wormadam Sandy Cloak.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: burmy-plant-cloak
+    display: Burmy Plant Cloak
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 412
+        name:
+          id: burmy
+          display: Burmy
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: wear-cloak
+            display: Wear Cloak
+          text: Once during your turn (before your attack), if Burmy Plant Cloak is your Active Pokémon, you may search your discard pile for a basic {G} Energy card and attach it to Burmy Plant Cloak.
+      - var: Attack
+        val:
+          name:
+            id: plant-cloak-tackle
+            display: Plant Cloak Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If Burmy Plant Cloak has any {G} Energy attached to it, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: burmy-sandy-cloak
+    display: Burmy Sandy Cloak
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 412
+        name:
+          id: burmy
+          display: Burmy
+      hit_points: 40
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: wear-cloak
+            display: Wear Cloak
+          text: Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic {F} Energy card and attach it to Burmy Sandy Cloak.
+      - var: Attack
+        val:
+          name:
+            id: sandy-cloak-tackle
+            display: Sandy Cloak Tackle
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If Burmy Sandy Cloak has any {F} Energy attached to it, this attack does 10 damage plus 10 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+- title:
+    id: corsola
+    display: Corsola
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: Many live in the clean seas of the south. They apparently can’t live in polluted waters.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 222
+        name:
+          id: corsola
+          display: Corsola
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: rally
+            display: Rally
+          cost:
+          - Colorless
+          text: Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: hook
+            display: Hook
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: mareep
+    display: Mareep
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 179
+        name:
+          id: mareep
+          display: Mareep
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thundershock
+            display: Thundershock
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: static-shock
+            display: Static Shock
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: ralts
+    display: Ralts
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: sumiyoshi-kizuki
+      display: Sumiyoshi Kizuki
+    level:
+      id: '13'
+      display: '13'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 280
+        name:
+          id: ralts
+          display: Ralts
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: smack
+            display: Smack
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: sentret
+    display: Sentret
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: It has a very nervous nature. It stands up high on its tail so it can scan wide areas.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 161
+        name:
+          id: sentret
+          display: Sentret
+      hit_points: 60
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: grope
+            display: Grope
+          cost:
+          - Colorless
+          text: Look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card on the bottom of your deck.
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: spinda
+    display: Spinda
+  set:
+    name:
+      id: pop-series-7
+      display: POP Series 7
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p7
+      display: P7
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: atsuko-nishida
+      display: Atsuko Nishida
+    level:
+      id: '25'
+      display: '25'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2008-03-01
+    flavor: No two SPINDA have the same pattern of spots. Its tottering step fouls the aim of foes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 327
+        name:
+          id: spinda
+          display: Spinda
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dish-out
+            display: Dish Out
+          cost:
+          - Colorless
+          text: Draw a card from the top and the bottom of your deck.
+      - var: Attack
+        val:
+          name:
+            id: synchro-punch
+            display: Synchro Punch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If any basic Energy card attached to Spinda is the same type as any Energy attached to the Defending Pokémon, this attack does 10 damage plus 30 more damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus

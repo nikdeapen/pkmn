@@ -1,0 +1,3460 @@
+- title:
+    id: ho-oh
+    display: Ho-Oh
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '001'
+      display: '001'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 250
+        name:
+          id: ho-oh
+          display: Ho-Oh
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: sacred-fire
+            display: Sacred Fire
+          cost:
+          - Fire
+          - Colorless
+          text: This attack does 50 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: fire-blast
+            display: Fire Blast
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: reshiram
+    display: Reshiram
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '002'
+      display: '002'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: When Reshiram’s tail flares, the heat energy moves the atmosphere and changes the world’s weather.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: scorching-wind
+            display: Scorching Wind
+          cost:
+          - Colorless
+          - Colorless
+          text: This attack does 20 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: black-flame
+            display: Black Flame
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If Zekrom is on your Bench, this attack does 80 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: kyogre
+    display: Kyogre
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '003'
+      display: '003'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: ryuta-fuse
+      display: Ryuta Fuse
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 382
+        name:
+          id: kyogre
+          display: Kyogre
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aqua-storm
+            display: Aqua Storm
+          cost:
+          - Water
+          - Water
+          - Colorless
+          text: Discard the top 5 cards of your deck, and then choose 2 of your opponent’s Benched Pokémon. This attack does 50 damage for each Energy card you discarded in this way to each of those Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: palkia
+    display: Palkia
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '004'
+      display: '004'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 484
+        name:
+          id: palkia
+          display: Palkia
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: absolute-space
+            display: Absolute Space
+          text: As long as this Pokémon is in the Active Spot, your opponent can’t play any Stadium cards from their hand.
+      - var: Attack
+        val:
+          name:
+            id: overdrive-smash
+            display: Overdrive Smash
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: During your next turn, this Pokémon’s Overdrive Smash attack does 80 more damage (before applying Weakness and Resistance).
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '005'
+      display: '005'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2021-10-08
+    flavor: It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: thunder-jolt
+            display: Thunder Jolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 30
+          text: Flip a coin. If tails, this Pokémon also does 10 damage to itself.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: flying-pikachu-v
+    display: Flying Pikachu V
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '006'
+      display: '006'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: aky-cg-works
+      display: aky CG Works
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 190
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-shock
+            display: Thunder Shock
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: fly
+            display: Fly
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+          text: Flip a coin. If tails, this attack does nothing. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: flying-pikachu-vmax
+    display: Flying Pikachu VMAX
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '007'
+      display: '007'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: aky-cg-works
+      display: aky CG Works
+    rarity:
+      id: holo-rare-vmax
+      display: Holo Rare VMAX
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 310
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: vmax
+          display: VMAX
+        evolves_from:
+        - id: flying-pikachu-v
+          display: Flying Pikachu V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: max-balloon
+            display: Max Balloon
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 160
+          text: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: surfing-pikachu-v
+    display: Surfing Pikachu V
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '008'
+      display: '008'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: aky-cg-works
+      display: aky CG Works
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 200
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: surf
+            display: Surf
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 150
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: surfing-pikachu-vmax
+    display: Surfing Pikachu VMAX
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '009'
+      display: '009'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: aky-cg-works
+      display: aky CG Works
+    rarity:
+      id: holo-rare-vmax
+      display: Holo Rare VMAX
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 310
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: vmax
+          display: VMAX
+        evolves_from:
+        - id: surfing-pikachu-v
+          display: Surfing Pikachu V
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: max-surfer
+            display: Max Surfer
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 160
+          text: This attack also does 30 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '010'
+      display: '010'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: field-crush
+            display: Field Crush
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: If your opponent has a Stadium in play, discard it.
+      - var: Attack
+        val:
+          name:
+            id: white-thunder
+            display: White Thunder
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Plus
+          text: If Reshiram is on your Bench, this attack does 80 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '011'
+      display: '011'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: yuu-nishida
+      display: Yuu Nishida
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2021-10-08
+    flavor: Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: mysterious-tail
+            display: Mysterious Tail
+          text: Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: xerneas
+    display: Xerneas
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '012'
+      display: '012'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: akira-egawa
+      display: AKIRA EGAWA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: When the horns on its head shine in seven different colors, it is said to be sharing everlasting life.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 716
+        name:
+          id: xerneas
+          display: Xerneas
+      hit_points: 120
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: breath-of-life
+            display: Breath of Life
+          cost:
+          - Colorless
+          - Colorless
+          text: Search your deck for up to 3 basic Energy cards of different types and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: aurora-horns
+            display: Aurora Horns
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: cosmog
+    display: Cosmog
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '013'
+      display: '013'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: Whether or not it’s a Pokémon from this world is a mystery. When it’s in a jam, it warps away to a safe place to hide.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 789
+        name:
+          id: cosmog
+          display: Cosmog
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: star-protection
+            display: Star Protection
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: cosmoem
+    display: Cosmoem
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '014'
+      display: '014'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 790
+        name:
+          id: cosmoem
+          display: Cosmoem
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cosmog
+          display: Cosmog
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: star-protection
+            display: Star Protection
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lunala
+    display: Lunala
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '015'
+      display: '015'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2021-10-08
+    flavor: It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 792
+        name:
+          id: lunala
+          display: Lunala
+      hit_points: 160
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: cosmoem
+          display: Cosmoem
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: lunar-pain
+            display: Lunar Pain
+          cost:
+          - Colorless
+          - Colorless
+          text: Double the number of damage counters on each of your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: psychic-shot
+            display: Psychic Shot
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 130
+          text: This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: zacian-v
+    display: Zacian V
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '016'
+      display: '016'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 888
+        name:
+          id: zacian
+          display: Zacian
+      hit_points: 220
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: roar-of-the-sword
+            display: Roar of the Sword
+          text: Once during your turn, you may search your deck for a {P} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability, your turn ends.
+      - var: Attack
+        val:
+          name:
+            id: storm-slash
+            display: Storm Slash
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 30 more damage for each {P} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: groudon
+    display: Groudon
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '017'
+      display: '017'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: ryuta-fuse
+      display: Ryuta Fuse
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 130
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: magma-volcano
+            display: Magma Volcano
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 80
+            modifier: Times
+          text: Discard the top 5 cards of your deck. This attack does 80 damage for each Energy card you discarded in this way.
+      - var: Attack
+        val:
+          name:
+            id: massive-rend
+            display: Massive Rend
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 120
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: zamazenta-v
+    display: Zamazenta V
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '018'
+      display: '018'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: holo-rare-v
+      display: Holo Rare V
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 889
+        name:
+          id: zamazenta
+          display: Zamazenta
+      hit_points: 220
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: growl-of-the-shield
+            display: Growl of the Shield
+          text: All of your {F} Pokémon take 20 less damage from attacks from your opponent’s Pokémon VMAX (after applying Weakness and Resistance). You can’t apply more than 1 Growl of the Shield Ability at a time.
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 150
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: yveltal
+    display: Yveltal
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '019'
+      display: '019'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: akira-egawa
+      display: AKIRA EGAWA
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 717
+        name:
+          id: yveltal
+          display: Yveltal
+      hit_points: 120
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: cry-of-destruction
+            display: Cry of Destruction
+          cost:
+          - Colorless
+          - Colorless
+          text: Discard up to 3 Special Energy from your opponent’s Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: dark-feather
+            display: Dark Feather
+          cost:
+          - Darkness
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: dialga
+    display: Dialga
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '020'
+      display: '020'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 483
+        name:
+          id: dialga
+          display: Dialga
+      hit_points: 130
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: temporal-backflow
+            display: Temporal Backflow
+          cost:
+          - Metal
+          text: Put a card from your discard pile into your hand.
+      - var: Attack
+        val:
+          name:
+            id: metal-blast
+            display: Metal Blast
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 20 more damage for each {M} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: solgaleo
+    display: Solgaleo
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '021'
+      display: '021'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kirisaki
+      display: kirisAki
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2021-10-08
+    flavor: In writings from the distant past, it’s called by the name “the beast that devours the sun.”
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 791
+        name:
+          id: solgaleo
+          display: Solgaleo
+      hit_points: 170
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: cosmoem
+          display: Cosmoem
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: rush-in
+            display: Rush In
+          text: Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: solar-geyser
+            display: Solar Geyser
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lugia
+    display: Lugia
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '022'
+      display: '022'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2021-10-08
+    flavor: It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 249
+        name:
+          id: lugia
+          display: Lugia
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aero-ball
+            display: Aero Ball
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage for each Energy attached to both Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: deep-crush
+            display: Deep Crush
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 160
+          text: During your next turn, this Pokémon can’t attack.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: professors-research
+    display: Professor's Research
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '023'
+      display: '023'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: kiyotaka-oshiyama
+      display: KIYOTAKA OSHIYAMA
+    rarity:
+      id: rare-holo
+      display: Rare Holo
+    release_date: 2021-10-08
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: professors-research
+    display: Professor's Research
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '024'
+      display: '024'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Trainer
+    val:
+      text: Discard your hand and draw 7 cards.
+      sub: Supporter
+- title:
+    id: mew
+    display: Mew
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '025'
+      display: '025'
+    printed_total: '025'
+  meta:
+    artists:
+    - id: saki-hayashiro
+      display: Saki Hayashiro
+    rarity:
+      id: rare-secret
+      display: Rare Secret
+    release_date: 2021-10-08
+    flavor: Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: mysterious-tail
+            display: Mysterious Tail
+          text: Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck.
+      - var: Attack
+        val:
+          name:
+            id: psyshot
+            display: Psyshot
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: blastoise
+    display: Blastoise
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '102'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '52'
+      display: '52'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 9
+        name:
+          id: blastoise
+          display: Blastoise
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: wartortle
+          display: Wartortle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: rain-dance
+            display: Rain Dance
+          text: As often as you like during your turn (before your attack), you may attach 1 {W} Energy card to 1 of your {W} Pokémon. (This doesn’t use up your 1 Energy card attachment for the turn.) This power can’t be used if Blastoise is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: Does 40 damage plus 10 more damage for each {W} Energy attached to Blastoise but not used to pay for this attack’s Energy cost. Extra {W} Energy after the 2nd doesn’t count.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: charizard
+    display: Charizard
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '102'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '76'
+      display: '76'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 120
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: energy-burn
+            display: Energy Burn
+          text: As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into {R} Energy for the rest of the turn. This power can’t be used if Charizard is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: fire-spin
+            display: Fire Spin
+          cost:
+          - Fire
+          - Fire
+          - Fire
+          - Fire
+          damage:
+            scalar: 100
+          text: Discard 2 Energy cards attached to Charizard in order to use this attack.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: venusaur
+    display: Venusaur
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '102'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '67'
+      display: '67'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 100
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: ivysaur
+          display: Ivysaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: energy-trans
+            display: Energy Trans
+          text: As often as you like during your turn (before your attack), you may take 1 {G} Energy card attached to 1 of your Pokémon and attach it to a different one. This power can’t be used if Venusaur is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: solarbeam
+            display: Solarbeam
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 60
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: imposter-professor-oak
+    display: Imposter Professor Oak
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '73'
+      display: '73'
+    printed_total: '102'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Trainer
+    val:
+      text: Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.
+      sub: Item
+- title:
+    id: dark-gyarados
+    display: Dark Gyarados
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '82'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '31'
+      display: '31'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: Normally found only in the deep ocean, it has recently been seen in shallow waters as well.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: final-beam
+            display: Final Beam
+          text: When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each {W} Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn’t work if Dark Gyarados is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: ice-beam
+            display: Ice Beam
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: here-comes-team-rocket
+    display: Here Comes Team Rocket!
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '82'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Trainer
+    val:
+      text: Each player plays with his or her Prize cards face up for the rest of the game.
+      sub: Item
+- title:
+    id: rockets-zapdos
+    display: Rocket's Zapdos
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '132'
+  meta:
+    artists:
+    - id: shin-ichi-yoshida
+      display: Shin-ichi Yoshida
+    level:
+      id: '34'
+      display: '34'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 145
+        name:
+          id: zapdos
+          display: Zapdos
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: plasma
+            display: Plasma
+          cost:
+          - Lightning
+          damage:
+            scalar: 20
+          text: If there are any {L} Energy cards in your discard pile, attach 1 of them to Rocket’s Zapdos.
+      - var: Attack
+        val:
+          name:
+            id: electroburn
+            display: Electroburn
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 70
+          text: Rocket’s Zapdos does damage to itself equal to 10 times the number of {L} Energy cards attached to it.
+      retreat_cost: 2
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: blanks-pikachu
+    display: _____'s Pikachu
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '24'
+      display: '24'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: 'Your Birthdate: ______________________________'
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 50
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: birthday-surprise
+            display: Birthday Surprise
+          cost:
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: If it’s not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cleffa
+    display: Cleffa
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '20'
+      display: '20'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: Because of its unusual, star-like silhouette, people believe that it came here on a meteor.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 173
+        name:
+          id: cleffa
+          display: Cleffa
+      hit_points: 30
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: baby
+          display: Baby
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: eeeeeeek
+            display: Eeeeeeek
+          cost:
+          - Colorless
+          text: Shuffle your hand into your deck, then draw 7 cards.
+      retreat_cost: 0
+- title:
+    id: shining-magikarp
+    display: Shining Magikarp
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '66'
+      display: '66'
+    printed_total: '64'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '11'
+      display: '11'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gold-scale
+            display: Gold Scale
+          cost:
+          - Water
+          text: Your opponent may draw 2 cards. Either way, you may draw 2 cards.
+      - var: Attack
+        val:
+          name:
+            id: dragon-bond
+            display: Dragon Bond
+          cost:
+          - Psychic
+          text: Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: team-magmas-groudon
+    display: Team Magma's Groudon
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '95'
+  meta:
+    artists:
+    - id: kazuo-yazawa
+      display: Kazuo Yazawa
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 383
+        name:
+          id: groudon
+          display: Groudon
+      hit_points: 100
+      energy_types:
+      - Fighting
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: power-saver
+            display: Power Saver
+          text: As long as the number of Pokémon in play (both yours and your opponent’s) that has Team Magma in its name is 3 or less, Team Magma’s Groudon can’t attack.
+      - var: Attack
+        val:
+          name:
+            id: linear-attack
+            display: Linear Attack
+          cost:
+          - Fighting
+          - Colorless
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: pulverize
+            display: Pulverize
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: rockets-admin
+    display: Rocket's Admin.
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '86'
+      display: '86'
+    printed_total: '109'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Trainer
+    val:
+      text: Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)
+      sub: Supporter
+- title:
+    id: mew-ex
+    display: Mew ex
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '88'
+      display: '88'
+    printed_total: '92'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 151
+        name:
+          id: mew
+          display: Mew
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: versatile
+            display: Versatile
+          text: Mew ex can use the attacks of all Pokémon in play as its own. (You still need the necessary Energy to use each attack.)
+      - var: Attack
+        val:
+          name:
+            id: power-move
+            display: Power Move
+          cost:
+          - Psychic
+          - Colorless
+          text: Search your deck for an Energy card and attach it to Mew ex. Shuffle your deck afterward. Then, you may switch Mew ex with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: gardevoir-ex
+    display: Gardevoir ex
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '93'
+      display: '93'
+    printed_total: '101'
+  meta:
+    artists:
+    - id: masahiko-ishii
+      display: Masahiko Ishii
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 150
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kirlia
+          display: Kirlia
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: imprison
+            display: Imprison
+          text: Once during your turn (before your attack), if Gardevoir ex is your Active Pokémon, you may put an Imprison marker on 1 of your opponent’s Pokémon. Any Pokémon that has any Imprison markers on it can’t use any Poké-Powers or Poké-Bodies. This power can’t be used if Gardevoir ex is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: flame-ball
+            display: Flame Ball
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: You may move a {R} Energy card attached to Gardevoir ex to 1 of your Benched Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: umbreon-star
+    display: Umbreon Star
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 197
+        name:
+          id: umbreon
+          display: Umbreon
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: dark-ray
+            display: Dark Ray
+          text: Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent’s hand without looking and discard it.
+      - var: Attack
+        val:
+          name:
+            id: feint-attack
+            display: Feint Attack
+          cost:
+          - Darkness
+          - Darkness
+          text: Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: claydol
+    display: Claydol
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '106'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '45'
+      display: '45'
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 344
+        name:
+          id: claydol
+          display: Claydol
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: baltoy
+          display: Baltoy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: cosmic-power
+            display: Cosmic Power
+          text: Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can’t be used if Claydol is affected by a Special Condition.
+      - var: Attack
+        val:
+          name:
+            id: spinning-attack
+            display: Spinning Attack
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 20
+        modifier: Plus
+- title:
+    id: luxray-gl-lvx
+    display: Luxray GL LV.X
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '109'
+      display: '109'
+    printed_total: '111'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: x
+      display: X
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 405
+        name:
+          id: luxray
+          display: Luxray
+      hit_points: 110
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: luxray-gl
+          display: Luxray GL
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: bright-look
+            display: Bright Look
+          text: Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: flash-impact
+            display: Flash Impact
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 60
+          text: Does 30 damage to 1 of your Pokémon, and don’t apply Weakness and Resistance to this damage.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: garchomp-c-lvx
+    display: Garchomp C LV.X
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '145'
+      display: '145'
+    printed_total: '147'
+  meta:
+    artists:
+    - id: shizurow
+      display: Shizurow
+    level:
+      id: x
+      display: X
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 445
+        name:
+          id: garchomp
+          display: Garchomp
+      hit_points: 110
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: level-up
+          display: Level-Up
+        evolves_from:
+        - id: garchomp-c
+          display: Garchomp C
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: healing-breath
+            display: Healing Breath
+          text: Once during your turn (before your attack), when you put Garchomp C LV.X from your hand onto your Active Garchomp C, you may remove all damage counters from each of your Pokémon SP.
+      - var: Attack
+        val:
+          name:
+            id: dragon-rush
+            display: Dragon Rush
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent’s Pokémon. This attack does 80 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Garchomp C can’t use Dragon Rush during your next turn.
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 2
+        modifier: Times
+- title:
+    id: donphan
+    display: Donphan
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '107'
+      display: '107'
+    printed_total: '123'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 232
+        name:
+          id: donphan
+          display: Donphan
+      hit_points: 120
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: phanpy
+          display: Phanpy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-body
+            display: Poké-BODY
+          name:
+            id: exoskeleton
+            display: Exoskeleton
+          text: Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: earthquake
+            display: Earthquake
+          cost:
+          - Fighting
+          damage:
+            scalar: 60
+          text: Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: heavy-impact
+            display: Heavy Impact
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 90
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Minus
+- title:
+    id: reshiram
+    display: Reshiram
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '113'
+      display: '113'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 643
+        name:
+          id: reshiram
+          display: Reshiram
+      hit_points: 130
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: blue-flare
+            display: Blue Flare
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard 2 {R} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: zekrom
+    display: Zekrom
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '114'
+      display: '114'
+    printed_total: '114'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+    flavor: This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: outrage
+            display: Outrage
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: Does 10 more damage for each damage counter on this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: bolt-strike
+            display: Bolt Strike
+          cost:
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 120
+          text: This Pokémon does 40 damage to itself.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mewtwo-ex
+    display: Mewtwo-EX
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '54'
+      display: '54'
+    printed_total: '99'
+  meta:
+    artists:
+    - id: shizurow
+      display: Shizurow
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 170
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: x-ball
+            display: X Ball
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: psydrive
+            display: Psydrive
+          cost:
+          - Psychic
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 120
+          text: Discard an Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: xerneas-ex
+    display: Xerneas-EX
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '97'
+      display: '97'
+    printed_total: '146'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 716
+        name:
+          id: xerneas
+          display: Xerneas
+      hit_points: 170
+      energy_types:
+      - Fairy
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: break-through
+            display: Break Through
+          cost:
+          - Fairy
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: x-blast
+            display: X Blast
+          cost:
+          - Fairy
+          - Fairy
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 140
+          text: This Pokémon can’t use X Blast during your next turn.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Minus
+- title:
+    id: m-rayquaza-ex
+    display: M Rayquaza-EX
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '76'
+      display: '76'
+    printed_total: '108'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 384
+        name:
+          id: rayquaza
+          display: Rayquaza
+      hit_points: 220
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: mega
+          display: Mega
+        evolves_from:
+        - id: rayquaza-ex
+          display: Rayquaza-EX
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ancient-trait
+            display: Ancient Trait
+          name:
+            id: delta-evolution
+            display: Δ Evolution
+          text: You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: emerald-break
+            display: Emerald Break
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: This attack does 30 damage times the number of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: tapu-lele-gx
+    display: Tapu Lele-GX
+  set:
+    name:
+      id: celebrations
+      display: Celebrations
+    series:
+      id: sword-shield
+      display: Sword & Shield
+    context: English
+    live_code:
+      id: cel
+      display: CEL
+  number:
+    number:
+      id: '60'
+      display: '60'
+    printed_total: '145'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: ultra-rare
+      display: Ultra Rare
+    release_date: 2021-10-08
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 786
+        name:
+          id: tapu-lele
+          display: Tapu Lele
+      hit_points: 170
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wonder-tag
+            display: Wonder Tag
+          text: When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: energy-drive
+            display: Energy Drive
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage times the amount of Energy attached to both Active Pokémon. This damage isn’t affected by Weakness or Resistance.
+      - var: Attack
+        val:
+          name:
+            id: tapu-cure-gx
+            display: Tapu Cure-GX
+          cost:
+          - Psychic
+          text: Heal all damage from 2 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)
+      retreat_cost: 1

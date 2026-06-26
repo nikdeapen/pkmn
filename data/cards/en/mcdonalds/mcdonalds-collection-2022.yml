@@ -1,0 +1,995 @@
+- title:
+    id: ledyba
+    display: Ledyba
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: These very cowardly Pokémon join together and use Reflect to protect their nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 165
+        name:
+          id: ledyba
+          display: Ledyba
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      - var: Attack
+        val:
+          name:
+            id: punch
+            display: Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: rowlet
+    display: Rowlet
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: hyogonosuke
+      display: HYOGONOSUKE
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 722
+        name:
+          id: rowlet
+          display: Rowlet
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sky-circus
+            display: Sky Circus
+          text: If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon’s attack costs.
+      - var: Attack
+        val:
+          name:
+            id: wind-shard
+            display: Wind Shard
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          text: This attack does 60 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: gossifleur
+    display: Gossifleur
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: mizue
+      display: Mizue
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 829
+        name:
+          id: gossifleur
+          display: Gossifleur
+      hit_points: 50
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: blot
+            display: Blot
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Heal 10 damage from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: growlithe
+    display: Growlithe
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: narumi-sato
+      display: Narumi Sato
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 58
+        name:
+          id: growlithe
+          display: Growlithe
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: warm-up
+            display: Warm Up
+          cost:
+          - Colorless
+          text: Search your deck for a {R} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: combustion
+            display: Combustion
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: victini
+    display: Victini
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: teeziro
+      display: Teeziro
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: When it shares the infinite energy it creates, that being’s entire body will be overflowing with power.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 494
+        name:
+          id: victini
+          display: Victini
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: victory-dive
+            display: Victory Dive
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: lapras
+    display: Lapras
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: atsushi-furusawa
+      display: Atsushi Furusawa
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 131
+        name:
+          id: lapras
+          display: Lapras
+      hit_points: 110
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: wintry-call
+            display: Wintry Call
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: icy-wind
+            display: Icy Wind
+          cost:
+          - Water
+          - Colorless
+          damage:
+            scalar: 50
+          text: Your opponent’s Active Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: chibi
+      display: chibi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: When Pikachu meet, they’ll touch their tails together and exchange electricity through them as a form of greeting.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: energize
+            display: Energize
+          cost:
+          - Lightning
+          text: Attach a {L} Energy card from your discard pile to this Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: electro-ball
+            display: Electro Ball
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: chinchou
+    display: Chinchou
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: sowsow
+      display: sowsow
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: On the dark ocean floor, its only means of communication is its constantly flashing lights.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 170
+        name:
+          id: chinchou
+          display: Chinchou
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: electro-ball
+            display: Electro Ball
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: flaaffy
+    display: Flaaffy
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: sui
+      display: sui
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 180
+        name:
+          id: flaaffy
+          display: Flaaffy
+      hit_points: 100
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: mareep
+          display: Mareep
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: electro-ball
+            display: Electro Ball
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: tynamo
+    display: Tynamo
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: sowsow
+      display: sowsow
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 602
+        name:
+          id: tynamo
+          display: Tynamo
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: levitate
+            display: Levitate
+          text: If this Pokémon has any Energy attached, it has no Retreat Cost.
+      - var: Attack
+        val:
+          name:
+            id: tiny-charge
+            display: Tiny Charge
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cutiefly
+    display: Cutiefly
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: yukiko-baba
+      display: Yukiko Baba
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: An opponent’s aura can tell Cutiefly what that opponent’s next move will be. Then Cutiefly can glide around the attack and strike back.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 742
+        name:
+          id: cutiefly
+          display: Cutiefly
+      hit_points: 30
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: flap
+            display: Flap
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: bewear
+    display: Bewear
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: shigenori-negishi
+      display: Shigenori Negishi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 760
+        name:
+          id: bewear
+          display: Bewear
+      hit_points: 130
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: stufful
+          display: Stufful
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: split-spiral-punch
+            display: Split Spiral Punch
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 40
+          text: Your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: strength
+            display: Strength
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 130
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: pangoro
+    display: Pangoro
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: hyogonosuke
+      display: HYOGONOSUKE
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 675
+        name:
+          id: pangoro
+          display: Pangoro
+      hit_points: 140
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pancham
+          display: Pancham
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knocking-hammer
+            display: Knocking Hammer
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 90
+          text: Discard the top card of your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: shakedown
+            display: Shakedown
+          cost:
+          - Darkness
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 150
+          text: Discard a random card from your opponent’s hand.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: drampa
+    display: Drampa
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: tomokazu-komiya
+      display: Tomokazu Komiya
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: Drampa is a kind and friendly Pokémon—up until it’s angered. When that happens, it stirs up a gale and flattens everything around.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 780
+        name:
+          id: drampa
+          display: Drampa
+      hit_points: 120
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-punch
+            display: Corkscrew Punch
+          cost:
+          - Colorless
+          damage:
+            scalar: 30
+      - var: Attack
+        val:
+          name:
+            id: berserk
+            display: Berserk
+          cost:
+          - Water
+          - Fighting
+          damage:
+            scalar: 70
+            modifier: Plus
+          text: If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.
+      retreat_cost: 2
+- title:
+    id: smeargle
+    display: Smeargle
+  set:
+    name:
+      id: mcdonalds-collection-2022
+      display: McDonald's Collection 2022
+    series:
+      id: mcdonalds
+      display: McDonald's
+    context: English
+    live_code:
+      id: mcd22
+      display: MCD22
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '15'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2022-08-03
+    flavor: It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 235
+        name:
+          id: smeargle
+          display: Smeargle
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: live-painting
+            display: Live Painting
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times

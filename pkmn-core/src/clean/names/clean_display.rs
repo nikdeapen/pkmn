@@ -34,6 +34,9 @@ fn reconstruct(s: &str) -> String {
             let c: char = match c {
                 '’' | '‘' => '\'',
                 '“' | '”' => '"',
+                // a leading dash is a minus, not a hyphen (ex: the attack `– Boost`); an id can
+                // never start with a dash, so this is unambiguous
+                '—' | '–' | '-' if r.is_empty() => '−',
                 '—' | '–' => '-',
                 'º' => '°',
                 '⇢' => '→',

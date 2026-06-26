@@ -1,0 +1,1291 @@
+- title:
+    id: garchomp
+    display: Garchomp
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '1'
+      display: '1'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '64'
+      display: '64'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-03-01
+    flavor: It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 445
+        name:
+          id: garchomp
+          display: Garchomp
+      hit_points: 130
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: gabite
+          display: Gabite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dragon-rage
+            display: Dragon Rage
+          cost:
+          - Colorless
+          damage:
+            scalar: 80
+          text: Flip 2 coins. If either of them is tails, this attack does nothing.
+      - var: Attack
+        val:
+          name:
+            id: jet-sword
+            display: Jet Sword
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 100
+          text: Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 30
+        modifier: Plus
+- title:
+    id: manaphy
+    display: Manaphy
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '2'
+      display: '2'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '25'
+      display: '25'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-03-01
+    flavor: It is born with a wondrous power that lets it bond with any kind of Pokémon.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 490
+        name:
+          id: manaphy
+          display: Manaphy
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dive
+            display: Dive
+          cost:
+          - Water
+          text: Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.
+      - var: Attack
+        val:
+          name:
+            id: water-glow
+            display: Water Glow
+          cost:
+          - Water
+          text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 20
+        modifier: Plus
+- title:
+    id: raichu
+    display: Raichu
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '3'
+      display: '3'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '39'
+      display: '39'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-03-01
+    flavor: It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 26
+        name:
+          id: raichu
+          display: Raichu
+      hit_points: 90
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: pikachu
+          display: Pikachu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: slam
+            display: Slam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Times
+          text: Flip 2 coins. This attack does 30 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: high-volt
+            display: High Volt
+          cost:
+          - Lightning
+          - Lightning
+          - Lightning
+          damage:
+            scalar: 60
+          text: If Raichu evolved from Pikachu during this turn, this attack’s base damage is 100 instead of 60.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: regigigas
+    display: Regigigas
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '4'
+      display: '4'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kent-kanetsuna
+      display: Kent Kanetsuna
+    level:
+      id: '42'
+      display: '42'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-03-01
+    flavor: There is an enduring legend that states this Pokémon towed continents with ropes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 486
+        name:
+          id: regigigas
+          display: Regigigas
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: body-slam
+            display: Body Slam
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: double-stomp
+            display: Double Stomp
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: rotom
+    display: Rotom
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '5'
+      display: '5'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: masakazu-fukuda
+      display: Masakazu Fukuda
+    level:
+      id: '46'
+      display: '46'
+    rarity:
+      id: rare
+      display: Rare
+    release_date: 2009-03-01
+    flavor: Its electric-like body can enter some kinds of machines and take control in order to make mischief.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 479
+        name:
+          id: rotom
+          display: Rotom
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: type-shift
+            display: Type Shift
+          text: Once during your turn (before your attack), you may use this power. Rotom’s type is {P} until the end of your turn.
+      - var: Attack
+        val:
+          name:
+            id: poltergeist
+            display: Poltergeist
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 30
+            modifier: Plus
+          text: Look at your opponent’s hand. This attack does 30 damage plus 10 more damage for each Trainer, Supporter, and Stadium card in your opponent’s hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Minus
+- title:
+    id: buizel
+    display: Buizel
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '6'
+      display: '6'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '17'
+      display: '17'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-03-01
+    flavor: It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 418
+        name:
+          id: buizel
+          display: Buizel
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: whirlpool
+            display: Whirlpool
+          cost:
+          - Water
+          text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: super-fast
+            display: Super Fast
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: If you have Pachirisu in play, flip a coin. If heads, prevent all effects of an attack, including damage, done to Buizel during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: croagunk
+    display: Croagunk
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '7'
+      display: '7'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '19'
+      display: '19'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-03-01
+    flavor: Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 453
+        name:
+          id: croagunk
+          display: Croagunk
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: knock-off
+            display: Knock Off
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, choose 1 card from your opponent’s hand without looking and discard it.
+      - var: Attack
+        val:
+          name:
+            id: nimble
+            display: Nimble
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 30
+          text: If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 10
+        modifier: Plus
+- title:
+    id: gabite
+    display: Gabite
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '8'
+      display: '8'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: kagemaru-himeno
+      display: Kagemaru Himeno
+    level:
+      id: '33'
+      display: '33'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-03-01
+    flavor: It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 444
+        name:
+          id: gabite
+          display: Gabite
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gible
+          display: Gible
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: burrow
+            display: Burrow
+          cost:
+          - Colorless
+          text: Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent’s next turn.
+      - var: Attack
+        val:
+          name:
+            id: distorted-wave
+            display: Distorted Wave
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+          text: Before doing damage, remove 2 damage counters from the Defending Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 20
+        modifier: Plus
+- title:
+    id: lopunny
+    display: Lopunny
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '9'
+      display: '9'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '36'
+      display: '36'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-03-01
+    flavor: It is very conscious of its looks and never fails to groom its ears. It runs with sprightly jumps.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 428
+        name:
+          id: lopunny
+          display: Lopunny
+      hit_points: 80
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: buneary
+          display: Buneary
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: jump-kick
+            display: Jump Kick
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Attack
+        val:
+          name:
+            id: jazzed
+            display: Jazzed
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+          text: If Lopunny evolved from Buneary during this turn, remove all damage counters from Lopunny.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+- title:
+    id: pachirisu
+    display: Pachirisu
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '10'
+      display: '10'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-03-01
+    flavor: It makes electricity with pouches in its cheeks and shoots charges from its tail. It live atop trees.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 417
+        name:
+          id: pachirisu
+          display: Pachirisu
+      hit_points: 70
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: thunder-wave
+            display: Thunder Wave
+          cost:
+          - Lightning
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: poison-berry
+            display: Poison Berry
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If you have Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: pichu
+    display: Pichu
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '11'
+      display: '11'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: uncommon
+      display: Uncommon
+    release_date: 2009-03-01
+    flavor: It plays with others by touching tails and setting off sparks. This appears to be a test of courage.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 172
+        name:
+          id: pichu
+          display: Pichu
+      hit_points: 40
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: poke-power
+            display: Poké-POWER
+          name:
+            id: baby-evolution
+            display: Baby Evolution
+          text: Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.
+      - var: Attack
+        val:
+          name:
+            id: find-a-friend
+            display: Find a Friend
+          cost: []
+          text: Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: buneary
+    display: Buneary
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '12'
+      display: '12'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-03-01
+    flavor: When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 427
+        name:
+          id: buneary
+          display: Buneary
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dizzy-punch
+            display: Dizzy Punch
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 2 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: defense-curl
+            display: Defense Curl
+          cost:
+          - Colorless
+          - Colorless
+          text: Flip a coin. If heads, prevent all damage done to Buneary by attacks during your opponent’s next turn.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+- title:
+    id: chimchar
+    display: Chimchar
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '13'
+      display: '13'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '5'
+      display: '5'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-03-01
+    flavor: Its fiery rear end is fueld by gas made in its belly. Even rain can’t extinguish the fire.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 390
+        name:
+          id: chimchar
+          display: Chimchar
+      hit_points: 40
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: serial-swipes
+            display: Serial Swipes
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage times the number of heads.
+      - var: Attack
+        val:
+          name:
+            id: sleepy
+            display: Sleepy
+          cost:
+          - Fire
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If you have Piplup in play, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Asleep.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 10
+        modifier: Plus
+- title:
+    id: gible
+    display: Gible
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '14'
+      display: '14'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: hiroki-fuchino
+      display: Hiroki Fuchino
+    level:
+      id: '9'
+      display: '9'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-03-01
+    flavor: Its nests is small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 443
+        name:
+          id: gible
+          display: Gible
+      hit_points: 50
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: push-down
+            display: Push Down
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+          text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Colorless
+        scalar: 10
+        modifier: Plus
+- title:
+    id: pikachu
+    display: Pikachu
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '15'
+      display: '15'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '18'
+      display: '18'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-03-01
+    flavor: If it looses crackling power from the electric pouches on its cheeks, it is being wary.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 25
+        name:
+          id: pikachu
+          display: Pikachu
+      hit_points: 60
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: growl
+            display: Growl
+          cost:
+          - Colorless
+          text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: numb
+            display: Numb
+          cost:
+          - Lightning
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 30
+          text: If Pikachu evolved from Pichu during this turn, the Defending Pokémon is now Paralyzed.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Metal
+        scalar: 20
+        modifier: Minus
+- title:
+    id: piplup
+    display: Piplup
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '16'
+      display: '16'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '6'
+      display: '6'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-03-01
+    flavor: It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 393
+        name:
+          id: piplup
+          display: Piplup
+      hit_points: 50
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: water-sport
+            display: Water Sport
+          cost:
+          - Water
+          damage:
+            scalar: 10
+            modifier: Plus
+          text: If Piplup has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus more 10 more damage.
+      - var: Attack
+        val:
+          name:
+            id: wavelet
+            display: Wavelet
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+          text: If you have Buizel in play, this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 10
+        modifier: Plus
+- title:
+    id: turtwig
+    display: Turtwig
+  set:
+    name:
+      id: pop-series-9
+      display: POP Series 9
+    series:
+      id: pop
+      display: POP
+    context: English
+    live_code:
+      id: p9
+      display: P9
+  number:
+    number:
+      id: '17'
+      display: '17'
+    printed_total: '17'
+  meta:
+    artists:
+    - id: midori-harada
+      display: Midori Harada
+    level:
+      id: '7'
+      display: '7'
+    rarity:
+      id: common
+      display: Common
+    release_date: 2009-03-01
+    flavor: It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 387
+        name:
+          id: turtwig
+          display: Turtwig
+      hit_points: 60
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: absorb
+            display: Absorb
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Remove 1 damage counter from Turtwig.
+      - var: Attack
+        val:
+          name:
+            id: parboil
+            display: Parboil
+          cost:
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: If you have Chimchar in play, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Burned.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 10
+        modifier: Plus
+      resistances:
+      - energy_types:
+        - Water
+        scalar: 20
+        modifier: Minus

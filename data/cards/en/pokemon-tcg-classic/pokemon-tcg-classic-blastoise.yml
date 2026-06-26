@@ -1,0 +1,1861 @@
+- title:
+    id: squirtle
+    display: Squirtle
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '001'
+      display: '001'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '8'
+      display: '8'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 7
+        name:
+          id: squirtle
+          display: Squirtle
+      hit_points: 40
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: withdraw
+            display: Withdraw
+          cost:
+          - Water
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: wartortle
+    display: Wartortle
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '002'
+      display: '002'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '22'
+      display: '22'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: Often hides in water to stalk unwary prey. When swimming quickly, it moves its ears to maintain balance.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 8
+        name:
+          id: wartortle
+          display: Wartortle
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: squirtle
+          display: Squirtle
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: withdraw
+            display: Withdraw
+          cost:
+          - Water
+          - Colorless
+          text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.
+      - var: Attack
+        val:
+          name:
+            id: bite
+            display: Bite
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 40
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: blastoise
+    display: Blastoise
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '003'
+      display: '003'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '52'
+      display: '52'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 9
+        name:
+          id: blastoise
+          display: Blastoise
+      hit_points: 100
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: wartortle
+          display: Wartortle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: rain-dance
+            display: Rain Dance
+          text: As often as you like during your turn, you may attach a Basic {W} Energy card from your hand to 1 of your {W} Pokémon. This Pokémon Power can’t be used if this Pokémon is Asleep, Confused, or Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 40
+            modifier: Plus
+          text: This attack does 10 more damage for each extra {W} Energy attached to this Pokémon (in addition to this attack’s cost). You can’t add more than 20 damage in this way.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: staryu
+    display: Staryu
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '004'
+      display: '004'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: naoyo-kimura
+      display: Naoyo Kimura
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: If its body is torn, it can grow back if the red core remains. The core flashes at midnight.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 120
+        name:
+          id: staryu
+          display: Staryu
+      hit_points: 60
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: recover
+            display: Recover
+          cost:
+          - Colorless
+          text: Discard an Energy from this Pokémon and heal all damage from it.
+      - var: Attack
+        val:
+          name:
+            id: water-gun
+            display: Water Gun
+          cost:
+          - Water
+          damage:
+            scalar: 10
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: starmie
+    display: Starmie
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '005'
+      display: '005'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: shin-nagasawa
+      display: Shin Nagasawa
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: At the center of its body is a red core, which sends mysterious radio signals into the night sky.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 121
+        name:
+          id: starmie
+          display: Starmie
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: staryu
+          display: Staryu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: confuse-ray
+            display: Confuse Ray
+          cost:
+          - Colorless
+          text: Your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: swift
+            display: Swift
+          cost:
+          - Water
+          damage:
+            scalar: 50
+          text: This attack’s damage isn’t affected by Weakness or Resistance, or by any effects on your opponent’s Active Pokémon.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 0
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: magikarp
+    display: Magikarp
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '006'
+      display: '006'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: For no reason, it jumps and splashes about, making it easy for predators like PIDGEOTTO to catch it mid-jump.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 129
+        name:
+          id: magikarp
+          display: Magikarp
+      hit_points: 30
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: splash
+            display: Splash
+          cost:
+          - Colorless
+          damage:
+            scalar: 10
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: gyarados
+    display: Gyarados
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '007'
+      display: '007'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 130
+        name:
+          id: gyarados
+          display: Gyarados
+      hit_points: 130
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: magikarp
+          display: Magikarp
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: hydro-splash
+            display: Hydro Splash
+          cost:
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 50
+      - var: Attack
+        val:
+          name:
+            id: hyper-beam
+            display: Hyper Beam
+          cost:
+          - Water
+          - Water
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 80
+          text: Discard an Energy from your opponent’s Active Pokémon.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 20
+        modifier: Minus
+- title:
+    id: lapras
+    display: Lapras
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '008'
+      display: '008'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 131
+        name:
+          id: lapras
+          display: Lapras
+      hit_points: 90
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ice-beam
+            display: Ice Beam
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: ice-blade
+            display: Ice Blade
+          cost:
+          - Water
+          - Water
+          text: This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: articuno
+    display: Articuno
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '009'
+      display: '009'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: mitsuhiro-arita
+      display: Mitsuhiro Arita
+    level:
+      id: '35'
+      display: '35'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 144
+        name:
+          id: articuno
+          display: Articuno
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: freeze-dry
+            display: Freeze-Dry
+          cost:
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 30
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      - var: Attack
+        val:
+          name:
+            id: blizzard
+            display: Blizzard
+          cost:
+          - Water
+          - Water
+          - Water
+          - Water
+          damage:
+            scalar: 50
+          text: Flip a coin. If heads, this attack also does 10 damage to each of your opponent’s Benched Pokémon. If tails, this attack also does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: suicune-ex
+    display: Suicune ex
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '010'
+      display: '010'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: planeta-hiiragi
+      display: PLANETA Hiiragi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 245
+        name:
+          id: suicune
+          display: Suicune
+      hit_points: 220
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: aqua-lift
+            display: Aqua Lift
+          text: If this Pokémon has any {W} Energy attached, it has no Retreat Cost.
+      - var: Attack
+        val:
+          name:
+            id: crystal-blast
+            display: Crystal Blast
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 30 more damage for each {W} Energy attached to this Pokémon.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: drowzee
+    display: Drowzee
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '011'
+      display: '011'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: suwama-chiaki
+      display: Suwama Chiaki
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: It finds really fun dreams tasty. When it makes friends with people, it may show them the most delicious dreams it’s ever eaten.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 96
+        name:
+          id: drowzee
+          display: Drowzee
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psychic-boom
+            display: Psychic Boom
+          cost:
+          - Psychic
+          damage:
+            scalar: 10
+            modifier: Times
+          text: This attack does 10 damage for each Energy attached to your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: headbutt
+            display: Headbutt
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: hypno
+    display: Hypno
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '012'
+      display: '012'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ooyama
+      display: OOYAMA
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: As a matter of course, it makes anyone it meets fall asleep and has a taste of their dreams. Anyone having a good dream, it carries off.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 97
+        name:
+          id: hypno
+          display: Hypno
+      hit_points: 110
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drowzee
+          display: Drowzee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: meditate
+            display: Meditate
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hypnoblast
+            display: Hypnoblast
+          cost:
+          - Psychic
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: Your opponent’s Active Pokémon is now Asleep.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mr-mime
+    display: Mr. Mime
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '013'
+      display: '013'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: kasumi-matsuda
+      display: Kasumi Matsuda
+    level:
+      id: '20'
+      display: '20'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: If interrupted while miming, it will slap around the enemy with its broad hands.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 122
+        name:
+          id: mr-mime
+          display: Mr. Mime
+      hit_points: 50
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: pokemon-power
+            display: Pokémon Power
+          name:
+            id: dampening-shield
+            display: Dampening Shield
+          text: As long as this Pokémon is on your Bench, Pokémon in play (both yours and your opponent’s) have no Weakness or Resistance.
+      - var: Attack
+        val:
+          name:
+            id: juggling
+            display: Juggling
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 10
+            modifier: Times
+          text: Flip 4 coins. This attack does 10 damage for each heads.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mewtwo
+    display: Mewtwo
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '014'
+      display: '014'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '53'
+      display: '53'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: A Pokémon whose genetic code was repeatedly recombined for research. It turned vicious as a result.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 150
+        name:
+          id: mewtwo
+          display: Mewtwo
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: psychic
+            display: Psychic
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: This attack does 20 more damage for each Energy attached to your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: barrier
+            display: Barrier
+          cost:
+          - Psychic
+          - Psychic
+          text: During your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon. If 1 of your Pokémon used Barrier during your last turn, this attack can’t be used.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: lt-surges-rattata
+    display: Lt. Surge's Rattata
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '015'
+      display: '015'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '10'
+      display: '10'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 19
+        name:
+          id: rattata
+          display: Rattata
+      hit_points: 40
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: focus-energy
+            display: Focus Energy
+          cost:
+          - Colorless
+          text: During your next turn, this Pokémon’s Gnaw attack does 20 more damage (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: gnaw
+            display: Gnaw
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lt-surges-raticate
+    display: Lt. Surge's Raticate
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '016'
+      display: '016'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    level:
+      id: '32'
+      display: '32'
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 20
+        name:
+          id: raticate
+          display: Raticate
+      hit_points: 70
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: lt-surges-rattata
+          display: Lt. Surge's Rattata
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: super-fang
+            display: Super Fang
+          cost:
+          - Colorless
+          text: Put damage counters on your opponent’s Active Pokémon until its remaining HP is halved, rounded down. (If your opponent’s Active Pokémon has 30 HP remaining, put 2 damage counters on it.)
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Psychic
+        scalar: 30
+        modifier: Minus
+- title:
+    id: kangaskhan
+    display: Kangaskhan
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '017'
+      display: '017'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: kouki-saitou
+      display: Kouki Saitou
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+    flavor: It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 115
+        name:
+          id: kangaskhan
+          display: Kangaskhan
+      hit_points: 100
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: comet-punch
+            display: Comet Punch
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 4 coins. This attack does 20 damage for each heads.
+      - var: Text
+        val:
+          text: (This card cannot be used at official tournaments.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: bill
+    display: Bill
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '018'
+      display: '018'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Draw 2 cards.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: bosss-orders
+    display: Boss's Orders
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '019'
+      display: '019'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: nagimiso
+      display: nagimiso
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: computer-search
+    display: Computer Search
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '020'
+      display: '020'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can use this card only if you discard 2 other cards from your hand.
+        Search your deck for a card and put it into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: drops-in-the-ocean
+    display: Drops in the Ocean
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '021'
+      display: '021'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        The attacks used by the Blastoise this card is attached to do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+        (This card cannot be used at official tournaments.)
+      sub: PokemonTool
+- title:
+    id: fisherman
+    display: Fisherman
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '022'
+      display: '022'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: hitoshi-ariga
+      display: Hitoshi Ariga
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Put up to 4 Basic Energy cards from your discard pile into your hand.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: poke-ball
+    display: Poké Ball
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '023'
+      display: '023'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ryo-ueda
+      display: Ryo Ueda
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: pokemon-fan-club
+    display: Pokémon Fan Club
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '024'
+      display: '024'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: sanosuke-sakuma
+      display: Sanosuke Sakuma
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Search your deck for up to 2 Basic Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: professor-oak
+    display: Professor Oak
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '025'
+      display: '025'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Discard your hand and draw 7 cards.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: rare-candy
+    display: Rare Candy
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '026'
+      display: '026'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can’t use this card during your first turn or on a Basic Pokémon that was put into play this turn.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: rockets-admin
+    display: Rocket's Admin.
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '027'
+      display: '027'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: ken-sugimori
+      display: Ken Sugimori
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Each player shuffles their hand into their deck. Then, each player draws a card for each of their remaining Prize cards.
+        (This card cannot be used at official tournaments.)
+      sub: Supporter
+- title:
+    id: super-rod
+    display: Super Rod
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '028'
+      display: '028'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: toyste-beach
+      display: Toyste Beach
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Shuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: switch
+    display: Switch
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '029'
+      display: '029'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: studio-bora-inc
+      display: Studio Bora Inc.
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Switch your Active Pokémon with 1 of your Benched Pokémon.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: ultra-ball
+    display: Ultra Ball
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '030'
+      display: '030'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: sadaji
+      display: sadaji
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        You can use this card only if you discard 2 other cards from your hand.
+        Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: vs-seeker
+    display: VS Seeker
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '031'
+      display: '031'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Trainer
+    val:
+      text: |-
+        Put a Supporter card from your discard pile into your hand.
+        (This card cannot be used at official tournaments.)
+      sub: Item
+- title:
+    id: double-colorless-energy
+    display: Double Colorless Energy
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '032'
+      display: '032'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Energy
+    val:
+      var: Special
+      val:
+        text: |-
+          As long as this card is attached to a Pokémon, it provides {C}{C} Energy.
+          (This card cannot be used at official tournaments.)
+- title:
+    id: basic-w-energy
+    display: Basic {W} Energy
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '033'
+      display: '033'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Water
+- title:
+    id: basic-p-energy
+    display: Basic {P} Energy
+  set:
+    name:
+      id: pokemon-tcg-classic-blastoise
+      display: Pokémon Trading Card Game Classic-Blastoise
+    series:
+      id: pokemon-tcg-classic
+      display: Pokémon TCG Classic
+    context: English
+    live_code:
+      id: clb
+      display: CLB
+  number:
+    number:
+      id: '034'
+      display: '034'
+    printed_total: '034'
+  meta:
+    artists:
+    - id: keiji-kinebuchi
+      display: Keiji Kinebuchi
+    rarity:
+      id: no-rarity
+      display: No Rarity
+    release_date: 2023-11-17
+  sub:
+    var: Energy
+    val:
+      var: Basic
+      val: Psychic
