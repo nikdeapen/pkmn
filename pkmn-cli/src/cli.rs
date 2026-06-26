@@ -1,6 +1,8 @@
 use crate::cards::copy_images;
 use crate::cards::remove_set;
 use crate::cards::rename_set;
+use crate::cards::scrape_series;
+use crate::cards::scrape_set;
 use crate::cards::scrape_unknown_sets;
 use crate::cards::validate;
 use crate::cards::validate_images;
@@ -42,6 +44,22 @@ enum Command {
         overwrite: bool,
     },
 
+    /// Scrapes & writes all cards for a set from a source. (currently only `pkmncards`)
+    ScrapeSet {
+        /// The data source. (currently only `pkmncards`)
+        source: String,
+        /// The set id to scrape.
+        set_id: String,
+    },
+
+    /// Scrapes & writes all cards for every set in a series from a source.
+    ScrapeSeries {
+        /// The data source. (currently only `pkmncards`)
+        source: String,
+        /// The series id to scrape.
+        series_id: String,
+    },
+
     /// Scrapes the sets unknown to our local data from both sources.
     ScrapeUnknownSets,
 
@@ -65,6 +83,8 @@ impl Cli {
                 target_id,
                 overwrite,
             } => copy_images(&source_id, &target_id, overwrite),
+            Command::ScrapeSet { source, set_id } => scrape_set(&source, &set_id),
+            Command::ScrapeSeries { source, series_id } => scrape_series(&source, &series_id),
             Command::ScrapeUnknownSets => scrape_unknown_sets(),
             Command::Validate => validate(),
             Command::ValidateImages => validate_images(),

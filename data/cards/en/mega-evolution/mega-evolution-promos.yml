@@ -1,0 +1,3313 @@
+- title:
+    id: meganium
+    display: Meganium
+  number:
+    number:
+      id: '001'
+      display: '001'
+  meta:
+    artists:
+    - id: uninori
+      display: Uninori
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: Anyone who stands beside it becomes refreshed, just as if they were soaking in the soothing atmosphere of a forest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 154
+        name:
+          id: meganium
+          display: Meganium
+      hit_points: 160
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: bayleef
+          display: Bayleef
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: wild-growth
+            display: Wild Growth
+          text: Each Basic {G} Energy attached to all of your Pokémon provides {G}{G} Energy. The effect of Wild Growth doesn’t stack.
+      - var: Attack
+        val:
+          name:
+            id: solar-beam
+            display: Solar Beam
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 140
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: inteleon
+    display: Inteleon
+  number:
+    number:
+      id: '002'
+      display: '002'
+  meta:
+    artists:
+    - id: kazumasa-yasukuni
+      display: Kazumasa Yasukuni
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: It uses special lenses in its eyes to sense things about its opponents—like their body heat—then attacks once it identifies a weak spot.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 818
+        name:
+          id: inteleon
+          display: Inteleon
+      hit_points: 150
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: drizzile
+          display: Drizzile
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bring-down
+            display: Bring Down
+          cost:
+          - Water
+          text: Choose a Pokémon in play (yours or your opponent’s) that has the least HP remaining, except for this Pokémon, and it is Knocked Out.
+      - var: Attack
+        val:
+          name:
+            id: water-shot
+            display: Water Shot
+          cost:
+          - Water
+          damage:
+            scalar: 110
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: alakazam
+    display: Alakazam
+  number:
+    number:
+      id: '003'
+      display: '003'
+  meta:
+    artists:
+    - id: cochi8i
+      display: cochi8i
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: Alakazam wields potent psychic powers. It’s said that this Pokémon used these powers to create the spoons it holds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 65
+        name:
+          id: alakazam
+          display: Alakazam
+      hit_points: 140
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kadabra
+          display: Kadabra
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: psychic-draw
+            display: Psychic Draw
+          text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: powerful-hand
+            display: Powerful Hand
+          cost:
+          - Psychic
+          text: Place 2 damage counters on your opponent’s Active Pokémon for each card in your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: lunatone
+    display: Lunatone
+  number:
+    number:
+      id: '004'
+      display: '004'
+  meta:
+    artists:
+    - id: ounishi
+      display: Ounishi
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 337
+        name:
+          id: lunatone
+          display: Lunatone
+      hit_points: 110
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: lunar-cycle
+            display: Lunar Cycle
+          text: Once during your turn, if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards. You can’t use more than 1 Lunar Cycle Ability each turn.
+      - var: Attack
+        val:
+          name:
+            id: power-gem
+            display: Power Gem
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: drifloon
+    display: Drifloon
+  number:
+    number:
+      id: '005'
+      display: '005'
+  meta:
+    artists:
+    - id: shimaris-yukichi
+      display: Shimaris Yukichi
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 425
+        name:
+          id: drifloon
+          display: Drifloon
+      hit_points: 70
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: pull
+            display: Pull
+          cost:
+          - Psychic
+          text: Flip a coin. If heads, switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: drifblim
+    display: Drifblim
+  number:
+    number:
+      id: '006'
+      display: '006'
+  meta:
+    artists:
+    - id: shimaris-yukichi
+      display: Shimaris Yukichi
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: It can generate and release gas within its body. That’s how it can control the altitude of its drift.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 426
+        name:
+          id: drifblim
+          display: Drifblim
+      hit_points: 110
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: drifloon
+          display: Drifloon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: creepy-wind
+            display: Creepy Wind
+          cost:
+          - Psychic
+          text: Your opponent’s Active Pokémon is now Confused.
+      - var: Attack
+        val:
+          name:
+            id: balloon-return
+            display: Balloon Return
+          cost:
+          - Psychic
+          - Psychic
+          damage:
+            scalar: 110
+          text: Put this Pokémon and all attached cards into your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: psyduck
+    display: Psyduck
+  number:
+    number:
+      id: '007'
+      display: '007'
+  meta:
+    artists:
+    - id: jiro-sasumo
+      display: Jiro Sasumo
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 54
+        name:
+          id: psyduck
+          display: Psyduck
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: damp
+            display: Damp
+          text: Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+      - var: Attack
+        val:
+          name:
+            id: ram
+            display: Ram
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: golduck
+    display: Golduck
+  number:
+    number:
+      id: '008'
+      display: '008'
+  meta:
+    artists:
+    - id: jiro-sasumo
+      display: Jiro Sasumo
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 55
+        name:
+          id: golduck
+          display: Golduck
+      hit_points: 120
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: psyduck
+          display: Psyduck
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: damp
+            display: Damp
+          text: Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+      - var: Attack
+        val:
+          name:
+            id: hydro-pump
+            display: Hydro Pump
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Plus
+          text: This attack does 20 more damage for each {W} Energy attached to this Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: alakazam
+    display: Alakazam
+  number:
+    number:
+      id: '009'
+      display: '009'
+  meta:
+    artists:
+    - id: aya-kusube
+      display: Aya Kusube
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: Alakazam wields potent psychic powers. It’s said that this Pokémon used these powers to create the spoons it holds.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 65
+        name:
+          id: alakazam
+          display: Alakazam
+      hit_points: 140
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kadabra
+          display: Kadabra
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: psychic-draw
+            display: Psychic Draw
+          text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 3 cards.
+      - var: Attack
+        val:
+          name:
+            id: powerful-hand
+            display: Powerful Hand
+          cost:
+          - Psychic
+          text: Place 2 damage counters on your opponent’s Active Pokémon for each card in your hand.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: riolu
+    display: Riolu
+  number:
+    number:
+      id: '010'
+      display: '010'
+  meta:
+    artists:
+    - id: gossan
+      display: GOSSAN
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-09-26
+    flavor: They communicate with one another using their auras. They are able to run all through the night.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 447
+        name:
+          id: riolu
+          display: Riolu
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: accelerating-stab
+            display: Accelerating Stab
+          cost:
+          - Fighting
+          damage:
+            scalar: 30
+          text: During your next turn, this Pokémon can’t use Accelerating Stab.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-latias-ex
+    display: Mega Latias ex
+  number:
+    number:
+      id: '011'
+      display: '011'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-10-10
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 380
+        name:
+          id: latias
+          display: Latias
+      hit_points: 280
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: strafe
+            display: Strafe
+          cost:
+          - Colorless
+          damage:
+            scalar: 40
+          text: You may switch this Pokémon with 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: illusory-impulse
+            display: Illusory Impulse
+          cost:
+          - Fire
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 300
+          text: Discard all Energy from this Pokémon.
+      retreat_cost: 1
+- title:
+    id: meloetta
+    display: Meloetta
+  number:
+    number:
+      id: '026'
+      display: '026'
+  meta:
+    artists:
+    - id: keisin
+      display: Keisin
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-10-24
+    flavor: Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 648
+        name:
+          id: meloetta
+          display: Meloetta
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: soothing-melody
+            display: Soothing Melody
+          cost:
+          - Psychic
+          text: Heal 120 damage from 1 of your Benched {P} Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: magical-shot
+            display: Magical Shot
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: haunter
+    display: Haunter
+  number:
+    number:
+      id: '027'
+      display: '027'
+  meta:
+    artists:
+    - id: arai-kiriko
+      display: Arai Kiriko
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-10-24
+    flavor: It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 93
+        name:
+          id: haunter
+          display: Haunter
+      hit_points: 100
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: gastly
+          display: Gastly
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: spooky-shot
+            display: Spooky Shot
+          cost:
+          - Darkness
+          damage:
+            scalar: 40
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-lucario-ex
+    display: Mega Lucario ex
+  number:
+    number:
+      id: '012'
+      display: '012'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-07
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 340
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: riolu
+          display: Riolu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aura-jab
+            display: Aura Jab
+          cost:
+          - Fighting
+          damage:
+            scalar: 130
+          text: Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: mega-brave
+            display: Mega Brave
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 270
+          text: During your next turn, this Pokémon can’t use Mega Brave.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: ceruledge
+    display: Ceruledge
+  number:
+    number:
+      id: '014'
+      display: '014'
+  meta:
+    artists:
+    - id: anesaki-dynamic
+      display: Anesaki Dynamic
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 937
+        name:
+          id: ceruledge
+          display: Ceruledge
+      hit_points: 140
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charcadet
+          display: Charcadet
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: infernal-slash
+            display: Infernal Slash
+          cost:
+          - Fire
+          damage:
+            scalar: 220
+          text: Discard 4 Basic {R} Energy cards from your hand. If you can’t discard 4 cards in this way, this attack does nothing.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: zacian
+    display: Zacian
+  number:
+    number:
+      id: '015'
+      display: '015'
+  meta:
+    artists:
+    - id: shiburingaru
+      display: Shiburingaru
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: Able to cut down anything with a single strike, it became known as the Fairy King’s Sword, and it inspired awe in friend and foe alike.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 888
+        name:
+          id: zacian
+          display: Zacian
+      hit_points: 130
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: limit-break
+            display: Limit Break
+          cost:
+          - Psychic
+          - Colorless
+          damage:
+            scalar: 50
+            modifier: Plus
+          text: If your opponent has 3 or fewer Prize cards remaining, this attack does 90 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: flygon
+    display: Flygon
+  number:
+    number:
+      id: '016'
+      display: '016'
+  meta:
+    artists:
+    - id: oswaldo-kato
+      display: Oswaldo KATO
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 330
+        name:
+          id: flygon
+          display: Flygon
+      hit_points: 150
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: vibrava
+          display: Vibrava
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sandy-flapping
+            display: Sandy Flapping
+          text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. You may also use this Ability if this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon. Discard the top 2 cards of your opponent’s deck.
+      - var: Attack
+        val:
+          name:
+            id: cutting-wind
+            display: Cutting Wind
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 130
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: toxtricity
+    display: Toxtricity
+  number:
+    number:
+      id: '017'
+      display: '017'
+  meta:
+    artists:
+    - id: krgc
+      display: Krgc
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 849
+        name:
+          id: toxtricity
+          display: Toxtricity
+      hit_points: 140
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: toxel
+          display: Toxel
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: sinister-surge
+            display: Sinister Surge
+          text: Once during your turn, you may use this Ability. Search your deck for a Basic {D} Energy card and attach it to 1 of your Benched {D} Pokémon. Then, shuffle your deck. If you attached Energy to a Pokémon in this way, place 2 damage counters on that Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: gentle-slap
+            display: Gentle Slap
+          cost:
+          - Darkness
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 100
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: cottonee
+    display: Cottonee
+  number:
+    number:
+      id: '018'
+      display: '018'
+  meta:
+    artists:
+    - id: kariya
+      display: Kariya
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: Pillows and beds stuffed with cotton exhaled by Cottonee are soft and puffy, light and airy—altogether top quality.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 546
+        name:
+          id: cottonee
+          display: Cottonee
+      hit_points: 60
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: collect
+            display: Collect
+          cost:
+          - Colorless
+          text: Draw a card.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: whimsicott
+    display: Whimsicott
+  number:
+    number:
+      id: '019'
+      display: '019'
+  meta:
+    artists:
+    - id: yuka-tanaka
+      display: Yuka Tanaka
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 547
+        name:
+          id: whimsicott
+          display: Whimsicott
+      hit_points: 90
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: cottonee
+          display: Cottonee
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: healing-fluff
+            display: Healing Fluff
+          cost:
+          - Colorless
+          text: Heal all damage from 1 of your Benched Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: u-turn
+            display: U-turn
+          cost:
+          - Psychic
+          damage:
+            scalar: 50
+          text: Switch this Pokémon with 1 of your Benched Pokémon.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Metal
+        scalar: 2
+        modifier: Times
+- title:
+    id: sneasel
+    display: Sneasel
+  number:
+    number:
+      id: '020'
+      display: '020'
+  meta:
+    artists:
+    - id: souichirou-gunjima
+      display: Souichirou Gunjima
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 215
+        name:
+          id: sneasel
+          display: Sneasel
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: dig-claws
+            display: Dig Claws
+          cost:
+          - Darkness
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: scratch
+            display: Scratch
+          cost:
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 30
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: weavile
+    display: Weavile
+  number:
+    number:
+      id: '021'
+      display: '021'
+  meta:
+    artists:
+    - id: matazo
+      display: matazo
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: Evolution made it even more devious. It communicates by clawing signs in boulders.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 461
+        name:
+          id: weavile
+          display: Weavile
+      hit_points: 90
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: sneasel
+          display: Sneasel
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: retaliatory-claw
+            display: Retaliatory Claw
+          cost:
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 20
+            modifier: Plus
+          text: If this Pokémon’s remaining HP is 50 or less, this attack does 170 more damage.
+      - var: Attack
+        val:
+          name:
+            id: cut
+            display: Cut
+          cost:
+          - Darkness
+          - Darkness
+          damage:
+            scalar: 60
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: charcadet
+    display: Charcadet
+  number:
+    number:
+      id: '022'
+      display: '022'
+  meta:
+    artists:
+    - id: teeziro
+      display: Teeziro
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+    flavor: Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 935
+        name:
+          id: charcadet
+          display: Charcadet
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gather-strength
+            display: Gather Strength
+          cost:
+          - Fire
+          text: Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: chop
+            display: Chop
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-charizard-x-ex
+    display: Mega Charizard X ex
+  number:
+    number:
+      id: '023'
+      display: '023'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 360
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: inferno-x
+            display: Inferno X
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 90
+            modifier: Times
+          text: Discard any amount of {R} Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: oricorio-ex
+    display: Oricorio ex
+  number:
+    number:
+      id: '024'
+      display: '024'
+  meta:
+    artists:
+    - id: shinji-kanda
+      display: Shinji Kanda
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-11-14
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 741
+        name:
+          id: oricorio
+          display: Oricorio
+      hit_points: 190
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: excited-turbo
+            display: Excited Turbo
+          text: As often as you like during your turn, if you have any {R} Mega Evolution Pokémon ex in play, you may use this Ability. Attach a Basic {R} Energy card from your hand to 1 of your Benched {R} Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: fire-wing
+            display: Fire Wing
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 110
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-venusaur-ex
+    display: Mega Venusaur ex
+  number:
+    number:
+      id: '013'
+      display: '013'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-12-05
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 3
+        name:
+          id: venusaur
+          display: Venusaur
+      hit_points: 380
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: ivysaur
+          display: Ivysaur
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: solar-transfer
+            display: Solar Transfer
+          text: As often as you like during your turn, you may use this Ability. Move a Basic {G} Energy from 1 of your Pokémon to another of your Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: jungle-dump
+            display: Jungle Dump
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 240
+          text: Heal 30 damage from this Pokémon.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-kangaskhan-ex
+    display: Mega Kangaskhan ex
+  number:
+    number:
+      id: '025'
+      display: '025'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2025-12-05
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 115
+        name:
+          id: kangaskhan
+          display: Kangaskhan
+      hit_points: 300
+      energy_types:
+      - Colorless
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: run-errand
+            display: Run Errand
+          text: Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can’t use more than 1 Run Errand Ability each turn.
+      - var: Attack
+        val:
+          name:
+            id: rapid-fire-combo
+            display: Rapid-Fire Combo
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 200
+            modifier: Plus
+          text: Flip a coin until you get tails. This attack does 50 more damage for each heads.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: celebratory-fanfare
+    display: Celebratory Fanfare
+  number:
+    number:
+      id: '028'
+      display: '028'
+  meta:
+    artists:
+    - id: yuu-nishida
+      display: Yuu Nishida
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-01-31
+  sub:
+    var: Trainer
+    val:
+      text: Once during each player’s turn, that player may heal 10 damage from each of their Pokémon. If a player healed any damage in this way, their turn ends.
+      sub: Stadium
+- title:
+    id: mega-charizard-x-ex
+    display: Mega Charizard X ex
+  number:
+    number:
+      id: '029'
+      display: '029'
+  meta:
+    artists:
+    - id: takuyoa
+      display: takuyoa
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-02-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 360
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: inferno-x
+            display: Inferno X
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 90
+            modifier: Times
+          text: Discard any amount of {R} Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-charizard-y-ex
+    display: Mega Charizard Y ex
+  number:
+    number:
+      id: '030'
+      display: '030'
+  meta:
+    artists:
+    - id: ultimateinudog
+      display: Ultimateinudog
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-02-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 6
+        name:
+          id: charizard
+          display: Charizard
+      hit_points: 360
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: charmeleon
+          display: Charmeleon
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: explosion-y
+            display: Explosion Y
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          text: Discard 3 Energy from this Pokémon, and this attack does 280 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ns-zekrom
+    display: N's Zekrom
+  number:
+    number:
+      id: '031'
+      display: '031'
+  meta:
+    artists:
+    - id: bun-toujo
+      display: Bun Toujo
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-02-20
+    flavor: When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 644
+        name:
+          id: zekrom
+          display: Zekrom
+      hit_points: 130
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: shred
+            display: Shred
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+          text: This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: rampaging-thunder
+            display: Rampaging Thunder
+          cost:
+          - Fire
+          - Lightning
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 250
+          text: During your next turn, this Pokémon can’t use attacks.
+      retreat_cost: 2
+- title:
+    id: mega-gardevoir-ex
+    display: Mega Gardevoir ex
+  number:
+    number:
+      id: '032'
+      display: '032'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 282
+        name:
+          id: gardevoir
+          display: Gardevoir
+      hit_points: 360
+      energy_types:
+      - Psychic
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: kirlia
+          display: Kirlia
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: overflowing-wishes
+            display: Overflowing Wishes
+          cost:
+          - Psychic
+          text: For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: mega-symphonia
+            display: Mega Symphonia
+          cost:
+          - Psychic
+          damage:
+            scalar: 50
+            modifier: Times
+          text: This attack does 50 damage for each {P} Energy attached to all of your Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Darkness
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: mega-lucario-ex
+    display: Mega Lucario ex
+  number:
+    number:
+      id: '033'
+      display: '033'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 448
+        name:
+          id: lucario
+          display: Lucario
+      hit_points: 340
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: riolu
+          display: Riolu
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: aura-jab
+            display: Aura Jab
+          cost:
+          - Fighting
+          damage:
+            scalar: 130
+          text: Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.
+      - var: Attack
+        val:
+          name:
+            id: mega-brave
+            display: Mega Brave
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 270
+          text: During your next turn, this Pokémon can’t use Mega Brave.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: bulbasaur
+    display: Bulbasaur
+  number:
+    number:
+      id: '037'
+      display: '037'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 1
+        name:
+          id: bulbasaur
+          display: Bulbasaur
+      hit_points: 80
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: leech-seed
+            display: Leech Seed
+          cost:
+          - Grass
+          damage:
+            scalar: 10
+          text: Heal 10 damage from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmander
+    display: Charmander
+  number:
+    number:
+      id: '038'
+      display: '038'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 4
+        name:
+          id: charmander
+          display: Charmander
+      hit_points: 80
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: ember
+            display: Ember
+          cost:
+          - Fire
+          damage:
+            scalar: 30
+          text: Discard an Energy from this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: squirtle
+    display: Squirtle
+  number:
+    number:
+      id: '039'
+      display: '039'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: When it retracts its long neck into its shell, it squirts out water with vigorous force.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 7
+        name:
+          id: squirtle
+          display: Squirtle
+      hit_points: 80
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: bubble
+            display: Bubble
+          cost:
+          - Water
+          damage:
+            scalar: 10
+          text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: turtwig
+    display: Turtwig
+  number:
+    number:
+      id: '040'
+      display: '040'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 387
+        name:
+          id: turtwig
+          display: Turtwig
+      hit_points: 90
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          - Grass
+          - Colorless
+          damage:
+            scalar: 60
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: chimchar
+    display: Chimchar
+  number:
+    number:
+      id: '041'
+      display: '041'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 390
+        name:
+          id: chimchar
+          display: Chimchar
+      hit_points: 60
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fury-swipes
+            display: Fury Swipes
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: Flip 3 coins. This attack does 20 damage for each heads.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: piplup
+    display: Piplup
+  number:
+    number:
+      id: '042'
+      display: '042'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 393
+        name:
+          id: piplup
+          display: Piplup
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: peck
+            display: Peck
+          cost:
+          - Water
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: rowlet
+    display: Rowlet
+  number:
+    number:
+      id: '043'
+      display: '043'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 722
+        name:
+          id: rowlet
+          display: Rowlet
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: tackle
+            display: Tackle
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: litten
+    display: Litten
+  number:
+    number:
+      id: '044'
+      display: '044'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 725
+        name:
+          id: litten
+          display: Litten
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: fire-fang
+            display: Fire Fang
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Burned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: popplio
+    display: Popplio
+  number:
+    number:
+      id: '045'
+      display: '045'
+  meta:
+    artists:
+    - id: saboteri
+      display: Saboteri
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-20
+    flavor: This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 728
+        name:
+          id: popplio
+          display: Popplio
+      hit_points: 70
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: disarming-voice
+            display: Disarming Voice
+          cost:
+          - Water
+          - Water
+          damage:
+            scalar: 20
+          text: Your opponent’s Active Pokémon is now Confused.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: serperior
+    display: Serperior
+  number:
+    number:
+      id: '064'
+      display: '064'
+  meta:
+    artists:
+    - id: linne
+      display: LINNE
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: An intimidating gaze and majestic appearance have caused this Pokémon to be known as the Lord of the Forest.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 497
+        name:
+          id: serperior
+          display: Serperior
+      hit_points: 160
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: servine
+          display: Servine
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: regal-command
+            display: Regal Command
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage for each of your Pokémon in play.
+      - var: Attack
+        val:
+          name:
+            id: solar-coiling
+            display: Solar Coiling
+          cost:
+          - Grass
+          - Grass
+          - Grass
+          damage:
+            scalar: 100
+            modifier: Plus
+          text: If Rosa’s Encouragement is in your discard pile, this attack does 150 more damage.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: barbaracle
+    display: Barbaracle
+  number:
+    number:
+      id: '065'
+      display: '065'
+  meta:
+    artists:
+    - id: hasuno
+      display: Hasuno
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: Barbaracle’s legs and hands have minds of their own, and they will move independently. But they usually follow the head’s orders.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 689
+        name:
+          id: barbaracle
+          display: Barbaracle
+      hit_points: 130
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: binacle
+          display: Binacle
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: stone-arms
+            display: Stone Arms
+          text: Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pokémon.
+      - var: Attack
+        val:
+          name:
+            id: hammer-in
+            display: Hammer In
+          cost:
+          - Fighting
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 80
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyrantrum
+    display: Tyrantrum
+  number:
+    number:
+      id: '066'
+      display: '066'
+  meta:
+    artists:
+    - id: nisota-niso
+      display: Nisota Niso
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: This Pokémon behaved like a king 100 million years ago. Nothing could stop it.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 697
+        name:
+          id: tyrantrum
+          display: Tyrantrum
+      hit_points: 180
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: tyrunt
+          display: Tyrunt
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: tyrannically-gutsy
+            display: Tyrannically Gutsy
+          text: If this Pokémon has any Special Energy attached, it gets +150 HP.
+      - var: Attack
+        val:
+          name:
+            id: wreak-havoc
+            display: Wreak Havoc
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 160
+          text: Flip a coin until you get tails. For each heads, discard the top card of your opponent’s deck.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: doublade
+    display: Doublade
+  number:
+    number:
+      id: '067'
+      display: '067'
+  meta:
+    artists:
+    - id: yukihiro-tada
+      display: Yukihiro Tada
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: When Honedge evolves, it divides into two swords that cooperate via telepathy to coordinate attacks and slash their enemies to ribbons.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 680
+        name:
+          id: doublade
+          display: Doublade
+      hit_points: 100
+      energy_types:
+      - Metal
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: honedge
+          display: Honedge
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: weaponized-swords
+            display: Weaponized Swords
+          cost:
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 60
+            modifier: Times
+          text: Reveal any number of Honedge, Doublade, and Aegislash from your hand, and this attack does 60 damage for each card you revealed in this way.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Grass
+        scalar: 30
+        modifier: Minus
+- title:
+    id: makuhita
+    display: Makuhita
+  number:
+    number:
+      id: '068'
+      display: '068'
+  meta:
+    artists:
+    - id: takeshi-nakamura
+      display: Takeshi Nakamura
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 296
+        name:
+          id: makuhita
+          display: Makuhita
+      hit_points: 80
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: corkscrew-punch
+            display: Corkscrew Punch
+          cost:
+          - Fighting
+          damage:
+            scalar: 10
+      - var: Attack
+        val:
+          name:
+            id: confront
+            display: Confront
+          cost:
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 30
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Psychic
+        scalar: 2
+        modifier: Times
+- title:
+    id: chikorita
+    display: Chikorita
+  number:
+    number:
+      id: '069'
+      display: '069'
+  meta:
+    artists:
+    - id: makura-tami
+      display: Makura Tami
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: It loves to bask in the sunlight. It uses the leaf on its head to seek out warm places.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 152
+        name:
+          id: chikorita
+          display: Chikorita
+      hit_points: 70
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: razor-leaf
+            display: Razor Leaf
+          cost:
+          - Grass
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: tyrunt
+    display: Tyrunt
+  number:
+    number:
+      id: '070'
+      display: '070'
+  meta:
+    artists:
+    - id: shimaris-yukichi
+      display: Shimaris Yukichi
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-03-27
+    flavor: This Pokémon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 696
+        name:
+          id: tyrunt
+          display: Tyrunt
+      hit_points: 100
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: antique-jaw-fossil
+          display: Antique Jaw Fossil
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: get-angry
+            display: Get Angry
+          cost:
+          - Fighting
+          - Colorless
+          damage:
+            scalar: 20
+            modifier: Times
+          text: This attack does 20 damage for each damage counter on this Pokémon.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-meganium-ex
+    display: Mega Meganium ex
+  number:
+    number:
+      id: '034'
+      display: '034'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-04-24
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 154
+        name:
+          id: meganium
+          display: Meganium
+      hit_points: 360
+      energy_types:
+      - Grass
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: bayleef
+          display: Bayleef
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: giant-bouquet
+            display: Giant Bouquet
+          cost:
+          - Colorless
+          - Colorless
+          - Colorless
+          damage:
+            scalar: 70
+            modifier: Plus
+          text: This attack does 50 more damage for each {G} Energy attached to this Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fire
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-emboar-ex
+    display: Mega Emboar ex
+  number:
+    number:
+      id: '035'
+      display: '035'
+  meta:
+    artists:
+    - id: keisuke-azuma
+      display: Keisuke Azuma
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-04-24
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 500
+        name:
+          id: emboar
+          display: Emboar
+      hit_points: 380
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: pignite
+          display: Pignite
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: crimson-blast
+            display: Crimson Blast
+          cost:
+          - Fire
+          - Fire
+          - Colorless
+          damage:
+            scalar: 320
+          text: This Pokémon also does 60 damage to itself.
+      retreat_cost: 4
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-feraligatr-ex
+    display: Mega Feraligatr ex
+  number:
+    number:
+      id: '036'
+      display: '036'
+  meta:
+    artists:
+    - id: 5ban-graphics
+      display: 5ban Graphics
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-04-24
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 160
+        name:
+          id: feraligatr
+          display: Feraligatr
+      hit_points: 370
+      energy_types:
+      - Water
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: croconaw
+          display: Croconaw
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: mortal-crunch
+            display: Mortal Crunch
+          cost:
+          - Water
+          - Water
+          - Colorless
+          damage:
+            scalar: 200
+            modifier: Plus
+          text: If your opponent’s Active Pokémon already has any damage counters on it, this attack does 200 more damage.
+      retreat_cost: 3
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+- title:
+    id: mega-zygarde-ex
+    display: Mega Zygarde ex
+  number:
+    number:
+      id: '071'
+      display: '071'
+  meta:
+    artists:
+    - id: takuyoa
+      display: takuyoa
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 718
+        name:
+          id: zygarde
+          display: Zygarde
+      hit_points: 310
+      energy_types:
+      - Fighting
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: gaia-wave
+            display: Gaia Wave
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          damage:
+            scalar: 200
+          text: During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: nullifying-zero
+            display: Nullifying Zero
+          cost:
+          - Fighting
+          - Fighting
+          - Fighting
+          - Fighting
+          - Fighting
+          text: For each of your opponent’s Pokémon, flip a coin. If heads, this attack does 150 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Grass
+        scalar: 2
+        modifier: Times
+- title:
+    id: delphox
+    display: Delphox
+  number:
+    number:
+      id: '074'
+      display: '074'
+  meta:
+    artists:
+    - id: souichirou-gunjima
+      display: Souichirou Gunjima
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 655
+        name:
+          id: delphox
+          display: Delphox
+      hit_points: 160
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: braixen
+          display: Braixen
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: flaring-magic
+            display: Flaring Magic
+          text: Once during your turn, you may discard a Basic {R} Energy card from your hand in order to use this Ability. Draw cards until you have 7 cards in your hand.
+      - var: Attack
+        val:
+          name:
+            id: energized-storm
+            display: Energized Storm
+          cost:
+          - Fire
+          - Fire
+          damage:
+            scalar: 30
+            modifier: Times
+          text: This attack does 30 damage for each Energy attached to all Pokémon.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: ampharos
+    display: Ampharos
+  number:
+    number:
+      id: '075'
+      display: '075'
+  meta:
+    artists:
+    - id: taiga-kasai
+      display: Taiga Kasai
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 181
+        name:
+          id: ampharos
+          display: Ampharos
+      hit_points: 160
+      energy_types:
+      - Lightning
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: flaaffy
+          display: Flaaffy
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: synchro-pulse
+            display: Synchro Pulse
+          text: If you have the same number of cards in your hand as your opponent, attacks used by this Pokémon do 80 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - var: Attack
+        val:
+          name:
+            id: flashing-bolt
+            display: Flashing Bolt
+          cost:
+          - Lightning
+          - Colorless
+          damage:
+            scalar: 140
+          text: During your next turn, this Pokémon can’t use Flashing Bolt.
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: crobat
+    display: Crobat
+  number:
+    number:
+      id: '076'
+      display: '076'
+  meta:
+    artists:
+    - id: apios
+      display: Apios
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target’s neck.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 169
+        name:
+          id: crobat
+          display: Crobat
+      hit_points: 130
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: golbat
+          display: Golbat
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: nighttime-maneuvers
+            display: Nighttime Maneuvers
+          text: Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Search your deck for a card. Shuffle your deck, then put that card on top of it.
+      - var: Attack
+        val:
+          name:
+            id: poison-sound-wave
+            display: Poison Sound Wave
+          cost:
+          - Darkness
+          damage:
+            scalar: 80
+          text: Your opponent’s Active Pokémon is now Confused and Poisoned.
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Lightning
+        scalar: 2
+        modifier: Times
+      resistances:
+      - energy_types:
+        - Fighting
+        scalar: 30
+        modifier: Minus
+- title:
+    id: goodra
+    display: Goodra
+  number:
+    number:
+      id: '077'
+      display: '077'
+  meta:
+    artists:
+    - id: okayamatakatoshi
+      display: okayamatakatoshi
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: This very friendly dragon Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 706
+        name:
+          id: goodra
+          display: Goodra
+      hit_points: 160
+      energy_types:
+      - Dragon
+      evolution:
+        stage:
+          id: stage-2
+          display: Stage 2
+        evolves_from:
+        - id: sliggoo
+          display: Sliggoo
+      actions:
+      - var: Ability
+        val:
+          kind:
+            id: ability
+            display: Ability
+          name:
+            id: slimy-sliding
+            display: Slimy Sliding
+          text: When your opponent’s Active Pokémon retreats, your opponent flips a coin. If tails, Energy for its Retreat Cost is not discarded, and they don’t switch Pokémon. The effect of Slimy Sliding doesn’t stack.
+      - var: Attack
+        val:
+          name:
+            id: dragon-pulse
+            display: Dragon Pulse
+          cost:
+          - Water
+          - Psychic
+          damage:
+            scalar: 160
+          text: Discard the top card of your deck.
+      retreat_cost: 3
+- title:
+    id: toxel
+    display: Toxel
+  number:
+    number:
+      id: '078'
+      display: '078'
+  meta:
+    artists:
+    - id: mina-nakai
+      display: Mina Nakai
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: It has no problem drinking dirty water. An organ inside Toxel’s body filters such water into a poisonous liquid that is harmless to Toxel.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 848
+        name:
+          id: toxel
+          display: Toxel
+      hit_points: 70
+      energy_types:
+      - Darkness
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Darkness
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: playful-kick
+            display: Playful Kick
+          cost:
+          - Darkness
+          - Colorless
+          damage:
+            scalar: 20
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Fighting
+        scalar: 2
+        modifier: Times
+- title:
+    id: charmeleon
+    display: Charmeleon
+  number:
+    number:
+      id: '079'
+      display: '079'
+  meta:
+    artists:
+    - id: teeziro
+      display: Teeziro
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 5
+        name:
+          id: charmeleon
+          display: Charmeleon
+      hit_points: 110
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: stage-1
+          display: Stage 1
+        evolves_from:
+        - id: charmander
+          display: Charmander
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: steady-firebreathing
+            display: Steady Firebreathing
+          cost:
+          - Fire
+          damage:
+            scalar: 40
+      retreat_cost: 2
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
+- title:
+    id: fennekin
+    display: Fennekin
+  number:
+    number:
+      id: '080'
+      display: '080'
+  meta:
+    artists:
+    - id: satoma
+      display: satoma
+    rarity:
+      id: promo
+      display: Promo
+    release_date: 2026-05-22
+    flavor: Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.
+  sub:
+    var: Pokemon
+    val:
+      pokemon:
+      - dex: 653
+        name:
+          id: fennekin
+          display: Fennekin
+      hit_points: 70
+      energy_types:
+      - Fire
+      evolution:
+        stage:
+          id: basic
+          display: Basic
+      actions:
+      - var: Attack
+        val:
+          name:
+            id: call-for-family
+            display: Call for Family
+          cost:
+          - Colorless
+          text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+      - var: Attack
+        val:
+          name:
+            id: steady-firebreathing
+            display: Steady Firebreathing
+          cost:
+          - Fire
+          damage:
+            scalar: 10
+      retreat_cost: 1
+      weaknesses:
+      - energy_types:
+        - Water
+        scalar: 2
+        modifier: Times
